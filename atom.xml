@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Chatswood]]></title>
+  <link href="http://chatswood.github.com/atom.xml" rel="self"/>
+  <link href="http://chatswood.github.com/"/>
+  <updated>2012-10-14T12:36:59+01:00</updated>
+  <id>http://chatswood.github.com/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Test post]]></title>
+    <link href="http://chatswood.github.com/blog/2012/10/14/test-post/"/>
+    <updated>2012-10-14T09:07:00+01:00</updated>
+    <id>http://chatswood.github.com/blog/2012/10/14/test-post</id>
+    <content type="html"><![CDATA[<p>This is the test post</p>
+]]></content>
+  </entry>
+  
+</feed>
