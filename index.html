@@ -9,8 +9,7 @@
   <meta name="author" content="Maurice Kelly">
 
   
-  <meta name="description" content="This is the test post
-">
+  <meta name="description" content="The brouhaha over third-party Twitter clients continues with the news of the release of a beta version of Tweetbot for Mac. Just 4 days ago the alpha &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,7 +70,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/10/14/test-post/">Test Post</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/08/31/maximising-bang-per-token/">Maximising Bang Per Token</a></h1>
     
     
       <p class="meta">
@@ -87,14 +86,383 @@
   
 
 
-<time datetime="2012-10-14T09:07:00+01:00" pubdate data-updated="true">Oct 14<span>th</span>, 2012</time>
+<time datetime="2012-08-31T00:00:00+01:00" pubdate data-updated="true">Aug 31<span>st</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>This is the test post</p>
+  <div class="entry-content"><p>The brouhaha over third-party Twitter clients continues with the news of the release of a <a href="http://tapbots.com/blog/news/tweetbot-for-mac-beta-sort-of">beta version</a> of Tweetbot for Mac. Just 4 days ago the <a href="http://tapbots.com/news/where-did-the-tweetbot-for-mac-alpha-go">alpha version was withdrawn</a> with Tapbots citing as a reason the &#8220;finite limit on the number of user tokens we can get for Tweetbot for Mac&#8221;.</p>
+
+<p>This was a fair move by the developers - any Mac user could download the alpha, sign in and obtain a limited Tweetbot for Mac token. If they subsequently decided they were not interested in buying the application they can discard it without releasing the token they use. It was a problem with only one resolution - withdraw the app and preserve the tokens.</p>
+
+<p>Today Tapbots came back with a beta version and some new rules:</p>
+
+<ul>
+<li>new users can install the beta but they&#8217;ll not be able to add a Twitter account;</li>
+<li>users of the alpha version can use the same Twitter account they used before;</li>
+<li>users of the alpha version cannot add extra Twitter accounts;</li>
+<li>users of the alpha who revoke their access token on the Twitter site cannot add their account again.</li>
+</ul>
+
+
+<p>All of this makes perfect sense from the point of view of token preservation. Unfortunately in this <a href="https://dev.twitter.com/blog/changes-coming-to-twitter-api">post-announcement</a> landscape these once common items are now a scarce resource. They&#8217;ve become the fossil fuels of the technology world, and like fossil fuels they&#8217;re limited and easily wasted. They used to be very disposable - a quick look at my <a href="https://twitter.com/settings/applications">Apps section</a> on twitter.com lists 34 tokens on one account alone, and that&#8217;s after a prune earlier this week.</p>
+
+<h2>Efficient Token Usage</h2>
+
+<p>Like many people I have a number of Twitter accounts, and on each of my clients I like to have all of my accounts signed in. This was never a problem before but now it just exacerbates the issues faced by app developers. They have a limited number of access tokens that can be used with their apps and users like me with multiple accounts end up using more tokens than other people.</p>
+
+<p>To make an app commercially viable developers need to squeeze as much money per token as possible. One way to do this would be to increase the cost of their apps to cover the average number of accounts per user. Alternatively they could keep the initial purchase price the same while limiting the number of accounts that can be signed in through the app. Power users could then be offered the option to use in-app purchases to effectively buy extra access tokens.</p>
+
+<p>There has been a lot of discussion recently on the devaluing of software through bargain basement prices and this is really going to hit home to Twitter client developers now. Maybe the scarcity of access tokens will encourage users to value the software higher and pay more for it. Remember, you&#8217;re not just paying for the software anymore - you&#8217;re also paying for the privilege of connecting to the service through your favourite client.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/30/full-screen-mode-is-not-for-you/">Full Screen Mode Is Not for You</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-30T00:00:00+01:00" pubdate data-updated="true">Aug 30<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>During a <a href="http://5by5.tv/hypercritical/82">recent episode</a> of <a href="http://5by5.tv/hypercritical">Hypercritical</a>, host John Siracusa mentioned that he had received feedback from readers of his <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">OS X Mountain Lion review</a> commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.</p>
+
+<p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn&#8217;t long before I shared the frustrations aired by Siracusa and his readers:</p>
+
+<blockquote><p>No, I wanna use the other screens, I wanna put stuff there, I wanna see my other windows there, I wanna see my web browser there, my Twitter feed there - whatever the heck I have over there. And you can put palettes and stuff from the application that you made go full screen, you can put them on the other screens but you can&#8217;t use them for other applications. It was like, it was almost like it was being mean to you, it&#8217;s like &#8220;I know you want to see your Twitter client, but I&#8217;m putting linen over that whole screen - nah!&#8221; and that pissed people off.</p></blockquote>
+
+<p>I admit that I was that reader initially and I found the lack of flexibility when using multiple displays was exceptionally frustrating. The app running in full screen mode would take over the primary display but the secondary display would only contain that boring linen background. Yes, it was possible to place extra palettes or inspectors on the secondary display but there didn&#8217;t seem to be any way to truly take advantage of the additional real estate.</p>
+
+<p>It sure would have been nice if users could have placed two independent apps side-by-side. Or if developers could have created UI layouts that took advantage of full screen mode with multiple displays, akin to the way full screen editing was available in many previous versions of Aperture. John, being the sensible guy that he is, tried to reason it out, and I think he almost nailed it<a href="I'm">^1</a> when he said that full screen is for people who need to concentrate.</p>
+
+<p>One use case I think he glossed over though is the fact that full screen is also for people who are working on portable machines. People who are working on one (possible small) screen and need to squeeze every last pixel out of their displays. It&#8217;s not for the power user who wants to work with multiple apps at once (or with a multitude of windows/palettes/inspectors from a single app). That&#8217;s what regular OS X is for and has been all along.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques/">SublimeLinter - an Enabler for Lazy Programming Techniques</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-28T00:00:00+01:00" pubdate data-updated="true">Aug 28<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Recently I&#8217;ve been experimenting with <em>text-editor-du-jour</em> <a href="http://www.sublimetext.com/2">Sublime Text 2</a> in parallel with coming late to the <a href="http://rubyonrails.org/">Rails</a> party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or <em>package</em> in ST2 parlance) that I find indispensible is <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>.</p>
+
+<p>As a developer I&#8217;ve always written code in an iterative fashion - write a couple of lines, compile, edit those lines to fix the bugs, compile, write a few more lines, and so on. In my career this has occasionally been problematic, as I&#8217;ve sometimes had to work with unwieldy and inefficient <code>make</code>-based build systems that unnecessarily rebuilt large swathes of code instead of a single source file. In recent years I&#8217;ve been spoilt by some excellent IDEs (such as Eclipse/STS and Xcode) that have been kind enough to alert me to syntactical errors before I invest time in a build.</p>
+
+<p>While playing with <a href="http://rubyonrails.org/">Rails</a> I found that I was regularly coming across syntactical errors only when it came to testing out the application. It wasn&#8217;t the horrible build systems of yore, but it wasn&#8217;t exactly the convenience of a nice IDE. So I hunted around for a linter that I could integrate with ST2 and quickly came across <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>. A couple of seconds later (thanks to the ridiculously useful <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>) and I had it up and running and I was getting lots of notifications about errors in my Ruby code.</p>
+
+<p>Unfortunately I soon realised that I was getting too many errors, to the extent that I was getting errors on perfectly valid code. The code ran fine in my Rails app, but still SublimeLinter was bitching and moaning about it. I had a look around the SublimeLinter documentation, and noticed that they recommended using the full path to the <code>ruby</code> executable if using a Ruby interpreter provided by <a href="http://rvm.io/">rvm</a>. On OS X this comes down to the fact that the default Ruby is 1.8.7 whereas most people will be using code written against Ruby 1.9.X, which they&#8217;ve usually installed themselves.</p>
+
+<p>Thankfully SublimeLinter makes it easy to customise the Ruby interpreter to use, so if you&#8217;re having trouble with syntax errors in your Ruby code, just chose the menu item <em>Sublime Text 2 -> Preferences -> Package Settings -> SublimeLinter -> Settings - User</em>. This will open up the user preferences file for SublimeLinter and you can enter the following snippet (substituting in your own username of course, and remembering to merge the JSON with any settings you may already have in there):</p>
+
+<pre><code>{
+    "sublimelinter_executable_map": {
+        "ruby": "/Users/username/.rvm/rubies/default/bin/ruby"
+    }
+}
+</code></pre>
+
+<p>May you continue to be a lazy, iterative developer like me.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/14/maplin-powerline-adapters/">Maplin 500Mb/s Powerline Adapters - a Rambling Review</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-14T00:00:00+01:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I&#8217;d like to get every type of cable under the sun in there. If it&#8217;s possible to generate enough heat from those cables to remove the need for central heating then I&#8217;ll consider that to be a bonus.</p>
+
+<p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I&#8217;m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She&#8217;s convinced that I&#8217;ll leave gaping holes running down the walls that never get patched up, and that the painting won&#8217;t get beyond the colour-picking stage. She&#8217;s probably right.</p>
+
+<h2>Enter stage left: 802.11n WiFi</h2>
+
+<p>With the <em>right hardware</em> 802.11n WiFi could very easily have been the answer to my (or my wife&#8217;s) prayers. The <em>theoretical</em> maximum is 600Mb/s - it&#8217;s not quite Gigabit Ethernet, but is still capable of delivering a large amount of data quickly. Theoretically. With the right hardware.</p>
+
+<p>At the minute I only have one weak spot in the home network - the link between a Gigabit network upstairs and a Gigabit network downstairs in the office. I invested in the latest Apple Airport Extreme base station that I paired up with a 2nd generation Time Capsule. The Airport Extreme was configured to establish a 5GHz 802.11n network using the wide-band settings.</p>
+
+<p>I had hoped to see a pretty fast link between the two base stations, but unfortunately the data rate reported by the Extreme was just 180Mb/s. Testing the network for &#8220;real-world&#8221; performance resulted in just 93.43Mb/s (using zPerf as a test tool). This isn&#8217;t a bad speed, but I do tend to fling a large amount of data around the network. It also gets extremely frustrating to be limited to Fast Ethernet speeds when I know there&#8217;s a Gigabit network up there just waiting to be saturated.</p>
+
+<h2>Enter stage right: powerline networking adapters</h2>
+
+<p>I&#8217;d considered powerline adapters in the past, but had always balked at the relatively low speeds they offered. Having discovered just how poor the WiFi connection was I decided that the newer 500Mb/s models might be worth a blast - even at 50% of the theoretical maximum I could still get 2.5 times the performance of the WiFi link. When an offer for <a href="http://www.maplin.co.uk/500mbps-twin-powerline-starter-kit-626154">Maplin powerline network adapters</a> came up they were hastily purchased. Once received I got to testing, and the results were extremely disappointing.</p>
+
+<p>I know that the 500Mb/s is an ideal scenario and many things will conspire to reduce this figure in the real world. Old wiring, interference from other devices and use of extension cables amongst other factors. Our home is fairly modern, and has wiring that is only 8 years old. I tried to improve things by avoiding extension cables, and plugging directly into the mains sockets at both ends, but to no avail. The best rate I could get was a paltry 53.21Mb/s. WiFi it is then.</p>
+
+<p>Not wanting to return the product without trying to find a use for it, I decided to try using the powerline adapters to connect my ADSL modem/router from downstairs to the upstairs network. We only get 5.5-6Mb/s from our ADSL connection so 50+Mb/s is plenty of bandwidth. Unfortunately since doing so, I noticed regular breaks in the connection from the home network to the ADSL router.</p>
+
+<p>The only new factor there is the powerline adapters, so they&#8217;ve had to come out and are currently on their way back to Maplin. Rather than post them, my kind wife agreed to drop them into the store as she was going to be passing it. She&#8217;ll probably be away for a few hours at least. Now to find my hammer, some Cat6, and the crimping tool.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/11/why-app.net/">Why App.net?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-11T00:00:00+01:00" pubdate data-updated="true">Aug 11<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<a href="I'm">^1</a>. Just over a month ago, Dalton Caldwell wrote a blog post entitled &#8221;<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>&#8221;. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: &#8221;<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>&#8221;.</p>
+
+<p>In this post Dalton essentially proposed building a new Twitter. A Twitter that was funded directly by the users instead of by the advertisers. He and his company established a KickStarter-style campaign to raise $500k by 13th August in order to fund this new social network. As of the time of writing, there are just under two days remaining, and there is only $69,200 left to be raised.</p>
+
+<p>I&#8217;ve decided to back this project because, like Dalton, I&#8217;m concerned about what I perceive as a  &#8220;degradation&#8221; of Twitter. It&#8217;s not a degradation for many people - in fact Twitter is probably going from strength to strength in the eyes of many of it&#8217;s users. But I&#8217;m an atypical user. I&#8217;m not on Twitter to follow celebrities, to track mainstream news, or to keep up with my friends. I&#8217;m mainly on Twitter to receive tech news, to use innovative apps, and to communicate with other people in the tech industry - the industry that is both my livelihood and my passion.</p>
+
+<p>For <em>me</em>, Twitter is degrading. For <em>me</em>, it is becoming less vital, and is in danger of becoming unusable to me. I may be over-reacting, but Twitter&#8217;s recent rumblings about third-party clients has not inspired confidence. I use TweetBot for iOS (and now for Mac) fanatically. I don&#8217;t want to go back to Twitter&#8217;s first-party clients, partly because Twitter are not putting in the effort to maintain them, and partly because I don&#8217;t want to use apps that are really just conduits to the advertising model that will become essential to Twitter&#8217;s survival. Like many others, I would be happy to pay for access to Twitter, but we&#8217;re not being offered this opportunity.</p>
+
+<h2>So Why App.net?</h2>
+
+<p>I don&#8217;t know if <a href="http://join.app.net/">App.net</a> can work but I&#8217;m happy to put my money where my mouth is, and give it a chance to succeed.</p>
+
+<p>I&#8217;m keen to join a social network at the beginning and help it grow. I joined Twitter in 2009 and while I&#8217;ve enjoyed my time on it, I sometimes feel like I missed the halcyon days when it was a closer, more tight-knit community.</p>
+
+<p>I&#8217;m happy to pay to be part of a smaller community with a more focussed group of users. Part of the problem with Twitter is that there is no barrier to entry. Yes, this is me being a little bit elitist but I feel that it is a valid point. Every day on Twitter I am being subjected to random followers who have no interest in what I have to say. I hope that the <a href="http://join.app.net/">App.net</a> community will be more focussed and less likely to resort to such behaviour. I&#8217;m also hoping that the <a href="http://join.app.net/">App.net</a> ecosystem will be subject to more moderation - where &#8220;spam followers&#8221; can be reported and ultimately warned and/or banned.</p>
+
+<p>I&#8217;m hoping that the requirement to pay a fee will weed out a large number of the people who try to use Twitter as a conduit to spam. Twitter is like email, in that there is very little barrier to entry to start spamming. It&#8217;s effectively free to send emails or tweets as spam if you can cover your tracks. Twitter spam is a huge problem in my eyes. I&#8217;m subjected to daily @reply spam. I&#8217;m hoping that the requirement to pay for the service will reduce the number of spammers who will target <a href="http://join.app.net/">App.net</a>, or at the very least make it easier to track and remove these spammers.</p>
+
+<p>I&#8217;m interested in a service that transcends Twitter and, because it is paid for by the users, will listen to those users in implementing the features that they need, or want. If done right, it will be directed by the needs of the people who <em>use</em> the service, not the people who wish to sell advertising on the service.</p>
+
+<h2>Huge Responsibilities</h2>
+
+<p><a href="http://join.app.net/">App.net</a> is an ambitious venture. Just getting to $500k does not guarantee any level of success. And while the developer community, or the hacker community, or the whatever-we-are community can drive the success of many things, even we can&#8217;t make it succeed through goodwill alone. The threshold may be met, but unless we embrace the resulting service, building the apps, tools, and sites to make it succeed, then it will be doomed to failure.</p>
+
+<p>We&#8217;re also putting a lot of faith in the ability of Dalton Caldwell and his team. The fact that funding comes directly from the users means a lot, but this is still not some kind of democracy where every paying customer gets a vote. We&#8217;re not shareholders. We don&#8217;t belong to a board of directors. We are putting our hard-earned cash on the line, and trusting <a href="http://join.app.net/">App.net</a> to make the right decisions, to implement the necessary features, and to implement them on time.</p>
+
+<p>So let&#8217;s all pull together. <a href="http://join.app.net/">App.net</a> who will build the infrastructure. The developers who will build applications to use the infrastructure. And finally the community who will use the applications. We all have a responsibility for the success or failure of this venture.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/06/the-mountain-lion-and-the-mouse/">The (Mountain) Lion and the Mouse</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-06T00:00:00+01:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Mountain Lion has been running really well on <em>almost</em> all the machines I&#8217;ve installed it to, with just one exception - my (employer&#8217;s) 17&#8221; MacBook Pro. This is unfortunate, as it&#8217;s the machine that I spend the most time on - if it&#8217;s not running smoothly I feel the &#8220;pain&#8221; all day, every day.</p>
+
+<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn&#8217;t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn&#8217;t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
+
+<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><a href="If">^1</a>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I&#8217;m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
+
+<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn&#8217;t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox&#8217;s auto-update facility is woefully behind the time.</p>
+
+<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>&#8220;If your Dropbox client hasn&#8217;t updated itself, then you might want to do so manually.&#8221;</em></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/17/maybe-you-do-need-the-xcode-command-line-tools/">You *Do* Need the Xcode Command Line Tools</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-17T00:00:00+01:00" pubdate data-updated="true">Jul 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don&#8217;t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>&#8220;compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery&#8221;</em>, this completely neglects an extremely useful source of software that you don&#8217;t need to engage your bare knuckles to take advantage of.</p>
+
+<p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
+
+<p>Homebrew will consult it&#8217;s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it&#8217;ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won&#8217;t be able to compile the code it downloads.</p>
+
+<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don&#8217;t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/05/27/geekbench-results/">Geekbench Results</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-27T00:00:00+01:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>It&#8217;s always &#8220;fun&#8221; to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-mac_pro.png" alt="MacPro" /></p>
+
+<p>I was impressed at the performance provided by the 17&#8221; MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
+
+<p>I still love my Mac Pro though, if only for the sheer joy that comes when it&#8217;s time to upgrade a hard disk.</p>
 </div>
   
   
@@ -115,7 +483,23 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2012/10/14/test-post/">Test post</a>
+        <a href="/blog/2012/08/31/maximising-bang-per-token/">Maximising Bang Per Token</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/30/full-screen-mode-is-not-for-you/">Full Screen Mode is Not For You</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques/">SublimeLinter - an Enabler for Lazy Programming Techniques</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/14/maplin-powerline-adapters/">Maplin 500Mb/s Powerline Adapters - A Rambling Review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/11/why-app.net/">Why App.net?</a>
       </li>
     
   </ul>
