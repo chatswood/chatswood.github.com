@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://chatswood.github.com/blog/2012/05/27/geekbench-results/</loc>
-        <lastmod>2012-10-15T00:17:25+01:00</lastmod>
+        <lastmod>2012-10-15T15:56:50+01:00</lastmod>
     </url>
     <url>
         <loc>
@@ -37,11 +37,15 @@
         <lastmod>2012-10-15T00:17:28+01:00</lastmod>
     </url>
     <url>
+        <loc>http://chatswood.github.com/blog/2012/10/15/the-magazine-is-not-the-experiment/</loc>
+        <lastmod>2012-10-16T21:54:13+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://chatswood.github.com/blog/archives/</loc>
-        <lastmod>2012-10-15T00:17:34+01:00</lastmod>
+        <lastmod>2012-10-16T21:54:13+01:00</lastmod>
     </url>
     <url>
         <loc>http://chatswood.github.com/</loc>
-        <lastmod>2012-10-15T00:17:34+01:00</lastmod>
+        <lastmod>2012-10-16T21:54:13+01:00</lastmod>
     </url>
 </urlset>
