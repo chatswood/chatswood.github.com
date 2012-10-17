@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two-tier Facebook - friends and family
-link: http://www.bbc.co.uk/news/magazine-11968954
+external-url: http://www.bbc.co.uk/news/magazine-11968954
 tags:
 - BBC News
 - Facebook
