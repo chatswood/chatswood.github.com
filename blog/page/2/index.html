@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Chatswood</title>
+  <meta name="author" content="Maurice Kelly">
+
+  
+  <meta name="description" content="Oliver Drobnik over at Cocoanetics wrote a very detailed guide on how to get by without the Xcode Command Line Tools package, and how to remove them &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://chatswood.github.com/blog/page/2/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4608571-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+<!--   <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">mob</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div> -->
+  <h1><a href="/">Chatswood</a></h1>
+  
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:chatswood.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/07/17/maybe-you-do-need-the-xcode-command-line-tools/">You *Do* Need the Xcode Command Line Tools</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-17T00:00:00+01:00" pubdate data-updated="true">Jul 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don&#8217;t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>&#8220;compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery&#8221;</em>, this completely neglects an extremely useful source of software that you don&#8217;t need to engage your bare knuckles to take advantage of.</p>
+
+<p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
+
+<p>Homebrew will consult it&#8217;s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it&#8217;ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won&#8217;t be able to compile the code it downloads.</p>
+
+<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don&#8217;t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/07/02/naming-and-shaming-boss-roland-us/">Naming and Shaming: Boss/Roland US</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-02T00:00:00+01:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m fed up with receiving spam. I generally don&#8217;t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
+
+<p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it&#8217;s the lack of responsiveness.</p>
+
+<p>I&#8217;ve been getting a bunch more spam this week to an email address that I used exclusively to sign in to the Boss US website (which was annoying in itself because I only wanted to download a product manual and had to hand over personal details to do so). I contacted Boss (and indirectly their parent company Roland) almost 2 months ago when the first spam arrived and received the following response:</p>
+
+<blockquote><p>Hello Maurice,</p>
+
+<p>We have forwarded your email to our webmaster for them to investigate this.</p>
+
+<p>Sincerely,
+Roland US Product Support</p></blockquote>
+
+<p>It seemed like a positive reaction, but unfortunately that was the last I heard. I&#8217;ve given them a chance but they&#8217;ve not taken the opportunity to visibly react. So now I&#8217;ve decided to name and shame Boss/Roland US.</p>
+
+<p>You guys have had a security breach of some description. I&#8217;ve let you know, and you&#8217;ve still not gotten back to me. I have to assume that you&#8217;ve done nothing, or you&#8217;re doing it too slow. I&#8217;m telling the world because you&#8217;re not.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/05/27/geekbench-results/">Geekbench Results</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-27T00:00:00+01:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>It&#8217;s always &#8220;fun&#8221; to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-mac_pro.png" alt="MacPro" /></p>
+
+<p>I was impressed at the performance provided by the 17&#8221; MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
+
+<p>I still love my Mac Pro though, if only for the sheer joy that comes when it&#8217;s time to upgrade a hard disk.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/05/21/nobody-panic-mac-app-store-upgrades-solved/">Nobody Panic! Mac App Store Upgrades Solved</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-21T00:00:00+01:00" pubdate data-updated="true">May 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered.</p>
+
+<p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it&#8217;s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it&#8217;s not appealing to pay the full new price again.</p>
+
+<p>Thankfully Panic have managed to solve the problem by offering Coda 2 as a separate app. They have <a href="http://panic.com/coda/support.html">announced an aggressive 50% discount</a> for the first 24 hours that the app is on sale, making for an upgrade price of just $49.99. After 24 hours the price will go up to $75, which is still a respectable 25% off.</p>
+
+<p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- This defines how Octopress will use posts with external-url. -->
+        <h1 class="entry-title external"><a href="http://www.barebones.com/products/textwrangler/">TextWrangler 4.0 <span>&rArr;</span></a></h1>
+        
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-19T00:00:00+01:00" pubdate data-updated="true">Apr 19<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There&#8217;s been a lot of talk recently about the venerable <a href="http://www.barebones.com/products/bbedit/">BBEdit</a> from <a href="http://www.barebones.com/">Bare Bones</a> reaching it&#8217;s 20th birthday. It may have been easy to overlook the fact that it&#8217;s younger, freer sibling <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> has just rolled over to version 4.0.</p>
+
+<p>I&#8217;m a BBEdit user, but if I&#8217;m going to be working on someone else&#8217;s Mac for whatever reason I&#8217;ll quickly grab a copy of <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> to ensure that I&#8217;m in a somewhat familiar editing environment. So if you&#8217;re needing BBEdit goodness, but are on a strict budget, then it&#8217;s definitely worth grabbing TextWrangler from either the <a href="http://www.barebones.com/products/textwrangler/">Bare Bones site</a>, or from the <a href="http://itunes.apple.com/gb/app/textwrangler/id404010395?mt=12">Mac App Store</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- This defines how Octopress will use posts with external-url. -->
+        <h1 class="entry-title external"><a href="http://wispa.it/upto-charge-upto-service/">&#8220;Up to&#8221; Charges for &#8220;Up to&#8221; Services <span>&rArr;</span></a></h1>
+        
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-17T00:00:00+01:00" pubdate data-updated="true">Apr 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I&#8217;ve been making lately to whoever will listen:</p>
+
+<blockquote><p>If your supermarket charged you full price for ‘upto’ a Kg of sugar, or the service station charged you full price for ‘upto’ a gallon of petrol they would be prosecuted.</p></blockquote>
+
+<p>(via <a href="http://www.theregister.co.uk/2012/04/16/wispa_upto_campaign/">The Register</a>)</p>
+
+<p>We pay for an &#8220;up to 16Mbps&#8221; service. Unfortunately my ISP - <a href="http://www.productsandservices.bt.com/consumerProducts/displayCategory.do?categoryId=CON-TOTAL-BB-R1">BT Total Broadband</a> - and the underlying wholesale provider <a href="http://www.openreach.co.uk/orpg/home/home.do">Openreach</a> have not seen fit to install ADSL2 hardware in our local exchange. This mere technicality means that my &#8220;up to 16Mbps&#8221; service is instantly constrained by the 8Mbps limit on ADSL Max technology.</p>
+
+<p>We pay £26 a month for a service that, through no fault of our own, can only deliver 50% of the promised<a href="Yes,">^1</a> service. That&#8217;s bad enough, but we&#8217;re still talking theoretical limits here. Our actual delivered service is just over 6Mbps with a fair wind. So what we actually get is not 16Mbps, but just 37.5% of that. Other BT Total Broadband customers on the same package will pay the same amount, yet they may get 100% of the promised service.</p>
+
+<p>We actually fall somewhere in the middle of the spectrum. A good friend is also a customer with BT Total Broadband, and therefore is also signed up to a service that is advertised as being up to 16Mbps. His actual delivered service is 0.5Mbps. To save you doing the mental arithmetic, that is just 3.125% of the maximum theoretical service. Yet he pays 100% of the price.</p>
+
+<p>Back in 2009 the <a href="http://news.bbc.co.uk/1/hi/8012848.stm">UK government said in their budget</a> that they would commit to ensuring that everyone in the country would have access to 2Mbps broadband by 2012 though they&#8217;ve now said that will be 2015. We still have people unable to achieve that target. Worse still, these people are being forced to pay prices similar to those paid by users of next-generation broadband services.</p>
+
+<h2>Not going far enough</h2>
+
+<p>I not only agree with what <a href="http://wispa.it/">wispa</a> are saying in their campaign, but I feel that they are not going far enough. Not only should people be paying a price proportionate to the service they receive, but those receiving a service below the governments &#8220;target&#8221; of 2Mbps should not be paying a single penny. And yet the campaign from <a href="http://wispa.it/">wispa</a> only covers the concept of people not getting the full &#8220;up to&#8221; service.</p>
+
+<p>There is an even wider problem that is becoming more prevalent as next-generation broadband services are being rolled out. Amongst my friends, family and colleagues there is a huge disparity amongst the level of broadband services available. Some people have <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">Fibre To The Cabinet</a>, some have ADSL2, some have just regular ADSL, some have 3G wireless, and some have nothing.</p>
+
+<p>The strange thing is that many of these differing levels of service cost around the same price. As an example, at home we only receive regular ADSL - this will cost about £18 a month for up to 16Mbps and 40GB allowance<a href="We">^2</a>. According to <a href="http://www.productsandservices.bt.com/consumerProducts/displayTopic.do?topicId=29017">BT&#8217;s Infinity product pages</a> the base level package is also £18, but this includes up to 38Mbps and the same 40GB allowance.</p>
+
+<p>We pay the same price for an inferior service. Why? Because we live in an area that is simply not covered by the <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">FTTC</a> technology. That seems unfair to say the least, yet when the question is asked of BT, their answer is often the same: it comes down to the business case. They will simply not extend the reach of their FTTC offering because it is cost prohibitive.</p>
+
+<h2>Who costs the most?</h2>
+
+<p>Let&#8217;s think about this for a minute. While I accept that I am probably simplifying things greatly here, the costs to BT for each customer will come down to the several major groupings: ISP running costs, bandwidth, network infrastructure, and exchange hardware. So how might these costs vary between users on ADSL and Infinity products?</p>
+
+<ul>
+<li><p>It will cost the same to run as an ISP whether your user is on ADSL or Infinity. The cost of an email accounts, support, portals, etc should all be the same. If anything support for Infinity users will be higher as this is the newer technology, and more prone to confusion and problems.</p></li>
+<li><p>Bandwidth costs should be the same to them although it could easily be argued that a user on a fast Infinity connection will consume more of your bandwidth, certainly on &#8220;unlimited&#8221; allowance packages.</p></li>
+<li><p>Network infrastructure is where things will differ. Backhaul should be the same, but paying for new fibre cabinets and the fibre optic cabling to them costs a lot. The network infrastructure is the same as it always was for ADSL users, it&#8217;s only the new Infinity users that incur this cost.</p></li>
+<li><p>Exchange hardware will also see a large difference. ADSL hardware is available in most, if not all exchanges, and would likely have been paid for at this stage, less some ongoing maintenance costs. Conversely, the Infinity hardware is new and expensive, and is where the real cost lies.</p></li>
+</ul>
+
+
+<p>I think it&#8217;s fair to say that it costs a lot more to sustain a customer on an Infinity package over a customer on regular ADSL, yet both sets of customers pay the same price. I think that what <a href="http://wispa.it/">wispa</a> should be campaigning for is not only an end to the &#8220;up to&#8221; problem, but that customers on older, inferior products should not be effectively subsidising customers who take a newer, superior product.</p>
+
+<p>As I mentioned earlier, often when I ask BT why they don&#8217;t offer me Infinity, they say it&#8217;s because there is no business case for it. They say it&#8217;s not economically viable.</p>
+
+<p>I now say - why don&#8217;t you use the excess money you get from me paying the same price as an Infinity service, and instead of treating it as profit, treat it as a down-payment on the new hardware you need to provide me with a better service. Maybe <a href="http://wispa.it/">wispa</a> can adapt this into their campaign as well.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/04/14/mac-app-store-upgrades/">(Mac) App Store Upgrades</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-14T00:00:00+01:00" pubdate data-updated="true">Apr 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There&#8217;s been a bit of discussion on the <a href="http://5by5.tv/">5by5 Network</a> recently about the lack of upgrades on the Mac App Store sparked by a recent blog post on the subject by <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">Wil Shipley</a>.</p>
+
+<p>I see this from both sides. As a consumer I naturally want software to be as cheap as possible, and I can&#8217;t deny that the concept of &#8220;free upgrades for life&#8221; is not appealing. Yet, on the flip side I write software for a living, and the idea of getting paid once and having no upgrade revenue stream is not a nice one.</p>
+
+<p>The folks at 5by5 (specifically <a href="http://siracusa.tumblr.com/">John Siracusa</a> and <a href="http://marco.org/">Marco Arment</a>) have covered most of the salient points, so I recommend having a listen back to the latest episodes of <em><a href="http://5by5.tv/hypercritical/">Hypercritical</a></em> and <em><a href="http://5by5.tv/buildanalyze/">Build and Analyze</a></em>.</p>
+
+<p>Some of the discussion has pointed out that one possible option is for a developer to release &#8220;version 2&#8221; as a new application and remove the previous version of the application from sale. This has two drawbacks for existing users (which have been debated at length, but I&#8217;ll recap):</p>
+
+<ul>
+<li>if they want to upgrade they feel cheated at having to pay for a new app without the availability of an upgrade discount;</li>
+<li>if they chose not to upgrade they are unable to get application updates for their existing application as it has been pulled from the store.</li>
+</ul>
+
+
+<h2>Discounted upgrades are gone</h2>
+
+<p>First things first - I think that the old pricing model of a high initial purchase price followed by discounted upgrades is probably gone, and a natural successor would appear to be a consistent price for new and upgrade purchases.</p>
+
+<p>There will inevitably be some pushback on this. Developers won&#8217;t like it for the obvious reason - their initial revenue will be lower and they&#8217;ll be forced to think longer term. This is a completely natural reaction and it will probably take some major players to set the trend - maybe this is where Apple are leading with their own price drops as they move applications into the App Stores.</p>
+
+<p>I feel that this is a good way to work though it will require a bit of thought from app developers with regard to their longer term strategies - it&#8217;s about taking lower margins with higher volumes. It&#8217;s about taking a lower purchase price for the initial version but actually taking a higher &#8220;upgrade&#8221; price for subsequent versions.</p>
+
+<p>Customer opinion could be divided depending on whether they are new or existing customers. New customers will love the fact that the initial prices seem lower - they&#8217;ll feel that they&#8217;re getting a bargain. Existing customers will hate the fact that they have to pay the same amount for upgrades as new customers will pay.</p>
+
+<p>Overall it&#8217;s still a good deal for the customer. They will be buying into an ecosystem which places emphasis on long-term investment in software. Increased volumes means lower prices on average. And of course, paying for upgrades <em>should</em> ultimately mean higher quality software.</p>
+
+<h2>Maintaining multiple versions</h2>
+
+<p>Of course, this discussion is still meaningless when the App Stores don&#8217;t offer a good way to maintain multiple versions of a product.</p>
+
+<p>If a developer followed the model above and charged the same price for each version (i.e. no discounted upgrades) there is still the dilemma about whether to leave multiple versions in the store at once. As a developer I find this unappealing because it leads to confusion amongst potential purchasers. Yet removing the old version is not really an option as it has a negative impact on customers who don&#8217;t want to upgrade for at least two reasons:</p>
+
+<ul>
+<li>they are unable to get bug fixes to a product they paid for;</li>
+<li>if they move to a new computer they are unable to re-download a product that they still legitimately own.</li>
+</ul>
+
+
+<p>This is where Apple need to make a change to the App Stores. If they won&#8217;t go to the trouble of implementing upgrades, then I propose that they give developers the  opportunity to mark an app as being &#8220;retired&#8221;.</p>
+
+<p>A retired app should no longer be purchasable by new customers. In fact it should not appear in the App Store to people who do not already have the app in their purchase history. Only those who have purchased it before should be able to re-download it to a new computer, or obtain updates.</p>
+
+<p>This still isn&#8217;t a completely straightforward process for developers (or for customers) as the new version is technically a different application, and as such poses issues for data migration between versions. Also customers will need to be informed of new versions, possibly through annoying alert dialogs in the old version.</p>
+
+<p>Still, if Apple allowed applications to be marked as &#8220;retired&#8221; this would be a big start. In the meantime, you could always raise the price of your old version to $999.99…</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- This defines how Octopress will use posts with external-url. -->
+        <h1 class="entry-title external"><a href="http://www.codinghorror.com/blog/2012/04/books-bits-vs-atoms.html">Books: Bits vs. Atoms <span>&rArr;</span></a></h1>
+        
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-14T00:00:00+01:00" pubdate data-updated="true">Apr 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Jeff Atwood recently wrote a <a href="http://www.codinghorror.com/blog/2012/04/books-bits-vs-atoms.html">fantastic piece on the current standard of eBooks</a>:</p>
+
+<blockquote><p>Because I love words, I want to love eBooks. I want to buy lots and lots of eBooks. But unless the publishers are willing to treat eBooks with the same respect and care that they give to their printed books – and most importantly of all, adjust their pricing to reflect the brave new economy of bits, and not an antiquated economy of atoms – they&#8217;re destined to eventually suffer the same fate as the Encyclopedia Britannica.</p></blockquote>
+
+<p>This article couldn&#8217;t be more correct.</p>
+
+<p>I&#8217;ve recently decided to stop buying print books under most circumstances<a href="Recent">^1</a> for reasons that include both personal convenience, and a desire to consume less resources.</p>
+
+<p>Unfortunately, as Jeff has pointed out, eBooks just aren&#8217;t 100% there yet. Traditional novels are fine from Kindle/iBookstore, but I read a lot of technology books, and the instant you get into screenshots or diagrams the formatting goes straight out the window. Many of the tech-related publishers are providing the option to go for PDF instead but this still feels like settling for second-best until they get their act together.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- This defines how Octopress will use posts with external-url. -->
+        <h1 class="entry-title external"><a href="http://sgaw.tumblr.com/post/20841224612/johns-bikes-in-bath-and-my-trek-7-3-fx">Being a Dad Changes Everything <span>&rArr;</span></a></h1>
+        
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-14T00:00:00+01:00" pubdate data-updated="true">Apr 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://sgaw.tumblr.com/post/20841224612/johns-bikes-in-bath-and-my-trek-7-3-fx">Simon Wolf wrote</a>:</p>
+
+<blockquote><p>Finally I bought a new helmet. I’m not a huge fan of them but I like my daughter to wear one and I need to set a good example for her.</p></blockquote>
+
+<p>For me this sums up everything that there is to being a dad. When the subject of bicycle helmets came up in the past, I always swore that I&#8217;d never wear one. I trotted out the old fallback position of &#8220;I never needed one when I was a kid, I don&#8217;t need one now, and my kids will never need one either.&#8221;</p>
+
+<p>Now that I&#8217;m actually a dad, my position has changed. From here on I&#8217;ll do whatever is necessary to set a good example for my daughter. How times changes.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/04/09/keeping-a-clean-desktop/">Keeping a Clean Desktop</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-09T00:00:00+01:00" pubdate data-updated="true">Apr 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>While listening to the recent <a href="http://macpowerusers.com/">Mac Power Users</a> podcast on <a href="http://macpowerusers.com/2012/04/mpu-79-hazel-3-0/">using Hazel</a> I got the impression that host <a href="http://www.katiefloyd.me/">Katie Floyd</a> wasn&#8217;t a fan of using the Mac Desktop as a storage location for files.<a href="Thankfully">^1</a> I&#8217;ve heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn&#8217;t the case - for a start Windows users are people too, and just think about it: if we weren&#8217;t supposed to use the Desktop, why would Apple have made it just a regular folder?</p>
+
+<p>I can be a bit of a cleanliness freak when it comes to my hard disks<a href="In">^2</a> but surprisingly I&#8217;m actually a fan of throwing documents on the Desktop as a working storage area. If I&#8217;m working on a document, downloading some material or even just trying something out I tend to leave things on the Desktop while I&#8217;m working on them.</p>
+
+<p>I see this as being akin to the real world - when I&#8217;m working with paper documents I tend to spread them around me in order to have the material within easy reach. I want to be able to do the same with the Mac Desktop so that I don&#8217;t have to root around in folders for the relevant files.</p>
+
+<h2>Too Much Hassle?</h2>
+
+<p>I guess some people might find it tough working with the Mac Desktop. Sometimes it can be hard to arrange windows so that you can quickly open documents or move them about, especially when it comes to Macs with smaller displays like MacBook Pros and Airs.</p>
+
+<p>My advice to people is to take advantage of Exposé - especially on newer Macs with gesture support. I use the &#8220;Spread with thumb and three fingers&#8221; gesture to access the Desktop and have immediate access to my files for double-clicking or drag-and-drop operations.</p>
+
+<p>Admittedly dragging and dropping can be troublesome at times. To drop into an open application you generally need to drag the item over the dock icon for the application, wait for it to show the open windows for the application and then hold the item over the desired window until it comes to the foreground. This can be cumbersome, so it&#8217;s worth grabbing <a href="http://www.eternalstorms.at/yoink/">Yoink</a> from the Mac App Store. Once installed it provides a handy tray you can drag onto quickly, then Cmd-Tab (or otherwise navigate) to your desired application and drag from the Yoink tray into the application.</p>
+
+<h2>Keeping It Under Control</h2>
+
+<p>Of course, there&#8217;s always a danger that your Desktop can get out of control if you start using it for multiple active projects. The best way to combat this is with a bit of discipline, but if you need a hand you can always turn to Hazel for some help.</p>
+
+<p>At present I use a two-level indicator as to the relevance of a file on the desktop. After two days of inactivity Hazel marks a file with an Orange label so that I can see that it hasn&#8217;t been used recently. After a further two days of inactivity Hazel marks the file with a Red label as a final warning.</p>
+
+<p>Ideally though my desktop would be reasonably clear at the end of every day so that I can start from scratch every morning. Again Hazel could come to the rescue, by automatically clearing items from the desktop at the end of the working day. The rule shown below is the start of a system for implementing this:</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/04/blue_rule.png" alt="Blue Rule" /></p>
+
+<p>The idea here is that I can have multiple projects organised according to label colour. At the end of the working day Hazel will sweep all files on the Desktop with a Blue label into the Blue folder. The next time I go to work on the project I can just drag the items back onto the Desktop to start again. It&#8217;s a bit like keeping your real life working papers in boxes - at the end of the day you just sweep the papers off the desktop and into the box. Next day, dump the contents of the box onto the nice clean desktop.</p>
+
+<p>See - working on the Desktop is not just for savages.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/15/the-magazine-is-not-the-experiment/">The Magazine is Not the Experiment</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/31/maximising-bang-per-token/">Maximising Bang Per Token</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/30/full-screen-mode-is-not-for-you/">Full Screen Mode is Not For You</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques/">SublimeLinter - an Enabler for Lazy Programming Techniques</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/14/maplin-powerline-adapters/">Maplin 500Mb/s Powerline Adapters - A Rambling Review</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Maurice Kelly -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Technology | Chatswood]]></title>
+  <link href="http://chatswood.github.com/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://chatswood.github.com/"/>
+  <updated>2012-10-17T22:37:09+01:00</updated>
+  <id>http://chatswood.github.com/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[But Life Is Easy In Jail]]></title>
+    <link href="http://chatswood.github.com/blog/2010/11/30/but-life-is-easy-in-jail/"/>
+    <updated>2010-11-30T00:00:00+00:00</updated>
+    <id>http://chatswood.github.com/blog/2010/11/30/but-life-is-easy-in-jail</id>
+    <content type="html"><![CDATA[<p><a href="http://open.spotify.com/album/35g1RdojcIv7HKBKOMypbf">Thin Lizzy - Jailbreak</a>
+(Sorry - I couldn't find Jailbreak by AC/DC on Spotify)</p>
+
+<p>Despite the title this is not one of those rants about the state of prison life and how it's a cushy number. This is about my lack of understanding about why people are so keen to "jailbreak" their iOS devices.</p>
+
+<p>I'm iOSed up to the max - I've got an iPhone, and iPod Touch and an iPad, and all 3 of these devices are happy to live the easy life in Apple's "jail".</p>
+
+<p>This morning I read the news that iOS 4.2.1 had been jailbroken and you could now do whatever it is that jailbreakers love to do. This got me intrigued again so I decided to have a look at the process involved to see how easy it is and whether or not it was worth giving it a go.</p>
+
+<h2>Why bother?</h2>
+
+<p>So what is so good about a jailbroken device that drives the ordinary people - the <em>exploit consumers</em> - to follow the steps so meticulously laid out by the <em>exploit producers</em>. I've done a bit of reading about (nothing detailed though) and it seems to boil down to the following reasons:</p>
+
+<ol>
+<li>Allowing non-Apple approved software to be installed;</li>
+<li>Allowing the installation of pirated software;</li>
+<li>Allowing extra tweaks to to the OS.</li>
+<li>Allowing the phone to be used on alternative networks;</li>
+</ol>
+
+
+<h3>Non-App Store software</h3>
+
+<p>This seems to be a big deal to a lot of people. To be fair many great iPhone/iOS apps started life on jailbroken iPhones before Apple launched the App Store. I don't know if the App Store was always planned, or if it was a reaction to the burgeoning app development scene, but ultimately modern iOS users owe a debt of gratitude to the pioneers in the pre-App Store jailbreak scene.</p>
+
+<p>There are alternative app stores out there (such as <em><a href="http://en.wikipedia.org/wiki/Cydia_(application)">Cydia</a></em>) which allow jailbreakees to install software that cannot be obtained through the official App Store. The reasons for software not being available in the official App Store vary, but they could include software rejected by Apple or software written by people who reject Apple's policies.</p>
+
+<p>One good reason for software not being available in the App Store is the use of private APIs. Apple have a lot of functionality that is not available via it's officially sanctioned public APIs, and as ever there are people out there who want to push the limits of their software beyond want Apple will allow them to do so. Putting an app on a store like Cydia may allow them to get sales they are denied from official channels, or even to build a userbase before those APIs become publicly available.</p>
+
+<h3>Pirated software</h3>
+
+<p>The stock iOS ecosystem is not conducive to software piracy. Apple employs DRM techniques to prevent illegally acquired apps from being run on iOS devices so in order to run pirated software you have to jailbreak your device.</p>
+
+<p>I just want to be clear - just because piracy requires jailbreaking, does not mean that jailbreaking is always done for the purposes of piracy. Some people use their jailbreaking powers for evil, but just as many (if not more) use their jailbreaking powers for good! Flame aversion completed.</p>
+
+<p>The reasons for using pirated iOS software are probably as abundant as those for any type of software platform, but they generally run the gamut from <em>"I like to try before I buy"</em> to (the immoral-but-honest) <em>"I don't want to pay for software if I can get it for free"</em>. Of course there are people out there who genuinely do try the pirated software, then buy it (I've actually done it myself). But these people are a tiny minority. Jailbreaking may not be illegal, but using pirated software is, and it'll never wash with me as a reason to jailbreak.</p>
+
+<p>And for those of you who insist on <em>"I like to try before I buy"</em> - that's what the <em>Lite</em> versions on the official App Store are for!</p>
+
+<h3>Tweaking the OS</h3>
+
+<p>Some people just love to customise the things they possess. They exist in all walks of life as well as software - they are the home improvement fanatics, the car-modders, the GNU-Linux enthusiasts, to name but a minuscule sample of them.</p>
+
+<p>iPhone owners are no exception - there will always be the enthusiasts who want to get console access to their device. They want to tweak the home screen. They want to push the limits of the software they paid for. Unfortunately Apple don't want to relinquish that much control of the device. It's an ongoing debate as to how healthy this level of control that Apple wields over the devices is, but like it or not, it's the rules.</p>
+
+<p>Unless of course you jailbreak your device. Then all bets are off and if you (or someone else) can figure out how to change some aspect of iOS then you're free to do so.</p>
+
+<p>It's hard to see fault with this - and in fact it has benefits to non-jailbreakers as well. Apple come up with many great ideas, but they usually make their money by implementing somebody else's great idea instead. By pushing the boundaries with what can be achieved with the device, it's fair to say that Apple can soak up the great ideas in the current generation of jailbroken devices and wring the sponge into the next generation of the OS.</p>
+
+<h3>Network freedom</h3>
+
+<p>To me this is one of the few good reasons to jailbreak an iOS device like an iPhone or 3G iPad. In many territories the network-enabled devices are locked to particular carriers which means that people have to suffer the particular characteristics of that carrier and their network. The prime example is obviously AT&amp;T in the US. They seem to suffer more than their fair share of network issues, and people seem keen to jailbreak their devices simply to move to a network with better</p>
+
+<h2>Too much bother?</h2>
+
+<p>Maybe I'm just not understanding everything that is involved, but it seems that jailbreaking involves a lot of conditions and caveats. The ability to jailbreak is based on exploits in particularly software/firmware combinations.</p>
+
+<p>I've got no problem with people trying to break these, especially if it gives Apple the heads up when it comes to vulnerabilities in their software. But it seems that the only reason they go to such trouble is so that they can jailbreak their devices. Obviously there's the <em>"hacker/cracker"</em> mindset at work here - it doesn't matter what the device/software/technology is - there will always be someone who will try to break it just for sport.</p>
+
+<p>For the jailbreakee I see it as an awful lot of hassle depending on the particular jailbreak in question. The recent <em>"jailbreakme"</em> exploit seemed pretty convenient - go to a web page, device is jailbroken. Easy. Assuming you have a version of iOS that is vulnerable. And that it all works fine.</p>
+
+<h2>Will I bother?</h2>
+
+<p>To be frank - no I really don't have any reason to do so.</p>
+
+<ol>
+<li>There is no software that is unavailable on the official App Store that I <em>need</em> to have on my devices. And while I'm not the worlds best iOS developer, if I truly needed an itch scratched, I think I could do it myself.</li>
+<li>I don't want to run pirated software. Like I said in the article I have done so in the past <a href="I">^1</a> but I really don't feel any need to do so any more.</li>
+<li>I'm happy enough with the stock capabilities of the iOS platform - I don't think there's anything I'd like changed so much that I'd go-a-jailbreakin' just to get it.</li>
+<li>I'm lucky enough to live in a territory that has iPhones on multiple carriers and my carrier was kind enough to unlock mine when I asked them to.</li>
+</ol>
+
+
+<p>For now jailbreaking just doesn't have a <em>killer app</em> for me. Maybe someday it will, but for now I'm content to stay in the Apple cell.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Broadband Constipation]]></title>
+    <link href="http://chatswood.github.com/blog/2010/11/26/broadband-constipation/"/>
+    <updated>2010-11-26T00:00:00+00:00</updated>
+    <id>http://chatswood.github.com/blog/2010/11/26/broadband-constipation</id>
+    <content type="html"><![CDATA[<p>A nice man from BT Wholesale called me yesterday to let me know what the deal was with us being able to get their <a href="http://www.bt.com/infinity">Infinity</a> product.</p>
+
+<p>I'd been asking about when their Fibre To The Cabinet (FTTC) rollout was going to hit my local cabinet. The cabinet is at the end of the road, and I'd recently seen BT's contractor (KN Networks) doing some work at it, but the physical cabinet had never arrived.</p>
+
+<p>The good news from the call was that our humble abode is actually on another cabinet which is already FTTC-enabled. A mini-Mexican Wave was performed to the amusement of passers by.</p>
+
+<p>The bad news was still to come - unfortunately the cabinet we're actually connected to is much further away from the house and so we are over the 2km limit that BT are putting on their Infinity service.</p>
+
+<p>Amazingly this wasn't as devastating as I thought it would be. I looked around me, and it seemed like the world was still spinning. I suppose there are things in life that change your perspective and some of those have happened in the last year or so.</p>
+
+<p>Still, I would love to get my hands on a faster broadband connection - 5.5Mbps is still a reasonable download speed, but I'm crying out for more upload! 0.4Mbps is just not enough to really live "in the cloud".</p>
+]]></content>
+  </entry>
+  
+</feed>
