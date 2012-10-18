@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Technology | Chatswood]]></title>
-  <link href="http://chatswood.github.com/blog/categories/technology/atom.xml" rel="self"/>
-  <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T16:33:50+01:00</updated>
-  <id>http://chatswood.github.com/</id>
+  <link href="http://blog.chatswood.org.uk/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2012-10-18T16:50:58+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maplin 500Mb/s Powerline Adapters - A Rambling Review]]></title>
-    <link href="http://chatswood.github.com/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review"/>
+    <link href="http://blog.chatswood.org.uk/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review"/>
     <updated>2012-08-14T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/29405190084/maplin-powerline-adapters</id>
+    <id>http://blog.chatswood.org.uk/post/29405190084/maplin-powerline-adapters</id>
     <content type="html"><![CDATA[<p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
 
 <p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I’m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She’s convinced that I’ll leave gaping holes running down the walls that never get patched up, and that the painting won’t get beyond the colour-picking stage. She’s probably right.</p>
@@ -45,9 +45,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why App.net?]]></title>
-    <link href="http://chatswood.github.com/post/29224063502/why-app-net"/>
+    <link href="http://blog.chatswood.org.uk/post/29224063502/why-app-net"/>
     <updated>2012-08-11T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/29224063502/why-app.net</id>
+    <id>http://blog.chatswood.org.uk/post/29224063502/why-app.net</id>
     <content type="html"><![CDATA[<p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Just over a month ago, Dalton Caldwell wrote a blog post entitled “<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>”. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: “<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>”.</p>
 
 <p>In this post Dalton essentially proposed building a new Twitter. A Twitter that was funded directly by the users instead of by the advertisers. He and his company established a KickStarter-style campaign to raise $500k by 13th August in order to fund this new social network. As of the time of writing, there are just under two days remaining, and there is only $69,200 left to be raised.</p>
@@ -88,9 +88,9 @@
   
   <entry>
     <title type="html"><![CDATA[The (Mountain) Lion And The Mouse]]></title>
-    <link href="http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse"/>
+    <link href="http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse"/>
     <updated>2012-08-06T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse</id>
+    <id>http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse</id>
     <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
 
 <p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
@@ -113,9 +113,9 @@
   
   <entry>
     <title type="html"><![CDATA["Up to" charges for "Up to" services]]></title>
-    <link href="http://chatswood.github.com/post/21261771299/up-to-charges-for-up-to-services"/>
+    <link href="http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services"/>
     <updated>2012-04-17T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/21261771299/up-to-charges-for-up-to-services</id>
+    <id>http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services</id>
     <content type="html"><![CDATA[<p>I’m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I’ve been making lately to whoever will listen:</p>
 
 <blockquote>
@@ -182,9 +182,9 @@
   
   <entry>
     <title type="html"><![CDATA[Keeping a Clean Desktop]]></title>
-    <link href="http://chatswood.github.com/post/20786902305/keeping-a-clean-desktop"/>
+    <link href="http://blog.chatswood.org.uk/post/20786902305/keeping-a-clean-desktop"/>
     <updated>2012-04-09T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/20786902305/keeping-a-clean-desktop</id>
+    <id>http://blog.chatswood.org.uk/post/20786902305/keeping-a-clean-desktop</id>
     <content type="html"><![CDATA[<p>While listening to the recent <a href="http://macpowerusers.com/">Mac Power Users</a> podcast on <a href="http://macpowerusers.com/2012/04/mpu-79-hazel-3-0/">using Hazel</a> I got the impression that host <a href="http://www.katiefloyd.me/">Katie Floyd</a> wasn’t a fan of using the Mac Desktop as a storage location for files.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I’ve heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn’t the case - for a start Windows users are people too, and just think about it: if we weren’t supposed to use the Desktop, why would Apple have made it just a regular folder?</p>
 
 <p>I can be a bit of a cleanliness freak when it comes to my hard disks<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> but surprisingly I’m actually a fan of throwing documents on the Desktop as a working storage area. If I’m working on a document, downloading some material or even just trying something out I tend to leave things on the Desktop while I’m working on them.</p>

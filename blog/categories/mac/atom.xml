@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mac | Chatswood]]></title>
-  <link href="http://chatswood.github.com/blog/categories/mac/atom.xml" rel="self"/>
-  <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T16:33:50+01:00</updated>
-  <id>http://chatswood.github.com/</id>
+  <link href="http://blog.chatswood.org.uk/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2012-10-18T16:50:58+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Full Screen Mode is Not For You]]></title>
-    <link href="http://chatswood.github.com/post/30538198744/full-screen-mode-is-not-for-you"/>
+    <link href="http://blog.chatswood.org.uk/post/30538198744/full-screen-mode-is-not-for-you"/>
     <updated>2012-08-30T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/30538198744/full-screen-mode-is-not-for-you</id>
+    <id>http://blog.chatswood.org.uk/post/30538198744/full-screen-mode-is-not-for-you</id>
     <content type="html"><![CDATA[<p>During a <a href="http://5by5.tv/hypercritical/82">recent episode</a> of <a href="http://5by5.tv/hypercritical">Hypercritical</a>, host John Siracusa mentioned that he had received feedback from readers of his <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">OS X Mountain Lion review</a> commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.</p>
 
 <p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn’t long before I shared the frustrations aired by Siracusa and his readers:</p>

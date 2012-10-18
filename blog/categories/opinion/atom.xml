@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Opinion | Chatswood]]></title>
-  <link href="http://chatswood.github.com/blog/categories/opinion/atom.xml" rel="self"/>
-  <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T16:33:50+01:00</updated>
-  <id>http://chatswood.github.com/</id>
+  <link href="http://blog.chatswood.org.uk/blog/categories/opinion/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2012-10-18T16:50:58+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Magazine is Not the Experiment]]></title>
-    <link href="http://chatswood.github.com/blog/2012/10/15/the-magazine-is-not-the-experiment/"/>
+    <link href="http://blog.chatswood.org.uk/blog/2012/10/15/the-magazine-is-not-the-experiment/"/>
     <updated>2012-10-15T16:13:00+01:00</updated>
-    <id>http://chatswood.github.com/blog/2012/10/15/the-magazine-is-not-the-experiment</id>
+    <id>http://blog.chatswood.org.uk/blog/2012/10/15/the-magazine-is-not-the-experiment</id>
     <content type="html"><![CDATA[<p>The Mac and iOS community got in all of a tizzy late last week following the announcement of <a href="http://marco.org/">Marco Arment</a>’s latest project - <em><a href="http://the-magazine.org/">The Magazine</a></em>, a foray into the world of publishing through the channel of the iOS Newsstand application. The basic premise is simple: a monthly subscription of $1.99 delivers you two issues per month direct to your iOS device. Each issue contains 4 editorials produced by a variety of writers.</p>
 
 <p>The reaction to the launch has been favourable; not just for the actual product itself but the concept as well. <a href="http://www.macstories.net/news/marco-arments-the-magazine-at-the-intersection-of-technology-and-writing/">Federico Viticci (Macstories)</a> thinks that <em>”…The Magazine is a promising and notable initiative…”</em>. <a href="http://thenextweb.com/media/2012/10/11/instapaper-creator-marco-arment-launches-the-magazine-a-different-kind-of-periodical-for-apples-newsstand/">Matthew Panzarino (The Next Web)</a> described it as <em>”…a template for the future of lightweight Newsstand publications.”</em> Numerous comments across Twitter and App.net praised the initiative and suggested that it was an experiment in publishing.</p>
@@ -53,9 +53,9 @@
   
   <entry>
     <title type="html"><![CDATA[Q. When is Apple news not actually news?]]></title>
-    <link href="http://chatswood.github.com/post/28971024283/q-when-is-apple-news-not-actually-news"/>
+    <link href="http://blog.chatswood.org.uk/post/28971024283/q-when-is-apple-news-not-actually-news"/>
     <updated>2012-08-08T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/28971024283/q-when-is-apple-news-not-actually-news</id>
+    <id>http://blog.chatswood.org.uk/post/28971024283/q-when-is-apple-news-not-actually-news</id>
     <content type="html"><![CDATA[<p>A. When you report old “news” as though it just “finally” happened.</p>
 
 <p>Mike Schramm at <a href="http://www.tuaw.com">TUAW</a> posted the following last night:</p>
@@ -73,9 +73,9 @@
   
   <entry>
     <title type="html"><![CDATA[Naming and Shaming: Boss/Roland US]]></title>
-    <link href="http://chatswood.github.com/post/26368096042/naming-and-shaming-boss-roland-us"/>
+    <link href="http://blog.chatswood.org.uk/post/26368096042/naming-and-shaming-boss-roland-us"/>
     <updated>2012-07-02T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/26368096042/naming-and-shaming-boss-roland-us</id>
+    <id>http://blog.chatswood.org.uk/post/26368096042/naming-and-shaming-boss-roland-us</id>
     <content type="html"><![CDATA[<p>I’m fed up with receiving spam. I generally don’t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
 
 <p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it’s the lack of responsiveness.</p>
@@ -100,9 +100,9 @@ Roland US Product Support</p>
   
   <entry>
     <title type="html"><![CDATA[Nobody Panic! Mac App Store Upgrades Solved]]></title>
-    <link href="http://chatswood.github.com/post/23496315143/nobody-panic-mac-app-store-upgrades-solved"/>
+    <link href="http://blog.chatswood.org.uk/post/23496315143/nobody-panic-mac-app-store-upgrades-solved"/>
     <updated>2012-05-21T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/23496315143/nobody-panic-mac-app-store-upgrades-solved</id>
+    <id>http://blog.chatswood.org.uk/post/23496315143/nobody-panic-mac-app-store-upgrades-solved</id>
     <content type="html"><![CDATA[<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
 
 <p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it’s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it’s not appealing to pay the full new price again.</p>
@@ -116,9 +116,9 @@ Roland US Product Support</p>
   
   <entry>
     <title type="html"><![CDATA["Up to" charges for "Up to" services]]></title>
-    <link href="http://chatswood.github.com/post/21261771299/up-to-charges-for-up-to-services"/>
+    <link href="http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services"/>
     <updated>2012-04-17T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/21261771299/up-to-charges-for-up-to-services</id>
+    <id>http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services</id>
     <content type="html"><![CDATA[<p>I’m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I’ve been making lately to whoever will listen:</p>
 
 <blockquote>

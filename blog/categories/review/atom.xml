@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Review | Chatswood]]></title>
-  <link href="http://chatswood.github.com/blog/categories/review/atom.xml" rel="self"/>
-  <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T16:33:50+01:00</updated>
-  <id>http://chatswood.github.com/</id>
+  <link href="http://blog.chatswood.org.uk/blog/categories/review/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2012-10-18T16:50:58+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maplin 500Mb/s Powerline Adapters - A Rambling Review]]></title>
-    <link href="http://chatswood.github.com/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review"/>
+    <link href="http://blog.chatswood.org.uk/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review"/>
     <updated>2012-08-14T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/29405190084/maplin-powerline-adapters</id>
+    <id>http://blog.chatswood.org.uk/post/29405190084/maplin-powerline-adapters</id>
     <content type="html"><![CDATA[<p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
 
 <p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I’m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She’s convinced that I’ll leave gaping holes running down the walls that never get patched up, and that the painting won’t get beyond the colour-picking stage. She’s probably right.</p>

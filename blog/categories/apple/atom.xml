@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Apple | Chatswood]]></title>
-  <link href="http://chatswood.github.com/blog/categories/apple/atom.xml" rel="self"/>
-  <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T16:33:50+01:00</updated>
-  <id>http://chatswood.github.com/</id>
+  <link href="http://blog.chatswood.org.uk/blog/categories/apple/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2012-10-18T16:50:58+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Full Screen Mode is Not For You]]></title>
-    <link href="http://chatswood.github.com/post/30538198744/full-screen-mode-is-not-for-you"/>
+    <link href="http://blog.chatswood.org.uk/post/30538198744/full-screen-mode-is-not-for-you"/>
     <updated>2012-08-30T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/30538198744/full-screen-mode-is-not-for-you</id>
+    <id>http://blog.chatswood.org.uk/post/30538198744/full-screen-mode-is-not-for-you</id>
     <content type="html"><![CDATA[<p>During a <a href="http://5by5.tv/hypercritical/82">recent episode</a> of <a href="http://5by5.tv/hypercritical">Hypercritical</a>, host John Siracusa mentioned that he had received feedback from readers of his <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">OS X Mountain Lion review</a> commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.</p>
 
 <p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn’t long before I shared the frustrations aired by Siracusa and his readers:</p>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[The (Mountain) Lion And The Mouse]]></title>
-    <link href="http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse"/>
+    <link href="http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse"/>
     <updated>2012-08-06T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse</id>
+    <id>http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse</id>
     <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
 
 <p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
@@ -69,9 +69,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mountain Lion's New Archive Folder]]></title>
-    <link href="http://chatswood.github.com/post/28287324457/mountain-lions-new-archive-folder"/>
+    <link href="http://blog.chatswood.org.uk/post/28287324457/mountain-lions-new-archive-folder"/>
     <updated>2012-07-29T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/28287324457/mountain-lions-new-archive-folder</id>
+    <id>http://blog.chatswood.org.uk/post/28287324457/mountain-lions-new-archive-folder</id>
     <content type="html"><![CDATA[<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
 
 <p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I’d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
@@ -95,9 +95,9 @@
   
   <entry>
     <title type="html"><![CDATA[You *Do* Need The Xcode Command Line Tools]]></title>
-    <link href="http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
+    <link href="http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
     <updated>2012-07-17T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
+    <id>http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
     <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
 
 <p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
@@ -111,9 +111,9 @@
   
   <entry>
     <title type="html"><![CDATA[Geekbench Results]]></title>
-    <link href="http://chatswood.github.com/post/23856794036/geekbench-results"/>
+    <link href="http://blog.chatswood.org.uk/post/23856794036/geekbench-results"/>
     <updated>2012-05-27T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/23856794036/geekbench-results</id>
+    <id>http://blog.chatswood.org.uk/post/23856794036/geekbench-results</id>
     <content type="html"><![CDATA[<p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>

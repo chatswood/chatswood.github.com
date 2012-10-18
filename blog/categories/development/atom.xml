@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Development | Chatswood]]></title>
-  <link href="http://chatswood.github.com/blog/categories/development/atom.xml" rel="self"/>
-  <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T16:33:50+01:00</updated>
-  <id>http://chatswood.github.com/</id>
+  <link href="http://blog.chatswood.org.uk/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2012-10-18T16:50:58+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[You *Do* Need The Xcode Command Line Tools]]></title>
-    <link href="http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
+    <link href="http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
     <updated>2012-07-17T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
+    <id>http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
     <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
 
 <p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
@@ -31,9 +31,9 @@
   
   <entry>
     <title type="html"><![CDATA[Give Up GitHub (sort of)]]></title>
-    <link href="http://chatswood.github.com/post/20728588558/give-up-github-sort-of"/>
+    <link href="http://blog.chatswood.org.uk/post/20728588558/give-up-github-sort-of"/>
     <updated>2012-04-08T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/post/20728588558/give-up-github-sort-of</id>
+    <id>http://blog.chatswood.org.uk/post/20728588558/give-up-github-sort-of</id>
     <content type="html"><![CDATA[<p><a href="http://github.com/">GitHub</a> is an amazing place. There are so many diverse projects hosted there, and it’s fantastic to be able to quickly create a repo and share code with the world. I’ve been a member for just under a year, and in that time I’ve gone from just downloading other people’s projects, to forking and contributing to Open Source projects, to creating my own public and private repositories.</p>
 
 <p>If you’re familiar with GitHub and it’s pricing plans, you’ll know that you can create unlimited public projects with an unlimited number of contributors for free. This is probably one of the reasons why GitHub has become a de facto standard for public projects<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
@@ -68,9 +68,9 @@
   
   <entry>
     <title type="html"><![CDATA[An ideal time to develop software?]]></title>
-    <link href="http://chatswood.github.com/post/2635102419/an-ideal-time-to-develop-software"/>
+    <link href="http://blog.chatswood.org.uk/post/2635102419/an-ideal-time-to-develop-software"/>
     <updated>2011-01-07T00:00:00+00:00</updated>
-    <id>http://chatswood.github.com/post/2635102419/an-ideal-time-to-develop-software</id>
+    <id>http://blog.chatswood.org.uk/post/2635102419/an-ideal-time-to-develop-software</id>
     <content type="html"><![CDATA[<p>I had the good fortune to listen to yet another excellent podcast from Dan Benjamin’s <a href="http://5by5.tv/">5by5 Studios</a> yesterday - this time the <a href="http://5by5.tv/buildanalyze">Build and Analyze</a> program Dan co-hosts with <a href="http://www.marco.org/">Marco Arment</a> (of <a href="http://www.instapaper.com/">Instapaper</a> and <a href="http://tumblr.com/">Tumblr</a> fame).</p>
 
 <p>The show featured a discussion on the typical work cycles of developers and fell into the mistake of re-iterating the stereotype of developers as working great in bursts of time, often late in the night. I’m not going argue much about the time frame - many developers, myself included, do work great at night time.</p>
