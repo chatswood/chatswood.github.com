@@ -9,7 +9,7 @@
   <meta name="author" content="Maurice Kelly">
 
   
-  <meta name="description" content="I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn&#8217;t get any sites working that utilised mcrypt with PHP. &hellip;">
+  <meta name="description" content="I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised mcrypt with PHP. Executing &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -110,15 +110,17 @@
   </header>
 
 
-<div class="entry-content"><p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn&#8217;t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
+<div class="entry-content"><p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
 
 <p>Executing <code>php</code> at the command line told me the following:</p>
 
-<blockquote><p>PHP Warning:  PHP Startup: Unable to load dynamic library &#8216;/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so&#8217; - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
+<blockquote>
+  <p>PHP Warning:  PHP Startup: Unable to load dynamic library ‘/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so’ - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
  Referenced from: /usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so
- Reason: image not found in Unknown on line 0</p></blockquote>
+ Reason: image not found in Unknown on line 0</p>
+</blockquote>
 
-<p>I decided to reinstall Jose Gonzalez&#8217; convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
+<p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
 </div>
 
 

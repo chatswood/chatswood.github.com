@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://chatswood.github.com/atom.xml" rel="self"/>
   <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-17T22:37:09+01:00</updated>
+  <updated>2012-10-18T11:47:28+01:00</updated>
   <id>http://chatswood.github.com/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -18,33 +18,36 @@
     <link href="http://chatswood.github.com/blog/2012/10/15/the-magazine-is-not-the-experiment/"/>
     <updated>2012-10-15T16:13:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/10/15/the-magazine-is-not-the-experiment</id>
-    <content type="html"><![CDATA[<p>The Mac and iOS community got in all of a tizzy late last week following the announcement of <a href="http://marco.org/">Marco Arment</a>&#8217;s latest project - <em><a href="http://the-magazine.org/">The Magazine</a></em>, a foray into the world of publishing through the channel of the iOS Newsstand application. The basic premise is simple: a monthly subscription of $1.99 delivers you two issues per month direct to your iOS device. Each issue contains 4 editorials produced by a variety of writers.</p>
+    <content type="html"><![CDATA[<p>The Mac and iOS community got in all of a tizzy late last week following the announcement of <a href="http://marco.org/">Marco Arment</a>’s latest project - <em><a href="http://the-magazine.org/">The Magazine</a></em>, a foray into the world of publishing through the channel of the iOS Newsstand application. The basic premise is simple: a monthly subscription of $1.99 delivers you two issues per month direct to your iOS device. Each issue contains 4 editorials produced by a variety of writers.</p>
 
-<p>The reaction to the launch has been favourable; not just for the actual product itself but the concept as well. <a href="http://www.macstories.net/news/marco-arments-the-magazine-at-the-intersection-of-technology-and-writing/">Federico Viticci (Macstories)</a> thinks that <em>&#8220;&#8230;The Magazine is a promising and notable initiative&#8230;&#8221;</em>. <a href="http://thenextweb.com/media/2012/10/11/instapaper-creator-marco-arment-launches-the-magazine-a-different-kind-of-periodical-for-apples-newsstand/">Matthew Panzarino (The Next Web)</a> described it as <em>&#8220;&#8230;a template for the future of lightweight Newsstand publications.&#8221;</em> Numerous comments across Twitter and App.net praised the initiative and suggested that it was an experiment in publishing.</p>
+<p>The reaction to the launch has been favourable; not just for the actual product itself but the concept as well. <a href="http://www.macstories.net/news/marco-arments-the-magazine-at-the-intersection-of-technology-and-writing/">Federico Viticci (Macstories)</a> thinks that <em>”…The Magazine is a promising and notable initiative…”</em>. <a href="http://thenextweb.com/media/2012/10/11/instapaper-creator-marco-arment-launches-the-magazine-a-different-kind-of-periodical-for-apples-newsstand/">Matthew Panzarino (The Next Web)</a> described it as <em>”…a template for the future of lightweight Newsstand publications.”</em> Numerous comments across Twitter and App.net praised the initiative and suggested that it was an experiment in publishing.</p>
 
-<p>Marco himself has described The Magazine as <em>&#8220;new and experimental&#8221;</em> and has set himself a limit for determining the success or failure for the &#8220;experiment&#8221;:</p>
+<p>Marco himself has described The Magazine as <em>“new and experimental”</em> and has set himself a limit for determining the success or failure for the “experiment”:</p>
 
-<blockquote><p>If it doesn’t turn a profit within two months — just four issues — I’ll shut it down.</p></blockquote>
+<blockquote>
+  <p>If it doesn’t turn a profit within two months — just four issues — I’ll shut it down. </p>
+</blockquote>
 
-<p>I think the praise is deserved - the application is a great reading environment, the writing is of a high quality, and the pricing is favourable. And while I agree that this <em>could</em> be a new business model for publishing I do not agree that Marco&#8217;s venture is how we should determine if the model can truly be successful.</p>
+<p>I think the praise is deserved - the application is a great reading environment, the writing is of a high quality, and the pricing is favourable. And while I agree that this <em>could</em> be a new business model for publishing I do not agree that Marco’s venture is how we should determine if the model can truly be successful.</p>
 
-<h2>A Controlled Environment</h2>
+<h2 id="a-controlled-environment">A Controlled Environment</h2>
 
 <p>To truly judge the success of an experiment or trial it must be carried out in a controlled manner and <em>The Magazine</em> is far from being launched in such a manner. Marco Arment is best known for being the creator of <a href="http://instapaper.com/">Instapaper</a>, and a co-founder of <a href="http://tumblr.com/">Tumblr</a>. He has a very successful podcast called <a href="http://5by5.tv/buildanalyze">Build and Analyze</a> on the <a href="http://5by5.tv/">5by5</a> network. He writes a successful blog for which he can command <a href="http://www.marco.org/sponsorship">sponsorship revenues</a>. Marco is justifiably a bit of a celebrity in the Apple world and arguably in wider technology circles.</p>
 
 <p>Like any astute businessman, Marco has been drumming up interest in his new venture for some time now, primarily through his podcast and to his many Twitter followers. It may not be a multi-million dollar advertising campaign, but Marco has enough of a loyal following to all but guarantee the success of <em>The Magazine</em>, in the short term at least.</p>
 
-<p>That is not the only ace <em>The Magazine</em> has up it&#8217;s sleeve: the opening lineup of writers includes well-established players such as Jason Snell, Michael Lopp and Guy English. Marco has invited submissions from other writers with openings starting from issue four suggesting that the roster of big name writers may be set up for most of his four-issue trial period.</p>
+<p>That is not the only ace <em>The Magazine</em> has up it’s sleeve: the opening lineup of writers includes well-established players such as Jason Snell, Michael Lopp and Guy English. Marco has invited submissions from other writers with openings starting from issue four suggesting that the roster of big name writers may be set up for most of his four-issue trial period.</p>
 
-<h2>The Real Experiment</h2>
+<h2 id="the-real-experiment">The Real Experiment</h2>
 
-<p><em>The Magazine</em> is great for the readers, great for the writers and ultimately great for Marco; it should be a huge success. It&#8217;s not so great for other budding publishers waiting to see if the business model works, especially if they don&#8217;t have the following that Marco has, or the access to top writing talent.</p>
+<p><em>The Magazine</em> is great for the readers, great for the writers and ultimately great for Marco; it should be a huge success. It’s not so great for other budding publishers waiting to see if the business model works, especially if they don’t have the following that Marco has, or the access to top writing talent.</p>
 
-<p>It reminds me of artists like Radiohead or Nine Inch Nails experimenting with self-publishing and distribution. They declare it a success when they sell a lot of copies and state it to be the future of music publishing. It&#8217;s not so easy for the up-and-coming artist who doesn&#8217;t have the established fanbase or production talent.</p>
+<p>It reminds me of artists like Radiohead or Nine Inch Nails experimenting with self-publishing and distribution. They declare it a success when they sell a lot of copies and state it to be the future of music publishing. It’s not so easy for the up-and-coming artist who doesn’t have the established fanbase or production talent.</p>
 
 <p>In my opinion the real experiment here is not the success or failure of <em>The Magazine</em>. It is instead in the success or failure of Marco Arment to diversify from his roots as a developer of software into a curator, an editor and a publisher. He has expressed a dissatisfaction with writing software in the past and his forays into podcasting, writing and public speaking have indicated a desire to get away from the coal face.</p>
 
-<p>I hope that <em>The Magazine</em> succeeds because it places an emphasis on content rather than advertising. I hope it kick starts a new business model for publishing. But as someone who likes to see an individual succeed I&#8217;m more interested in seeing how Marco&#8217;s experiment with his career pans out.</p>
+<p>I hope that <em>The Magazine</em> succeeds because it places an emphasis on content rather than advertising. I hope it kick starts a new business model for publishing. But as someone who likes to see an individual succeed I’m more interested in seeing how Marco’s experiment with his career pans out.</p>
+
 ]]></content>
   </entry>
   
@@ -53,29 +56,29 @@
     <link href="http://chatswood.github.com/blog/2012/08/31/maximising-bang-per-token/"/>
     <updated>2012-08-31T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/08/31/maximising-bang-per-token</id>
-    <content type="html"><![CDATA[<p>The brouhaha over third-party Twitter clients continues with the news of the release of a <a href="http://tapbots.com/blog/news/tweetbot-for-mac-beta-sort-of">beta version</a> of Tweetbot for Mac. Just 4 days ago the <a href="http://tapbots.com/news/where-did-the-tweetbot-for-mac-alpha-go">alpha version was withdrawn</a> with Tapbots citing as a reason the &#8220;finite limit on the number of user tokens we can get for Tweetbot for Mac&#8221;.</p>
+    <content type="html"><![CDATA[<p>The brouhaha over third-party Twitter clients continues with the news of the release of a <a href="http://tapbots.com/blog/news/tweetbot-for-mac-beta-sort-of">beta version</a> of Tweetbot for Mac. Just 4 days ago the <a href="http://tapbots.com/news/where-did-the-tweetbot-for-mac-alpha-go">alpha version was withdrawn</a> with Tapbots citing as a reason the “finite limit on the number of user tokens we can get for Tweetbot for Mac”.</p>
 
 <p>This was a fair move by the developers - any Mac user could download the alpha, sign in and obtain a limited Tweetbot for Mac token. If they subsequently decided they were not interested in buying the application they can discard it without releasing the token they use. It was a problem with only one resolution - withdraw the app and preserve the tokens.</p>
 
 <p>Today Tapbots came back with a beta version and some new rules:</p>
 
 <ul>
-<li>new users can install the beta but they&#8217;ll not be able to add a Twitter account;</li>
-<li>users of the alpha version can use the same Twitter account they used before;</li>
-<li>users of the alpha version cannot add extra Twitter accounts;</li>
-<li>users of the alpha who revoke their access token on the Twitter site cannot add their account again.</li>
+  <li>new users can install the beta but they’ll not be able to add a Twitter account;</li>
+  <li>users of the alpha version can use the same Twitter account they used before;</li>
+  <li>users of the alpha version cannot add extra Twitter accounts;</li>
+  <li>users of the alpha who revoke their access token on the Twitter site cannot add their account again.</li>
 </ul>
 
+<p>All of this makes perfect sense from the point of view of token preservation. Unfortunately in this <a href="https://dev.twitter.com/blog/changes-coming-to-twitter-api">post-announcement</a> landscape these once common items are now a scarce resource. They’ve become the fossil fuels of the technology world, and like fossil fuels they’re limited and easily wasted. They used to be very disposable - a quick look at my <a href="https://twitter.com/settings/applications">Apps section</a> on twitter.com lists 34 tokens on one account alone, and that’s after a prune earlier this week.</p>
 
-<p>All of this makes perfect sense from the point of view of token preservation. Unfortunately in this <a href="https://dev.twitter.com/blog/changes-coming-to-twitter-api">post-announcement</a> landscape these once common items are now a scarce resource. They&#8217;ve become the fossil fuels of the technology world, and like fossil fuels they&#8217;re limited and easily wasted. They used to be very disposable - a quick look at my <a href="https://twitter.com/settings/applications">Apps section</a> on twitter.com lists 34 tokens on one account alone, and that&#8217;s after a prune earlier this week.</p>
-
-<h2>Efficient Token Usage</h2>
+<h2 id="efficient-token-usage">Efficient Token Usage</h2>
 
 <p>Like many people I have a number of Twitter accounts, and on each of my clients I like to have all of my accounts signed in. This was never a problem before but now it just exacerbates the issues faced by app developers. They have a limited number of access tokens that can be used with their apps and users like me with multiple accounts end up using more tokens than other people.</p>
 
 <p>To make an app commercially viable developers need to squeeze as much money per token as possible. One way to do this would be to increase the cost of their apps to cover the average number of accounts per user. Alternatively they could keep the initial purchase price the same while limiting the number of accounts that can be signed in through the app. Power users could then be offered the option to use in-app purchases to effectively buy extra access tokens.</p>
 
-<p>There has been a lot of discussion recently on the devaluing of software through bargain basement prices and this is really going to hit home to Twitter client developers now. Maybe the scarcity of access tokens will encourage users to value the software higher and pay more for it. Remember, you&#8217;re not just paying for the software anymore - you&#8217;re also paying for the privilege of connecting to the service through your favourite client.</p>
+<p>There has been a lot of discussion recently on the devaluing of software through bargain basement prices and this is really going to hit home to Twitter client developers now. Maybe the scarcity of access tokens will encourage users to value the software higher and pay more for it. Remember, you’re not just paying for the software anymore - you’re also paying for the privilege of connecting to the service through your favourite client.</p>
+
 ]]></content>
   </entry>
   
@@ -86,15 +89,25 @@
     <id>http://chatswood.github.com/blog/2012/08/30/full-screen-mode-is-not-for-you</id>
     <content type="html"><![CDATA[<p>During a <a href="http://5by5.tv/hypercritical/82">recent episode</a> of <a href="http://5by5.tv/hypercritical">Hypercritical</a>, host John Siracusa mentioned that he had received feedback from readers of his <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">OS X Mountain Lion review</a> commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.</p>
 
-<p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn&#8217;t long before I shared the frustrations aired by Siracusa and his readers:</p>
+<p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn’t long before I shared the frustrations aired by Siracusa and his readers:</p>
 
-<blockquote><p>No, I wanna use the other screens, I wanna put stuff there, I wanna see my other windows there, I wanna see my web browser there, my Twitter feed there - whatever the heck I have over there. And you can put palettes and stuff from the application that you made go full screen, you can put them on the other screens but you can&#8217;t use them for other applications. It was like, it was almost like it was being mean to you, it&#8217;s like &#8220;I know you want to see your Twitter client, but I&#8217;m putting linen over that whole screen - nah!&#8221; and that pissed people off.</p></blockquote>
+<blockquote>
+  <p>No, I wanna use the other screens, I wanna put stuff there, I wanna see my other windows there, I wanna see my web browser there, my Twitter feed there - whatever the heck I have over there. And you can put palettes and stuff from the application that you made go full screen, you can put them on the other screens but you can’t use them for other applications. It was like, it was almost like it was being mean to you, it’s like “I know you want to see your Twitter client, but I’m putting linen over that whole screen - nah!” and that pissed people off.</p>
+</blockquote>
 
-<p>I admit that I was that reader initially and I found the lack of flexibility when using multiple displays was exceptionally frustrating. The app running in full screen mode would take over the primary display but the secondary display would only contain that boring linen background. Yes, it was possible to place extra palettes or inspectors on the secondary display but there didn&#8217;t seem to be any way to truly take advantage of the additional real estate.</p>
+<p>I admit that I was that reader initially and I found the lack of flexibility when using multiple displays was exceptionally frustrating. The app running in full screen mode would take over the primary display but the secondary display would only contain that boring linen background. Yes, it was possible to place extra palettes or inspectors on the secondary display but there didn’t seem to be any way to truly take advantage of the additional real estate.</p>
 
-<p>It sure would have been nice if users could have placed two independent apps side-by-side. Or if developers could have created UI layouts that took advantage of full screen mode with multiple displays, akin to the way full screen editing was available in many previous versions of Aperture. John, being the sensible guy that he is, tried to reason it out, and I think he almost nailed it<a href="I'm">^1</a> when he said that full screen is for people who need to concentrate.</p>
+<p>It sure would have been nice if users could have placed two independent apps side-by-side. Or if developers could have created UI layouts that took advantage of full screen mode with multiple displays, akin to the way full screen editing was available in many previous versions of Aperture. John, being the sensible guy that he is, tried to reason it out, and I think he almost nailed it<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> when he said that full screen is for people who need to concentrate.</p>
 
-<p>One use case I think he glossed over though is the fact that full screen is also for people who are working on portable machines. People who are working on one (possible small) screen and need to squeeze every last pixel out of their displays. It&#8217;s not for the power user who wants to work with multiple apps at once (or with a multitude of windows/palettes/inspectors from a single app). That&#8217;s what regular OS X is for and has been all along.</p>
+<p>One use case I think he glossed over though is the fact that full screen is also for people who are working on portable machines. People who are working on one (possible small) screen and need to squeeze every last pixel out of their displays. It’s not for the power user who wants to work with multiple apps at once (or with a multitude of windows/palettes/inspectors from a single app). That’s what regular OS X is for and has been all along.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m going to say he nailed it, because came to the pretty much the same conclusion that I came to.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -103,15 +116,15 @@
     <link href="http://chatswood.github.com/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques/"/>
     <updated>2012-08-28T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques</id>
-    <content type="html"><![CDATA[<p>Recently I&#8217;ve been experimenting with <em>text-editor-du-jour</em> <a href="http://www.sublimetext.com/2">Sublime Text 2</a> in parallel with coming late to the <a href="http://rubyonrails.org/">Rails</a> party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or <em>package</em> in ST2 parlance) that I find indispensible is <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>.</p>
+    <content type="html"><![CDATA[<p>Recently I’ve been experimenting with <em>text-editor-du-jour</em> <a href="http://www.sublimetext.com/2">Sublime Text 2</a> in parallel with coming late to the <a href="http://rubyonrails.org/">Rails</a> party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or <em>package</em> in ST2 parlance) that I find indispensible is <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>.</p>
 
-<p>As a developer I&#8217;ve always written code in an iterative fashion - write a couple of lines, compile, edit those lines to fix the bugs, compile, write a few more lines, and so on. In my career this has occasionally been problematic, as I&#8217;ve sometimes had to work with unwieldy and inefficient <code>make</code>-based build systems that unnecessarily rebuilt large swathes of code instead of a single source file. In recent years I&#8217;ve been spoilt by some excellent IDEs (such as Eclipse/STS and Xcode) that have been kind enough to alert me to syntactical errors before I invest time in a build.</p>
+<p>As a developer I’ve always written code in an iterative fashion - write a couple of lines, compile, edit those lines to fix the bugs, compile, write a few more lines, and so on. In my career this has occasionally been problematic, as I’ve sometimes had to work with unwieldy and inefficient <code>make</code>-based build systems that unnecessarily rebuilt large swathes of code instead of a single source file. In recent years I’ve been spoilt by some excellent IDEs (such as Eclipse/STS and Xcode) that have been kind enough to alert me to syntactical errors before I invest time in a build. </p>
 
-<p>While playing with <a href="http://rubyonrails.org/">Rails</a> I found that I was regularly coming across syntactical errors only when it came to testing out the application. It wasn&#8217;t the horrible build systems of yore, but it wasn&#8217;t exactly the convenience of a nice IDE. So I hunted around for a linter that I could integrate with ST2 and quickly came across <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>. A couple of seconds later (thanks to the ridiculously useful <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>) and I had it up and running and I was getting lots of notifications about errors in my Ruby code.</p>
+<p>While playing with <a href="http://rubyonrails.org/">Rails</a> I found that I was regularly coming across syntactical errors only when it came to testing out the application. It wasn’t the horrible build systems of yore, but it wasn’t exactly the convenience of a nice IDE. So I hunted around for a linter that I could integrate with ST2 and quickly came across <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>. A couple of seconds later (thanks to the ridiculously useful <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>) and I had it up and running and I was getting lots of notifications about errors in my Ruby code.</p>
 
-<p>Unfortunately I soon realised that I was getting too many errors, to the extent that I was getting errors on perfectly valid code. The code ran fine in my Rails app, but still SublimeLinter was bitching and moaning about it. I had a look around the SublimeLinter documentation, and noticed that they recommended using the full path to the <code>ruby</code> executable if using a Ruby interpreter provided by <a href="http://rvm.io/">rvm</a>. On OS X this comes down to the fact that the default Ruby is 1.8.7 whereas most people will be using code written against Ruby 1.9.X, which they&#8217;ve usually installed themselves.</p>
+<p>Unfortunately I soon realised that I was getting too many errors, to the extent that I was getting errors on perfectly valid code. The code ran fine in my Rails app, but still SublimeLinter was bitching and moaning about it. I had a look around the SublimeLinter documentation, and noticed that they recommended using the full path to the <code>ruby</code> executable if using a Ruby interpreter provided by <a href="http://rvm.io/">rvm</a>. On OS X this comes down to the fact that the default Ruby is 1.8.7 whereas most people will be using code written against Ruby 1.9.X, which they’ve usually installed themselves.</p>
 
-<p>Thankfully SublimeLinter makes it easy to customise the Ruby interpreter to use, so if you&#8217;re having trouble with syntax errors in your Ruby code, just chose the menu item <em>Sublime Text 2 -> Preferences -> Package Settings -> SublimeLinter -> Settings - User</em>. This will open up the user preferences file for SublimeLinter and you can enter the following snippet (substituting in your own username of course, and remembering to merge the JSON with any settings you may already have in there):</p>
+<p>Thankfully SublimeLinter makes it easy to customise the Ruby interpreter to use, so if you’re having trouble with syntax errors in your Ruby code, just chose the menu item <em>Sublime Text 2 -&gt; Preferences -&gt; Package Settings -&gt; SublimeLinter -&gt; Settings - User</em>. This will open up the user preferences file for SublimeLinter and you can enter the following snippet (substituting in your own username of course, and remembering to merge the JSON with any settings you may already have in there):</p>
 
 <pre><code>{
     "sublimelinter_executable_map": {
@@ -121,6 +134,7 @@
 </code></pre>
 
 <p>May you continue to be a lazy, iterative developer like me.</p>
+
 ]]></content>
   </entry>
   
@@ -129,27 +143,28 @@
     <link href="http://chatswood.github.com/blog/2012/08/14/maplin-powerline-adapters/"/>
     <updated>2012-08-14T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/08/14/maplin-powerline-adapters</id>
-    <content type="html"><![CDATA[<p>I&#8217;m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I&#8217;d like to get every type of cable under the sun in there. If it&#8217;s possible to generate enough heat from those cables to remove the need for central heating then I&#8217;ll consider that to be a bonus.</p>
+    <content type="html"><![CDATA[<p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
 
-<p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I&#8217;m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She&#8217;s convinced that I&#8217;ll leave gaping holes running down the walls that never get patched up, and that the painting won&#8217;t get beyond the colour-picking stage. She&#8217;s probably right.</p>
+<p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I’m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She’s convinced that I’ll leave gaping holes running down the walls that never get patched up, and that the painting won’t get beyond the colour-picking stage. She’s probably right.</p>
 
-<h2>Enter stage left: 802.11n WiFi</h2>
+<h2 id="enter-stage-left-80211n-wifi">Enter stage left: 802.11n WiFi</h2>
 
-<p>With the <em>right hardware</em> 802.11n WiFi could very easily have been the answer to my (or my wife&#8217;s) prayers. The <em>theoretical</em> maximum is 600Mb/s - it&#8217;s not quite Gigabit Ethernet, but is still capable of delivering a large amount of data quickly. Theoretically. With the right hardware.</p>
+<p>With the <em>right hardware</em> 802.11n WiFi could very easily have been the answer to my (or my wife’s) prayers. The <em>theoretical</em> maximum is 600Mb/s - it’s not quite Gigabit Ethernet, but is still capable of delivering a large amount of data quickly. Theoretically. With the right hardware.</p>
 
 <p>At the minute I only have one weak spot in the home network - the link between a Gigabit network upstairs and a Gigabit network downstairs in the office. I invested in the latest Apple Airport Extreme base station that I paired up with a 2nd generation Time Capsule. The Airport Extreme was configured to establish a 5GHz 802.11n network using the wide-band settings.</p>
 
-<p>I had hoped to see a pretty fast link between the two base stations, but unfortunately the data rate reported by the Extreme was just 180Mb/s. Testing the network for &#8220;real-world&#8221; performance resulted in just 93.43Mb/s (using zPerf as a test tool). This isn&#8217;t a bad speed, but I do tend to fling a large amount of data around the network. It also gets extremely frustrating to be limited to Fast Ethernet speeds when I know there&#8217;s a Gigabit network up there just waiting to be saturated.</p>
+<p>I had hoped to see a pretty fast link between the two base stations, but unfortunately the data rate reported by the Extreme was just 180Mb/s. Testing the network for “real-world” performance resulted in just 93.43Mb/s (using zPerf as a test tool). This isn’t a bad speed, but I do tend to fling a large amount of data around the network. It also gets extremely frustrating to be limited to Fast Ethernet speeds when I know there’s a Gigabit network up there just waiting to be saturated.</p>
 
-<h2>Enter stage right: powerline networking adapters</h2>
+<h2 id="enter-stage-right-powerline-networking-adapters">Enter stage right: powerline networking adapters</h2>
 
-<p>I&#8217;d considered powerline adapters in the past, but had always balked at the relatively low speeds they offered. Having discovered just how poor the WiFi connection was I decided that the newer 500Mb/s models might be worth a blast - even at 50% of the theoretical maximum I could still get 2.5 times the performance of the WiFi link. When an offer for <a href="http://www.maplin.co.uk/500mbps-twin-powerline-starter-kit-626154">Maplin powerline network adapters</a> came up they were hastily purchased. Once received I got to testing, and the results were extremely disappointing.</p>
+<p>I’d considered powerline adapters in the past, but had always balked at the relatively low speeds they offered. Having discovered just how poor the WiFi connection was I decided that the newer 500Mb/s models might be worth a blast - even at 50% of the theoretical maximum I could still get 2.5 times the performance of the WiFi link. When an offer for <a href="http://www.maplin.co.uk/500mbps-twin-powerline-starter-kit-626154">Maplin powerline network adapters</a> came up they were hastily purchased. Once received I got to testing, and the results were extremely disappointing.</p>
 
 <p>I know that the 500Mb/s is an ideal scenario and many things will conspire to reduce this figure in the real world. Old wiring, interference from other devices and use of extension cables amongst other factors. Our home is fairly modern, and has wiring that is only 8 years old. I tried to improve things by avoiding extension cables, and plugging directly into the mains sockets at both ends, but to no avail. The best rate I could get was a paltry 53.21Mb/s. WiFi it is then.</p>
 
 <p>Not wanting to return the product without trying to find a use for it, I decided to try using the powerline adapters to connect my ADSL modem/router from downstairs to the upstairs network. We only get 5.5-6Mb/s from our ADSL connection so 50+Mb/s is plenty of bandwidth. Unfortunately since doing so, I noticed regular breaks in the connection from the home network to the ADSL router.</p>
 
-<p>The only new factor there is the powerline adapters, so they&#8217;ve had to come out and are currently on their way back to Maplin. Rather than post them, my kind wife agreed to drop them into the store as she was going to be passing it. She&#8217;ll probably be away for a few hours at least. Now to find my hammer, some Cat6, and the crimping tool.</p>
+<p>The only new factor there is the powerline adapters, so they’ve had to come out and are currently on their way back to Maplin. Rather than post them, my kind wife agreed to drop them into the store as she was going to be passing it. She’ll probably be away for a few hours at least. Now to find my hammer, some Cat6, and the crimping tool.</p>
+
 ]]></content>
   </entry>
   
@@ -158,33 +173,41 @@
     <link href="http://chatswood.github.com/blog/2012/08/11/why-app.net/"/>
     <updated>2012-08-11T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/08/11/why-app.net</id>
-    <content type="html"><![CDATA[<p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<a href="I'm">^1</a>. Just over a month ago, Dalton Caldwell wrote a blog post entitled &#8221;<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>&#8221;. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: &#8221;<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>&#8221;.</p>
+    <content type="html"><![CDATA[<p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Just over a month ago, Dalton Caldwell wrote a blog post entitled “<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>”. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: “<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>”.</p>
 
 <p>In this post Dalton essentially proposed building a new Twitter. A Twitter that was funded directly by the users instead of by the advertisers. He and his company established a KickStarter-style campaign to raise $500k by 13th August in order to fund this new social network. As of the time of writing, there are just under two days remaining, and there is only $69,200 left to be raised.</p>
 
-<p>I&#8217;ve decided to back this project because, like Dalton, I&#8217;m concerned about what I perceive as a  &#8220;degradation&#8221; of Twitter. It&#8217;s not a degradation for many people - in fact Twitter is probably going from strength to strength in the eyes of many of it&#8217;s users. But I&#8217;m an atypical user. I&#8217;m not on Twitter to follow celebrities, to track mainstream news, or to keep up with my friends. I&#8217;m mainly on Twitter to receive tech news, to use innovative apps, and to communicate with other people in the tech industry - the industry that is both my livelihood and my passion.</p>
+<p>I’ve decided to back this project because, like Dalton, I’m concerned about what I perceive as a  “degradation” of Twitter. It’s not a degradation for many people - in fact Twitter is probably going from strength to strength in the eyes of many of it’s users. But I’m an atypical user. I’m not on Twitter to follow celebrities, to track mainstream news, or to keep up with my friends. I’m mainly on Twitter to receive tech news, to use innovative apps, and to communicate with other people in the tech industry - the industry that is both my livelihood and my passion.</p>
 
-<p>For <em>me</em>, Twitter is degrading. For <em>me</em>, it is becoming less vital, and is in danger of becoming unusable to me. I may be over-reacting, but Twitter&#8217;s recent rumblings about third-party clients has not inspired confidence. I use TweetBot for iOS (and now for Mac) fanatically. I don&#8217;t want to go back to Twitter&#8217;s first-party clients, partly because Twitter are not putting in the effort to maintain them, and partly because I don&#8217;t want to use apps that are really just conduits to the advertising model that will become essential to Twitter&#8217;s survival. Like many others, I would be happy to pay for access to Twitter, but we&#8217;re not being offered this opportunity.</p>
+<p>For <em>me</em>, Twitter is degrading. For <em>me</em>, it is becoming less vital, and is in danger of becoming unusable to me. I may be over-reacting, but Twitter’s recent rumblings about third-party clients has not inspired confidence. I use TweetBot for iOS (and now for Mac) fanatically. I don’t want to go back to Twitter’s first-party clients, partly because Twitter are not putting in the effort to maintain them, and partly because I don’t want to use apps that are really just conduits to the advertising model that will become essential to Twitter’s survival. Like many others, I would be happy to pay for access to Twitter, but we’re not being offered this opportunity.</p>
 
-<h2>So Why App.net?</h2>
+<h2 id="so-why-appnet">So Why App.net?</h2>
 
-<p>I don&#8217;t know if <a href="http://join.app.net/">App.net</a> can work but I&#8217;m happy to put my money where my mouth is, and give it a chance to succeed.</p>
+<p>I don’t know if <a href="http://join.app.net/">App.net</a> can work but I’m happy to put my money where my mouth is, and give it a chance to succeed.</p>
 
-<p>I&#8217;m keen to join a social network at the beginning and help it grow. I joined Twitter in 2009 and while I&#8217;ve enjoyed my time on it, I sometimes feel like I missed the halcyon days when it was a closer, more tight-knit community.</p>
+<p>I’m keen to join a social network at the beginning and help it grow. I joined Twitter in 2009 and while I’ve enjoyed my time on it, I sometimes feel like I missed the halcyon days when it was a closer, more tight-knit community. </p>
 
-<p>I&#8217;m happy to pay to be part of a smaller community with a more focussed group of users. Part of the problem with Twitter is that there is no barrier to entry. Yes, this is me being a little bit elitist but I feel that it is a valid point. Every day on Twitter I am being subjected to random followers who have no interest in what I have to say. I hope that the <a href="http://join.app.net/">App.net</a> community will be more focussed and less likely to resort to such behaviour. I&#8217;m also hoping that the <a href="http://join.app.net/">App.net</a> ecosystem will be subject to more moderation - where &#8220;spam followers&#8221; can be reported and ultimately warned and/or banned.</p>
+<p>I’m happy to pay to be part of a smaller community with a more focussed group of users. Part of the problem with Twitter is that there is no barrier to entry. Yes, this is me being a little bit elitist but I feel that it is a valid point. Every day on Twitter I am being subjected to random followers who have no interest in what I have to say. I hope that the <a href="http://join.app.net/">App.net</a> community will be more focussed and less likely to resort to such behaviour. I’m also hoping that the <a href="http://join.app.net/">App.net</a> ecosystem will be subject to more moderation - where “spam followers” can be reported and ultimately warned and/or banned.</p>
 
-<p>I&#8217;m hoping that the requirement to pay a fee will weed out a large number of the people who try to use Twitter as a conduit to spam. Twitter is like email, in that there is very little barrier to entry to start spamming. It&#8217;s effectively free to send emails or tweets as spam if you can cover your tracks. Twitter spam is a huge problem in my eyes. I&#8217;m subjected to daily @reply spam. I&#8217;m hoping that the requirement to pay for the service will reduce the number of spammers who will target <a href="http://join.app.net/">App.net</a>, or at the very least make it easier to track and remove these spammers.</p>
+<p>I’m hoping that the requirement to pay a fee will weed out a large number of the people who try to use Twitter as a conduit to spam. Twitter is like email, in that there is very little barrier to entry to start spamming. It’s effectively free to send emails or tweets as spam if you can cover your tracks. Twitter spam is a huge problem in my eyes. I’m subjected to daily @reply spam. I’m hoping that the requirement to pay for the service will reduce the number of spammers who will target <a href="http://join.app.net/">App.net</a>, or at the very least make it easier to track and remove these spammers.</p>
 
-<p>I&#8217;m interested in a service that transcends Twitter and, because it is paid for by the users, will listen to those users in implementing the features that they need, or want. If done right, it will be directed by the needs of the people who <em>use</em> the service, not the people who wish to sell advertising on the service.</p>
+<p>I’m interested in a service that transcends Twitter and, because it is paid for by the users, will listen to those users in implementing the features that they need, or want. If done right, it will be directed by the needs of the people who <em>use</em> the service, not the people who wish to sell advertising on the service.</p>
 
-<h2>Huge Responsibilities</h2>
+<h2 id="huge-responsibilities">Huge Responsibilities</h2>
 
-<p><a href="http://join.app.net/">App.net</a> is an ambitious venture. Just getting to $500k does not guarantee any level of success. And while the developer community, or the hacker community, or the whatever-we-are community can drive the success of many things, even we can&#8217;t make it succeed through goodwill alone. The threshold may be met, but unless we embrace the resulting service, building the apps, tools, and sites to make it succeed, then it will be doomed to failure.</p>
+<p><a href="http://join.app.net/">App.net</a> is an ambitious venture. Just getting to $500k does not guarantee any level of success. And while the developer community, or the hacker community, or the whatever-we-are community can drive the success of many things, even we can’t make it succeed through goodwill alone. The threshold may be met, but unless we embrace the resulting service, building the apps, tools, and sites to make it succeed, then it will be doomed to failure.</p>
 
-<p>We&#8217;re also putting a lot of faith in the ability of Dalton Caldwell and his team. The fact that funding comes directly from the users means a lot, but this is still not some kind of democracy where every paying customer gets a vote. We&#8217;re not shareholders. We don&#8217;t belong to a board of directors. We are putting our hard-earned cash on the line, and trusting <a href="http://join.app.net/">App.net</a> to make the right decisions, to implement the necessary features, and to implement them on time.</p>
+<p>We’re also putting a lot of faith in the ability of Dalton Caldwell and his team. The fact that funding comes directly from the users means a lot, but this is still not some kind of democracy where every paying customer gets a vote. We’re not shareholders. We don’t belong to a board of directors. We are putting our hard-earned cash on the line, and trusting <a href="http://join.app.net/">App.net</a> to make the right decisions, to implement the necessary features, and to implement them on time.</p>
 
-<p>So let&#8217;s all pull together. <a href="http://join.app.net/">App.net</a> who will build the infrastructure. The developers who will build applications to use the infrastructure. And finally the community who will use the applications. We all have a responsibility for the success or failure of this venture.</p>
+<p>So let’s all pull together. <a href="http://join.app.net/">App.net</a> who will build the infrastructure. The developers who will build applications to use the infrastructure. And finally the community who will use the applications. We all have a responsibility for the success or failure of this venture.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m sure it’s a hot topic in other areas too, but I can’t really say much about that.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -193,15 +216,18 @@
     <link href="http://chatswood.github.com/blog/2012/08/08/q-when-is-apple-news-not-actually-news/"/>
     <updated>2012-08-08T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/08/08/q-when-is-apple-news-not-actually-news</id>
-    <content type="html"><![CDATA[<p>A. When you report old &#8220;news&#8221; as though it just &#8220;finally&#8221; happened.</p>
+    <content type="html"><![CDATA[<p>A. When you report old “news” as though it just “finally” happened.</p>
 
 <p>Mike Schramm at <a href="http://www.tuaw.com">TUAW</a> posted the following last night:</p>
 
-<blockquote><p>Apple has finished smoothing out its Xcode releases with version 4.4.1, which finally brings Xcode out as a standalone app.</p></blockquote>
+<blockquote>
+  <p>Apple has finished smoothing out its Xcode releases with version 4.4.1, which finally brings Xcode out as a standalone app.</p>
+</blockquote>
 
-<p>For some bizarre reason, Mike seems to have completely missed the Xcode 4.3 release that first introduced the concept of a standalone Xcode. (He also missed the 4.3.x point releases as well). Seems like sloppy &#8220;reporting&#8221; to me.</p>
+<p>For some bizarre reason, Mike seems to have completely missed the Xcode 4.3 release that first introduced the concept of a standalone Xcode. (He also missed the 4.3.x point releases as well). Seems like sloppy “reporting” to me.</p>
 
 <p>Unfortunately, as Apple has grown in stature, the number of websites covering Apple news grows at the same time. Venerable Apple news sites like TUAW are competing with upstart sites, and there seems to be a scrambling to report the tiniest little details as news.</p>
+
 ]]></content>
   </entry>
   
@@ -210,15 +236,23 @@
     <link href="http://chatswood.github.com/blog/2012/08/06/the-mountain-lion-and-the-mouse/"/>
     <updated>2012-08-06T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/08/06/the-mountain-lion-and-the-mouse</id>
-    <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I&#8217;ve installed it to, with just one exception - my (employer&#8217;s) 17&#8221; MacBook Pro. This is unfortunate, as it&#8217;s the machine that I spend the most time on - if it&#8217;s not running smoothly I feel the &#8220;pain&#8221; all day, every day.</p>
+    <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
 
-<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn&#8217;t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn&#8217;t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
+<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
 
-<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><a href="If">^1</a>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I&#8217;m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
+<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I’m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
 
-<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn&#8217;t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox&#8217;s auto-update facility is woefully behind the time.</p>
+<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn’t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox’s auto-update facility is woefully behind the time.</p>
 
-<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>&#8220;If your Dropbox client hasn&#8217;t updated itself, then you might want to do so manually.&#8221;</em></p>
+<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>“If your Dropbox client hasn’t updated itself, then you might want to do so manually.”</em></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you’ve not yet used Dropbox and would like to sign up, here’s a <a href="http://db.tt/LNlAuHd">referral link</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -227,15 +261,17 @@
     <link href="http://chatswood.github.com/blog/2012/07/29/php-mcrypt-on-mountain-lion/"/>
     <updated>2012-07-29T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/07/29/php-mcrypt-on-mountain-lion</id>
-    <content type="html"><![CDATA[<p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn&#8217;t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
+    <content type="html"><![CDATA[<p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
 
 <p>Executing <code>php</code> at the command line told me the following:</p>
 
-<blockquote><p>PHP Warning:  PHP Startup: Unable to load dynamic library &#8216;/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so&#8217; - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
+<blockquote>
+  <p>PHP Warning:  PHP Startup: Unable to load dynamic library ‘/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so’ - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
  Referenced from: /usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so
- Reason: image not found in Unknown on line 0</p></blockquote>
+ Reason: image not found in Unknown on line 0</p>
+</blockquote>
 
-<p>I decided to reinstall Jose Gonzalez&#8217; convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
+<p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
 ]]></content>
   </entry>
   
@@ -244,13 +280,13 @@
     <link href="http://chatswood.github.com/blog/2012/07/29/mountain-lions-new-archive-folder/"/>
     <updated>2012-07-29T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/07/29/mountain-lions-new-archive-folder</id>
-    <content type="html"><![CDATA[<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it&#8217;s still a little bit alarming to think that a folder has just disappeared.</p>
+    <content type="html"><![CDATA[<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
 
-<p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I&#8217;d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
+<p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I’d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
 
 <p>As any good Mac nerd would do, I quickly tweeted about it, and then sent a message to <a href="http://twitter.com/siracusa">John Siracusa</a> as a little extra info following his monster <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">Mountain Lion review</a>. I was surprised when he retweeted it, but as can expected when retweeted to 24,000 people, I soon got a few replies.</p>
 
-<p>A number of people have suggested that this is not new, and was present in Lion as well. I can&#8217;t speak for other people, but I know that across 4 machines running every version of Lion (from 10.7.0 to 10.7.4) I did not once see this behaviour. I was able to reboot into a Lion installation and view the same setup and saw the previous behaviour.</p>
+<p>A number of people have suggested that this is not new, and was present in Lion as well. I can’t speak for other people, but I know that across 4 machines running every version of Lion (from 10.7.0 to 10.7.4) I did not once see this behaviour. I was able to reboot into a Lion installation and view the same setup and saw the previous behaviour.</p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Lion.png" alt="Mail.app - Lion" /></p>
 
@@ -258,9 +294,10 @@
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Mountain%20Lion.png" alt="Mail.app - Mountain Lion" /></p>
 
-<p>Maybe this did appear in some form in Lion, but definitely not for my particular setup. I&#8217;m still calling it a new feature, even if it&#8217;s only new for my specific set of conditions.</p>
+<p>Maybe this did appear in some form in Lion, but definitely not for my particular setup. I’m still calling it a new feature, even if it’s only new for my specific set of conditions.</p>
 
 <p>In fact, that would be even better. That means Apple did it just for me.</p>
+
 ]]></content>
   </entry>
   
@@ -269,13 +306,14 @@
     <link href="http://chatswood.github.com/blog/2012/07/17/maybe-you-do-need-the-xcode-command-line-tools/"/>
     <updated>2012-07-17T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/07/17/maybe-you-do-need-the-xcode-command-line-tools</id>
-    <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don&#8217;t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>&#8220;compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery&#8221;</em>, this completely neglects an extremely useful source of software that you don&#8217;t need to engage your bare knuckles to take advantage of.</p>
+    <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
 
 <p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
 
-<p>Homebrew will consult it&#8217;s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it&#8217;ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won&#8217;t be able to compile the code it downloads.</p>
+<p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
 
-<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don&#8217;t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
+<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
+
 ]]></content>
   </entry>
   
@@ -284,22 +322,25 @@
     <link href="http://chatswood.github.com/blog/2012/07/02/naming-and-shaming-boss-roland-us/"/>
     <updated>2012-07-02T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/07/02/naming-and-shaming-boss-roland-us</id>
-    <content type="html"><![CDATA[<p>I&#8217;m fed up with receiving spam. I generally don&#8217;t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
+    <content type="html"><![CDATA[<p>I’m fed up with receiving spam. I generally don’t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
 
-<p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it&#8217;s the lack of responsiveness.</p>
+<p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it’s the lack of responsiveness.</p>
 
-<p>I&#8217;ve been getting a bunch more spam this week to an email address that I used exclusively to sign in to the Boss US website (which was annoying in itself because I only wanted to download a product manual and had to hand over personal details to do so). I contacted Boss (and indirectly their parent company Roland) almost 2 months ago when the first spam arrived and received the following response:</p>
+<p>I’ve been getting a bunch more spam this week to an email address that I used exclusively to sign in to the Boss US website (which was annoying in itself because I only wanted to download a product manual and had to hand over personal details to do so). I contacted Boss (and indirectly their parent company Roland) almost 2 months ago when the first spam arrived and received the following response:</p>
 
-<blockquote><p>Hello Maurice,</p>
+<blockquote>
+  <p>Hello Maurice,</p>
 
-<p>We have forwarded your email to our webmaster for them to investigate this.</p>
+  <p>We have forwarded your email to our webmaster for them to investigate this.</p>
 
-<p>Sincerely,
-Roland US Product Support</p></blockquote>
+  <p>Sincerely,
+Roland US Product Support</p>
+</blockquote>
 
-<p>It seemed like a positive reaction, but unfortunately that was the last I heard. I&#8217;ve given them a chance but they&#8217;ve not taken the opportunity to visibly react. So now I&#8217;ve decided to name and shame Boss/Roland US.</p>
+<p>It seemed like a positive reaction, but unfortunately that was the last I heard. I’ve given them a chance but they’ve not taken the opportunity to visibly react. So now I’ve decided to name and shame Boss/Roland US.</p>
 
-<p>You guys have had a security breach of some description. I&#8217;ve let you know, and you&#8217;ve still not gotten back to me. I have to assume that you&#8217;ve done nothing, or you&#8217;re doing it too slow. I&#8217;m telling the world because you&#8217;re not.</p>
+<p>You guys have had a security breach of some description. I’ve let you know, and you’ve still not gotten back to me. I have to assume that you’ve done nothing, or you’re doing it too slow. I’m telling the world because you’re not.</p>
+
 ]]></content>
   </entry>
   
@@ -308,15 +349,16 @@ Roland US Product Support</p></blockquote>
     <link href="http://chatswood.github.com/blog/2012/05/27/geekbench-results/"/>
     <updated>2012-05-27T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/05/27/geekbench-results</id>
-    <content type="html"><![CDATA[<p>It&#8217;s always &#8220;fun&#8221; to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
+    <content type="html"><![CDATA[<p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-mac_pro.png" alt="MacPro" /></p>
 
-<p>I was impressed at the performance provided by the 17&#8221; MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
+<p>I was impressed at the performance provided by the 17” MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
 
-<p>I still love my Mac Pro though, if only for the sheer joy that comes when it&#8217;s time to upgrade a hard disk.</p>
+<p>I still love my Mac Pro though, if only for the sheer joy that comes when it’s time to upgrade a hard disk.</p>
+
 ]]></content>
   </entry>
   
@@ -325,13 +367,14 @@ Roland US Product Support</p></blockquote>
     <link href="http://chatswood.github.com/blog/2012/05/21/nobody-panic-mac-app-store-upgrades-solved/"/>
     <updated>2012-05-21T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/05/21/nobody-panic-mac-app-store-upgrades-solved</id>
-    <content type="html"><![CDATA[<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered.</p>
+    <content type="html"><![CDATA[<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
 
-<p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it&#8217;s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it&#8217;s not appealing to pay the full new price again.</p>
+<p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it’s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it’s not appealing to pay the full new price again.</p>
 
 <p>Thankfully Panic have managed to solve the problem by offering Coda 2 as a separate app. They have <a href="http://panic.com/coda/support.html">announced an aggressive 50% discount</a> for the first 24 hours that the app is on sale, making for an upgrade price of just $49.99. After 24 hours the price will go up to $75, which is still a respectable 25% off.</p>
 
 <p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
+
 ]]></content>
   </entry>
   
@@ -340,9 +383,10 @@ Roland US Product Support</p></blockquote>
     <link href="http://chatswood.github.com/blog/2012/04/19/textwrangler-4-0/"/>
     <updated>2012-04-19T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/04/19/textwrangler-4-0</id>
-    <content type="html"><![CDATA[<p>There&#8217;s been a lot of talk recently about the venerable <a href="http://www.barebones.com/products/bbedit/">BBEdit</a> from <a href="http://www.barebones.com/">Bare Bones</a> reaching it&#8217;s 20th birthday. It may have been easy to overlook the fact that it&#8217;s younger, freer sibling <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> has just rolled over to version 4.0.</p>
+    <content type="html"><![CDATA[<p>There’s been a lot of talk recently about the venerable <a href="http://www.barebones.com/products/bbedit/">BBEdit</a> from <a href="http://www.barebones.com/">Bare Bones</a> reaching it’s 20th birthday. It may have been easy to overlook the fact that it’s younger, freer sibling <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> has just rolled over to version 4.0.</p>
 
-<p>I&#8217;m a BBEdit user, but if I&#8217;m going to be working on someone else&#8217;s Mac for whatever reason I&#8217;ll quickly grab a copy of <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> to ensure that I&#8217;m in a somewhat familiar editing environment. So if you&#8217;re needing BBEdit goodness, but are on a strict budget, then it&#8217;s definitely worth grabbing TextWrangler from either the <a href="http://www.barebones.com/products/textwrangler/">Bare Bones site</a>, or from the <a href="http://itunes.apple.com/gb/app/textwrangler/id404010395?mt=12">Mac App Store</a>.</p>
+<p>I’m a BBEdit user, but if I’m going to be working on someone else’s Mac for whatever reason I’ll quickly grab a copy of <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> to ensure that I’m in a somewhat familiar editing environment. So if you’re needing BBEdit goodness, but are on a strict budget, then it’s definitely worth grabbing TextWrangler from either the <a href="http://www.barebones.com/products/textwrangler/">Bare Bones site</a>, or from the <a href="http://itunes.apple.com/gb/app/textwrangler/id404010395?mt=12">Mac App Store</a>.</p>
+
 ]]></content>
   </entry>
   
@@ -351,47 +395,67 @@ Roland US Product Support</p></blockquote>
     <link href="http://chatswood.github.com/blog/2012/04/17/up-to-charges-for-up-to-services/"/>
     <updated>2012-04-17T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/04/17/up-to-charges-for-up-to-services</id>
-    <content type="html"><![CDATA[<p>I&#8217;m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I&#8217;ve been making lately to whoever will listen:</p>
+    <content type="html"><![CDATA[<p>I’m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I’ve been making lately to whoever will listen:</p>
 
-<blockquote><p>If your supermarket charged you full price for ‘upto’ a Kg of sugar, or the service station charged you full price for ‘upto’ a gallon of petrol they would be prosecuted.</p></blockquote>
+<blockquote>
+  <p>If your supermarket charged you full price for ‘upto’ a Kg of sugar, or the service station charged you full price for ‘upto’ a gallon of petrol they would be prosecuted.</p>
+</blockquote>
 
 <p>(via <a href="http://www.theregister.co.uk/2012/04/16/wispa_upto_campaign/">The Register</a>)</p>
 
-<p>We pay for an &#8220;up to 16Mbps&#8221; service. Unfortunately my ISP - <a href="http://www.productsandservices.bt.com/consumerProducts/displayCategory.do?categoryId=CON-TOTAL-BB-R1">BT Total Broadband</a> - and the underlying wholesale provider <a href="http://www.openreach.co.uk/orpg/home/home.do">Openreach</a> have not seen fit to install ADSL2 hardware in our local exchange. This mere technicality means that my &#8220;up to 16Mbps&#8221; service is instantly constrained by the 8Mbps limit on ADSL Max technology.</p>
+<p>We pay for an “up to 16Mbps” service. Unfortunately my ISP - <a href="http://www.productsandservices.bt.com/consumerProducts/displayCategory.do?categoryId=CON-TOTAL-BB-R1">BT Total Broadband</a> - and the underlying wholesale provider <a href="http://www.openreach.co.uk/orpg/home/home.do">Openreach</a> have not seen fit to install ADSL2 hardware in our local exchange. This mere technicality means that my “up to 16Mbps” service is instantly constrained by the 8Mbps limit on ADSL Max technology.</p>
 
-<p>We pay £26 a month for a service that, through no fault of our own, can only deliver 50% of the promised<a href="Yes,">^1</a> service. That&#8217;s bad enough, but we&#8217;re still talking theoretical limits here. Our actual delivered service is just over 6Mbps with a fair wind. So what we actually get is not 16Mbps, but just 37.5% of that. Other BT Total Broadband customers on the same package will pay the same amount, yet they may get 100% of the promised service.</p>
+<p>We pay £26 a month for a service that, through no fault of our own, can only deliver 50% of the promised<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> service. That’s bad enough, but we’re still talking theoretical limits here. Our actual delivered service is just over 6Mbps with a fair wind. So what we actually get is not 16Mbps, but just 37.5% of that. Other BT Total Broadband customers on the same package will pay the same amount, yet they may get 100% of the promised service.</p>
 
 <p>We actually fall somewhere in the middle of the spectrum. A good friend is also a customer with BT Total Broadband, and therefore is also signed up to a service that is advertised as being up to 16Mbps. His actual delivered service is 0.5Mbps. To save you doing the mental arithmetic, that is just 3.125% of the maximum theoretical service. Yet he pays 100% of the price.</p>
 
-<p>Back in 2009 the <a href="http://news.bbc.co.uk/1/hi/8012848.stm">UK government said in their budget</a> that they would commit to ensuring that everyone in the country would have access to 2Mbps broadband by 2012 though they&#8217;ve now said that will be 2015. We still have people unable to achieve that target. Worse still, these people are being forced to pay prices similar to those paid by users of next-generation broadband services.</p>
+<p>Back in 2009 the <a href="http://news.bbc.co.uk/1/hi/8012848.stm">UK government said in their budget</a> that they would commit to ensuring that everyone in the country would have access to 2Mbps broadband by 2012 though they’ve now said that will be 2015. We still have people unable to achieve that target. Worse still, these people are being forced to pay prices similar to those paid by users of next-generation broadband services. </p>
 
-<h2>Not going far enough</h2>
+<h2 id="not-going-far-enough">Not going far enough</h2>
 
-<p>I not only agree with what <a href="http://wispa.it/">wispa</a> are saying in their campaign, but I feel that they are not going far enough. Not only should people be paying a price proportionate to the service they receive, but those receiving a service below the governments &#8220;target&#8221; of 2Mbps should not be paying a single penny. And yet the campaign from <a href="http://wispa.it/">wispa</a> only covers the concept of people not getting the full &#8220;up to&#8221; service.</p>
+<p>I not only agree with what <a href="http://wispa.it/">wispa</a> are saying in their campaign, but I feel that they are not going far enough. Not only should people be paying a price proportionate to the service they receive, but those receiving a service below the governments “target” of 2Mbps should not be paying a single penny. And yet the campaign from <a href="http://wispa.it/">wispa</a> only covers the concept of people not getting the full “up to” service.</p>
 
 <p>There is an even wider problem that is becoming more prevalent as next-generation broadband services are being rolled out. Amongst my friends, family and colleagues there is a huge disparity amongst the level of broadband services available. Some people have <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">Fibre To The Cabinet</a>, some have ADSL2, some have just regular ADSL, some have 3G wireless, and some have nothing.</p>
 
-<p>The strange thing is that many of these differing levels of service cost around the same price. As an example, at home we only receive regular ADSL - this will cost about £18 a month for up to 16Mbps and 40GB allowance<a href="We">^2</a>. According to <a href="http://www.productsandservices.bt.com/consumerProducts/displayTopic.do?topicId=29017">BT&#8217;s Infinity product pages</a> the base level package is also £18, but this includes up to 38Mbps and the same 40GB allowance.</p>
+<p>The strange thing is that many of these differing levels of service cost around the same price. As an example, at home we only receive regular ADSL - this will cost about £18 a month for up to 16Mbps and 40GB allowance<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. According to <a href="http://www.productsandservices.bt.com/consumerProducts/displayTopic.do?topicId=29017">BT’s Infinity product pages</a> the base level package is also £18, but this includes up to 38Mbps and the same 40GB allowance.</p>
 
 <p>We pay the same price for an inferior service. Why? Because we live in an area that is simply not covered by the <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">FTTC</a> technology. That seems unfair to say the least, yet when the question is asked of BT, their answer is often the same: it comes down to the business case. They will simply not extend the reach of their FTTC offering because it is cost prohibitive.</p>
 
-<h2>Who costs the most?</h2>
+<h2 id="who-costs-the-most">Who costs the most?</h2>
 
-<p>Let&#8217;s think about this for a minute. While I accept that I am probably simplifying things greatly here, the costs to BT for each customer will come down to the several major groupings: ISP running costs, bandwidth, network infrastructure, and exchange hardware. So how might these costs vary between users on ADSL and Infinity products?</p>
+<p>Let’s think about this for a minute. While I accept that I am probably simplifying things greatly here, the costs to BT for each customer will come down to the several major groupings: ISP running costs, bandwidth, network infrastructure, and exchange hardware. So how might these costs vary between users on ADSL and Infinity products?</p>
 
 <ul>
-<li><p>It will cost the same to run as an ISP whether your user is on ADSL or Infinity. The cost of an email accounts, support, portals, etc should all be the same. If anything support for Infinity users will be higher as this is the newer technology, and more prone to confusion and problems.</p></li>
-<li><p>Bandwidth costs should be the same to them although it could easily be argued that a user on a fast Infinity connection will consume more of your bandwidth, certainly on &#8220;unlimited&#8221; allowance packages.</p></li>
-<li><p>Network infrastructure is where things will differ. Backhaul should be the same, but paying for new fibre cabinets and the fibre optic cabling to them costs a lot. The network infrastructure is the same as it always was for ADSL users, it&#8217;s only the new Infinity users that incur this cost.</p></li>
-<li><p>Exchange hardware will also see a large difference. ADSL hardware is available in most, if not all exchanges, and would likely have been paid for at this stage, less some ongoing maintenance costs. Conversely, the Infinity hardware is new and expensive, and is where the real cost lies.</p></li>
+  <li>
+    <p>It will cost the same to run as an ISP whether your user is on ADSL or Infinity. The cost of an email accounts, support, portals, etc should all be the same. If anything support for Infinity users will be higher as this is the newer technology, and more prone to confusion and problems.</p>
+  </li>
+  <li>
+    <p>Bandwidth costs should be the same to them although it could easily be argued that a user on a fast Infinity connection will consume more of your bandwidth, certainly on “unlimited” allowance packages.</p>
+  </li>
+  <li>
+    <p>Network infrastructure is where things will differ. Backhaul should be the same, but paying for new fibre cabinets and the fibre optic cabling to them costs a lot. The network infrastructure is the same as it always was for ADSL users, it’s only the new Infinity users that incur this cost.</p>
+  </li>
+  <li>
+    <p>Exchange hardware will also see a large difference. ADSL hardware is available in most, if not all exchanges, and would likely have been paid for at this stage, less some ongoing maintenance costs. Conversely, the Infinity hardware is new and expensive, and is where the real cost lies.</p>
+  </li>
 </ul>
 
+<p>I think it’s fair to say that it costs a lot more to sustain a customer on an Infinity package over a customer on regular ADSL, yet both sets of customers pay the same price. I think that what <a href="http://wispa.it/">wispa</a> should be campaigning for is not only an end to the “up to” problem, but that customers on older, inferior products should not be effectively subsidising customers who take a newer, superior product.</p>
 
-<p>I think it&#8217;s fair to say that it costs a lot more to sustain a customer on an Infinity package over a customer on regular ADSL, yet both sets of customers pay the same price. I think that what <a href="http://wispa.it/">wispa</a> should be campaigning for is not only an end to the &#8220;up to&#8221; problem, but that customers on older, inferior products should not be effectively subsidising customers who take a newer, superior product.</p>
+<p>As I mentioned earlier, often when I ask BT why they don’t offer me Infinity, they say it’s because there is no business case for it. They say it’s not economically viable.</p>
 
-<p>As I mentioned earlier, often when I ask BT why they don&#8217;t offer me Infinity, they say it&#8217;s because there is no business case for it. They say it&#8217;s not economically viable.</p>
+<p>I now say - why don’t you use the excess money you get from me paying the same price as an Infinity service, and instead of treating it as profit, treat it as a down-payment on the new hardware you need to provide me with a better service. Maybe <a href="http://wispa.it/">wispa</a> can adapt this into their campaign as well.</p>
 
-<p>I now say - why don&#8217;t you use the excess money you get from me paying the same price as an Infinity service, and instead of treating it as profit, treat it as a down-payment on the new hardware you need to provide me with a better service. Maybe <a href="http://wispa.it/">wispa</a> can adapt this into their campaign as well.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Yes, I know it wasn’t actually <em>promised</em> to us, but this is where the whole “you wouldn’t be happy with up to a litre of fuel” thing comes in!<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>We were on this package, but upgraded to their “unlimited” allowance, hence the £26 a month mentioned previously.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -400,51 +464,50 @@ Roland US Product Support</p></blockquote>
     <link href="http://chatswood.github.com/blog/2012/04/14/mac-app-store-upgrades/"/>
     <updated>2012-04-14T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/04/14/mac-app-store-upgrades</id>
-    <content type="html"><![CDATA[<p>There&#8217;s been a bit of discussion on the <a href="http://5by5.tv/">5by5 Network</a> recently about the lack of upgrades on the Mac App Store sparked by a recent blog post on the subject by <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">Wil Shipley</a>.</p>
+    <content type="html"><![CDATA[<p>There’s been a bit of discussion on the <a href="http://5by5.tv/">5by5 Network</a> recently about the lack of upgrades on the Mac App Store sparked by a recent blog post on the subject by <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">Wil Shipley</a>.</p>
 
-<p>I see this from both sides. As a consumer I naturally want software to be as cheap as possible, and I can&#8217;t deny that the concept of &#8220;free upgrades for life&#8221; is not appealing. Yet, on the flip side I write software for a living, and the idea of getting paid once and having no upgrade revenue stream is not a nice one.</p>
+<p>I see this from both sides. As a consumer I naturally want software to be as cheap as possible, and I can’t deny that the concept of “free upgrades for life” is not appealing. Yet, on the flip side I write software for a living, and the idea of getting paid once and having no upgrade revenue stream is not a nice one.</p>
 
 <p>The folks at 5by5 (specifically <a href="http://siracusa.tumblr.com/">John Siracusa</a> and <a href="http://marco.org/">Marco Arment</a>) have covered most of the salient points, so I recommend having a listen back to the latest episodes of <em><a href="http://5by5.tv/hypercritical/">Hypercritical</a></em> and <em><a href="http://5by5.tv/buildanalyze/">Build and Analyze</a></em>.</p>
 
-<p>Some of the discussion has pointed out that one possible option is for a developer to release &#8220;version 2&#8221; as a new application and remove the previous version of the application from sale. This has two drawbacks for existing users (which have been debated at length, but I&#8217;ll recap):</p>
+<p>Some of the discussion has pointed out that one possible option is for a developer to release “version 2” as a new application and remove the previous version of the application from sale. This has two drawbacks for existing users (which have been debated at length, but I’ll recap):</p>
 
 <ul>
-<li>if they want to upgrade they feel cheated at having to pay for a new app without the availability of an upgrade discount;</li>
-<li>if they chose not to upgrade they are unable to get application updates for their existing application as it has been pulled from the store.</li>
+  <li>if they want to upgrade they feel cheated at having to pay for a new app without the availability of an upgrade discount;</li>
+  <li>if they chose not to upgrade they are unable to get application updates for their existing application as it has been pulled from the store.</li>
 </ul>
 
-
-<h2>Discounted upgrades are gone</h2>
+<h2 id="discounted-upgrades-are-gone">Discounted upgrades are gone</h2>
 
 <p>First things first - I think that the old pricing model of a high initial purchase price followed by discounted upgrades is probably gone, and a natural successor would appear to be a consistent price for new and upgrade purchases.</p>
 
-<p>There will inevitably be some pushback on this. Developers won&#8217;t like it for the obvious reason - their initial revenue will be lower and they&#8217;ll be forced to think longer term. This is a completely natural reaction and it will probably take some major players to set the trend - maybe this is where Apple are leading with their own price drops as they move applications into the App Stores.</p>
+<p>There will inevitably be some pushback on this. Developers won’t like it for the obvious reason - their initial revenue will be lower and they’ll be forced to think longer term. This is a completely natural reaction and it will probably take some major players to set the trend - maybe this is where Apple are leading with their own price drops as they move applications into the App Stores.</p>
 
-<p>I feel that this is a good way to work though it will require a bit of thought from app developers with regard to their longer term strategies - it&#8217;s about taking lower margins with higher volumes. It&#8217;s about taking a lower purchase price for the initial version but actually taking a higher &#8220;upgrade&#8221; price for subsequent versions.</p>
+<p>I feel that this is a good way to work though it will require a bit of thought from app developers with regard to their longer term strategies - it’s about taking lower margins with higher volumes. It’s about taking a lower purchase price for the initial version but actually taking a higher “upgrade” price for subsequent versions.</p>
 
-<p>Customer opinion could be divided depending on whether they are new or existing customers. New customers will love the fact that the initial prices seem lower - they&#8217;ll feel that they&#8217;re getting a bargain. Existing customers will hate the fact that they have to pay the same amount for upgrades as new customers will pay.</p>
+<p>Customer opinion could be divided depending on whether they are new or existing customers. New customers will love the fact that the initial prices seem lower - they’ll feel that they’re getting a bargain. Existing customers will hate the fact that they have to pay the same amount for upgrades as new customers will pay.</p>
 
-<p>Overall it&#8217;s still a good deal for the customer. They will be buying into an ecosystem which places emphasis on long-term investment in software. Increased volumes means lower prices on average. And of course, paying for upgrades <em>should</em> ultimately mean higher quality software.</p>
+<p>Overall it’s still a good deal for the customer. They will be buying into an ecosystem which places emphasis on long-term investment in software. Increased volumes means lower prices on average. And of course, paying for upgrades <em>should</em> ultimately mean higher quality software.</p>
 
-<h2>Maintaining multiple versions</h2>
+<h2 id="maintaining-multiple-versions">Maintaining multiple versions</h2>
 
-<p>Of course, this discussion is still meaningless when the App Stores don&#8217;t offer a good way to maintain multiple versions of a product.</p>
+<p>Of course, this discussion is still meaningless when the App Stores don’t offer a good way to maintain multiple versions of a product.</p>
 
-<p>If a developer followed the model above and charged the same price for each version (i.e. no discounted upgrades) there is still the dilemma about whether to leave multiple versions in the store at once. As a developer I find this unappealing because it leads to confusion amongst potential purchasers. Yet removing the old version is not really an option as it has a negative impact on customers who don&#8217;t want to upgrade for at least two reasons:</p>
+<p>If a developer followed the model above and charged the same price for each version (i.e. no discounted upgrades) there is still the dilemma about whether to leave multiple versions in the store at once. As a developer I find this unappealing because it leads to confusion amongst potential purchasers. Yet removing the old version is not really an option as it has a negative impact on customers who don’t want to upgrade for at least two reasons:</p>
 
 <ul>
-<li>they are unable to get bug fixes to a product they paid for;</li>
-<li>if they move to a new computer they are unable to re-download a product that they still legitimately own.</li>
+  <li>they are unable to get bug fixes to a product they paid for;</li>
+  <li>if they move to a new computer they are unable to re-download a product that they still legitimately own.</li>
 </ul>
 
-
-<p>This is where Apple need to make a change to the App Stores. If they won&#8217;t go to the trouble of implementing upgrades, then I propose that they give developers the  opportunity to mark an app as being &#8220;retired&#8221;.</p>
+<p>This is where Apple need to make a change to the App Stores. If they won’t go to the trouble of implementing upgrades, then I propose that they give developers the  opportunity to mark an app as being “retired”.</p>
 
 <p>A retired app should no longer be purchasable by new customers. In fact it should not appear in the App Store to people who do not already have the app in their purchase history. Only those who have purchased it before should be able to re-download it to a new computer, or obtain updates.</p>
 
-<p>This still isn&#8217;t a completely straightforward process for developers (or for customers) as the new version is technically a different application, and as such poses issues for data migration between versions. Also customers will need to be informed of new versions, possibly through annoying alert dialogs in the old version.</p>
+<p>This still isn’t a completely straightforward process for developers (or for customers) as the new version is technically a different application, and as such poses issues for data migration between versions. Also customers will need to be informed of new versions, possibly through annoying alert dialogs in the old version.</p>
 
-<p>Still, if Apple allowed applications to be marked as &#8220;retired&#8221; this would be a big start. In the meantime, you could always raise the price of your old version to $999.99…</p>
+<p>Still, if Apple allowed applications to be marked as “retired” this would be a big start. In the meantime, you could always raise the price of your old version to $999.99…</p>
+
 ]]></content>
   </entry>
   
@@ -455,13 +518,23 @@ Roland US Product Support</p></blockquote>
     <id>http://chatswood.github.com/blog/2012/04/14/books-bits-vs-atoms</id>
     <content type="html"><![CDATA[<p>Jeff Atwood recently wrote a <a href="http://www.codinghorror.com/blog/2012/04/books-bits-vs-atoms.html">fantastic piece on the current standard of eBooks</a>:</p>
 
-<blockquote><p>Because I love words, I want to love eBooks. I want to buy lots and lots of eBooks. But unless the publishers are willing to treat eBooks with the same respect and care that they give to their printed books – and most importantly of all, adjust their pricing to reflect the brave new economy of bits, and not an antiquated economy of atoms – they&#8217;re destined to eventually suffer the same fate as the Encyclopedia Britannica.</p></blockquote>
+<blockquote>
+  <p>Because I love words, I want to love eBooks. I want to buy lots and lots of eBooks. But unless the publishers are willing to treat eBooks with the same respect and care that they give to their printed books – and most importantly of all, adjust their pricing to reflect the brave new economy of bits, and not an antiquated economy of atoms – they’re destined to eventually suffer the same fate as the Encyclopedia Britannica.</p>
+</blockquote>
 
-<p>This article couldn&#8217;t be more correct.</p>
+<p>This article couldn’t be more correct.</p>
 
-<p>I&#8217;ve recently decided to stop buying print books under most circumstances<a href="Recent">^1</a> for reasons that include both personal convenience, and a desire to consume less resources.</p>
+<p>I’ve recently decided to stop buying print books under most circumstances<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> for reasons that include both personal convenience, and a desire to consume less resources.</p>
 
-<p>Unfortunately, as Jeff has pointed out, eBooks just aren&#8217;t 100% there yet. Traditional novels are fine from Kindle/iBookstore, but I read a lot of technology books, and the instant you get into screenshots or diagrams the formatting goes straight out the window. Many of the tech-related publishers are providing the option to go for PDF instead but this still feels like settling for second-best until they get their act together.</p>
+<p>Unfortunately, as Jeff has pointed out, eBooks just aren’t 100% there yet. Traditional novels are fine from Kindle/iBookstore, but I read a lot of technology books, and the instant you get into screenshots or diagrams the formatting goes straight out the window. Many of the tech-related publishers are providing the option to go for PDF instead but this still feels like settling for second-best until they get their act together.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Recent print books purchased include <em>Steve Jobs</em> by Walter Isaacson, <em>Advanced Mac OS X Programming</em> by Dalrymple/Hillegass/Sherman, and <em>I, Partridge</em> by Alan Partridge.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -472,11 +545,14 @@ Roland US Product Support</p></blockquote>
     <id>http://chatswood.github.com/blog/2012/04/14/being-a-dad-changes-everything</id>
     <content type="html"><![CDATA[<p><a href="http://sgaw.tumblr.com/post/20841224612/johns-bikes-in-bath-and-my-trek-7-3-fx">Simon Wolf wrote</a>:</p>
 
-<blockquote><p>Finally I bought a new helmet. I’m not a huge fan of them but I like my daughter to wear one and I need to set a good example for her.</p></blockquote>
+<blockquote>
+  <p>Finally I bought a new helmet. I’m not a huge fan of them but I like my daughter to wear one and I need to set a good example for her.</p>
+</blockquote>
 
-<p>For me this sums up everything that there is to being a dad. When the subject of bicycle helmets came up in the past, I always swore that I&#8217;d never wear one. I trotted out the old fallback position of &#8220;I never needed one when I was a kid, I don&#8217;t need one now, and my kids will never need one either.&#8221;</p>
+<p>For me this sums up everything that there is to being a dad. When the subject of bicycle helmets came up in the past, I always swore that I’d never wear one. I trotted out the old fallback position of “I never needed one when I was a kid, I don’t need one now, and my kids will never need one either.”</p>
 
-<p>Now that I&#8217;m actually a dad, my position has changed. From here on I&#8217;ll do whatever is necessary to set a good example for my daughter. How times changes.</p>
+<p>Now that I’m actually a dad, my position has changed. From here on I’ll do whatever is necessary to set a good example for my daughter. How times changes.</p>
+
 ]]></content>
   </entry>
   
@@ -485,33 +561,44 @@ Roland US Product Support</p></blockquote>
     <link href="http://chatswood.github.com/blog/2012/04/09/keeping-a-clean-desktop/"/>
     <updated>2012-04-09T00:00:00+01:00</updated>
     <id>http://chatswood.github.com/blog/2012/04/09/keeping-a-clean-desktop</id>
-    <content type="html"><![CDATA[<p>While listening to the recent <a href="http://macpowerusers.com/">Mac Power Users</a> podcast on <a href="http://macpowerusers.com/2012/04/mpu-79-hazel-3-0/">using Hazel</a> I got the impression that host <a href="http://www.katiefloyd.me/">Katie Floyd</a> wasn&#8217;t a fan of using the Mac Desktop as a storage location for files.<a href="Thankfully">^1</a> I&#8217;ve heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn&#8217;t the case - for a start Windows users are people too, and just think about it: if we weren&#8217;t supposed to use the Desktop, why would Apple have made it just a regular folder?</p>
+    <content type="html"><![CDATA[<p>While listening to the recent <a href="http://macpowerusers.com/">Mac Power Users</a> podcast on <a href="http://macpowerusers.com/2012/04/mpu-79-hazel-3-0/">using Hazel</a> I got the impression that host <a href="http://www.katiefloyd.me/">Katie Floyd</a> wasn’t a fan of using the Mac Desktop as a storage location for files.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I’ve heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn’t the case - for a start Windows users are people too, and just think about it: if we weren’t supposed to use the Desktop, why would Apple have made it just a regular folder?</p>
 
-<p>I can be a bit of a cleanliness freak when it comes to my hard disks<a href="In">^2</a> but surprisingly I&#8217;m actually a fan of throwing documents on the Desktop as a working storage area. If I&#8217;m working on a document, downloading some material or even just trying something out I tend to leave things on the Desktop while I&#8217;m working on them.</p>
+<p>I can be a bit of a cleanliness freak when it comes to my hard disks<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> but surprisingly I’m actually a fan of throwing documents on the Desktop as a working storage area. If I’m working on a document, downloading some material or even just trying something out I tend to leave things on the Desktop while I’m working on them.</p>
 
-<p>I see this as being akin to the real world - when I&#8217;m working with paper documents I tend to spread them around me in order to have the material within easy reach. I want to be able to do the same with the Mac Desktop so that I don&#8217;t have to root around in folders for the relevant files.</p>
+<p>I see this as being akin to the real world - when I’m working with paper documents I tend to spread them around me in order to have the material within easy reach. I want to be able to do the same with the Mac Desktop so that I don’t have to root around in folders for the relevant files.</p>
 
-<h2>Too Much Hassle?</h2>
+<h2 id="too-much-hassle">Too Much Hassle?</h2>
 
 <p>I guess some people might find it tough working with the Mac Desktop. Sometimes it can be hard to arrange windows so that you can quickly open documents or move them about, especially when it comes to Macs with smaller displays like MacBook Pros and Airs.</p>
 
-<p>My advice to people is to take advantage of Exposé - especially on newer Macs with gesture support. I use the &#8220;Spread with thumb and three fingers&#8221; gesture to access the Desktop and have immediate access to my files for double-clicking or drag-and-drop operations.</p>
+<p>My advice to people is to take advantage of Exposé - especially on newer Macs with gesture support. I use the “Spread with thumb and three fingers” gesture to access the Desktop and have immediate access to my files for double-clicking or drag-and-drop operations.</p>
 
-<p>Admittedly dragging and dropping can be troublesome at times. To drop into an open application you generally need to drag the item over the dock icon for the application, wait for it to show the open windows for the application and then hold the item over the desired window until it comes to the foreground. This can be cumbersome, so it&#8217;s worth grabbing <a href="http://www.eternalstorms.at/yoink/">Yoink</a> from the Mac App Store. Once installed it provides a handy tray you can drag onto quickly, then Cmd-Tab (or otherwise navigate) to your desired application and drag from the Yoink tray into the application.</p>
+<p>Admittedly dragging and dropping can be troublesome at times. To drop into an open application you generally need to drag the item over the dock icon for the application, wait for it to show the open windows for the application and then hold the item over the desired window until it comes to the foreground. This can be cumbersome, so it’s worth grabbing <a href="http://www.eternalstorms.at/yoink/">Yoink</a> from the Mac App Store. Once installed it provides a handy tray you can drag onto quickly, then Cmd-Tab (or otherwise navigate) to your desired application and drag from the Yoink tray into the application.</p>
 
-<h2>Keeping It Under Control</h2>
+<h2 id="keeping-it-under-control">Keeping It Under Control</h2>
 
-<p>Of course, there&#8217;s always a danger that your Desktop can get out of control if you start using it for multiple active projects. The best way to combat this is with a bit of discipline, but if you need a hand you can always turn to Hazel for some help.</p>
+<p>Of course, there’s always a danger that your Desktop can get out of control if you start using it for multiple active projects. The best way to combat this is with a bit of discipline, but if you need a hand you can always turn to Hazel for some help.</p>
 
-<p>At present I use a two-level indicator as to the relevance of a file on the desktop. After two days of inactivity Hazel marks a file with an Orange label so that I can see that it hasn&#8217;t been used recently. After a further two days of inactivity Hazel marks the file with a Red label as a final warning.</p>
+<p>At present I use a two-level indicator as to the relevance of a file on the desktop. After two days of inactivity Hazel marks a file with an Orange label so that I can see that it hasn’t been used recently. After a further two days of inactivity Hazel marks the file with a Red label as a final warning.</p>
 
 <p>Ideally though my desktop would be reasonably clear at the end of every day so that I can start from scratch every morning. Again Hazel could come to the rescue, by automatically clearing items from the desktop at the end of the working day. The rule shown below is the start of a system for implementing this:</p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/04/blue_rule.png" alt="Blue Rule" /></p>
 
-<p>The idea here is that I can have multiple projects organised according to label colour. At the end of the working day Hazel will sweep all files on the Desktop with a Blue label into the Blue folder. The next time I go to work on the project I can just drag the items back onto the Desktop to start again. It&#8217;s a bit like keeping your real life working papers in boxes - at the end of the day you just sweep the papers off the desktop and into the box. Next day, dump the contents of the box onto the nice clean desktop.</p>
+<p>The idea here is that I can have multiple projects organised according to label colour. At the end of the working day Hazel will sweep all files on the Desktop with a Blue label into the Blue folder. The next time I go to work on the project I can just drag the items back onto the Desktop to start again. It’s a bit like keeping your real life working papers in boxes - at the end of the day you just sweep the papers off the desktop and into the box. Next day, dump the contents of the box onto the nice clean desktop.</p>
 
 <p>See - working on the Desktop is not just for savages.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Thankfully co-host <a href="http://www.macsparky.com/">David Sparks</a> was more realistic and mentioned a few <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> rules for dealing with long term visitors to the Desktop.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>In the digital world world only, in real life I can be a pig.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
