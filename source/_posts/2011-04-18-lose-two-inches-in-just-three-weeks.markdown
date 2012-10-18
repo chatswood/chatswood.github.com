@@ -9,6 +9,8 @@ tags:
 - Apple
 - Mac
 - MacBook Pro
+permalink: /post/4713123815/lose-two-inches-in-just-three-weeks
+categories: [Apple]
 ---
 
 ## (aka How to lose 1000 pounds overnight)

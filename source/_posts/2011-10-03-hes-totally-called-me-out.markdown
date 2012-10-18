@@ -10,6 +10,7 @@ tags:
 - Charlie Brooker
 - Speed limit
 - The Guardian
+permalink: /post/10973953629/hes-totally-called-me-out
 ---
 
 …by which I mean I'm a professional racer.

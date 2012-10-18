@@ -2,7 +2,8 @@
 layout: post
 title: Geekbench Results
 date: 2012-05-27
-categories: [Apple, Mac]
+categories: [Apple]
+permalink: /post/23856794036/geekbench-results
 ---
 
 It's always "fun" to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:

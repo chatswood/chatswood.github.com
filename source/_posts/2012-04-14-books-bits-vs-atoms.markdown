@@ -11,6 +11,8 @@ tags:
 - Kindle
 - eBooks
 - iBookstore
+permalink: /post/21106948379/books-bits-vs-atoms
+categories: [Opinion]
 ---
 
 Jeff Atwood recently wrote a [fantastic piece on the current standard of eBooks][Source]:

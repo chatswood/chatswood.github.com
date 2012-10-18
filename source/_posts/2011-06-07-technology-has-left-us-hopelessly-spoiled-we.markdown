@@ -8,6 +8,7 @@ date: 2011-06-07
 tags:
 - Charlie Brooker
 - Spotify
+permalink: /post/6279395541/technology-has-left-us-hopelessly-spoiled-we
 ---
 
 > ...technology has left us hopelessly spoiled. We whine like disappointed emperors the moment it does anything other than pander to our every whim. If the internet gave free back rubs, people would complain when it stopped because its thumbs were sore.

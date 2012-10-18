@@ -11,6 +11,8 @@ tags:
 - Music
 - Review
 - Udosson
+permalink: /post/2924445483/udosson-kurz-unter-land
+categories: [Music, Reviews]
 ---
 
 A long time ago I stumbled across the artist [Udosson][] through his [SoundCloud profile][]. I always found his music to be a perfect combination of organic sounding synths and machine-like rhythms. I'd always listened to his tracks in isolation but recently I decided to lay down some cash for his 2010 album *Kurz Unter Land* (helpfully translated as "off-shore" by the kind souls at Udosson's label [Petite:Unique][][^1]).

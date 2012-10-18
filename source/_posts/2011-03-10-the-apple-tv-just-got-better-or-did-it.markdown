@@ -9,6 +9,8 @@ tags:
 - Apple
 - AppleTV
 - iOS
+permalink: /post/3760513532/the-apple-tv-just-got-better-or-did-it
+categories: [Apple, Opinion]
 ---
 
 ## The Apple TV just got better!

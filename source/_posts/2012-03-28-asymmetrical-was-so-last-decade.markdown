@@ -8,6 +8,8 @@ date: 2012-03-28
 tags:
 - ADSL
 - Broadband
+permalink: /post/20060379504/asymmetrical-was-so-last-decade
+categories: [Technology, Opinion]
 ---
 
 [DSL][] is the most popular broadband Internet access method in the UK as it is one of the few methods available across the majority of the country. Cable services are largely restricted to the cities, and high speed wireless is often a disappointment in reality. 

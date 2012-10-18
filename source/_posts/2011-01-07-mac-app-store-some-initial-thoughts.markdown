@@ -9,6 +9,8 @@ tags:
 - Mac
 - Mac App Store
 - OS X
+permalink: /post/2635072281/mac-app-store-some-initial-thoughts
+categories: [Apple, Opinion]
 ---
 
 So the [Mac App Store][] has launched and there doesn't appear to have been any major disasters.

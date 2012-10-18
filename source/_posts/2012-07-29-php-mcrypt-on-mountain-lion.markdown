@@ -12,6 +12,8 @@ tags:
 - PHP
 - homebrew
 - mcrypt
+permalink: /post/28261274431/php-mcrypt-on-mountain-lion
+categories: [Programming]
 ---
 
 I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn't get any sites working that utilised `mcrypt` with PHP.

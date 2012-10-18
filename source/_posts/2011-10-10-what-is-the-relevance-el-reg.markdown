@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is the relevance, El Reg?
-external-url: http://go.theregister.com/feed/www.theregister.co.uk/2011/10/10/apple_store_burglary/
+external-url: http://www.theregister.co.uk/2011/10/10/apple_store_burglary/
 published: true
 comments: false
 date: 2011-10-10
@@ -11,6 +11,8 @@ tags:
 - Relevance
 - Steve Jobs
 - The Register
+permalink: /post/11269630843/what-is-the-relevance-el-reg
+categories: [Opinion]
 ---
 
 [Biker gang plunders Covent Garden Apple Store][]:

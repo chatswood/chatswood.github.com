@@ -9,6 +9,8 @@ tags:
 - AirPlay
 - AppleTV
 - iOS
+permalink: /post/2793889076/mmm-airplay-i-love-you
+categories: [Apple, Opinion]
 ---
 
 On first sighting of Apple's [AirPlay][] technology I was initially impressed but wasn't sure how much it offered over their existing AirTunes facilities which I'd been using with Airport Express/Apple TV (the first one) for some time. This weekend I got to use AirPlay "properly" for the first time.

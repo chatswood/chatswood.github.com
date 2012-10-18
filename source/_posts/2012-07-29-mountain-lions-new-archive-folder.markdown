@@ -9,6 +9,8 @@ tags:
 - Mail.app
 - Mountain Lion
 - OS X
+permalink: /post/28287324457/mountain-lions-new-archive-folder
+categories: [Apple]
 ---
 
 Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled *Archive*, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it's still a little bit alarming to think that a folder has just disappeared.

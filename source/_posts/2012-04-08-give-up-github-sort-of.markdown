@@ -10,6 +10,8 @@ tags:
 - Git
 - GitHub
 - SCM
+permalink: /post/20728588558/give-up-github-sort-of
+categories: [Development]
 ---
 
 [GitHub][] is an amazing place. There are so many diverse projects hosted there, and it's fantastic to be able to quickly create a repo and share code with the world. I've been a member for just under a year, and in that time I've gone from just downloading other people's projects, to forking and contributing to Open Source projects, to creating my own public and private repositories.

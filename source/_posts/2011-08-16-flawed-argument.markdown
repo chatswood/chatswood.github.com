@@ -12,6 +12,8 @@ tags:
 - Motorola
 - The Register
 - iOS
+permalink: /post/8989296464/flawed-argument
+categories: [Opinion]
 ---
 
 Matt Asay wrote a [generally interesting article][] on the Motorola Mobility acquisition by Google but this stood out as a strange and flawed argument: 

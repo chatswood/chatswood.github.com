@@ -10,6 +10,8 @@ tags:
 - iCloud
 - iTunes
 - iTunes Match
+permalink: /post/14302670323/nice-to-meet-you-match
+categories: [Apple]
 ---
 
 ![Match logo][1]

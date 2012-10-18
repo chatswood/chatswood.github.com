@@ -9,6 +9,8 @@ tags:
 - Boss
 - Email
 - Spam
+permalink: /post/26368096042/naming-and-shaming-boss-roland-us
+categories: [Opinion]
 ---
 
 I'm fed up with receiving spam. I generally don't get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.

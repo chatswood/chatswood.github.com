@@ -9,6 +9,7 @@ tags:
 - Mac
 - OS X
 - iMac
+permalink: /post/2310788488/why-im-returning-my-imac
 ---
 
 I love this article. Personally I think it's either:

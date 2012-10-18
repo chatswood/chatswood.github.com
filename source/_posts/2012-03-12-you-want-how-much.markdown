@@ -14,6 +14,8 @@ tags:
 - SSSS
 - VCMG
 - Vince Clarke
+permalink: /post/19177041938/you-want-how-much
+categories: [Music, Technology, Opinion]
 ---
 
 I made the decision recently that I was going to stop buying physical media and make digital purchases *where possible*. By *where possible* I mean that I will buy the digital media under the following circumstances:

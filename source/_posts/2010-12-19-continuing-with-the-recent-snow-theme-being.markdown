@@ -9,6 +9,7 @@ tags:
 - Snow
 - Snow plough
 - Snowpocalypse
+permalink: /post/2372473661/continuing-with-the-recent-snow-theme-being-stuck
 ---
 
 Continuing with the recent snow theme... being stuck in the house for a while inevitably leads me to idly browse the InterWebs in search of new things to buy[^1] that I don't really need.

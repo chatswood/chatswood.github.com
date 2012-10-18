@@ -9,6 +9,8 @@ tags:
 - TUAW
 - apple
 - xcode
+categories: [Opinion]
+permalink: /post/28971024283/q-when-is-apple-news-not-actually-news
 ---
 
 A. When you report old "news" as though it just "finally" happened.

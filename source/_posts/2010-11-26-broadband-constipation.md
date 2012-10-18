@@ -5,6 +5,7 @@ date: 2010-11-26
 published: true
 categories: [Technology]
 tags: [Broadband,FTTC,VDSL]
+permalink: /post/2062562389/broadband-constipation
 ---
 
 A nice man from BT Wholesale called me yesterday to let me know what the deal was with us being able to get their [Infinity][] product.

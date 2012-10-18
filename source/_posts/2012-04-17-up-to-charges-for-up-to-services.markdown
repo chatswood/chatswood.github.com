@@ -12,6 +12,8 @@ tags:
 - FTTC
 - Fibre
 - ISP
+permalink: /post/21261771299/up-to-charges-for-up-to-services
+categories: [Opinion, Technology]
 ---
 
 I'm not sure who these *[wispa][]* folks are, but [they raise a similar point][upto] to one that I've been making lately to whoever will listen:

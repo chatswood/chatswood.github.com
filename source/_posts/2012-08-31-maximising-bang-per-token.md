@@ -4,6 +4,7 @@ title: Maximising Bang Per Token
 date: 2012-08-31
 comments: false
 categories: [Twitter, Tweetbot for Mac, TapBots, Access Tokens]
+permalink: /post/30606832645/maximising-bang-per-token
 ---
 
 The brouhaha over third-party Twitter clients continues with the news of the release of a [beta version][] of Tweetbot for Mac. Just 4 days ago the [alpha version was withdrawn][] with Tapbots citing as a reason the "finite limit on the number of user tokens we can get for Tweetbot for Mac".

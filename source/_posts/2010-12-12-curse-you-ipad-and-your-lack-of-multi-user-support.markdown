@@ -7,6 +7,8 @@ tags:
 - communal
 - iOS
 - iPad
+permalink: /post/2188058228/curse-you-ipad-and-your-lack-of-multi-user-support
+categories: [Apple, Opinion]
 ---
 
 The iPad pisses me off. It's such an amazing device, and it does just about everything I could wish for from such a revolution in computing. It always sounds contrived to say that the iPad has changed things but *it really has!* (Ooooh, that sounded contrived). My laptop rarely comes out of an evening anymore - most of my casual browsing, mail checking, tweeting, etc is done on the iPad. My wife is able to use it to make Skype calls, do the grocery shopping, keep an eye on Facebook.

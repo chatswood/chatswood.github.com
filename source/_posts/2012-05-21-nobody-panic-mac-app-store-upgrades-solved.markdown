@@ -10,6 +10,8 @@ tags:
 - Mac App Store
 - Panic
 - Upgrades
+permalink: /post/23496315143/nobody-panic-mac-app-store-upgrades-solved
+categories: [Opinion, Apple]
 ---
 
 Today it looks like the [question over how to handle major software updates][question] via the Mac App Store has been answered. 

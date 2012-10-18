@@ -13,6 +13,8 @@ tags:
 - MacStories
 - OS X
 - Sophiestication
+permalink: /post/2682646956/the-coversutra-debate-continues
+categories: [Opinion]
 ---
 
 I love [MacStories][] and just about everything that Federico Viticci writes, but I have to disagree with some aspects of this post defending [Sophiestication][] and the [CoverSutra][] debacle.

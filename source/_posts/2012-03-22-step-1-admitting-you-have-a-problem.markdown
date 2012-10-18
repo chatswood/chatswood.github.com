@@ -8,6 +8,8 @@ date: 2012-03-22
 tags:
 - Addiction
 - Apple
+permalink: /19728841786/step-1-admitting-you-have-a-problem
+categories: [Apple]
 ---
 
 ![problem][]

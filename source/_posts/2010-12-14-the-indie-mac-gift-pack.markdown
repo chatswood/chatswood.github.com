@@ -10,6 +10,8 @@ tags:
 - Mac
 - OS X
 - Pack
+permalink: /post/2310864544/the-indie-mac-gift-pack
+categories: [Opinion]
 ---
 
 The never-ending river of Mac software bundles continues to flow past me. My[^1] experience to date has always been the same: these bundles inevitably contain just one piece of software that I actually want or need, and a lot of extra filler that I'll never use.

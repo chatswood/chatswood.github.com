@@ -10,6 +10,8 @@ tags:
 - Location
 - Roaming
 - iOS
+permalink: /post/9555808699/roaming-granularity
+categories: [Technology, Opinion]
 ---
 
 After recently switching to a pre-paid mobile service I've been a bit more aware of how much things cost. We recently took a trip to Dublin which involves roaming and being cost-conscious I ensured my iPhone had *Data Roaming* disabled. Unfortunately we got a bit lost for a while and I had to turn on the tap for a while to use Google Maps.

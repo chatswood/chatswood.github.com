@@ -4,6 +4,8 @@ title: You *Do* Need The Xcode Command Line Tools
 date: 2012-07-17
 categories: [Homebrew, Xcode, Command Line Tools, Oliver Drobnik, Cocoanetics, Mac OS X]
 comments: false
+permalink: /post/27400566838/maybe-you-do-need-the-xcode-command-line-tools
+categories: [Development, Apple]
 ---
 
 Oliver Drobnik over at [Cocoanetics][] wrote a [very detailed guide][guide] on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don't need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the `xcrun` command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for *"compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery"*, this completely neglects an extremely useful source of software that you don't need to engage your bare knuckles to take advantage of.

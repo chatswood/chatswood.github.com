@@ -12,6 +12,8 @@ tags:
 - Mac App Store
 - Software
 - Upgrades
+permalink: /post/21081591733/mac-app-store-upgrades
+categories: [Apple, Opinion]
 ---
 
 There's been a bit of discussion on the [5by5 Network][] recently about the lack of upgrades on the Mac App Store sparked by a recent blog post on the subject by [Wil Shipley][].

@@ -12,6 +12,8 @@ tags:
 - news
 - storms
 - weather
+permalink: /post/3065050331/global-warming-induced-apocalypse-or-just-more
+categories: [Opinion]
 ---
 
 I've just read two articles on the [BBC News site] - one was about the imminent arrival of [another winter storm] in the US, and the other was about Queenslanders being told to flee the arrival of [the strongest cyclone] in their history.

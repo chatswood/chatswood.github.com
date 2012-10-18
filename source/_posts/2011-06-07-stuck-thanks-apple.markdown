@@ -10,6 +10,8 @@ tags:
 - iOS
 - iOS 5
 - iPhone
+permalink: /post/6278688075/stuck-thanks-apple
+categories: [Apple]
 ---
 
 So I took the plunge and tried updating my iPhone 4 to iOS 5. I marvelled at the shiny new process which allows untethered activation.

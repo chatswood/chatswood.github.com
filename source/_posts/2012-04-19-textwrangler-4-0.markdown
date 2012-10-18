@@ -11,6 +11,7 @@ tags:
 - Mac App Store
 - Mac OS X
 - TextWrangler
+permalink: /post/21377743565/textwrangler-4-0
 ---
 
 There's been a lot of talk recently about the venerable [BBEdit][] from [Bare Bones][] reaching it's 20th birthday. It may have been easy to overlook the fact that it's younger, freer sibling [TextWrangler][] has just rolled over to version 4.0.

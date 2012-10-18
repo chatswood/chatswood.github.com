@@ -8,6 +8,7 @@ date: 2012-04-14
 tags:
 - Parenthood
 - Simon Wolf
+permalink: /post/21080138334/being-a-dad-changes-everything
 ---
 
 [Simon Wolf wrote][]:

@@ -9,6 +9,8 @@ tags:
 - BBC News
 - Fuel duty
 - Petrol
+categories: [Opinion]
+permalink: /post/2907242594/10-of-petrol-where-does-it-go
 ---
 
 It dismays me to see how much of my tenners worth of fuel goes to the tax man. Would love to see a breakdown on how that fuel duty is actually used though.

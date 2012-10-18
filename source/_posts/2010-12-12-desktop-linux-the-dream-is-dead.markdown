@@ -8,6 +8,8 @@ tags:
 - Linux
 - Mac
 - OS X
+permalink: /post/2188459790/desktop-linux-the-dream-is-dead
+categories: [Technology, Opinion]
 ---
 
 At last - mainstream IT media is finally catching on to what I've been saying for the past 3 years.

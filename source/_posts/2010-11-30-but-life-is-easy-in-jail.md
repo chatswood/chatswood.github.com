@@ -6,6 +6,8 @@ published: true
 categories: [Apple, Technology]
 tags: [iOS,iPhone,jailbreak,Technology,Rants]
 comments: false
+permalink: /post/2062612772/but-life-is-easy-in-jail
+categories: [Apple, Opinion]
 ---
 
 [Thin Lizzy - Jailbreak](http://open.spotify.com/album/35g1RdojcIv7HKBKOMypbf)

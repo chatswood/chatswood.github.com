@@ -9,6 +9,8 @@ tags:
 - Mac
 - Mac App Store
 - OS X
+permalink: /post/2569681655/excitement-and-trepidation-at-the-prospect-of-the-mac
+categories: [Apple, Opinion]
 ---
 
 Setting aside the geeky shame in admitting it, I'm quite excited to see the launch of the new Mac App Store this Thursday (6th January).

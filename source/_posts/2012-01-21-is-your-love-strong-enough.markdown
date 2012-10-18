@@ -11,6 +11,8 @@ tags:
 - Soundtrack
 - The Girl With The Dragon Tatto
 - Trent Reznor
+permalink: /post/16225084530/is-your-love-strong-enough
+categories: [Music]
 ---
 
 This [phenomenal track][] fills me with excitement for the forthcoming album by [How To Destroy Angels][].

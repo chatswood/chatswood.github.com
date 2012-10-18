@@ -9,6 +9,7 @@ tags:
 - Snow
 - Snow day
 - Snowpocalypse
+permalink: /post/2359010934/disappointment
 ---
 
 Maybe it's just the child in me, but I can't help but feel disappointed that the flash weather warnings issued by the [Met Office][] for a heavy and disruptive snowfall did not materialise overnight. I have nothing to gain by seeing the entire country ravaged and paralysed by Arctic conditions but I'm going to be a little selfish here.

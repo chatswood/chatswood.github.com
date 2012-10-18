@@ -5,6 +5,8 @@ external-url: http://www.marco.org/2194283690
 tags:
 - Chrome OS
 - Google
+permalink: /post/2197487233/marco-arment-on-chrome-os-and-it-platform-longevity
+categories: [Opinion]
 ---
 
 This is an interesting commentary from [Marco Arment][]. One thing that rang particularly true was this statement:

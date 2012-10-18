@@ -12,6 +12,8 @@ tags:
 - Record Industy
 - iCloud
 - iTunes
+permalink: /post/6498915177/dont-make-me-wait
+categories: [Apple, Opinion]
 ---
 
 <div style="text-align:center" markdown=1>

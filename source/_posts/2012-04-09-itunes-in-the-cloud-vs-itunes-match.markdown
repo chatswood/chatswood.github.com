@@ -12,6 +12,8 @@ tags:
 - iCloud
 - iTunes Match
 - iTunes in the Cloud
+permalink: /post/20791807865/itunes-in-the-cloud-vs-itunes-match
+categories: [Apple]
 ---
 
 John Gruber added an [update to this post][Gruber] in which he explained that he had mixed the terms *iTunes Match* and *iTunes in the Cloud*. I think the easiest way to differentiate is as follows:

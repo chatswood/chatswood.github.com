@@ -3,7 +3,9 @@ layout: post
 title: Full Screen Mode is Not For You
 date: 2012-08-30
 comments: false
-categories: 
+published: true
+categories: [Apple, Mac]
+permalink: /post/30538198744/full-screen-mode-is-not-for-you
 ---
 
 During a [recent episode][] of [Hypercritical][], host John Siracusa mentioned that he had received feedback from readers of his [OS X Mountain Lion review][] commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.

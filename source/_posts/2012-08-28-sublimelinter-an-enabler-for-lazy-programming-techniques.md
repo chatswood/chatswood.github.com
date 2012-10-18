@@ -2,8 +2,11 @@
 layout: post
 title: SublimeLinter - an Enabler for Lazy Programming Techniques
 date: 2012-08-28
-categories: [Sublime Text 2, Ruby, Rails, Development, Programming]
+tags: [Sublime Text 2, Ruby, Rails, Development, Programming]
+categories: [Programming]
+published: true
 comments: off
+permalink: /post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques
 ---
 
 Recently I've been experimenting with *text-editor-du-jour* [Sublime Text 2][] in parallel with coming late to the [Rails][] party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or *package* in ST2 parlance) that I find indispensible is [SublimeLinter][].

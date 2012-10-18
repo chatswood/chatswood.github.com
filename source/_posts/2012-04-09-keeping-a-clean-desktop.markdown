@@ -11,6 +11,8 @@ tags:
 - Hazel
 - Mac Power Users
 - Yoink
+permalink: /post/20786902305/keeping-a-clean-desktop
+categories: [Apple, Technology]
 ---
 
 While listening to the recent [Mac Power Users][] podcast on [using Hazel][] I got the impression that host [Katie Floyd][] wasn't a fan of using the Mac Desktop as a storage location for files.[^1] I've heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn't the case - for a start Windows users are people too, and just think about it: if we weren't supposed to use the Desktop, why would Apple have made it just a regular folder?

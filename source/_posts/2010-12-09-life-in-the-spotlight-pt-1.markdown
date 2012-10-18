@@ -6,6 +6,8 @@ tags:
 - Mac
 - OS X
 - Spotlight
+permalink: /post/2152774649/life-in-the-spotlight-pt-1
+categories: [Apple]
 ---
 
 I'm sorry *Spotlight*.

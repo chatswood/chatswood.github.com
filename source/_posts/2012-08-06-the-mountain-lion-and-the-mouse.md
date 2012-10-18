@@ -2,7 +2,9 @@
 layout: post
 title: The (Mountain) Lion And The Mouse
 date: 2012-08-06
-categories: [Mountain Lion, OS X, Dropbox]
+tags: [Mountain Lion, OS X, Dropbox]
+categories: [Apple, Technology]
+permalink: /post/28825879449/the-mountain-lion-and-the-mouse
 ---
 
 Mountain Lion has been running really well on *almost* all the machines I've installed it to, with just one exception - my (employer's) 17" MacBook Pro. This is unfortunate, as it's the machine that I spend the most time on - if it's not running smoothly I feel the "pain" all day, every day.

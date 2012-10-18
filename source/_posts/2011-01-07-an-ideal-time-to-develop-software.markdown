@@ -10,6 +10,8 @@ tags:
 - Build and Analyze
 - Code
 - Development
+permalink: /post/2635102419/an-ideal-time-to-develop-software
+categories: [Development, Opinion]
 ---
 
 I had the good fortune to listen to yet another excellent podcast from Dan Benjamin's [5by5 Studios][] yesterday - this time the [Build and Analyze][] program Dan co-hosts with [Marco Arment][] (of [Instapaper][] and [Tumblr][] fame).

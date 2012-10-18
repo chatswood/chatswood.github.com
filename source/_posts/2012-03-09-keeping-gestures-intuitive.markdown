@@ -10,6 +10,8 @@ tags:
 - Mac OS X
 - Reeder
 - Swipe
+categories: [Technology, Opinion]
+permalink: /post/18995472846/keeping-gestures-intuitive
 ---
 
 [Reeder for Mac][] is one of my favourite and most used pieces of software. It came out around the time that Apple started emphasising the use of gestures for OS X and Reeder for Mac was not shy about incorporating these amazing features, and even making them customisable. I particularly like the ability to swipe[^1] left to open the article in  the in-app browser view and use it regularly.

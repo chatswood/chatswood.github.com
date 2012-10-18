@@ -3,7 +3,10 @@ layout: post
 title: Maplin 500Mb/s Powerline Adapters - A Rambling Review
 date: 2012-08-14
 comments: false
-categories: WiFi,Powerline,Networking,Airport Extreme,Review
+tags: [WiFi,Powerline,Networking,Airport Extreme,Review]
+categories: [Review, Technology]
+published: true
+permalink: /post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review
 ---
 
 I'm stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I'd like to get every type of cable under the sun in there. If it's possible to generate enough heat from those cables to remove the need for central heating then I'll consider that to be a bonus.

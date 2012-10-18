@@ -8,6 +8,8 @@ date: 2011-09-02
 tags:
 - Litigation
 - Patents
+permalink: /post/9706341494/i-wish-id-patented
+categories: [Opinion]
 ---
 
 I should know better, but I still read the comments on articles about patent litigation. For some reason in every comment section there is always a bunch a posters who think they are the first person to say:

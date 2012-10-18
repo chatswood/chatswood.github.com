@@ -9,6 +9,8 @@ tags:
 - Federico Viticci
 - Ticci
 - iPad
+permalink: /post/20589101413/well-said-viticci
+categories: [Opinion]
 ---
 
 > …of all the people I have talked to in the past two years about the iPad no one ever asked me about a smaller version.

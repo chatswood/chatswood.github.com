@@ -12,6 +12,8 @@ tags:
 - Java
 - Malware
 - Trojan
+permalink: /post/20724352391/shifting-the-blame-wont-help
+categories: [Apple, Opinion]
 ---
 
 In a recent article about the Flashback Trojan that's been infecting many Macs Arik Hesseldahl at AllThingsD led off with the title *[What’s This? A Mac Virus? No, Actually It’s a Weakness in Java][Source]*. Intentional or not, this title contains the suggestion that it's not Apple's fault, it's Oracle's (with a hint of "Macs are still invulnerable" thrown in for good measure).

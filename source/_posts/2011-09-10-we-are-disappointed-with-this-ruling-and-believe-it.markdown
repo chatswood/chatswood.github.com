@@ -1,7 +1,6 @@
 ---
 layout: post
-title: ! '"We are disappointed with this ruling and believe it severely limits consumer
-  choice in Germany"'
+title: ! '"We are disappointed with this ruling and believe it severely limits consumer choice in Germany"'
 external-url: http://www.tuaw.com/2011/09/09/apple-wins-permanent-ban-on-samsung-tablet-in-germany/
 published: true
 comments: false
@@ -10,6 +9,8 @@ tags:
 - Apple
 - Germany
 - Samsung
+permalink: /post/10047655269/we-are-disappointed-with-this-ruling-and-believe-it
+categories: [Opinion]
 ---
 
 Samsung are bitching about the decision to ban sales of their Galaxy Tab 10.1 being upheld by a German court.
