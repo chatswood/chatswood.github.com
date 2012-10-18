@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Daily Backups
-link: 
+date: 2010-12-10
 tags:
 - Backup
 - Growl
@@ -10,7 +10,6 @@ tags:
 - Prowl
 - SuperDuper!
 - iOS
-permalink: /_posts/2012-10-17-following-some-hard-disk-wobbles-in-the-last-few.markdown
 ---
 
 Following some hard disk wobbles in the last few weeks I decided to take a more rigorous approach to my backup strategy. I've been using [SuperDuper!][] for some time now but my backups were infrequent to say the least. So I bit the bullet and set up a scheduled backup for myself to run every lunchtime when I was away from my desk.

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Life in the spotlight (Pt 1)
-link: 
+date: 2010-12-09
 tags:
 - Mac
 - OS X
 - Spotlight
-permalink: /_posts/2012-10-17-life-in-the-spotlight-pt-1.markdown
 ---
 
 I'm sorry *Spotlight*.
