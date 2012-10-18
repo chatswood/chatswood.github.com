@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Twitter | Chatswood]]></title>
   <link href="http://chatswood.github.com/blog/categories/twitter/atom.xml" rel="self"/>
   <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T12:18:31+01:00</updated>
+  <updated>2012-10-18T16:33:50+01:00</updated>
   <id>http://chatswood.github.com/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maximising Bang Per Token]]></title>
-    <link href="http://chatswood.github.com/blog/2012/08/31/maximising-bang-per-token/"/>
+    <link href="http://chatswood.github.com/post/30606832645/maximising-bang-per-token"/>
     <updated>2012-08-31T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/blog/2012/08/31/maximising-bang-per-token</id>
+    <id>http://chatswood.github.com/post/30606832645/maximising-bang-per-token</id>
     <content type="html"><![CDATA[<p>The brouhaha over third-party Twitter clients continues with the news of the release of a <a href="http://tapbots.com/blog/news/tweetbot-for-mac-beta-sort-of">beta version</a> of Tweetbot for Mac. Just 4 days ago the <a href="http://tapbots.com/news/where-did-the-tweetbot-for-mac-alpha-go">alpha version was withdrawn</a> with Tapbots citing as a reason the “finite limit on the number of user tokens we can get for Tweetbot for Mac”.</p>
 
 <p>This was a fair move by the developers - any Mac user could download the alpha, sign in and obtain a limited Tweetbot for Mac token. If they subsequently decided they were not interested in buying the application they can discard it without releasing the token they use. It was a problem with only one resolution - withdraw the app and preserve the tokens.</p>

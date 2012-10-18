@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | Chatswood]]></title>
   <link href="http://chatswood.github.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T12:18:31+01:00</updated>
+  <updated>2012-10-18T16:33:50+01:00</updated>
   <id>http://chatswood.github.com/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[SublimeLinter - an Enabler for Lazy Programming Techniques]]></title>
-    <link href="http://chatswood.github.com/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques/"/>
+    <link href="http://chatswood.github.com/post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques"/>
     <updated>2012-08-28T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques</id>
+    <id>http://chatswood.github.com/post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques</id>
     <content type="html"><![CDATA[<p>Recently I’ve been experimenting with <em>text-editor-du-jour</em> <a href="http://www.sublimetext.com/2">Sublime Text 2</a> in parallel with coming late to the <a href="http://rubyonrails.org/">Rails</a> party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or <em>package</em> in ST2 parlance) that I find indispensible is <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>.</p>
 
 <p>As a developer I’ve always written code in an iterative fashion - write a couple of lines, compile, edit those lines to fix the bugs, compile, write a few more lines, and so on. In my career this has occasionally been problematic, as I’ve sometimes had to work with unwieldy and inefficient <code>make</code>-based build systems that unnecessarily rebuilt large swathes of code instead of a single source file. In recent years I’ve been spoilt by some excellent IDEs (such as Eclipse/STS and Xcode) that have been kind enough to alert me to syntactical errors before I invest time in a build. </p>
@@ -37,6 +37,25 @@
 
 <p>May you continue to be a lazy, iterative developer like me.</p>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[php-mcrypt on Mountain Lion]]></title>
+    <link href="http://chatswood.github.com/post/28261274431/php-mcrypt-on-mountain-lion"/>
+    <updated>2012-07-29T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/28261274431/php-mcrypt-on-mountain-lion</id>
+    <content type="html"><![CDATA[<p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
+
+<p>Executing <code>php</code> at the command line told me the following:</p>
+
+<blockquote>
+  <p>PHP Warning:  PHP Startup: Unable to load dynamic library ‘/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so’ - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
+ Referenced from: /usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so
+ Reason: image not found in Unknown on line 0</p>
+</blockquote>
+
+<p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
 ]]></content>
   </entry>
   

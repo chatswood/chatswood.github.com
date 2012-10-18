@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Apple | Chatswood]]></title>
   <link href="http://chatswood.github.com/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T12:18:31+01:00</updated>
+  <updated>2012-10-18T16:33:50+01:00</updated>
   <id>http://chatswood.github.com/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -14,10 +14,106 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Full Screen Mode is Not For You]]></title>
+    <link href="http://chatswood.github.com/post/30538198744/full-screen-mode-is-not-for-you"/>
+    <updated>2012-08-30T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/30538198744/full-screen-mode-is-not-for-you</id>
+    <content type="html"><![CDATA[<p>During a <a href="http://5by5.tv/hypercritical/82">recent episode</a> of <a href="http://5by5.tv/hypercritical">Hypercritical</a>, host John Siracusa mentioned that he had received feedback from readers of his <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">OS X Mountain Lion review</a> commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.</p>
+
+<p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn’t long before I shared the frustrations aired by Siracusa and his readers:</p>
+
+<blockquote>
+  <p>No, I wanna use the other screens, I wanna put stuff there, I wanna see my other windows there, I wanna see my web browser there, my Twitter feed there - whatever the heck I have over there. And you can put palettes and stuff from the application that you made go full screen, you can put them on the other screens but you can’t use them for other applications. It was like, it was almost like it was being mean to you, it’s like “I know you want to see your Twitter client, but I’m putting linen over that whole screen - nah!” and that pissed people off.</p>
+</blockquote>
+
+<p>I admit that I was that reader initially and I found the lack of flexibility when using multiple displays was exceptionally frustrating. The app running in full screen mode would take over the primary display but the secondary display would only contain that boring linen background. Yes, it was possible to place extra palettes or inspectors on the secondary display but there didn’t seem to be any way to truly take advantage of the additional real estate.</p>
+
+<p>It sure would have been nice if users could have placed two independent apps side-by-side. Or if developers could have created UI layouts that took advantage of full screen mode with multiple displays, akin to the way full screen editing was available in many previous versions of Aperture. John, being the sensible guy that he is, tried to reason it out, and I think he almost nailed it<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> when he said that full screen is for people who need to concentrate.</p>
+
+<p>One use case I think he glossed over though is the fact that full screen is also for people who are working on portable machines. People who are working on one (possible small) screen and need to squeeze every last pixel out of their displays. It’s not for the power user who wants to work with multiple apps at once (or with a multitude of windows/palettes/inspectors from a single app). That’s what regular OS X is for and has been all along.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m going to say he nailed it, because came to the pretty much the same conclusion that I came to.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The (Mountain) Lion And The Mouse]]></title>
+    <link href="http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse"/>
+    <updated>2012-08-06T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse</id>
+    <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
+
+<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
+
+<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I’m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
+
+<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn’t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox’s auto-update facility is woefully behind the time.</p>
+
+<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>“If your Dropbox client hasn’t updated itself, then you might want to do so manually.”</em></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you’ve not yet used Dropbox and would like to sign up, here’s a <a href="http://db.tt/LNlAuHd">referral link</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mountain Lion's New Archive Folder]]></title>
+    <link href="http://chatswood.github.com/post/28287324457/mountain-lions-new-archive-folder"/>
+    <updated>2012-07-29T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/28287324457/mountain-lions-new-archive-folder</id>
+    <content type="html"><![CDATA[<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
+
+<p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I’d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
+
+<p>As any good Mac nerd would do, I quickly tweeted about it, and then sent a message to <a href="http://twitter.com/siracusa">John Siracusa</a> as a little extra info following his monster <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">Mountain Lion review</a>. I was surprised when he retweeted it, but as can expected when retweeted to 24,000 people, I soon got a few replies.</p>
+
+<p>A number of people have suggested that this is not new, and was present in Lion as well. I can’t speak for other people, but I know that across 4 machines running every version of Lion (from 10.7.0 to 10.7.4) I did not once see this behaviour. I was able to reboot into a Lion installation and view the same setup and saw the previous behaviour.</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Lion.png" alt="Mail.app - Lion" /></p>
+
+<p>Viewing the same setup in Mountain Lion looks like this:</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Mountain%20Lion.png" alt="Mail.app - Mountain Lion" /></p>
+
+<p>Maybe this did appear in some form in Lion, but definitely not for my particular setup. I’m still calling it a new feature, even if it’s only new for my specific set of conditions.</p>
+
+<p>In fact, that would be even better. That means Apple did it just for me.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[You *Do* Need The Xcode Command Line Tools]]></title>
+    <link href="http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
+    <updated>2012-07-17T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
+    <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
+
+<p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
+
+<p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
+
+<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Geekbench Results]]></title>
-    <link href="http://chatswood.github.com/blog/2012/05/27/geekbench-results/"/>
+    <link href="http://chatswood.github.com/post/23856794036/geekbench-results"/>
     <updated>2012-05-27T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/blog/2012/05/27/geekbench-results</id>
+    <id>http://chatswood.github.com/post/23856794036/geekbench-results</id>
     <content type="html"><![CDATA[<p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
@@ -28,94 +124,6 @@
 
 <p>I still love my Mac Pro though, if only for the sheer joy that comes when it’s time to upgrade a hard disk.</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[But Life Is Easy In Jail]]></title>
-    <link href="http://chatswood.github.com/blog/2010/11/30/but-life-is-easy-in-jail/"/>
-    <updated>2010-11-30T00:00:00+00:00</updated>
-    <id>http://chatswood.github.com/blog/2010/11/30/but-life-is-easy-in-jail</id>
-    <content type="html"><![CDATA[<p><a href="http://open.spotify.com/album/35g1RdojcIv7HKBKOMypbf">Thin Lizzy - Jailbreak</a>
-(Sorry - I couldn’t find Jailbreak by AC/DC on Spotify)</p>
-
-<p>Despite the title this is not one of those rants about the state of prison life and how it’s a cushy number. This is about my lack of understanding about why people are so keen to “jailbreak” their iOS devices.</p>
-
-<p>I’m iOSed up to the max - I’ve got an iPhone, and iPod Touch and an iPad, and all 3 of these devices are happy to live the easy life in Apple’s “jail”.</p>
-
-<p>This morning I read the news that iOS 4.2.1 had been jailbroken and you could now do whatever it is that jailbreakers love to do. This got me intrigued again so I decided to have a look at the process involved to see how easy it is and whether or not it was worth giving it a go.</p>
-
-<h2 id="why-bother">Why bother?</h2>
-
-<p>So what is so good about a jailbroken device that drives the ordinary people - the <em>exploit consumers</em> - to follow the steps so meticulously laid out by the <em>exploit producers</em>. I’ve done a bit of reading about (nothing detailed though) and it seems to boil down to the following reasons:</p>
-
-<ol>
-  <li>Allowing non-Apple approved software to be installed;</li>
-  <li>Allowing the installation of pirated software;</li>
-  <li>Allowing extra tweaks to to the OS.</li>
-  <li>Allowing the phone to be used on alternative networks;</li>
-</ol>
-
-<h3 id="non-app-store-software">Non-App Store software</h3>
-
-<p>This seems to be a big deal to a lot of people. To be fair many great iPhone/iOS apps started life on jailbroken iPhones before Apple launched the App Store. I don’t know if the App Store was always planned, or if it was a reaction to the burgeoning app development scene, but ultimately modern iOS users owe a debt of gratitude to the pioneers in the pre-App Store jailbreak scene.</p>
-
-<p>There are alternative app stores out there (such as <em><a href="http://en.wikipedia.org/wiki/Cydia_(application)">Cydia</a></em>) which allow jailbreakees to install software that cannot be obtained through the official App Store. The reasons for software not being available in the official App Store vary, but they could include software rejected by Apple or software written by people who reject Apple’s policies.</p>
-
-<p>One good reason for software not being available in the App Store is the use of private APIs. Apple have a lot of functionality that is not available via it’s officially sanctioned public APIs, and as ever there are people out there who want to push the limits of their software beyond want Apple will allow them to do so. Putting an app on a store like Cydia may allow them to get sales they are denied from official channels, or even to build a userbase before those APIs become publicly available.</p>
-
-<h3 id="pirated-software">Pirated software</h3>
-
-<p>The stock iOS ecosystem is not conducive to software piracy. Apple employs DRM techniques to prevent illegally acquired apps from being run on iOS devices so in order to run pirated software you have to jailbreak your device.</p>
-
-<p>I just want to be clear - just because piracy requires jailbreaking, does not mean that jailbreaking is always done for the purposes of piracy. Some people use their jailbreaking powers for evil, but just as many (if not more) use their jailbreaking powers for good! Flame aversion completed.</p>
-
-<p>The reasons for using pirated iOS software are probably as abundant as those for any type of software platform, but they generally run the gamut from <em>“I like to try before I buy”</em> to (the immoral-but-honest) <em>“I don’t want to pay for software if I can get it for free”</em>. Of course there are people out there who genuinely do try the pirated software, then buy it (I’ve actually done it myself). But these people are a tiny minority. Jailbreaking may not be illegal, but using pirated software is, and it’ll never wash with me as a reason to jailbreak.</p>
-
-<p>And for those of you who insist on <em>“I like to try before I buy”</em> - that’s what the <em>Lite</em> versions on the official App Store are for!</p>
-
-<h3 id="tweaking-the-os">Tweaking the OS</h3>
-
-<p>Some people just love to customise the things they possess. They exist in all walks of life as well as software - they are the home improvement fanatics, the car-modders, the GNU-Linux enthusiasts, to name but a minuscule sample of them.</p>
-
-<p>iPhone owners are no exception - there will always be the enthusiasts who want to get console access to their device. They want to tweak the home screen. They want to push the limits of the software they paid for. Unfortunately Apple don’t want to relinquish that much control of the device. It’s an ongoing debate as to how healthy this level of control that Apple wields over the devices is, but like it or not, it’s the rules.</p>
-
-<p>Unless of course you jailbreak your device. Then all bets are off and if you (or someone else) can figure out how to change some aspect of iOS then you’re free to do so.</p>
-
-<p>It’s hard to see fault with this - and in fact it has benefits to non-jailbreakers as well. Apple come up with many great ideas, but they usually make their money by implementing somebody else’s great idea instead. By pushing the boundaries with what can be achieved with the device, it’s fair to say that Apple can soak up the great ideas in the current generation of jailbroken devices and wring the sponge into the next generation of the OS.</p>
-
-<h3 id="network-freedom">Network freedom</h3>
-
-<p>To me this is one of the few good reasons to jailbreak an iOS device like an iPhone or 3G iPad. In many territories the network-enabled devices are locked to particular carriers which means that people have to suffer the particular characteristics of that carrier and their network. The prime example is obviously AT&amp;T in the US. They seem to suffer more than their fair share of network issues, and people seem keen to jailbreak their devices simply to move to a network with better</p>
-
-<h2 id="too-much-bother">Too much bother?</h2>
-
-<p>Maybe I’m just not understanding everything that is involved, but it seems that jailbreaking involves a lot of conditions and caveats. The ability to jailbreak is based on exploits in particularly software/firmware combinations.</p>
-
-<p>I’ve got no problem with people trying to break these, especially if it gives Apple the heads up when it comes to vulnerabilities in their software. But it seems that the only reason they go to such trouble is so that they can jailbreak their devices. Obviously there’s the <em>“hacker/cracker”</em> mindset at work here - it doesn’t matter what the device/software/technology is - there will always be someone who will try to break it just for sport.</p>
-
-<p>For the jailbreakee I see it as an awful lot of hassle depending on the particular jailbreak in question. The recent <em>“jailbreakme”</em> exploit seemed pretty convenient - go to a web page, device is jailbroken. Easy. Assuming you have a version of iOS that is vulnerable. And that it all works fine.</p>
-
-<h2 id="will-i-bother">Will I bother?</h2>
-
-<p>To be frank - no I really don’t have any reason to do so.</p>
-
-<ol>
-  <li>There is no software that is unavailable on the official App Store that I <em>need</em> to have on my devices. And while I’m not the worlds best iOS developer, if I truly needed an itch scratched, I think I could do it myself.</li>
-  <li>I don’t want to run pirated software. Like I said in the article I have done so in the past <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> but I really don’t feel any need to do so any more.</li>
-  <li>I’m happy enough with the stock capabilities of the iOS platform - I don’t think there’s anything I’d like changed so much that I’d go-a-jailbreakin’ just to get it.</li>
-  <li>I’m lucky enough to live in a territory that has iPhones on multiple carriers and my carrier was kind enough to unlock mine when I asked them to.</li>
-</ol>
-
-<p>For now jailbreaking just doesn’t have a <em>killer app</em> for me. Maybe someday it will, but for now I’m content to stay in the Apple cell.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>I did this once with Microsoft Money. There was no demo version available so I downloaded a copy, ran it for a week, then ordered it from Amazon. Some people genuinely try before they buy, but I still feel that we are a tiny minority!<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   

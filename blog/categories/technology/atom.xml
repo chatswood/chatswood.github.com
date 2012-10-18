@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Chatswood]]></title>
   <link href="http://chatswood.github.com/blog/categories/technology/atom.xml" rel="self"/>
   <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T12:18:31+01:00</updated>
+  <updated>2012-10-18T16:33:50+01:00</updated>
   <id>http://chatswood.github.com/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -14,87 +14,72 @@
 
   
   <entry>
-    <title type="html"><![CDATA[But Life Is Easy In Jail]]></title>
-    <link href="http://chatswood.github.com/blog/2010/11/30/but-life-is-easy-in-jail/"/>
-    <updated>2010-11-30T00:00:00+00:00</updated>
-    <id>http://chatswood.github.com/blog/2010/11/30/but-life-is-easy-in-jail</id>
-    <content type="html"><![CDATA[<p><a href="http://open.spotify.com/album/35g1RdojcIv7HKBKOMypbf">Thin Lizzy - Jailbreak</a>
-(Sorry - I couldn’t find Jailbreak by AC/DC on Spotify)</p>
+    <title type="html"><![CDATA[Maplin 500Mb/s Powerline Adapters - A Rambling Review]]></title>
+    <link href="http://chatswood.github.com/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review"/>
+    <updated>2012-08-14T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/29405190084/maplin-powerline-adapters</id>
+    <content type="html"><![CDATA[<p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
 
-<p>Despite the title this is not one of those rants about the state of prison life and how it’s a cushy number. This is about my lack of understanding about why people are so keen to “jailbreak” their iOS devices.</p>
+<p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I’m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She’s convinced that I’ll leave gaping holes running down the walls that never get patched up, and that the painting won’t get beyond the colour-picking stage. She’s probably right.</p>
 
-<p>I’m iOSed up to the max - I’ve got an iPhone, and iPod Touch and an iPad, and all 3 of these devices are happy to live the easy life in Apple’s “jail”.</p>
+<h2 id="enter-stage-left-80211n-wifi">Enter stage left: 802.11n WiFi</h2>
 
-<p>This morning I read the news that iOS 4.2.1 had been jailbroken and you could now do whatever it is that jailbreakers love to do. This got me intrigued again so I decided to have a look at the process involved to see how easy it is and whether or not it was worth giving it a go.</p>
+<p>With the <em>right hardware</em> 802.11n WiFi could very easily have been the answer to my (or my wife’s) prayers. The <em>theoretical</em> maximum is 600Mb/s - it’s not quite Gigabit Ethernet, but is still capable of delivering a large amount of data quickly. Theoretically. With the right hardware.</p>
 
-<h2 id="why-bother">Why bother?</h2>
+<p>At the minute I only have one weak spot in the home network - the link between a Gigabit network upstairs and a Gigabit network downstairs in the office. I invested in the latest Apple Airport Extreme base station that I paired up with a 2nd generation Time Capsule. The Airport Extreme was configured to establish a 5GHz 802.11n network using the wide-band settings.</p>
 
-<p>So what is so good about a jailbroken device that drives the ordinary people - the <em>exploit consumers</em> - to follow the steps so meticulously laid out by the <em>exploit producers</em>. I’ve done a bit of reading about (nothing detailed though) and it seems to boil down to the following reasons:</p>
+<p>I had hoped to see a pretty fast link between the two base stations, but unfortunately the data rate reported by the Extreme was just 180Mb/s. Testing the network for “real-world” performance resulted in just 93.43Mb/s (using zPerf as a test tool). This isn’t a bad speed, but I do tend to fling a large amount of data around the network. It also gets extremely frustrating to be limited to Fast Ethernet speeds when I know there’s a Gigabit network up there just waiting to be saturated.</p>
 
-<ol>
-  <li>Allowing non-Apple approved software to be installed;</li>
-  <li>Allowing the installation of pirated software;</li>
-  <li>Allowing extra tweaks to to the OS.</li>
-  <li>Allowing the phone to be used on alternative networks;</li>
-</ol>
+<h2 id="enter-stage-right-powerline-networking-adapters">Enter stage right: powerline networking adapters</h2>
 
-<h3 id="non-app-store-software">Non-App Store software</h3>
+<p>I’d considered powerline adapters in the past, but had always balked at the relatively low speeds they offered. Having discovered just how poor the WiFi connection was I decided that the newer 500Mb/s models might be worth a blast - even at 50% of the theoretical maximum I could still get 2.5 times the performance of the WiFi link. When an offer for <a href="http://www.maplin.co.uk/500mbps-twin-powerline-starter-kit-626154">Maplin powerline network adapters</a> came up they were hastily purchased. Once received I got to testing, and the results were extremely disappointing.</p>
 
-<p>This seems to be a big deal to a lot of people. To be fair many great iPhone/iOS apps started life on jailbroken iPhones before Apple launched the App Store. I don’t know if the App Store was always planned, or if it was a reaction to the burgeoning app development scene, but ultimately modern iOS users owe a debt of gratitude to the pioneers in the pre-App Store jailbreak scene.</p>
+<p>I know that the 500Mb/s is an ideal scenario and many things will conspire to reduce this figure in the real world. Old wiring, interference from other devices and use of extension cables amongst other factors. Our home is fairly modern, and has wiring that is only 8 years old. I tried to improve things by avoiding extension cables, and plugging directly into the mains sockets at both ends, but to no avail. The best rate I could get was a paltry 53.21Mb/s. WiFi it is then.</p>
 
-<p>There are alternative app stores out there (such as <em><a href="http://en.wikipedia.org/wiki/Cydia_(application)">Cydia</a></em>) which allow jailbreakees to install software that cannot be obtained through the official App Store. The reasons for software not being available in the official App Store vary, but they could include software rejected by Apple or software written by people who reject Apple’s policies.</p>
+<p>Not wanting to return the product without trying to find a use for it, I decided to try using the powerline adapters to connect my ADSL modem/router from downstairs to the upstairs network. We only get 5.5-6Mb/s from our ADSL connection so 50+Mb/s is plenty of bandwidth. Unfortunately since doing so, I noticed regular breaks in the connection from the home network to the ADSL router.</p>
 
-<p>One good reason for software not being available in the App Store is the use of private APIs. Apple have a lot of functionality that is not available via it’s officially sanctioned public APIs, and as ever there are people out there who want to push the limits of their software beyond want Apple will allow them to do so. Putting an app on a store like Cydia may allow them to get sales they are denied from official channels, or even to build a userbase before those APIs become publicly available.</p>
+<p>The only new factor there is the powerline adapters, so they’ve had to come out and are currently on their way back to Maplin. Rather than post them, my kind wife agreed to drop them into the store as she was going to be passing it. She’ll probably be away for a few hours at least. Now to find my hammer, some Cat6, and the crimping tool.</p>
 
-<h3 id="pirated-software">Pirated software</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why App.net?]]></title>
+    <link href="http://chatswood.github.com/post/29224063502/why-app-net"/>
+    <updated>2012-08-11T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/29224063502/why-app.net</id>
+    <content type="html"><![CDATA[<p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Just over a month ago, Dalton Caldwell wrote a blog post entitled “<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>”. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: “<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>”.</p>
 
-<p>The stock iOS ecosystem is not conducive to software piracy. Apple employs DRM techniques to prevent illegally acquired apps from being run on iOS devices so in order to run pirated software you have to jailbreak your device.</p>
+<p>In this post Dalton essentially proposed building a new Twitter. A Twitter that was funded directly by the users instead of by the advertisers. He and his company established a KickStarter-style campaign to raise $500k by 13th August in order to fund this new social network. As of the time of writing, there are just under two days remaining, and there is only $69,200 left to be raised.</p>
 
-<p>I just want to be clear - just because piracy requires jailbreaking, does not mean that jailbreaking is always done for the purposes of piracy. Some people use their jailbreaking powers for evil, but just as many (if not more) use their jailbreaking powers for good! Flame aversion completed.</p>
+<p>I’ve decided to back this project because, like Dalton, I’m concerned about what I perceive as a  “degradation” of Twitter. It’s not a degradation for many people - in fact Twitter is probably going from strength to strength in the eyes of many of it’s users. But I’m an atypical user. I’m not on Twitter to follow celebrities, to track mainstream news, or to keep up with my friends. I’m mainly on Twitter to receive tech news, to use innovative apps, and to communicate with other people in the tech industry - the industry that is both my livelihood and my passion.</p>
 
-<p>The reasons for using pirated iOS software are probably as abundant as those for any type of software platform, but they generally run the gamut from <em>“I like to try before I buy”</em> to (the immoral-but-honest) <em>“I don’t want to pay for software if I can get it for free”</em>. Of course there are people out there who genuinely do try the pirated software, then buy it (I’ve actually done it myself). But these people are a tiny minority. Jailbreaking may not be illegal, but using pirated software is, and it’ll never wash with me as a reason to jailbreak.</p>
+<p>For <em>me</em>, Twitter is degrading. For <em>me</em>, it is becoming less vital, and is in danger of becoming unusable to me. I may be over-reacting, but Twitter’s recent rumblings about third-party clients has not inspired confidence. I use TweetBot for iOS (and now for Mac) fanatically. I don’t want to go back to Twitter’s first-party clients, partly because Twitter are not putting in the effort to maintain them, and partly because I don’t want to use apps that are really just conduits to the advertising model that will become essential to Twitter’s survival. Like many others, I would be happy to pay for access to Twitter, but we’re not being offered this opportunity.</p>
 
-<p>And for those of you who insist on <em>“I like to try before I buy”</em> - that’s what the <em>Lite</em> versions on the official App Store are for!</p>
+<h2 id="so-why-appnet">So Why App.net?</h2>
 
-<h3 id="tweaking-the-os">Tweaking the OS</h3>
+<p>I don’t know if <a href="http://join.app.net/">App.net</a> can work but I’m happy to put my money where my mouth is, and give it a chance to succeed.</p>
 
-<p>Some people just love to customise the things they possess. They exist in all walks of life as well as software - they are the home improvement fanatics, the car-modders, the GNU-Linux enthusiasts, to name but a minuscule sample of them.</p>
+<p>I’m keen to join a social network at the beginning and help it grow. I joined Twitter in 2009 and while I’ve enjoyed my time on it, I sometimes feel like I missed the halcyon days when it was a closer, more tight-knit community. </p>
 
-<p>iPhone owners are no exception - there will always be the enthusiasts who want to get console access to their device. They want to tweak the home screen. They want to push the limits of the software they paid for. Unfortunately Apple don’t want to relinquish that much control of the device. It’s an ongoing debate as to how healthy this level of control that Apple wields over the devices is, but like it or not, it’s the rules.</p>
+<p>I’m happy to pay to be part of a smaller community with a more focussed group of users. Part of the problem with Twitter is that there is no barrier to entry. Yes, this is me being a little bit elitist but I feel that it is a valid point. Every day on Twitter I am being subjected to random followers who have no interest in what I have to say. I hope that the <a href="http://join.app.net/">App.net</a> community will be more focussed and less likely to resort to such behaviour. I’m also hoping that the <a href="http://join.app.net/">App.net</a> ecosystem will be subject to more moderation - where “spam followers” can be reported and ultimately warned and/or banned.</p>
 
-<p>Unless of course you jailbreak your device. Then all bets are off and if you (or someone else) can figure out how to change some aspect of iOS then you’re free to do so.</p>
+<p>I’m hoping that the requirement to pay a fee will weed out a large number of the people who try to use Twitter as a conduit to spam. Twitter is like email, in that there is very little barrier to entry to start spamming. It’s effectively free to send emails or tweets as spam if you can cover your tracks. Twitter spam is a huge problem in my eyes. I’m subjected to daily @reply spam. I’m hoping that the requirement to pay for the service will reduce the number of spammers who will target <a href="http://join.app.net/">App.net</a>, or at the very least make it easier to track and remove these spammers.</p>
 
-<p>It’s hard to see fault with this - and in fact it has benefits to non-jailbreakers as well. Apple come up with many great ideas, but they usually make their money by implementing somebody else’s great idea instead. By pushing the boundaries with what can be achieved with the device, it’s fair to say that Apple can soak up the great ideas in the current generation of jailbroken devices and wring the sponge into the next generation of the OS.</p>
+<p>I’m interested in a service that transcends Twitter and, because it is paid for by the users, will listen to those users in implementing the features that they need, or want. If done right, it will be directed by the needs of the people who <em>use</em> the service, not the people who wish to sell advertising on the service.</p>
 
-<h3 id="network-freedom">Network freedom</h3>
+<h2 id="huge-responsibilities">Huge Responsibilities</h2>
 
-<p>To me this is one of the few good reasons to jailbreak an iOS device like an iPhone or 3G iPad. In many territories the network-enabled devices are locked to particular carriers which means that people have to suffer the particular characteristics of that carrier and their network. The prime example is obviously AT&amp;T in the US. They seem to suffer more than their fair share of network issues, and people seem keen to jailbreak their devices simply to move to a network with better</p>
+<p><a href="http://join.app.net/">App.net</a> is an ambitious venture. Just getting to $500k does not guarantee any level of success. And while the developer community, or the hacker community, or the whatever-we-are community can drive the success of many things, even we can’t make it succeed through goodwill alone. The threshold may be met, but unless we embrace the resulting service, building the apps, tools, and sites to make it succeed, then it will be doomed to failure.</p>
 
-<h2 id="too-much-bother">Too much bother?</h2>
+<p>We’re also putting a lot of faith in the ability of Dalton Caldwell and his team. The fact that funding comes directly from the users means a lot, but this is still not some kind of democracy where every paying customer gets a vote. We’re not shareholders. We don’t belong to a board of directors. We are putting our hard-earned cash on the line, and trusting <a href="http://join.app.net/">App.net</a> to make the right decisions, to implement the necessary features, and to implement them on time.</p>
 
-<p>Maybe I’m just not understanding everything that is involved, but it seems that jailbreaking involves a lot of conditions and caveats. The ability to jailbreak is based on exploits in particularly software/firmware combinations.</p>
-
-<p>I’ve got no problem with people trying to break these, especially if it gives Apple the heads up when it comes to vulnerabilities in their software. But it seems that the only reason they go to such trouble is so that they can jailbreak their devices. Obviously there’s the <em>“hacker/cracker”</em> mindset at work here - it doesn’t matter what the device/software/technology is - there will always be someone who will try to break it just for sport.</p>
-
-<p>For the jailbreakee I see it as an awful lot of hassle depending on the particular jailbreak in question. The recent <em>“jailbreakme”</em> exploit seemed pretty convenient - go to a web page, device is jailbroken. Easy. Assuming you have a version of iOS that is vulnerable. And that it all works fine.</p>
-
-<h2 id="will-i-bother">Will I bother?</h2>
-
-<p>To be frank - no I really don’t have any reason to do so.</p>
-
-<ol>
-  <li>There is no software that is unavailable on the official App Store that I <em>need</em> to have on my devices. And while I’m not the worlds best iOS developer, if I truly needed an itch scratched, I think I could do it myself.</li>
-  <li>I don’t want to run pirated software. Like I said in the article I have done so in the past <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> but I really don’t feel any need to do so any more.</li>
-  <li>I’m happy enough with the stock capabilities of the iOS platform - I don’t think there’s anything I’d like changed so much that I’d go-a-jailbreakin’ just to get it.</li>
-  <li>I’m lucky enough to live in a territory that has iPhones on multiple carriers and my carrier was kind enough to unlock mine when I asked them to.</li>
-</ol>
-
-<p>For now jailbreaking just doesn’t have a <em>killer app</em> for me. Maybe someday it will, but for now I’m content to stay in the Apple cell.</p>
+<p>So let’s all pull together. <a href="http://join.app.net/">App.net</a> who will build the infrastructure. The developers who will build applications to use the infrastructure. And finally the community who will use the applications. We all have a responsibility for the success or failure of this venture.</p>
 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>I did this once with Microsoft Money. There was no demo version available so I downloaded a copy, ran it for a week, then ordered it from Amazon. Some people genuinely try before they buy, but I still feel that we are a tiny minority!<a href="#fnref:1" rel="reference">&#8617;</a></p>
+      <p>I’m sure it’s a hot topic in other areas too, but I can’t really say much about that.<a href="#fnref:1" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -102,22 +87,142 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Broadband Constipation]]></title>
-    <link href="http://chatswood.github.com/blog/2010/11/26/broadband-constipation/"/>
-    <updated>2010-11-26T00:00:00+00:00</updated>
-    <id>http://chatswood.github.com/blog/2010/11/26/broadband-constipation</id>
-    <content type="html"><![CDATA[<p>A nice man from BT Wholesale called me yesterday to let me know what the deal was with us being able to get their <a href="http://www.bt.com/infinity">Infinity</a> product.</p>
+    <title type="html"><![CDATA[The (Mountain) Lion And The Mouse]]></title>
+    <link href="http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse"/>
+    <updated>2012-08-06T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/28825879449/the-mountain-lion-and-the-mouse</id>
+    <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
 
-<p>I’d been asking about when their Fibre To The Cabinet (FTTC) rollout was going to hit my local cabinet. The cabinet is at the end of the road, and I’d recently seen BT’s contractor (KN Networks) doing some work at it, but the physical cabinet had never arrived.</p>
+<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
 
-<p>The good news from the call was that our humble abode is actually on another cabinet which is already FTTC-enabled. A mini-Mexican Wave was performed to the amusement of passers by.</p>
+<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I’m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
 
-<p>The bad news was still to come - unfortunately the cabinet we’re actually connected to is much further away from the house and so we are over the 2km limit that BT are putting on their Infinity service.</p>
+<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn’t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox’s auto-update facility is woefully behind the time.</p>
 
-<p>Amazingly this wasn’t as devastating as I thought it would be. I looked around me, and it seemed like the world was still spinning. I suppose there are things in life that change your perspective and some of those have happened in the last year or so.</p>
+<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>“If your Dropbox client hasn’t updated itself, then you might want to do so manually.”</em></p>
 
-<p>Still, I would love to get my hands on a faster broadband connection - 5.5Mbps is still a reasonable download speed, but I’m crying out for more upload! 0.4Mbps is just not enough to really live “in the cloud”.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you’ve not yet used Dropbox and would like to sign up, here’s a <a href="http://db.tt/LNlAuHd">referral link</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Up to" charges for "Up to" services]]></title>
+    <link href="http://chatswood.github.com/post/21261771299/up-to-charges-for-up-to-services"/>
+    <updated>2012-04-17T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/21261771299/up-to-charges-for-up-to-services</id>
+    <content type="html"><![CDATA[<p>I’m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I’ve been making lately to whoever will listen:</p>
 
+<blockquote>
+  <p>If your supermarket charged you full price for ‘upto’ a Kg of sugar, or the service station charged you full price for ‘upto’ a gallon of petrol they would be prosecuted.</p>
+</blockquote>
+
+<p>(via <a href="http://www.theregister.co.uk/2012/04/16/wispa_upto_campaign/">The Register</a>)</p>
+
+<p>We pay for an “up to 16Mbps” service. Unfortunately my ISP - <a href="http://www.productsandservices.bt.com/consumerProducts/displayCategory.do?categoryId=CON-TOTAL-BB-R1">BT Total Broadband</a> - and the underlying wholesale provider <a href="http://www.openreach.co.uk/orpg/home/home.do">Openreach</a> have not seen fit to install ADSL2 hardware in our local exchange. This mere technicality means that my “up to 16Mbps” service is instantly constrained by the 8Mbps limit on ADSL Max technology.</p>
+
+<p>We pay £26 a month for a service that, through no fault of our own, can only deliver 50% of the promised<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> service. That’s bad enough, but we’re still talking theoretical limits here. Our actual delivered service is just over 6Mbps with a fair wind. So what we actually get is not 16Mbps, but just 37.5% of that. Other BT Total Broadband customers on the same package will pay the same amount, yet they may get 100% of the promised service.</p>
+
+<p>We actually fall somewhere in the middle of the spectrum. A good friend is also a customer with BT Total Broadband, and therefore is also signed up to a service that is advertised as being up to 16Mbps. His actual delivered service is 0.5Mbps. To save you doing the mental arithmetic, that is just 3.125% of the maximum theoretical service. Yet he pays 100% of the price.</p>
+
+<p>Back in 2009 the <a href="http://news.bbc.co.uk/1/hi/8012848.stm">UK government said in their budget</a> that they would commit to ensuring that everyone in the country would have access to 2Mbps broadband by 2012 though they’ve now said that will be 2015. We still have people unable to achieve that target. Worse still, these people are being forced to pay prices similar to those paid by users of next-generation broadband services. </p>
+
+<h2 id="not-going-far-enough">Not going far enough</h2>
+
+<p>I not only agree with what <a href="http://wispa.it/">wispa</a> are saying in their campaign, but I feel that they are not going far enough. Not only should people be paying a price proportionate to the service they receive, but those receiving a service below the governments “target” of 2Mbps should not be paying a single penny. And yet the campaign from <a href="http://wispa.it/">wispa</a> only covers the concept of people not getting the full “up to” service.</p>
+
+<p>There is an even wider problem that is becoming more prevalent as next-generation broadband services are being rolled out. Amongst my friends, family and colleagues there is a huge disparity amongst the level of broadband services available. Some people have <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">Fibre To The Cabinet</a>, some have ADSL2, some have just regular ADSL, some have 3G wireless, and some have nothing.</p>
+
+<p>The strange thing is that many of these differing levels of service cost around the same price. As an example, at home we only receive regular ADSL - this will cost about £18 a month for up to 16Mbps and 40GB allowance<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. According to <a href="http://www.productsandservices.bt.com/consumerProducts/displayTopic.do?topicId=29017">BT’s Infinity product pages</a> the base level package is also £18, but this includes up to 38Mbps and the same 40GB allowance.</p>
+
+<p>We pay the same price for an inferior service. Why? Because we live in an area that is simply not covered by the <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">FTTC</a> technology. That seems unfair to say the least, yet when the question is asked of BT, their answer is often the same: it comes down to the business case. They will simply not extend the reach of their FTTC offering because it is cost prohibitive.</p>
+
+<h2 id="who-costs-the-most">Who costs the most?</h2>
+
+<p>Let’s think about this for a minute. While I accept that I am probably simplifying things greatly here, the costs to BT for each customer will come down to the several major groupings: ISP running costs, bandwidth, network infrastructure, and exchange hardware. So how might these costs vary between users on ADSL and Infinity products?</p>
+
+<ul>
+  <li>
+    <p>It will cost the same to run as an ISP whether your user is on ADSL or Infinity. The cost of an email accounts, support, portals, etc should all be the same. If anything support for Infinity users will be higher as this is the newer technology, and more prone to confusion and problems.</p>
+  </li>
+  <li>
+    <p>Bandwidth costs should be the same to them although it could easily be argued that a user on a fast Infinity connection will consume more of your bandwidth, certainly on “unlimited” allowance packages.</p>
+  </li>
+  <li>
+    <p>Network infrastructure is where things will differ. Backhaul should be the same, but paying for new fibre cabinets and the fibre optic cabling to them costs a lot. The network infrastructure is the same as it always was for ADSL users, it’s only the new Infinity users that incur this cost.</p>
+  </li>
+  <li>
+    <p>Exchange hardware will also see a large difference. ADSL hardware is available in most, if not all exchanges, and would likely have been paid for at this stage, less some ongoing maintenance costs. Conversely, the Infinity hardware is new and expensive, and is where the real cost lies.</p>
+  </li>
+</ul>
+
+<p>I think it’s fair to say that it costs a lot more to sustain a customer on an Infinity package over a customer on regular ADSL, yet both sets of customers pay the same price. I think that what <a href="http://wispa.it/">wispa</a> should be campaigning for is not only an end to the “up to” problem, but that customers on older, inferior products should not be effectively subsidising customers who take a newer, superior product.</p>
+
+<p>As I mentioned earlier, often when I ask BT why they don’t offer me Infinity, they say it’s because there is no business case for it. They say it’s not economically viable.</p>
+
+<p>I now say - why don’t you use the excess money you get from me paying the same price as an Infinity service, and instead of treating it as profit, treat it as a down-payment on the new hardware you need to provide me with a better service. Maybe <a href="http://wispa.it/">wispa</a> can adapt this into their campaign as well.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Yes, I know it wasn’t actually <em>promised</em> to us, but this is where the whole “you wouldn’t be happy with up to a litre of fuel” thing comes in!<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>We were on this package, but upgraded to their “unlimited” allowance, hence the £26 a month mentioned previously.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Keeping a Clean Desktop]]></title>
+    <link href="http://chatswood.github.com/post/20786902305/keeping-a-clean-desktop"/>
+    <updated>2012-04-09T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/20786902305/keeping-a-clean-desktop</id>
+    <content type="html"><![CDATA[<p>While listening to the recent <a href="http://macpowerusers.com/">Mac Power Users</a> podcast on <a href="http://macpowerusers.com/2012/04/mpu-79-hazel-3-0/">using Hazel</a> I got the impression that host <a href="http://www.katiefloyd.me/">Katie Floyd</a> wasn’t a fan of using the Mac Desktop as a storage location for files.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I’ve heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn’t the case - for a start Windows users are people too, and just think about it: if we weren’t supposed to use the Desktop, why would Apple have made it just a regular folder?</p>
+
+<p>I can be a bit of a cleanliness freak when it comes to my hard disks<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> but surprisingly I’m actually a fan of throwing documents on the Desktop as a working storage area. If I’m working on a document, downloading some material or even just trying something out I tend to leave things on the Desktop while I’m working on them.</p>
+
+<p>I see this as being akin to the real world - when I’m working with paper documents I tend to spread them around me in order to have the material within easy reach. I want to be able to do the same with the Mac Desktop so that I don’t have to root around in folders for the relevant files.</p>
+
+<h2 id="too-much-hassle">Too Much Hassle?</h2>
+
+<p>I guess some people might find it tough working with the Mac Desktop. Sometimes it can be hard to arrange windows so that you can quickly open documents or move them about, especially when it comes to Macs with smaller displays like MacBook Pros and Airs.</p>
+
+<p>My advice to people is to take advantage of Exposé - especially on newer Macs with gesture support. I use the “Spread with thumb and three fingers” gesture to access the Desktop and have immediate access to my files for double-clicking or drag-and-drop operations.</p>
+
+<p>Admittedly dragging and dropping can be troublesome at times. To drop into an open application you generally need to drag the item over the dock icon for the application, wait for it to show the open windows for the application and then hold the item over the desired window until it comes to the foreground. This can be cumbersome, so it’s worth grabbing <a href="http://www.eternalstorms.at/yoink/">Yoink</a> from the Mac App Store. Once installed it provides a handy tray you can drag onto quickly, then Cmd-Tab (or otherwise navigate) to your desired application and drag from the Yoink tray into the application.</p>
+
+<h2 id="keeping-it-under-control">Keeping It Under Control</h2>
+
+<p>Of course, there’s always a danger that your Desktop can get out of control if you start using it for multiple active projects. The best way to combat this is with a bit of discipline, but if you need a hand you can always turn to Hazel for some help.</p>
+
+<p>At present I use a two-level indicator as to the relevance of a file on the desktop. After two days of inactivity Hazel marks a file with an Orange label so that I can see that it hasn’t been used recently. After a further two days of inactivity Hazel marks the file with a Red label as a final warning.</p>
+
+<p>Ideally though my desktop would be reasonably clear at the end of every day so that I can start from scratch every morning. Again Hazel could come to the rescue, by automatically clearing items from the desktop at the end of the working day. The rule shown below is the start of a system for implementing this:</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2012/04/blue_rule.png" alt="Blue Rule" /></p>
+
+<p>The idea here is that I can have multiple projects organised according to label colour. At the end of the working day Hazel will sweep all files on the Desktop with a Blue label into the Blue folder. The next time I go to work on the project I can just drag the items back onto the Desktop to start again. It’s a bit like keeping your real life working papers in boxes - at the end of the day you just sweep the papers off the desktop and into the box. Next day, dump the contents of the box onto the nice clean desktop.</p>
+
+<p>See - working on the Desktop is not just for savages.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Thankfully co-host <a href="http://www.macsparky.com/">David Sparks</a> was more realistic and mentioned a few <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> rules for dealing with long term visitors to the Desktop.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>In the digital world world only, in real life I can be a pig.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   

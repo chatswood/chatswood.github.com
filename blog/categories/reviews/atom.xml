@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Reviews | Chatswood]]></title>
+  <link href="http://chatswood.github.com/blog/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://chatswood.github.com/"/>
+  <updated>2012-10-18T16:33:50+01:00</updated>
+  <id>http://chatswood.github.com/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Udosson - Kurz Unter Land]]></title>
+    <link href="http://chatswood.github.com/post/2924445483/udosson-kurz-unter-land"/>
+    <updated>2011-01-25T00:00:00+00:00</updated>
+    <id>http://chatswood.github.com/post/2924445483/udosson-kurz-unter-land</id>
+    <content type="html"><![CDATA[<p>A long time ago I stumbled across the artist <a href="http://udosson.com/">Udosson</a> through his <a href="http://soundcloud.com/udosson">SoundCloud profile</a>. I always found his music to be a perfect combination of organic sounding synths and machine-like rhythms. I’d always listened to his tracks in isolation but recently I decided to lay down some cash for his 2010 album <em>Kurz Unter Land</em> (helpfully translated as “off-shore” by the kind souls at Udosson’s label <a href="http://petite-unique.de/">Petite:Unique</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>).</p>
+
+<p>The music itself is predominantly ambient in nature and takes in clicky percussions, swelling pads and beautiful samples. Some of it is reminiscent of Hans Zimmer’s work on the Inception soundtrack while other portions remind me of the more ambient tracks from The Aphex Twin’s Drukqs album. I really recommend that you have a listen to this material at Udosson’s <a href="http://soundcloud.com/udosson">SoundCloud profile</a> and buy it if you like it.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Nice people but I hope they get a better payment mechanism together soon.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

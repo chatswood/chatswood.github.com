@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Development | Chatswood]]></title>
   <link href="http://chatswood.github.com/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://chatswood.github.com/"/>
-  <updated>2012-10-18T12:18:31+01:00</updated>
+  <updated>2012-10-18T16:33:50+01:00</updated>
   <id>http://chatswood.github.com/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -14,29 +14,86 @@
 
   
   <entry>
-    <title type="html"><![CDATA[SublimeLinter - an Enabler for Lazy Programming Techniques]]></title>
-    <link href="http://chatswood.github.com/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques/"/>
-    <updated>2012-08-28T00:00:00+01:00</updated>
-    <id>http://chatswood.github.com/blog/2012/08/28/sublimelinter-an-enabler-for-lazy-programming-techniques</id>
-    <content type="html"><![CDATA[<p>Recently I’ve been experimenting with <em>text-editor-du-jour</em> <a href="http://www.sublimetext.com/2">Sublime Text 2</a> in parallel with coming late to the <a href="http://rubyonrails.org/">Rails</a> party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or <em>package</em> in ST2 parlance) that I find indispensible is <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>.</p>
+    <title type="html"><![CDATA[You *Do* Need The Xcode Command Line Tools]]></title>
+    <link href="http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
+    <updated>2012-07-17T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
+    <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
 
-<p>As a developer I’ve always written code in an iterative fashion - write a couple of lines, compile, edit those lines to fix the bugs, compile, write a few more lines, and so on. In my career this has occasionally been problematic, as I’ve sometimes had to work with unwieldy and inefficient <code>make</code>-based build systems that unnecessarily rebuilt large swathes of code instead of a single source file. In recent years I’ve been spoilt by some excellent IDEs (such as Eclipse/STS and Xcode) that have been kind enough to alert me to syntactical errors before I invest time in a build. </p>
+<p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
 
-<p>While playing with <a href="http://rubyonrails.org/">Rails</a> I found that I was regularly coming across syntactical errors only when it came to testing out the application. It wasn’t the horrible build systems of yore, but it wasn’t exactly the convenience of a nice IDE. So I hunted around for a linter that I could integrate with ST2 and quickly came across <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>. A couple of seconds later (thanks to the ridiculously useful <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>) and I had it up and running and I was getting lots of notifications about errors in my Ruby code.</p>
+<p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
 
-<p>Unfortunately I soon realised that I was getting too many errors, to the extent that I was getting errors on perfectly valid code. The code ran fine in my Rails app, but still SublimeLinter was bitching and moaning about it. I had a look around the SublimeLinter documentation, and noticed that they recommended using the full path to the <code>ruby</code> executable if using a Ruby interpreter provided by <a href="http://rvm.io/">rvm</a>. On OS X this comes down to the fact that the default Ruby is 1.8.7 whereas most people will be using code written against Ruby 1.9.X, which they’ve usually installed themselves.</p>
+<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
 
-<p>Thankfully SublimeLinter makes it easy to customise the Ruby interpreter to use, so if you’re having trouble with syntax errors in your Ruby code, just chose the menu item <em>Sublime Text 2 -&gt; Preferences -&gt; Package Settings -&gt; SublimeLinter -&gt; Settings - User</em>. This will open up the user preferences file for SublimeLinter and you can enter the following snippet (substituting in your own username of course, and remembering to merge the JSON with any settings you may already have in there):</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Give Up GitHub (sort of)]]></title>
+    <link href="http://chatswood.github.com/post/20728588558/give-up-github-sort-of"/>
+    <updated>2012-04-08T00:00:00+01:00</updated>
+    <id>http://chatswood.github.com/post/20728588558/give-up-github-sort-of</id>
+    <content type="html"><![CDATA[<p><a href="http://github.com/">GitHub</a> is an amazing place. There are so many diverse projects hosted there, and it’s fantastic to be able to quickly create a repo and share code with the world. I’ve been a member for just under a year, and in that time I’ve gone from just downloading other people’s projects, to forking and contributing to Open Source projects, to creating my own public and private repositories.</p>
 
-<pre><code>{
-    "sublimelinter_executable_map": {
-        "ruby": "/Users/username/.rvm/rubies/default/bin/ruby"
-    }
-}
-</code></pre>
+<p>If you’re familiar with GitHub and it’s pricing plans, you’ll know that you can create unlimited public projects with an unlimited number of contributors for free. This is probably one of the reasons why GitHub has become a de facto standard for public projects<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
 
-<p>May you continue to be a lazy, iterative developer like me.</p>
+<p>About eight months ago I started working on some personal projects, which I just wasn’t prepared to share with the world. I did some due diligence had a look at the various options available to me (including <a href="https://bitbucket.org/">BitBucket</a> and <a href="http://beanstalkapp.com/">Beanstalk</a>), and made the decision to pay for the GitHub Micro account (at $7 per month). I don’t regret that decision, as I think GitHub was definitely the best option at the time.</p>
 
+<p>Things are different now though. In October last year <a href="http://blog.bitbucket.org/2011/10/03/bitbucket-now-rocks-git/">BitBucket announced</a> that they were now going to offer support for Git repositories (prior to that they’d only had a <a href="http://mercurial.selenic.com/">Mercurial</a> offering). This was a pretty big deal for many potential users and they offer a very attractive pricing scheme to sweeten the deal.</p>
+
+<p>With GitHub I was getting 5 private repos and 1 collaborator for $7 per month. With <a href="https://bitbucket.org/plans">BitBucket</a> I can get unlimited private repos with 5 collaborators for free. I also get tighter integration with Atlassian’s <a href="http://www.atlassian.com/software/jira/overview">JIRA</a>, which I use for issue tracking over the GitHub system. At first glance this seems like a no-brainer, except…</p>
+
+<h2 id="community">Community</h2>
+
+<p>There’s only one real problem with BitBucket. It’s not GitHub. Don’t get me wrong, <a href="http://www.pocoo.org/~blackbird/github-vs-bitbucket/bitbucket.html">it tries very hard to be GitHub</a>, but there’s one area where GitHub beats the competition hands down - community.</p>
+
+<p>GitHub is home to so many public projects that it’s the natural place to fork a project or create a new one. There is no way that I know of to fork/pull request between GitHub and BitBucket. It’s also hard to justify moving public repos from GitHub when people who may find them use might not want to fork on a “smaller” site like BitBucket.</p>
+
+<p>As of today, I’ve imported my private repos into BitBucket, and have downgraded my GitHub account. Anything I want to keep private will now go to BitBucket, and I’m going public only on GitHub. If I want to fork a project I’ll do it on GitHub, or if I want to share a repo making it as easy as possible for other people to use, I’ll do that on GitHub as well.</p>
+
+<p>I was concerned that some of my private projects wouldn’t move to BitBucket cleanly - I have a couple of Xcode projects that utilise Open Source frameworks to provide core functionality. I’ve already forked these on GitHub and I didn’t want to lose that flexibility. Thankfully Git submodules allows me to get the best of both worlds. Even though my parent repos now originate on BitBucket, I was still able to define submodules which are originated on GitHub with no ill effects.</p>
+
+<p>Now, GitHub, please don’t announce any pricing plan changes for the next few months so that I can at least get settled in over at BitBucket.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>That and the fact that forking/pull requests is a great model for controlled collaboration. Oh, and Git has been flavour of the month for SCM for a while now.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An ideal time to develop software?]]></title>
+    <link href="http://chatswood.github.com/post/2635102419/an-ideal-time-to-develop-software"/>
+    <updated>2011-01-07T00:00:00+00:00</updated>
+    <id>http://chatswood.github.com/post/2635102419/an-ideal-time-to-develop-software</id>
+    <content type="html"><![CDATA[<p>I had the good fortune to listen to yet another excellent podcast from Dan Benjamin’s <a href="http://5by5.tv/">5by5 Studios</a> yesterday - this time the <a href="http://5by5.tv/buildanalyze">Build and Analyze</a> program Dan co-hosts with <a href="http://www.marco.org/">Marco Arment</a> (of <a href="http://www.instapaper.com/">Instapaper</a> and <a href="http://tumblr.com/">Tumblr</a> fame).</p>
+
+<p>The show featured a discussion on the typical work cycles of developers and fell into the mistake of re-iterating the stereotype of developers as working great in bursts of time, often late in the night. I’m not going argue much about the time frame - many developers, myself included, do work great at night time.</p>
+
+<p>What I’m going to argue with is with the suggestion that developers write amazingly good code at this time and terrible code at other times (as suggested by Dan<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>). Unfortunately I don’t think this is necessarily true - it’s true that developers who are in the zone can churn out a lot of code when they are on a roll, but the quality of that code is not necessarily going to be high (though it could be).</p>
+
+<p>Bugs can occur at any time, and in my opinion, when you’re on a roll there’s just as much chance of introducing bugs. In fact, I’d go so far as to say that when you’re on a roll you could be more prone to introducing bugs, because you’re thinking ahead more than you’re focused on the piece of code you’re writing right now.</p>
+
+<p>Dan and Marco seem to agree that creativity is not something that can be done on demand, but in the end, not all software development is creative (as Marco mentioned in the podcast). Software engineering is like producing music and graphical works - there are flashes of genius which can come at unexpected times. But for the every composer who works to his own schedule, there are many more musicians who work to schedules writing jingles for adverts, music for games, music for film. For every painter, there is a graphic designer churning out a new advert, or graphics for a game, or movie special effects. For every coder who writes a sweet new algorithm for the love of it, there’s another churning out code for cash.</p>
+
+<p>Sometimes software is art, but like any art form it can be degraded to a production line when it needs to be.</p>
+
+<blockquote>
+  <p>“They’re gonna be super-productive. They’re gonna write, y’know, a hundred lines of awesome code in that four hour block of time, they’re gonna fix bugs, they’re gonna get tons of stuff done. But if you try to shoehorn them into doing that work between 9 and noon, let’s say, or 9 and 1, they’re gonna write crap code. It’s gonna have tons of bugs.”</p>
+</blockquote>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>What Dan actually said was:<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   

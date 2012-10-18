@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Maximising Bang Per Token - Chatswood</title>
+  <meta name="author" content="Maurice Kelly">
+
+  
+  <meta name="description" content="The brouhaha over third-party Twitter clients continues with the news of the release of a beta version of Tweetbot for Mac. Just 4 days ago the alpha &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://chatswood.github.com/post/30606832645/maximising-bang-per-token">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4608571-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+<!--   <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">mob</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div> -->
+  <h1><a href="/">Chatswood</a></h1>
+  
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:chatswood.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Maximising Bang Per Token</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-31T00:00:00+01:00" pubdate data-updated="true">Aug 31<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The brouhaha over third-party Twitter clients continues with the news of the release of a <a href="http://tapbots.com/blog/news/tweetbot-for-mac-beta-sort-of">beta version</a> of Tweetbot for Mac. Just 4 days ago the <a href="http://tapbots.com/news/where-did-the-tweetbot-for-mac-alpha-go">alpha version was withdrawn</a> with Tapbots citing as a reason the “finite limit on the number of user tokens we can get for Tweetbot for Mac”.</p>
+
+<p>This was a fair move by the developers - any Mac user could download the alpha, sign in and obtain a limited Tweetbot for Mac token. If they subsequently decided they were not interested in buying the application they can discard it without releasing the token they use. It was a problem with only one resolution - withdraw the app and preserve the tokens.</p>
+
+<p>Today Tapbots came back with a beta version and some new rules:</p>
+
+<ul>
+  <li>new users can install the beta but they’ll not be able to add a Twitter account;</li>
+  <li>users of the alpha version can use the same Twitter account they used before;</li>
+  <li>users of the alpha version cannot add extra Twitter accounts;</li>
+  <li>users of the alpha who revoke their access token on the Twitter site cannot add their account again.</li>
+</ul>
+
+<p>All of this makes perfect sense from the point of view of token preservation. Unfortunately in this <a href="https://dev.twitter.com/blog/changes-coming-to-twitter-api">post-announcement</a> landscape these once common items are now a scarce resource. They’ve become the fossil fuels of the technology world, and like fossil fuels they’re limited and easily wasted. They used to be very disposable - a quick look at my <a href="https://twitter.com/settings/applications">Apps section</a> on twitter.com lists 34 tokens on one account alone, and that’s after a prune earlier this week.</p>
+
+<h2 id="efficient-token-usage">Efficient Token Usage</h2>
+
+<p>Like many people I have a number of Twitter accounts, and on each of my clients I like to have all of my accounts signed in. This was never a problem before but now it just exacerbates the issues faced by app developers. They have a limited number of access tokens that can be used with their apps and users like me with multiple accounts end up using more tokens than other people.</p>
+
+<p>To make an app commercially viable developers need to squeeze as much money per token as possible. One way to do this would be to increase the cost of their apps to cover the average number of accounts per user. Alternatively they could keep the initial purchase price the same while limiting the number of accounts that can be signed in through the app. Power users could then be offered the option to use in-app purchases to effectively buy extra access tokens.</p>
+
+<p>There has been a lot of discussion recently on the devaluing of software through bargain basement prices and this is really going to hit home to Twitter client developers now. Maybe the scarcity of access tokens will encourage users to value the software higher and pay more for it. Remember, you’re not just paying for the software anymore - you’re also paying for the privilege of connecting to the service through your favourite client.</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Maurice Kelly</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-31T00:00:00+01:00" pubdate data-updated="true">Aug 31<span>st</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/access-tokens/'>Access Tokens</a>, <a class='category' href='/blog/categories/tapbots/'>TapBots</a>, <a class='category' href='/blog/categories/tweetbot-for-mac/'>Tweetbot for Mac</a>, <a class='category' href='/blog/categories/twitter/'>Twitter</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://chatswood.github.com/post/30606832645/maximising-bang-per-token" data-via="" data-counturl="http://chatswood.github.com/post/30606832645/maximising-bang-per-token" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/post/30538198744/full-screen-mode-is-not-for-you" title="Previous Post: Full Screen Mode is Not For You">&laquo; Full Screen Mode is Not For You</a>
+      
+      
+        <a class="basic-alignment right articlenav" href="/blog/2012/10/15/the-magazine-is-not-the-experiment/" title="Next Post: The Magazine is Not the Experiment">The Magazine is Not the Experiment &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/15/the-magazine-is-not-the-experiment/">The Magazine is Not the Experiment</a>
+      </li>
+    
+      <li class="post">
+        <a href="/post/30606832645/maximising-bang-per-token">Maximising Bang Per Token</a>
+      </li>
+    
+      <li class="post">
+        <a href="/post/30538198744/full-screen-mode-is-not-for-you">Full Screen Mode is Not For You</a>
+      </li>
+    
+      <li class="post">
+        <a href="/post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques">SublimeLinter - an Enabler for Lazy Programming Techniques</a>
+      </li>
+    
+      <li class="post">
+        <a href="/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review">Maplin 500Mb/s Powerline Adapters - A Rambling Review</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Maurice Kelly -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
