@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-10-19T16:45:25+01:00</updated>
+  <updated>2012-10-19T16:50:29+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tweetbot for Mac Pricing]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/10/19/tweetbot-for-mac-pricing/"/>
+    <updated>2012-10-19T08:49:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/10/19/tweetbot-for-mac-pricing</id>
+    <content type="html"><![CDATA[<p>After what seemed like an agonising wait for the Mac App Store review period to complete Tweetbot for Mac has now been released. The app went through a long (and strangely quite public<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>) alpha testing period and as a result there is very little to surprise the user in the finished product. Except that is, the price.</p>
+
+<p>The sale price of $20 has ruffled a few feathers amongst the potential customers for Tweetbot. This is not surprising as there are few Twitter clients in the Mac App Store that sell for more that $5. Additionally Tweetbot for iPhone and Tweetbot for iPad are both priced at $2.99 making a $20 selling price a 666% increase in price for an app that does pretty much the same thing in a consumer’s eyes.</p>
+
+<p>Personally, I feel that the $20 price tag for this piece of software is steep, but still justifiable. Tapbots have put a lot of effort into this application and they deserve some compensation. Additionally, they have to factor in the cost of <a href="http://blog.chatswood.org.uk/post/30606832645/maximising-bang-per-token">Twitter user tokens</a> meaning that they can’t rely on an ever-expanding user base in order to re-coup costs. I can understand some of the backlash to the price increase but this is probably more of a case of the previous clients being undervalued, as opposed to this client being overvalued.</p>
+
+<p>I see this as a positive step, not just for Tapbots, but for App Store pricing in general. The long-discussed “race to the bottom” in app pricing can make it difficult for all but the most popular apps to survive. It is good to see a “headline” app take on realistic pricing and hopefully some of the smaller developers will gain the confidence to increase their prices in future. Higher prices will ultimately make for a more sustainable business model that allows small development companies to survive.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m holding onto my conspiracy theory that the Tweetbot for Mac went to alpha very early because Tapbots were tipped off somehow. The fact that the app was around for a while before user token limits were put in place gave Tapbots a chance to acrue more user tokens than they would have done otherwise.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Magazine is Not the Experiment]]></title>
@@ -553,52 +578,6 @@ Roland US Product Support</p>
 
 <p>Now that I’m actually a dad, my position has changed. From here on I’ll do whatever is necessary to set a good example for my daughter. How times changes.</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Keeping a Clean Desktop]]></title>
-    <link href="http://blog.chatswood.org.uk/post/20786902305/keeping-a-clean-desktop"/>
-    <updated>2012-04-09T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/20786902305/keeping-a-clean-desktop</id>
-    <content type="html"><![CDATA[<p>While listening to the recent <a href="http://macpowerusers.com/">Mac Power Users</a> podcast on <a href="http://macpowerusers.com/2012/04/mpu-79-hazel-3-0/">using Hazel</a> I got the impression that host <a href="http://www.katiefloyd.me/">Katie Floyd</a> wasn’t a fan of using the Mac Desktop as a storage location for files.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I’ve heard this opinion before - often accompanied with disparaging remarks suggesting that it is an uncouth and savage practice, befitting more of Windows users than of elegant and refined Mac users. This just isn’t the case - for a start Windows users are people too, and just think about it: if we weren’t supposed to use the Desktop, why would Apple have made it just a regular folder?</p>
-
-<p>I can be a bit of a cleanliness freak when it comes to my hard disks<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> but surprisingly I’m actually a fan of throwing documents on the Desktop as a working storage area. If I’m working on a document, downloading some material or even just trying something out I tend to leave things on the Desktop while I’m working on them.</p>
-
-<p>I see this as being akin to the real world - when I’m working with paper documents I tend to spread them around me in order to have the material within easy reach. I want to be able to do the same with the Mac Desktop so that I don’t have to root around in folders for the relevant files.</p>
-
-<h2 id="too-much-hassle">Too Much Hassle?</h2>
-
-<p>I guess some people might find it tough working with the Mac Desktop. Sometimes it can be hard to arrange windows so that you can quickly open documents or move them about, especially when it comes to Macs with smaller displays like MacBook Pros and Airs.</p>
-
-<p>My advice to people is to take advantage of Exposé - especially on newer Macs with gesture support. I use the “Spread with thumb and three fingers” gesture to access the Desktop and have immediate access to my files for double-clicking or drag-and-drop operations.</p>
-
-<p>Admittedly dragging and dropping can be troublesome at times. To drop into an open application you generally need to drag the item over the dock icon for the application, wait for it to show the open windows for the application and then hold the item over the desired window until it comes to the foreground. This can be cumbersome, so it’s worth grabbing <a href="http://www.eternalstorms.at/yoink/">Yoink</a> from the Mac App Store. Once installed it provides a handy tray you can drag onto quickly, then Cmd-Tab (or otherwise navigate) to your desired application and drag from the Yoink tray into the application.</p>
-
-<h2 id="keeping-it-under-control">Keeping It Under Control</h2>
-
-<p>Of course, there’s always a danger that your Desktop can get out of control if you start using it for multiple active projects. The best way to combat this is with a bit of discipline, but if you need a hand you can always turn to Hazel for some help.</p>
-
-<p>At present I use a two-level indicator as to the relevance of a file on the desktop. After two days of inactivity Hazel marks a file with an Orange label so that I can see that it hasn’t been used recently. After a further two days of inactivity Hazel marks the file with a Red label as a final warning.</p>
-
-<p>Ideally though my desktop would be reasonably clear at the end of every day so that I can start from scratch every morning. Again Hazel could come to the rescue, by automatically clearing items from the desktop at the end of the working day. The rule shown below is the start of a system for implementing this:</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/04/blue_rule.png" alt="Blue Rule" /></p>
-
-<p>The idea here is that I can have multiple projects organised according to label colour. At the end of the working day Hazel will sweep all files on the Desktop with a Blue label into the Blue folder. The next time I go to work on the project I can just drag the items back onto the Desktop to start again. It’s a bit like keeping your real life working papers in boxes - at the end of the day you just sweep the papers off the desktop and into the box. Next day, dump the contents of the box onto the nice clean desktop.</p>
-
-<p>See - working on the Desktop is not just for savages.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Thankfully co-host <a href="http://www.macsparky.com/">David Sparks</a> was more realistic and mentioned a few <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> rules for dealing with long term visitors to the Desktop.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>In the digital world world only, in real life I can be a pig.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   
