@@ -1,6 +1,6 @@
 ---
 title: The Right To Criticize
-date: 1999-12-31
+date: 2012-10-21 17:37
 published: false
 tags: 
 ---

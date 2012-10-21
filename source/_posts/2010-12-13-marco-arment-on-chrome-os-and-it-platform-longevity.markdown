@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Marco Arment on Chrome OS and IT platform longevity
+published: true
 external-url: http://www.marco.org/2194283690
 tags:
 - Chrome OS

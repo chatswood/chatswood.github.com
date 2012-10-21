@@ -15,9 +15,6 @@ Personally, I feel that the $20 price tag for this piece of software is steep, b
 
 I see this as a positive step, not just for Tapbots, but for App Store pricing in general. The long-discussed "race to the bottom" in app pricing can make it difficult for all but the most popular apps to survive. It is good to see a "headline" app take on realistic pricing and hopefully some of the smaller developers will gain the confidence to increase their prices in future. Higher prices will ultimately make for a more sustainable business model that allows small development companies to survive.
 
-<hr>
-
-
 [Twitter user tokens]: {% post_url 2012-08-31-maximising-bang-per-token %}
 
 [^1]: I'm holding onto my conspiracy theory that the Tweetbot for Mac went to alpha very early because Tapbots were tipped off somehow. The fact that the app was around for a while before user token limits were put in place gave Tapbots a chance to acrue more user tokens than they would have done otherwise.
