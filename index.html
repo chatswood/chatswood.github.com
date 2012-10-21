@@ -9,7 +9,7 @@
   <meta name="author" content="Maurice Kelly">
 
   
-  <meta name="description" content="After what seemed like an agonising wait for the Mac App Store review period to complete Tweetbot for Mac has now been released. The app went through &hellip;">
+  <meta name="description" content="Having recently moved to an Octopress blog I’ve been revelling in the geekery of managing my posts from the command line. I was previously using &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,6 +82,509 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-21T18:03:00+01:00" pubdate data-updated="true">Oct 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Having recently moved to an Octopress blog I’ve been revelling in the geekery of managing my posts from the command line. I was previously using <a href="http://www.red-sweater.com/marsedit">MarsEdit</a> to manage my posting to Tumblr, but that’s not as viable an option any more. This is a shame because I like MarsEdit and I especially liked the ability to work with local draft posts, something that Octopress (and the underlying Jekyll framework) does not natively provide.</p>
+
+<p>Judging by a quick Google search on the subject I’m not the only person who has been thinking about this. Even the mighty <a href="http://brettterpstra.com/">Brett Terpstra</a> recently <a href="https://posts.app.net/1076717">posted to App.net</a> saying that he’d implemented a <code>rake draft</code> option (among other goodies) that stores drafts to a <code>_drafts</code> folder. This seems to be an avenue that <a href="http://blog.yangmeyer.de/blog/2012/05/28/octopress-drafts">other people are going down</a> but I’m not sure about the need for this separation.</p>
+
+<p>Jekyll already offers the facility to mark a post as published using an attribute in the YAML front matter. When <code>published: false</code> is specified the post will not be output to the <code>public</code> folder as part of the <code>rake generate</code> task. It therefore will not be included in a <code>deploy</code> operation, which is exactly as we would expect, but makes it harder to see the draft posts in the context of the blog.</p>
+
+<p>Interestingly though when using the <code>rake watch</code> or <code>rake preview</code> tasks, posts with an attribute of <code>published: false</code> <em>are</em> included in the generation of posts. When you point your browser to <code>localhost:4000</code> (or via a <a href="http://pow.cx">Pow</a> configuration) then you’ll see your unpublished posts included as though they were published. For me, this negates the need to create a dedicated drafts folder.</p>
+
+<p>There are still failings with this approach: drafts are mixed in with published posts requiring file inspection to manually separate them, and the date given to the post (crucially updating both the YAML front matter and the filename) will be the creation date rather than the publishing date.</p>
+
+<p>To facilitate this workflow I updated the Rakefile to include a few more default YAML attributes for a new post (defaulting <code>published</code> to <code>false</code>). Most importantly it includes a Rake task called <code>publish_draft</code> that lists all the posts with a <code>published</code> status of <code>false</code> and allows the user to select a post. The post can then be published using the current date (updating the YAML and the filename) or it can simply be published with the original date. You can find this Rake task in the Gist below - please take care as it has not been made 100% foolproof that this stage.</p>
+
+<div><script src="https://gist.github.com/3927558.js?file="></script>
+<noscript><pre><code>require &quot;rubygems&quot;
+require &quot;bundler/setup&quot;
+require &quot;stringex&quot;
+require &quot;preamble&quot;
+
+## -- Rsync Deploy config -- ##
+# Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
+ssh_user       = &quot;user@domain.com&quot;
+ssh_port       = &quot;22&quot;
+document_root  = &quot;~/website.com/&quot;
+rsync_delete   = true
+deploy_default = &quot;push&quot;
+
+# This will be configured for you when you run config_deploy
+deploy_branch  = &quot;master&quot;
+
+## -- Misc Configs -- ##
+
+public_dir      = &quot;public&quot;    # compiled site directory
+source_dir      = &quot;source&quot;    # source file directory
+blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
+deploy_dir      = &quot;_deploy&quot;   # deploy directory (for Github pages deployment)
+stash_dir       = &quot;_stash&quot;    # directory to stash posts for speedy generation
+posts_dir       = &quot;_posts&quot;    # directory for blog files
+themes_dir      = &quot;.themes&quot;   # directory for blog files
+new_post_ext    = &quot;md&quot;  # default new post file extension when using the new_post task
+new_page_ext    = &quot;md&quot;  # default new page file extension when using the new_page task
+server_port     = &quot;4000&quot;      # port for preview server eg. localhost:4000
+
+
+desc &quot;Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]&quot;
+task :install, :theme do |t, args|
+  if File.directory?(source_dir) || File.directory?(&quot;sass&quot;)
+    abort(&quot;rake aborted!&quot;) if ask(&quot;A theme is already installed, proceeding will overwrite existing files. Are you sure?&quot;, ['y', 'n']) == 'n'
+  end
+  # copy theme into working Jekyll directories
+  theme = args.theme || 'classic'
+  puts &quot;## Copying &quot;+theme+&quot; theme into ./#{source_dir} and ./sass&quot;
+  mkdir_p source_dir
+  cp_r &quot;#{themes_dir}/#{theme}/source/.&quot;, source_dir
+  mkdir_p &quot;sass&quot;
+  cp_r &quot;#{themes_dir}/#{theme}/sass/.&quot;, &quot;sass&quot;
+  mkdir_p &quot;#{source_dir}/#{posts_dir}&quot;
+  mkdir_p public_dir
+end
+
+#######################
+# Working with Jekyll #
+#######################
+
+desc &quot;Generate jekyll site&quot;
+task :generate do
+  raise &quot;### You haven't set anything up yet. First run `rake install` to set up an Octopress theme.&quot; unless File.directory?(source_dir)
+  puts &quot;## Generating Site with Jekyll&quot;
+  system &quot;compass compile --css-dir #{source_dir}/stylesheets&quot;
+  system &quot;jekyll&quot;
+end
+
+desc &quot;Watch the site and regenerate when it changes&quot;
+task :watch do
+  raise &quot;### You haven't set anything up yet. First run `rake install` to set up an Octopress theme.&quot; unless File.directory?(source_dir)
+  puts &quot;Starting to watch source with Jekyll and Compass.&quot;
+  system &quot;compass compile --css-dir #{source_dir}/stylesheets&quot; unless File.exist?(&quot;#{source_dir}/stylesheets/screen.css&quot;)
+  jekyllPid = Process.spawn({&quot;OCTOPRESS_ENV&quot;=&gt;&quot;preview&quot;}, &quot;jekyll --auto&quot;)
+  compassPid = Process.spawn(&quot;compass watch&quot;)
+
+  trap(&quot;INT&quot;) {
+    [jekyllPid, compassPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+    exit 0
+  }
+
+  [jekyllPid, compassPid].each { |pid| Process.wait(pid) }
+end
+
+desc &quot;preview the site in a web browser&quot;
+task :preview do
+  raise &quot;### You haven't set anything up yet. First run `rake install` to set up an Octopress theme.&quot; unless File.directory?(source_dir)
+  puts &quot;Starting to watch source with Jekyll and Compass. Starting Rack on port #{server_port}&quot;
+  system &quot;compass compile --css-dir #{source_dir}/stylesheets&quot; unless File.exist?(&quot;#{source_dir}/stylesheets/screen.css&quot;)
+  jekyllPid = Process.spawn({&quot;OCTOPRESS_ENV&quot;=&gt;&quot;preview&quot;}, &quot;jekyll --auto&quot;)
+  compassPid = Process.spawn(&quot;compass watch&quot;)
+  rackupPid = Process.spawn(&quot;rackup --port #{server_port}&quot;)
+
+  trap(&quot;INT&quot;) {
+    [jekyllPid, compassPid, rackupPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+    exit 0
+  }
+
+  [jekyllPid, compassPid, rackupPid].each { |pid| Process.wait(pid) }
+end
+
+# usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to &quot;new-post&quot;)
+desc &quot;Begin a new post in #{source_dir}/#{posts_dir}&quot;
+task :new_post, :title do |t, args|
+  raise &quot;### You haven't set anything up yet. First run `rake install` to set up an Octopress theme.&quot; unless File.directory?(source_dir)
+  mkdir_p &quot;#{source_dir}/#{posts_dir}&quot;
+  args.with_defaults(:title =&gt; 'new-post')
+  title = args.title
+  filename = &quot;#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}&quot;
+  if File.exist?(filename)
+    abort(&quot;rake aborted!&quot;) if ask(&quot;#{filename} already exists. Do you want to overwrite?&quot;, ['y', 'n']) == 'n'
+  end
+  puts &quot;Creating new post: #{filename}&quot;
+  open(filename, 'w') do |post|
+    post.puts &quot;---&quot;
+    post.puts &quot;layout: post&quot;
+    post.puts &quot;title: \&quot;#{title.gsub(/&amp;/,'&amp;amp;')}\&quot;&quot;
+    post.puts &quot;date: #{Time.now.strftime('%Y-%m-%d %H:%M')}&quot;
+    post.puts &quot;comments: false&quot;
+    post.puts &quot;tags: []&quot;
+    post.puts &quot;categories: []&quot;
+    post.puts &quot;published: false&quot;
+    post.puts &quot;---&quot;
+  end
+end
+
+# usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to &quot;new-page.markdown&quot;)
+desc &quot;Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}&quot;
+task :new_page, :filename do |t, args|
+  raise &quot;### You haven't set anything up yet. First run `rake install` to set up an Octopress theme.&quot; unless File.directory?(source_dir)
+  args.with_defaults(:filename =&gt; 'new-page')
+  page_dir = [source_dir]
+  if args.filename.downcase =~ /(^.+\/)?(.+)/
+    filename, dot, extension = $2.rpartition('.').reject(&amp;:empty?)         # Get filename and extension
+    title = filename
+    page_dir.concat($1.downcase.sub(/^\//, '').split('/')) unless $1.nil?  # Add path to page_dir Array
+    if extension.nil?
+      page_dir &lt;&lt; filename
+      filename = &quot;index&quot;
+    end
+    extension ||= new_page_ext
+    page_dir = page_dir.map! { |d| d = d.to_url }.join('/')                # Sanitize path
+    filename = filename.downcase.to_url
+
+    mkdir_p page_dir
+    file = &quot;#{page_dir}/#{filename}.#{extension}&quot;
+    if File.exist?(file)
+      abort(&quot;rake aborted!&quot;) if ask(&quot;#{file} already exists. Do you want to overwrite?&quot;, ['y', 'n']) == 'n'
+    end
+    puts &quot;Creating new page: #{file}&quot;
+    open(file, 'w') do |page|
+      page.puts &quot;---&quot;
+      page.puts &quot;layout: page&quot;
+      page.puts &quot;title: \&quot;#{title}\&quot;&quot;
+      page.puts &quot;date: #{Time.now.strftime('%Y-%m-%d %H:%M')}&quot;
+      page.puts &quot;comments: true&quot;
+      page.puts &quot;sharing: true&quot;
+      page.puts &quot;footer: true&quot;
+      page.puts &quot;---&quot;
+    end
+  else
+    puts &quot;Syntax error: #{args.filename} contains unsupported characters&quot;
+  end
+end
+
+# usage rake isolate[my-post]
+desc &quot;Move all other posts than the one currently being worked on to a temporary stash location (stash) so regenerating the site happens much quicker.&quot;
+task :isolate, :filename do |t, args|
+  stash_dir = &quot;#{source_dir}/#{stash_dir}&quot;
+  FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
+  Dir.glob(&quot;#{source_dir}/#{posts_dir}/*.*&quot;) do |post|
+    FileUtils.mv post, stash_dir unless post.include?(args.filename)
+  end
+end
+
+desc &quot;Move all stashed posts back into the posts directory, ready for site generation.&quot;
+task :integrate do
+  FileUtils.mv Dir.glob(&quot;#{source_dir}/#{stash_dir}/*.*&quot;), &quot;#{source_dir}/#{posts_dir}/&quot;
+end
+
+desc &quot;Clean out caches: .pygments-cache, .gist-cache, .sass-cache&quot;
+task :clean do
+  rm_rf [&quot;.pygments-cache/**&quot;, &quot;.gist-cache/**&quot;, &quot;.sass-cache/**&quot;, &quot;source/stylesheets/screen.css&quot;]
+end
+
+desc &quot;Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom&quot;
+task :update_style, :theme do |t, args|
+  theme = args.theme || 'classic'
+  if File.directory?(&quot;sass.old&quot;)
+    puts &quot;removed existing sass.old directory&quot;
+    rm_r &quot;sass.old&quot;, :secure=&gt;true
+  end
+  mv &quot;sass&quot;, &quot;sass.old&quot;
+  puts &quot;## Moved styles into sass.old/&quot;
+  cp_r &quot;#{themes_dir}/&quot;+theme+&quot;/sass/&quot;, &quot;sass&quot;
+  cp_r &quot;sass.old/custom/.&quot;, &quot;sass/custom&quot;
+  puts &quot;## Updated Sass ##&quot;
+end
+
+desc &quot;Move source to source.old, install source theme updates, replace source/_includes/navigation.html with source.old's navigation&quot;
+task :update_source, :theme do |t, args|
+  theme = args.theme || 'classic'
+  if File.directory?(&quot;#{source_dir}.old&quot;)
+    puts &quot;## Removed existing #{source_dir}.old directory&quot;
+    rm_r &quot;#{source_dir}.old&quot;, :secure=&gt;true
+  end
+  mkdir &quot;#{source_dir}.old&quot;
+  cp_r &quot;#{source_dir}/.&quot;, &quot;#{source_dir}.old&quot;
+  puts &quot;## Copied #{source_dir} into #{source_dir}.old/&quot;
+  cp_r &quot;#{themes_dir}/&quot;+theme+&quot;/source/.&quot;, source_dir, :remove_destination=&gt;true
+  cp_r &quot;#{source_dir}.old/_includes/custom/.&quot;, &quot;#{source_dir}/_includes/custom/&quot;, :remove_destination=&gt;true
+  cp &quot;#{source_dir}.old/favicon.png&quot;, source_dir
+  mv &quot;#{source_dir}/index.html&quot;, &quot;#{blog_index_dir}&quot;, :force=&gt;true if blog_index_dir != source_dir
+  cp &quot;#{source_dir}.old/index.html&quot;, source_dir if blog_index_dir != source_dir &amp;&amp; File.exists?(&quot;#{source_dir}.old/index.html&quot;)
+  puts &quot;## Updated #{source_dir} ##&quot;
+end
+
+##############
+# Deploying  #
+##############
+
+desc &quot;Default deploy task&quot;
+task :deploy do
+  # Check if preview posts exist, which should not be published
+  if File.exists?(&quot;.preview-mode&quot;)
+    puts &quot;## Found posts in preview mode, regenerating files ...&quot;
+    File.delete(&quot;.preview-mode&quot;)
+    Rake::Task[:generate].execute
+  end
+
+  Rake::Task[:copydot].invoke(source_dir, public_dir)
+  Rake::Task[&quot;#{deploy_default}&quot;].execute
+end
+
+desc &quot;Generate website and deploy&quot;
+task :gen_deploy =&gt; [:integrate, :generate, :deploy] do
+end
+
+desc &quot;copy dot files for deployment&quot;
+task :copydot, :source, :dest do |t, args|
+  FileList[&quot;#{args.source}/**/.*&quot;].exclude(&quot;**/.&quot;, &quot;**/..&quot;, &quot;**/.DS_Store&quot;, &quot;**/._*&quot;).each do |file|
+    cp_r file, file.gsub(/#{args.source}/, &quot;#{args.dest}&quot;) unless File.directory?(file)
+  end
+end
+
+desc &quot;Deploy website via rsync&quot;
+task :rsync do
+  exclude = &quot;&quot;
+  if File.exists?('./rsync-exclude')
+    exclude = &quot;--exclude-from '#{File.expand_path('./rsync-exclude')}'&quot;
+  end
+  puts &quot;## Deploying website via Rsync&quot;
+  ok_failed system(&quot;rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{&quot;--delete&quot; unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}&quot;)
+end
+
+desc &quot;deploy public directory to github pages&quot;
+multitask :push do
+  puts &quot;## Deploying branch to Github Pages &quot;
+  (Dir[&quot;#{deploy_dir}/*&quot;]).each { |f| rm_rf(f) }
+  Rake::Task[:copydot].invoke(public_dir, deploy_dir)
+  puts &quot;\n## copying #{public_dir} to #{deploy_dir}&quot;
+  cp_r &quot;#{public_dir}/.&quot;, deploy_dir
+  cd &quot;#{deploy_dir}&quot; do
+    system &quot;git add .&quot;
+    system &quot;git add -u&quot;
+    puts &quot;\n## Commiting: Site updated at #{Time.now.utc}&quot;
+    message = &quot;Site updated at #{Time.now.utc}&quot;
+    system &quot;git commit -m \&quot;#{message}\&quot;&quot;
+    puts &quot;\n## Pushing generated #{deploy_dir} website&quot;
+    system &quot;git push origin #{deploy_branch} --force&quot;
+    puts &quot;\n## Github Pages deploy complete&quot;
+  end
+end
+
+desc &quot;Update configurations to support publishing to root or sub directory&quot;
+task :set_root_dir, :dir do |t, args|
+  puts &quot;&gt;&gt;&gt; !! Please provide a directory, eg. rake config_dir[publishing/subdirectory]&quot; unless args.dir
+  if args.dir
+    if args.dir == &quot;/&quot;
+      dir = &quot;&quot;
+    else
+      dir = &quot;/&quot; + args.dir.sub(/(\/*)(.+)/, &quot;\\2&quot;).sub(/\/$/, '');
+    end
+    rakefile = IO.read(__FILE__)
+    rakefile.sub!(/public_dir(\s*)=(\s*)([&quot;'])[\w\-\/]*[&quot;']/, &quot;public_dir\\1=\\2\\3public#{dir}\\3&quot;)
+    File.open(__FILE__, 'w') do |f|
+      f.write rakefile
+    end
+    compass_config = IO.read('config.rb')
+    compass_config.sub!(/http_path(\s*)=(\s*)([&quot;'])[\w\-\/]*[&quot;']/, &quot;http_path\\1=\\2\\3#{dir}/\\3&quot;)
+    compass_config.sub!(/http_images_path(\s*)=(\s*)([&quot;'])[\w\-\/]*[&quot;']/, &quot;http_images_path\\1=\\2\\3#{dir}/images\\3&quot;)
+    compass_config.sub!(/http_fonts_path(\s*)=(\s*)([&quot;'])[\w\-\/]*[&quot;']/, &quot;http_fonts_path\\1=\\2\\3#{dir}/fonts\\3&quot;)
+    compass_config.sub!(/css_dir(\s*)=(\s*)([&quot;'])[\w\-\/]*[&quot;']/, &quot;css_dir\\1=\\2\\3public#{dir}/stylesheets\\3&quot;)
+    File.open('config.rb', 'w') do |f|
+      f.write compass_config
+    end
+    jekyll_config = IO.read('_config.yml')
+    jekyll_config.sub!(/^destination:.+$/, &quot;destination: public#{dir}&quot;)
+    jekyll_config.sub!(/^subscribe_rss:\s*\/.+$/, &quot;subscribe_rss: #{dir}/atom.xml&quot;)
+    jekyll_config.sub!(/^root:.*$/, &quot;root: /#{dir.sub(/^\//, '')}&quot;)
+    File.open('_config.yml', 'w') do |f|
+      f.write jekyll_config
+    end
+    rm_rf public_dir
+    mkdir_p &quot;#{public_dir}#{dir}&quot;
+    puts &quot;## Site's root directory is now '/#{dir.sub(/^\//, '')}' ##&quot;
+  end
+end
+
+desc &quot;Set up _deploy folder and deploy branch for Github Pages deployment&quot;
+task :setup_github_pages, :repo do |t, args|
+  if args.repo
+    repo_url = args.repo
+  else
+    puts &quot;Enter the read/write url for your repository&quot; 
+    puts &quot;(For example, 'git@github.com:your_username/your_username.github.com)&quot;
+    repo_url = get_stdin(&quot;Repository url: &quot;)
+  end
+  user = repo_url.match(/:([^\/]+)/)[1]
+  branch = (repo_url.match(/\/[\w-]+.github.com/).nil?) ? 'gh-pages' : 'master'
+  project = (branch == 'gh-pages') ? repo_url.match(/\/([^\.]+)/)[1] : ''
+  unless `git remote -v`.match(/origin.+?octopress.git/).nil?
+    # If octopress is still the origin remote (from cloning) rename it to octopress
+    system &quot;git remote rename origin octopress&quot;
+    if branch == 'master'
+      # If this is a user/organization pages repository, add the correct origin remote
+      # and checkout the source branch for committing changes to the blog source.
+      system &quot;git remote add origin #{repo_url}&quot;
+      puts &quot;Added remote #{repo_url} as origin&quot;
+      system &quot;git config branch.master.remote origin&quot;
+      puts &quot;Set origin as default remote&quot;
+      system &quot;git branch -m master source&quot;
+      puts &quot;Master branch renamed to 'source' for committing your blog source files&quot;
+    else
+      unless !public_dir.match(&quot;#{project}&quot;).nil?
+        system &quot;rake set_root_dir[#{project}]&quot;
+      end
+    end
+  end
+  url = &quot;http://#{user}.github.com&quot;
+  url += &quot;/#{project}&quot; unless project == ''
+  jekyll_config = IO.read('_config.yml')
+  jekyll_config.sub!(/^url:.*$/, &quot;url: #{url}&quot;)
+  File.open('_config.yml', 'w') do |f|
+    f.write jekyll_config
+  end
+  rm_rf deploy_dir
+  mkdir deploy_dir
+  cd &quot;#{deploy_dir}&quot; do
+    system &quot;git init&quot;
+    system &quot;echo 'My Octopress Page is coming soon &amp;hellip;' &gt; index.html&quot;
+    system &quot;git add .&quot;
+    system &quot;git commit -m \&quot;Octopress init\&quot;&quot;
+    system &quot;git branch -m gh-pages&quot; unless branch == 'master'
+    system &quot;git remote add origin #{repo_url}&quot;
+    rakefile = IO.read(__FILE__)
+    rakefile.sub!(/deploy_branch(\s*)=(\s*)([&quot;'])[\w-]*[&quot;']/, &quot;deploy_branch\\1=\\2\\3#{branch}\\3&quot;)
+    rakefile.sub!(/deploy_default(\s*)=(\s*)([&quot;'])[\w-]*[&quot;']/, &quot;deploy_default\\1=\\2\\3push\\3&quot;)
+    File.open(__FILE__, 'w') do |f|
+      f.write rakefile
+    end
+  end
+  puts &quot;\n---\n## Now you can deploy to #{url} with `rake deploy` ##&quot;
+end
+
+def ok_failed(condition)
+  if (condition)
+    puts &quot;OK&quot;
+  else
+    puts &quot;FAILED&quot;
+  end
+end
+
+def get_stdin(message)
+  print message
+  STDIN.gets.chomp
+end
+
+def ask(message, valid_options)
+  if valid_options
+    answer = get_stdin(&quot;#{message} #{valid_options.to_s.gsub(/&quot;/, '').gsub(/, /,'/')} &quot;) while !valid_options.include?(answer)
+  else
+    answer = get_stdin(message)
+  end
+  answer
+end
+
+desc &quot;list tasks&quot;
+task :list do
+  puts &quot;Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}&quot;
+  puts &quot;(type rake -T for more detail)\n\n&quot;
+end
+
+desc &quot;Publish draft&quot;
+task :publish_draft do
+  posts_path = &quot;#{source_dir}/#{posts_dir}&quot;
+  puts &quot;Listing drafts in #{posts_path}...&quot;
+
+  drafts = Array.new()
+  Dir.glob(&quot;#{posts_path}/*.*&quot;).each_with_index do |post, idx|
+    yaml = Preamble.load(post)
+    published = yaml[0][&quot;published&quot;]
+    if published == false
+      post_shortname = post.gsub(/#{posts_path}\//, '')
+      drafts.push(post_shortname)
+    end
+  end
+
+  if drafts.length == 0
+    puts &quot;### There are no drafts at present.&quot;
+    exit 0
+  end
+
+  post_options = Array.new(drafts.length)
+  drafts.each_with_index do |draft_post, idx|
+    post_options[idx] = &quot;#{idx}&quot;
+    puts &quot;  [#{idx}]  #{draft_post}&quot;
+  end
+
+  publish_index = ask(&quot;Which post would you like to publish&quot;, post_options)
+
+  post_shortname = drafts[publish_index.to_i]
+  post_path = &quot;#{posts_path}/#{post_shortname}&quot;
+  yaml = Preamble.load(post_path);
+  puts &quot;  Post details:&quot;
+  puts &quot;    Title:\t#{yaml[0][&quot;title&quot;]}&quot;
+  puts &quot;    Date:\t#{yaml[0][&quot;date&quot;]}&quot;
+  puts
+  publish_option = ask(&quot;Publish with current date (p), existing date (e) or cancel (c)&quot;, ['p', 'e', 'c'])
+
+  if publish_option == 'c'
+    exit 0
+  elsif publish_option == 'p'
+    puts &quot;Publishing with current date&quot;
+    yaml[0][&quot;published&quot;] = true
+    yaml[0][&quot;date&quot;] = Time.now.strftime('%Y-%m-%d %H:%M')
+
+    matchData = post_shortname.match(/^\d{4}-\d{1,2}-\d{1,2}-(.*)$/)
+    title_from_filename = matchData[1];
+
+    new_post_path = &quot;#{posts_path}/#{Time.now.strftime('%Y-%m-%d')}-#{title_from_filename}&quot;
+    File::delete(post_path)
+
+    open(new_post_path, 'w') do |write_post|
+      write_post.puts yaml[0].to_yaml
+      write_post.puts &quot;---&quot;
+      write_post.puts yaml[1]
+    end
+
+    puts &quot;The post has been published as #{new_post_path}&quot;
+
+  elsif publish_option == 'e'
+    puts &quot;Publishing with existing date&quot;
+    yaml[0][&quot;published&quot;] = true
+    open(post_path, 'w') do |write_post|
+      write_post.puts yaml[0].to_yaml
+      write_post.puts &quot;---&quot;
+      write_post.puts yaml[1]
+    end
+  end
+end
+</code></pre></noscript></div>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -612,54 +1115,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/post/28261274431/php-mcrypt-on-mountain-lion">Php-mcrypt on Mountain Lion</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T00:00:00+01:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
-
-<p>Executing <code>php</code> at the command line told me the following:</p>
-
-<blockquote>
-  <p>PHP Warning:  PHP Startup: Unable to load dynamic library ‘/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so’ - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
- Referenced from: /usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so
- Reason: image not found in Unknown on line 0</p>
-</blockquote>
-
-<p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -675,6 +1130,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/10/19/tweetbot-for-mac-pricing/">Tweetbot for Mac Pricing</a>
       </li>
     
@@ -688,10 +1147,6 @@
     
       <li class="post">
         <a href="/post/30538198744/full-screen-mode-is-not-for-you">Full Screen Mode is Not For You</a>
-      </li>
-    
-      <li class="post">
-        <a href="/post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques">SublimeLinter - an Enabler for Lazy Programming Techniques</a>
       </li>
     
   </ul>

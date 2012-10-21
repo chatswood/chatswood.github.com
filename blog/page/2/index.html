@@ -9,7 +9,7 @@
   <meta name="author" content="Maurice Kelly">
 
   
-  <meta name="description" content="Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled Archive, and is where I &hellip;">
+  <meta name="description" content="I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised mcrypt with PHP. Executing &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,6 +82,54 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/post/28261274431/php-mcrypt-on-mountain-lion">Php-mcrypt on Mountain Lion</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-29T00:00:00+01:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
+
+<p>Executing <code>php</code> at the command line told me the following:</p>
+
+<blockquote>
+  <p>PHP Warning:  PHP Startup: Unable to load dynamic library ‘/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so’ - dlopen(/usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so, 9): Library not loaded: /usr/lib/libltdl.7.dylib
+ Referenced from: /usr/local/Cellar/php53-mcrypt/5.3.13/mcrypt.so
+ Reason: image not found in Unknown on line 0</p>
+</blockquote>
+
+<p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -607,53 +655,6 @@ Roland US Product Support</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- This defines how Octopress will use posts with external-url. -->
-        <h1 class="entry-title external"><a href="http://sgaw.tumblr.com/post/20841224612/johns-bikes-in-bath-and-my-trek-7-3-fx">Being a Dad Changes Everything <span>&rArr;</span></a></h1>
-        
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-14T00:00:00+01:00" pubdate data-updated="true">Apr 14<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://sgaw.tumblr.com/post/20841224612/johns-bikes-in-bath-and-my-trek-7-3-fx">Simon Wolf wrote</a>:</p>
-
-<blockquote>
-  <p>Finally I bought a new helmet. I’m not a huge fan of them but I like my daughter to wear one and I need to set a good example for her.</p>
-</blockquote>
-
-<p>For me this sums up everything that there is to being a dad. When the subject of bicycle helmets came up in the past, I always swore that I’d never wear one. I trotted out the old fallback position of “I never needed one when I was a kid, I don’t need one now, and my kids will never need one either.”</p>
-
-<p>Now that I’m actually a dad, my position has changed. From here on I’ll do whatever is necessary to set a good example for my daughter. How times changes.</p>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -671,6 +672,10 @@ Roland US Product Support</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/10/19/tweetbot-for-mac-pricing/">Tweetbot for Mac Pricing</a>
       </li>
     
@@ -684,10 +689,6 @@ Roland US Product Support</p>
     
       <li class="post">
         <a href="/post/30538198744/full-screen-mode-is-not-for-you">Full Screen Mode is Not For You</a>
-      </li>
-    
-      <li class="post">
-        <a href="/post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques">SublimeLinter - an Enabler for Lazy Programming Techniques</a>
       </li>
     
   </ul>
