@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Opinion | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/opinion/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-10-21T18:06:13+01:00</updated>
+  <updated>2012-12-02T12:07:07+00:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Netbot - The App.net Saviour?]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/10/23/netbot-the-app-dot-net-saviour/"/>
+    <updated>2012-10-23T14:51:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/10/23/netbot-the-app-dot-net-saviour</id>
+    <content type="html"><![CDATA[<p>On the <a href="http://www.muleradio.net/thetalkshow/20/">latest episode</a> of <a href="http://www.muleradio.net/thetalkshow/">The Talk Show</a>, host John Gruber commented with regard to App.net and the release of <a href="http://tapbots.com/software/netbot/">Netbot</a>:</p>
+
+<blockquote>
+  <p>“It’s been a great little science experiment since Netbot came out about the importance of apps versus web clients”</p>
+</blockquote>
+
+<p>Gruber, and his guest Brent Simmons, said a lot of sensible things in this discussion, but the implication here is that App.net was treading water prior to the release of Netbot because there were no native clients.</p>
+
+<p>Many App.net users will be well aware that Netbot was not the first native iOS client to be unleashed. There were numerous native clients for iOS available prior to this (I personally used AppApp, <a href="http://tigerbears.com/felix/">Felix</a>, <a href="http://www.appnetrhino.com/">Rhino</a> and <a href="http://www.rivrapp.com/">Rivr</a>) so the native client requisite for success was already satisfied. The real reason why App.net usage took off after the release of Netbot was more likely due to a large volume of subscribers (existing and potential) who were too timid to truly embrace the platform until a big-name client was launched. </p>
+
+<p>I’m glad that the release of Netbot for iOS gave a much needed boost to the App.net population and I hope we see a similar boost when Netbot for Mac is released. I’d also like to see some acknowledgement given to the original native clients who put in the hard yards in the early days. After all it was they who helped cultivate the existing population that made it viable for a bigger developer like Tapbots to invest in the platform.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tweetbot for Mac Pricing]]></title>
@@ -25,8 +45,6 @@
 <p>Personally, I feel that the $20 price tag for this piece of software is steep, but still justifiable. Tapbots have put a lot of effort into this application and they deserve some compensation. Additionally, they have to factor in the cost of <a href="/post/30606832645/maximising-bang-per-token">Twitter user tokens</a> meaning that they can’t rely on an ever-expanding user base in order to re-coup costs. I can understand some of the backlash to the price increase but this is probably more of a case of the previous clients being undervalued, as opposed to this client being overvalued.</p>
 
 <p>I see this as a positive step, not just for Tapbots, but for App Store pricing in general. The long-discussed “race to the bottom” in app pricing can make it difficult for all but the most popular apps to survive. It is good to see a “headline” app take on realistic pricing and hopefully some of the smaller developers will gain the confidence to increase their prices in future. Higher prices will ultimately make for a more sustainable business model that allows small development companies to survive.</p>
-
-<hr />
 
 <div class="footnotes">
   <ol>
@@ -119,22 +137,6 @@ Roland US Product Support</p>
 <p>It seemed like a positive reaction, but unfortunately that was the last I heard. I’ve given them a chance but they’ve not taken the opportunity to visibly react. So now I’ve decided to name and shame Boss/Roland US.</p>
 
 <p>You guys have had a security breach of some description. I’ve let you know, and you’ve still not gotten back to me. I have to assume that you’ve done nothing, or you’re doing it too slow. I’m telling the world because you’re not.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nobody Panic! Mac App Store Upgrades Solved]]></title>
-    <link href="http://blog.chatswood.org.uk/post/23496315143/nobody-panic-mac-app-store-upgrades-solved"/>
-    <updated>2012-05-21T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/23496315143/nobody-panic-mac-app-store-upgrades-solved</id>
-    <content type="html"><![CDATA[<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
-
-<p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it’s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it’s not appealing to pay the full new price again.</p>
-
-<p>Thankfully Panic have managed to solve the problem by offering Coda 2 as a separate app. They have <a href="http://panic.com/coda/support.html">announced an aggressive 50% discount</a> for the first 24 hours that the app is on sale, making for an upgrade price of just $49.99. After 24 hours the price will go up to $75, which is still a respectable 25% off.</p>
-
-<p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
 
 ]]></content>
   </entry>

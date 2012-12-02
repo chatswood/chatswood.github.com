@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Apple | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-10-21T18:06:13+01:00</updated>
+  <updated>2012-12-02T12:07:07+00:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mail.app and Power Nap]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap/"/>
+    <updated>2012-12-02T12:05:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap</id>
+    <content type="html"><![CDATA[<p>Mountain Lion has been with us for several months now and has been a pretty solid release with some nice new features. One of those <a href="http://www.apple.com/osx/whats-new/">features is Power Nap</a> - the ability for a certain Macs to sleep with one eye open. It allows for the updating of data (fetching mail, contact updates, etc) and the performing of housekeeping tasks (carrying out backups and downloading software updates) while your Mac give sthe impression of being asleep.</p>
+
+<p>I have a nice shiny 2012 <a href="http://www.apple.com/macbookair/">MacBook Air</a> so I’ve been getting these Power Nap features for free since upgrading to Mountain Lion. Generally I don’t notice it much - I have notifications from Messages already onscreen when I open my machine in the morning, software updates are quick to apply because they have already been downloaded and, most usefully, I can see new entries in my mailbox that arrived overnight.</p>
+
+<p>So far, so good. There’s just one gripe with the way the mail messages arrive. I have an IMAP account that gets updated with new messages. But if I have viewed those messages on my iPhone/iPad or on another Mac, they don’t get marked as read via Power Nap. This seems like a minor inconvenience as the next refresh of the IMAP account should update their read/unread status.</p>
+
+<p>Nope. Checking for new mail in all accounts doesn’t change the status. In fact, basic testing has shown that once woken from Power Nap I can’t even pick up new items in the IMAP mailbox. A restart of Mail.app is required before any updates to that mailbox are detected. It just seems to be the one IMAP account though - I have 3 other mail accounts (2 GMail and 1 iCloud) that update fine.</p>
+
+<p>I guess it’s time to file a bug.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Full Screen Mode is Not For You]]></title>
@@ -105,24 +123,6 @@
 <p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
 
 <p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Geekbench Results]]></title>
-    <link href="http://blog.chatswood.org.uk/post/23856794036/geekbench-results"/>
-    <updated>2012-05-27T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/23856794036/geekbench-results</id>
-    <content type="html"><![CDATA[<p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-mac_pro.png" alt="MacPro" /></p>
-
-<p>I was impressed at the performance provided by the 17” MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
-
-<p>I still love my Mac Pro though, if only for the sheer joy that comes when it’s time to upgrade a hard disk.</p>
 
 ]]></content>
   </entry>
