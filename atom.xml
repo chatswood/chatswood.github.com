@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-12-02T12:07:07+00:00</updated>
+  <updated>2012-12-24T11:49:45+00:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iTunes (not for) U]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/12/24/itunes-not-for-u/"/>
+    <updated>2012-12-24T11:48:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/12/24/itunes-not-for-u</id>
+    <content type="html"><![CDATA[<p>I can’t figure out how to play <strong>local</strong> <em>iTunes U</em> content on my iPhone - it just doesn’t appear on my device.</p>
+
+<p>I like to download tutorial and training material (from sites like <a href="http://railscasts.com/">Railscasts</a>, <a href="http://ideveloper.tv/">iDeveloper TV</a>, <a href="https://peepcode.com/">PeepCode</a> and <a href="https://mijingo.com/">Mijingo</a>) and I’m one of these people who likes to hold onto the material <em>just in case</em> I ever need to watch it again. For convenience I dump it into iTunes on my Mac Mini that serves up content to a number of Apple TV and iOS devices. Because I’ve got a thing for organization, I like to mark the videos as being <em>iTunes U</em> material so that I can get to it easily through the Apple TV menus.</p>
+
+<p>Sometimes I’m not using the Apple TV and I want to watch a quick tutorial on my iPhone. This happened the other night when I decided to watch a <a href="http://railscasts.com/">Railscast</a>. So I opened up the <em>iTunes U</em> app on the iPhone. It gives me the option to get official material from the catalog, but doesn’t let me browse my local Home Sharing machine.</p>
+
+<p>So I tried the <em>Videos</em> app - it does let you choose Shared libraries, but only displays the categories <em>Movies</em>, <em>TV Shows</em>, and <em>Music Videos</em>. No sign of <em>iTunes U</em> content.</p>
+
+<p>In desperation I tried the <em>Music</em> (formerly iPod) app but it didn’t include the option for <em>iTunes U</em> content (and hasn’t since <em>iTunes U</em> was split off into its own app a while back).</p>
+
+<p>This seemed weird - I couldn’t find a way to play iTunes U material stored on my local server. Strangely, when I picked up my iPad mini the Videos app there has a section for iTunes U material (and I was able to watch the <a href="http://railscasts.com/">Railscast</a> absolutely fine - “panic” over).</p>
+
+<p>Seems like quite an oversight that there is no way to carry out this (admittedly edge) use-case on an iPhone. Time for a Radar…</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mail.app and Power Nap]]></title>
@@ -922,75 +944,6 @@ Roland US Product Support</p>
 
 <p>I’m a BBEdit user, but if I’m going to be working on someone else’s Mac for whatever reason I’ll quickly grab a copy of <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> to ensure that I’m in a somewhat familiar editing environment. So if you’re needing BBEdit goodness, but are on a strict budget, then it’s definitely worth grabbing TextWrangler from either the <a href="http://www.barebones.com/products/textwrangler/">Bare Bones site</a>, or from the <a href="http://itunes.apple.com/gb/app/textwrangler/id404010395?mt=12">Mac App Store</a>.</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA["Up to" charges for "Up to" services]]></title>
-    <link href="http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services"/>
-    <updated>2012-04-17T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services</id>
-    <content type="html"><![CDATA[<p>I’m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I’ve been making lately to whoever will listen:</p>
-
-<blockquote>
-  <p>If your supermarket charged you full price for ‘upto’ a Kg of sugar, or the service station charged you full price for ‘upto’ a gallon of petrol they would be prosecuted.</p>
-</blockquote>
-
-<p>(via <a href="http://www.theregister.co.uk/2012/04/16/wispa_upto_campaign/">The Register</a>)</p>
-
-<p>We pay for an “up to 16Mbps” service. Unfortunately my ISP - <a href="http://www.productsandservices.bt.com/consumerProducts/displayCategory.do?categoryId=CON-TOTAL-BB-R1">BT Total Broadband</a> - and the underlying wholesale provider <a href="http://www.openreach.co.uk/orpg/home/home.do">Openreach</a> have not seen fit to install ADSL2 hardware in our local exchange. This mere technicality means that my “up to 16Mbps” service is instantly constrained by the 8Mbps limit on ADSL Max technology.</p>
-
-<p>We pay £26 a month for a service that, through no fault of our own, can only deliver 50% of the promised<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> service. That’s bad enough, but we’re still talking theoretical limits here. Our actual delivered service is just over 6Mbps with a fair wind. So what we actually get is not 16Mbps, but just 37.5% of that. Other BT Total Broadband customers on the same package will pay the same amount, yet they may get 100% of the promised service.</p>
-
-<p>We actually fall somewhere in the middle of the spectrum. A good friend is also a customer with BT Total Broadband, and therefore is also signed up to a service that is advertised as being up to 16Mbps. His actual delivered service is 0.5Mbps. To save you doing the mental arithmetic, that is just 3.125% of the maximum theoretical service. Yet he pays 100% of the price.</p>
-
-<p>Back in 2009 the <a href="http://news.bbc.co.uk/1/hi/8012848.stm">UK government said in their budget</a> that they would commit to ensuring that everyone in the country would have access to 2Mbps broadband by 2012 though they’ve now said that will be 2015. We still have people unable to achieve that target. Worse still, these people are being forced to pay prices similar to those paid by users of next-generation broadband services. </p>
-
-<h2 id="not-going-far-enough">Not going far enough</h2>
-
-<p>I not only agree with what <a href="http://wispa.it/">wispa</a> are saying in their campaign, but I feel that they are not going far enough. Not only should people be paying a price proportionate to the service they receive, but those receiving a service below the governments “target” of 2Mbps should not be paying a single penny. And yet the campaign from <a href="http://wispa.it/">wispa</a> only covers the concept of people not getting the full “up to” service.</p>
-
-<p>There is an even wider problem that is becoming more prevalent as next-generation broadband services are being rolled out. Amongst my friends, family and colleagues there is a huge disparity amongst the level of broadband services available. Some people have <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">Fibre To The Cabinet</a>, some have ADSL2, some have just regular ADSL, some have 3G wireless, and some have nothing.</p>
-
-<p>The strange thing is that many of these differing levels of service cost around the same price. As an example, at home we only receive regular ADSL - this will cost about £18 a month for up to 16Mbps and 40GB allowance<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. According to <a href="http://www.productsandservices.bt.com/consumerProducts/displayTopic.do?topicId=29017">BT’s Infinity product pages</a> the base level package is also £18, but this includes up to 38Mbps and the same 40GB allowance.</p>
-
-<p>We pay the same price for an inferior service. Why? Because we live in an area that is simply not covered by the <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">FTTC</a> technology. That seems unfair to say the least, yet when the question is asked of BT, their answer is often the same: it comes down to the business case. They will simply not extend the reach of their FTTC offering because it is cost prohibitive.</p>
-
-<h2 id="who-costs-the-most">Who costs the most?</h2>
-
-<p>Let’s think about this for a minute. While I accept that I am probably simplifying things greatly here, the costs to BT for each customer will come down to the several major groupings: ISP running costs, bandwidth, network infrastructure, and exchange hardware. So how might these costs vary between users on ADSL and Infinity products?</p>
-
-<ul>
-  <li>
-    <p>It will cost the same to run as an ISP whether your user is on ADSL or Infinity. The cost of an email accounts, support, portals, etc should all be the same. If anything support for Infinity users will be higher as this is the newer technology, and more prone to confusion and problems.</p>
-  </li>
-  <li>
-    <p>Bandwidth costs should be the same to them although it could easily be argued that a user on a fast Infinity connection will consume more of your bandwidth, certainly on “unlimited” allowance packages.</p>
-  </li>
-  <li>
-    <p>Network infrastructure is where things will differ. Backhaul should be the same, but paying for new fibre cabinets and the fibre optic cabling to them costs a lot. The network infrastructure is the same as it always was for ADSL users, it’s only the new Infinity users that incur this cost.</p>
-  </li>
-  <li>
-    <p>Exchange hardware will also see a large difference. ADSL hardware is available in most, if not all exchanges, and would likely have been paid for at this stage, less some ongoing maintenance costs. Conversely, the Infinity hardware is new and expensive, and is where the real cost lies.</p>
-  </li>
-</ul>
-
-<p>I think it’s fair to say that it costs a lot more to sustain a customer on an Infinity package over a customer on regular ADSL, yet both sets of customers pay the same price. I think that what <a href="http://wispa.it/">wispa</a> should be campaigning for is not only an end to the “up to” problem, but that customers on older, inferior products should not be effectively subsidising customers who take a newer, superior product.</p>
-
-<p>As I mentioned earlier, often when I ask BT why they don’t offer me Infinity, they say it’s because there is no business case for it. They say it’s not economically viable.</p>
-
-<p>I now say - why don’t you use the excess money you get from me paying the same price as an Infinity service, and instead of treating it as profit, treat it as a down-payment on the new hardware you need to provide me with a better service. Maybe <a href="http://wispa.it/">wispa</a> can adapt this into their campaign as well.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Yes, I know it wasn’t actually <em>promised</em> to us, but this is where the whole “you wouldn’t be happy with up to a litre of fuel” thing comes in!<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>We were on this package, but upgraded to their “unlimited” allowance, hence the £26 a month mentioned previously.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   

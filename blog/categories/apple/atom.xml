@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Apple | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-12-02T12:07:07+00:00</updated>
+  <updated>2012-12-24T11:49:45+00:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iTunes (not for) U]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/12/24/itunes-not-for-u/"/>
+    <updated>2012-12-24T11:48:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/12/24/itunes-not-for-u</id>
+    <content type="html"><![CDATA[<p>I can’t figure out how to play <strong>local</strong> <em>iTunes U</em> content on my iPhone - it just doesn’t appear on my device.</p>
+
+<p>I like to download tutorial and training material (from sites like <a href="http://railscasts.com/">Railscasts</a>, <a href="http://ideveloper.tv/">iDeveloper TV</a>, <a href="https://peepcode.com/">PeepCode</a> and <a href="https://mijingo.com/">Mijingo</a>) and I’m one of these people who likes to hold onto the material <em>just in case</em> I ever need to watch it again. For convenience I dump it into iTunes on my Mac Mini that serves up content to a number of Apple TV and iOS devices. Because I’ve got a thing for organization, I like to mark the videos as being <em>iTunes U</em> material so that I can get to it easily through the Apple TV menus.</p>
+
+<p>Sometimes I’m not using the Apple TV and I want to watch a quick tutorial on my iPhone. This happened the other night when I decided to watch a <a href="http://railscasts.com/">Railscast</a>. So I opened up the <em>iTunes U</em> app on the iPhone. It gives me the option to get official material from the catalog, but doesn’t let me browse my local Home Sharing machine.</p>
+
+<p>So I tried the <em>Videos</em> app - it does let you choose Shared libraries, but only displays the categories <em>Movies</em>, <em>TV Shows</em>, and <em>Music Videos</em>. No sign of <em>iTunes U</em> content.</p>
+
+<p>In desperation I tried the <em>Music</em> (formerly iPod) app but it didn’t include the option for <em>iTunes U</em> content (and hasn’t since <em>iTunes U</em> was split off into its own app a while back).</p>
+
+<p>This seemed weird - I couldn’t find a way to play iTunes U material stored on my local server. Strangely, when I picked up my iPad mini the Videos app there has a section for iTunes U material (and I was able to watch the <a href="http://railscasts.com/">Railscast</a> absolutely fine - “panic” over).</p>
+
+<p>Seems like quite an oversight that there is no way to carry out this (admittedly edge) use-case on an iPhone. Time for a Radar…</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mail.app and Power Nap]]></title>
@@ -107,22 +129,6 @@
 <p>Maybe this did appear in some form in Lion, but definitely not for my particular setup. I’m still calling it a new feature, even if it’s only new for my specific set of conditions.</p>
 
 <p>In fact, that would be even better. That means Apple did it just for me.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[You *Do* Need The Xcode Command Line Tools]]></title>
-    <link href="http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
-    <updated>2012-07-17T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
-    <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
-
-<p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
-
-<p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
-
-<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
 
 ]]></content>
   </entry>
