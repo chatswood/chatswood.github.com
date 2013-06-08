@@ -1,117 +1,109 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Chatswood</title>
-  <meta name="author" content="Maurice Kelly">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>  | Chatswood</title>
 
-  
-  <meta name="description" content="I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this &hellip;">
-  
+<meta name="author" content="Maurice Kelly"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://blog.chatswood.org.uk/blog/page/2">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-4608571-3']);
-    _gaq.push(['_trackPageview']);
+	<link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-<!--   <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">mob</div>
-  	<div id="logoRight">}</div>
-  	<div class="clear"></div>
-  </div> -->
-  <h1><a href="/">Chatswood</a></h1>
-  
-  <div class="clear"></div>
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Chatswood</a></h1>
+<h4></h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:blog.chatswood.org.uk">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:blog.chatswood.org.uk" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review">Maplin 500Mb/s Powerline Adapters - a Rambling Review</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-14T00:00:00+01:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review">
+		
+			Maplin 500Mb/s Powerline Adapters - a Rambling Review</a>
+	</h2>
+	<div class="entry-content">
+		<p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
 
 <p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I’m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She’s convinced that I’ll leave gaping holes running down the walls that never get patched up, and that the painting won’t get beyond the colour-picking stage. She’s probably right.</p>
 
@@ -133,42 +125,46 @@
 
 <p>The only new factor there is the powerline adapters, so they’ve had to come out and are currently on their way back to Maplin. Rather than post them, my kind wife agreed to drop them into the store as she was going to be passing it. She’ll probably be away for a few hours at least. Now to find my hammer, some Cat6, and the crimping tool.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-14T00:00:00+01:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/review/'>Review</a>, <a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/29224063502/why-app-net">Why App.net?</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-11T00:00:00+01:00" pubdate data-updated="true">Aug 11<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Just over a month ago, Dalton Caldwell wrote a blog post entitled “<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>”. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: “<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>”.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/29224063502/why-app-net">
+		
+			Why App.net?</a>
+	</h2>
+	<div class="entry-content">
+		<p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Just over a month ago, Dalton Caldwell wrote a blog post entitled “<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>”. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: “<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>”.</p>
 
 <p>In this post Dalton essentially proposed building a new Twitter. A Twitter that was funded directly by the users instead of by the advertisers. He and his company established a KickStarter-style campaign to raise $500k by 13th August in order to fund this new social network. As of the time of writing, there are just under two days remaining, and there is only $69,200 left to be raised.</p>
 
@@ -203,42 +199,46 @@
     </li>
   </ol>
 </div>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-11T00:00:00+01:00" pubdate data-updated="true">Aug 11<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/28971024283/q-when-is-apple-news-not-actually-news">Q. When Is Apple News Not Actually News?</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-08T00:00:00+01:00" pubdate data-updated="true">Aug 8<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A. When you report old “news” as though it just “finally” happened.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="http://www.tuaw.com/2012/08/07/xcode-4-4-1-released-as-standalone-app/">
+		
+			Q. When Is Apple News Not Actually News?</a>
+	</h2>
+	<div class="entry-content">
+		<p>A. When you report old “news” as though it just “finally” happened.</p>
 
 <p>Mike Schramm at <a href="http://www.tuaw.com">TUAW</a> posted the following last night:</p>
 
@@ -250,42 +250,46 @@
 
 <p>Unfortunately, as Apple has grown in stature, the number of websites covering Apple news grows at the same time. Venerable Apple news sites like TUAW are competing with upstart sites, and there seems to be a scrambling to report the tiniest little details as news.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-08T00:00:00+01:00" pubdate data-updated="true">Aug 8<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/28825879449/the-mountain-lion-and-the-mouse">The (Mountain) Lion and the Mouse</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-06T00:00:00+01:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/28825879449/the-mountain-lion-and-the-mouse">
+		
+			The (Mountain) Lion and the Mouse</a>
+	</h2>
+	<div class="entry-content">
+		<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
 
 <p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
 
@@ -302,42 +306,46 @@
     </li>
   </ol>
 </div>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-06T00:00:00+01:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/28261274431/php-mcrypt-on-mountain-lion">Php-mcrypt on Mountain Lion</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T00:00:00+01:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/28261274431/php-mcrypt-on-mountain-lion">
+		
+			Php-mcrypt on Mountain Lion</a>
+	</h2>
+	<div class="entry-content">
+		<p>I was having a few PHP problems post-Mountain Lion upgrade. Specifically I couldn’t get any sites working that utilised <code>mcrypt</code> with PHP.</p>
 
 <p>Executing <code>php</code> at the command line told me the following:</p>
 
@@ -348,42 +356,46 @@
 </blockquote>
 
 <p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-29T00:00:00+01:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/programming/'>Programming</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/28287324457/mountain-lions-new-archive-folder">Mountain Lion&#8217;s New Archive Folder</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T00:00:00+01:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/28287324457/mountain-lions-new-archive-folder">
+		
+			Mountain Lion&#8217;s New Archive Folder</a>
+	</h2>
+	<div class="entry-content">
+		<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
 
 <p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I’d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
 
@@ -401,42 +413,46 @@
 
 <p>In fact, that would be even better. That means Apple did it just for me.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-29T00:00:00+01:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools">You *Do* Need the Xcode Command Line Tools</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-17T00:00:00+01:00" pubdate data-updated="true">Jul 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools">
+		
+			You *Do* Need the Xcode Command Line Tools</a>
+	</h2>
+	<div class="entry-content">
+		<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
 
 <p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
 
@@ -444,42 +460,46 @@
 
 <p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-17T00:00:00+01:00" pubdate data-updated="true">Jul 17<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/development/'>Development</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/26368096042/naming-and-shaming-boss-roland-us">Naming and Shaming: Boss/Roland US</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-02T00:00:00+01:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I’m fed up with receiving spam. I generally don’t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/26368096042/naming-and-shaming-boss-roland-us">
+		
+			Naming and Shaming: Boss/Roland US</a>
+	</h2>
+	<div class="entry-content">
+		<p>I’m fed up with receiving spam. I generally don’t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
 
 <p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it’s the lack of responsiveness.</p>
 
@@ -498,42 +518,46 @@ Roland US Product Support</p>
 
 <p>You guys have had a security breach of some description. I’ve let you know, and you’ve still not gotten back to me. I have to assume that you’ve done nothing, or you’re doing it too slow. I’m telling the world because you’re not.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-02T00:00:00+01:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/23856794036/geekbench-results">Geekbench Results</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-27T00:00:00+01:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/23856794036/geekbench-results">
+		
+			Geekbench Results</a>
+	</h2>
+	<div class="entry-content">
+		<p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
 
 <p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
 
@@ -543,42 +567,46 @@ Roland US Product Support</p>
 
 <p>I still love my Mac Pro though, if only for the sheer joy that comes when it’s time to upgrade a hard disk.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-27T00:00:00+01:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/23496315143/nobody-panic-mac-app-store-upgrades-solved">Nobody Panic! Mac App Store Upgrades Solved</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-21T00:00:00+01:00" pubdate data-updated="true">May 21<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/23496315143/nobody-panic-mac-app-store-upgrades-solved">
+		
+			Nobody Panic! Mac App Store Upgrades Solved</a>
+	</h2>
+	<div class="entry-content">
+		<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
 
 <p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it’s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it’s not appealing to pay the full new price again.</p>
 
@@ -586,86 +614,74 @@ Roland US Product Support</p>
 
 <p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-21T00:00:00+01:00" pubdate data-updated="true">May 21<span>st</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
+<nav id="pagenavi">
+    
+        <a href="/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/3/" class="next">Next</a>
+    
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/3/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/06/08/vesper/">Vesper</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/24/itunes-not-for-u/">iTunes (Not for) U</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/02/mail-dot-app-and-power-nap/">Mail.app and Power Nap</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/23/netbot-the-app-dot-net-saviour/">Netbot - the App.net Saviour?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a>
-      </li>
-    
-  </ul>
-</section>
+    Maurice Kelly
 
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Maurice Kelly -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4608571-3']);
+		_gaq.push(['_trackPageview']);
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 

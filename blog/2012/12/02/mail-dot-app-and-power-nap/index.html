@@ -1,114 +1,100 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Mail.app and Power Nap - Chatswood</title>
-  <meta name="author" content="Maurice Kelly">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Mail.app and Power Nap  | Chatswood</title>
 
-  
-  <meta name="description" content="Mountain Lion has been with us for several months now and has been a pretty solid release with some nice new features. One of those features is Power &hellip;">
-  
+<meta name="author" content="Maurice Kelly"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mountain Lion has been with us for several months now and has been a pretty solid release with some nice new features. One of those features is Power &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-4608571-3']);
-    _gaq.push(['_trackPageview']);
+	<link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-<!--   <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">mob</div>
-  	<div id="logoRight">}</div>
-  	<div class="clear"></div>
-  </div> -->
-  <h1><a href="/">Chatswood</a></h1>
-  
-  <div class="clear"></div>
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Chatswood</a></h1>
+<h4></h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:blog.chatswood.org.uk">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:blog.chatswood.org.uk" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
-  <header>
-    
-      <h1 class="entry-title">Mail.app and Power Nap</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-12-02T12:05:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-<div class="entry-content"><p>Mountain Lion has been with us for several months now and has been a pretty solid release with some nice new features. One of those <a href="http://www.apple.com/osx/whats-new/">features is Power Nap</a> - the ability for a certain Macs to sleep with one eye open. It allows for the updating of data (fetching mail, contact updates, etc) and the performing of housekeeping tasks (carrying out backups and downloading software updates) while your Mac give sthe impression of being asleep.</p>
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Mail.app and Power Nap</h2>
+	<div class="entry-content"><p>Mountain Lion has been with us for several months now and has been a pretty solid release with some nice new features. One of those <a href="http://www.apple.com/osx/whats-new/">features is Power Nap</a> - the ability for a certain Macs to sleep with one eye open. It allows for the updating of data (fetching mail, contact updates, etc) and the performing of housekeeping tasks (carrying out backups and downloading software updates) while your Mac give sthe impression of being asleep.</p>
 
 <p>I have a nice shiny 2012 <a href="http://www.apple.com/macbookair/">MacBook Air</a> so I’ve been getting these Power Nap features for free since upgrading to Mountain Lion. Generally I don’t notice it much - I have notifications from Messages already onscreen when I open my machine in the morning, software updates are quick to apply because they have already been downloaded and, most usefully, I can see new entries in my mailbox that arrived overnight.</p>
 
@@ -121,14 +107,8 @@
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
-  
-
-<span class="byline author vcard">Posted by <span class="fn">Maurice Kelly</span></span>
-
-      
+<div class="meta">
+	<div class="date">
 
 
 
@@ -140,104 +120,60 @@
   
 
 
-<time datetime="2012-12-02T12:05:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2012</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/apple/'>Apple</a>
-  
-</span>
+<time datetime="2012-12-02T12:05:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2012</time></div>
+	<div class="tags">
 
 
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap/" data-via="" data-counturl="http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap/" >Tweet</a>
-  
-  
-  
-</div>
+	<a class='category' href='/blog/categories/apple/'>Apple</a>
 
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2012/10/23/netbot-the-app-dot-net-saviour/" title="Previous Post: Netbot - The App.net Saviour?">&laquo; Netbot - The App.net Saviour?</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2012/12/24/itunes-not-for-u/" title="Next Post: iTunes (not for) U">iTunes (not for) U &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
 
 </div>
+	
+</div></article>
 
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/06/08/vesper/">Vesper</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/24/itunes-not-for-u/">iTunes (Not for) U</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/02/mail-dot-app-and-power-nap/">Mail.app and Power Nap</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/23/netbot-the-app-dot-net-saviour/">Netbot - the App.net Saviour?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a>
-      </li>
-    
-  </ul>
-</section>
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> --->
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
+    Maurice Kelly
 
-
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Maurice Kelly -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4608571-3']);
+		_gaq.push(['_trackPageview']);
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 

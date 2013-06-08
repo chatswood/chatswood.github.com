@@ -1,117 +1,109 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Chatswood</title>
-  <meta name="author" content="Maurice Kelly">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>  | Chatswood</title>
 
-  
-  <meta name="description" content="This is an interesting commentary from Marco Arment. One thing that rang particularly true was this statement: “That’s why that PC on your banker’s &hellip;">
-  
+<meta name="author" content="Maurice Kelly"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This is an interesting commentary from Marco Arment. One thing that rang particularly true was this statement: “That’s why that PC on your banker’s &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://blog.chatswood.org.uk/blog/page/7">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-4608571-3']);
-    _gaq.push(['_trackPageview']);
+	<link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-<!--   <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">mob</div>
-  	<div id="logoRight">}</div>
-  	<div class="clear"></div>
-  </div> -->
-  <h1><a href="/">Chatswood</a></h1>
-  
-  <div class="clear"></div>
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Chatswood</a></h1>
+<h4></h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:blog.chatswood.org.uk">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:blog.chatswood.org.uk" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2197487233/marco-arment-on-chrome-os-and-it-platform-longevity">Marco Arment on Chrome OS and IT Platform Longevity</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-13T00:00:00+00:00" pubdate data-updated="true">Dec 13<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is an interesting commentary from <a href="http://www.marco.org/">Marco Arment</a>. One thing that rang particularly true was this statement:</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="http://www.marco.org/2194283690">
+		
+			Marco Arment on Chrome OS and IT Platform Longevity</a>
+	</h2>
+	<div class="entry-content">
+		<p>This is an interesting commentary from <a href="http://www.marco.org/">Marco Arment</a>. One thing that rang particularly true was this statement:</p>
 
 <blockquote>
   <p>“That’s why that PC on your banker’s desk is probably running Windows 2000, an  11-year-old platform: because it’s extraordinarily expensive to update it, and  the current system works acceptably without any massive, one-time expenditures  on this year’s budget.”</p>
@@ -121,42 +113,46 @@
 
 <p>To me this is why companies need to adopt something like Chrome OS - a lightweight, low-cost hardware platform using easily upgradeable software is the only way to combat the permanent “slow days” that cost everyone time without incurring the “massive, one-time expenditures” that Marco mentions.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-13T00:00:00+00:00" pubdate data-updated="true">Dec 13<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2188459790/desktop-linux-the-dream-is-dead">Desktop Linux: The Dream Is Dead</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-12T00:00:00+00:00" pubdate data-updated="true">Dec 12<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>At last - mainstream IT media is finally catching on to what I’ve been saying for the past 3 years.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="http://www.pcworld.com/businesscenter/article/207999/desktop_linux_the_dream_is_dead.html?tk=hp_new">
+		
+			Desktop Linux: The Dream Is Dead</a>
+	</h2>
+	<div class="entry-content">
+		<p>At last - mainstream IT media is finally catching on to what I’ve been saying for the past 3 years.</p>
 
 <p>Don’t get me wrong - I love Linux as a server OS, and I was a huge advocate of it as a desktop OS for a long time. I used to write tutorials and reviews for <a href="http://www.linuxformat.com/">Linux Format</a> magazine so I really put my money where my mouth was at the time.</p>
 
@@ -178,42 +174,46 @@
 
 <p>On the server side, however, Linux is in my opinion the best OS out there. Maybe that’s what the Linux community should be focussing their efforts onto. Maybe if they rationalised the distros and created themselves a reference hardware platform they could totally own the server space. Then and only then should they start thinking about the desktop again.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-12T00:00:00+00:00" pubdate data-updated="true">Dec 12<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/opinion/'>Opinion</a>, <a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2188058228/curse-you-ipad-and-your-lack-of-multi-user-support">Curse You iPad and Your Lack of Multi-user Support</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-12T00:00:00+00:00" pubdate data-updated="true">Dec 12<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The iPad pisses me off. It’s such an amazing device, and it does just about everything I could wish for from such a revolution in computing. It always sounds contrived to say that the iPad has changed things but <em>it really has!</em> (Ooooh, that sounded contrived). My laptop rarely comes out of an evening anymore - most of my casual browsing, mail checking, tweeting, etc is done on the iPad. My wife is able to use it to make Skype calls, do the grocery shopping, keep an eye on Facebook.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/2188058228/curse-you-ipad-and-your-lack-of-multi-user-support">
+		
+			Curse You iPad and Your Lack of Multi-user Support</a>
+	</h2>
+	<div class="entry-content">
+		<p>The iPad pisses me off. It’s such an amazing device, and it does just about everything I could wish for from such a revolution in computing. It always sounds contrived to say that the iPad has changed things but <em>it really has!</em> (Ooooh, that sounded contrived). My laptop rarely comes out of an evening anymore - most of my casual browsing, mail checking, tweeting, etc is done on the iPad. My wife is able to use it to make Skype calls, do the grocery shopping, keep an eye on Facebook.</p>
 
 <p>But there is one area where the iPad just doesn’t cut it - as a multi-user device. In <a href="http://brianshall.com/content/communal-computing-ipad-changes-everything-again-because-tablets-are-designed-collaboration-">this article Brian Shall</a> extolls the virtues of the iPad as a communal, collaborative device. I say “to hell with that.”</p>
 
@@ -232,42 +232,46 @@
     </li>
   </ol>
 </div>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-12T00:00:00+00:00" pubdate data-updated="true">Dec 12<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2165631381/two-tier-facebook-friends-and-family">Two-tier Facebook - Friends and Family</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-10T00:00:00+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I don’t get why <a href="http://www.facebook.com">Facebook</a> don’t implement a two-tier friends system. You could call it <em>friends and family</em> or even <em>family and colleagues</em> or whatever. But having a way to restrict posts to a closer circle of friends would reduce the dilemma<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> that the average person faces many times in their Facebook lives:</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="http://www.bbc.co.uk/news/magazine-11968954">
+		
+			Two-tier Facebook - Friends and Family</a>
+	</h2>
+	<div class="entry-content">
+		<p>I don’t get why <a href="http://www.facebook.com">Facebook</a> don’t implement a two-tier friends system. You could call it <em>friends and family</em> or even <em>family and colleagues</em> or whatever. But having a way to restrict posts to a closer circle of friends would reduce the dilemma<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> that the average person faces many times in their Facebook lives:</p>
 
 <blockquote>
   <p>Do I accept a friend request from my mum/dad/boss/colleague/teacher/whatever and risk getting in trouble for something I or my friends post, or do I ignore their friend request and risk the wrath incurred by doing so?</p>
@@ -280,42 +284,46 @@
     </li>
   </ol>
 </div>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-10T00:00:00+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/opinion/'>Opinion</a>, <a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2163692626/following-some-hard-disk-wobbles-in-the-last-few">Daily Backups</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-10T00:00:00+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Following some hard disk wobbles in the last few weeks I decided to take a more rigorous approach to my backup strategy. I’ve been using <a href="http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html">SuperDuper!</a> for some time now but my backups were infrequent to say the least. So I bit the bullet and set up a scheduled backup for myself to run every lunchtime when I was away from my desk.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/2163692626/following-some-hard-disk-wobbles-in-the-last-few">
+		
+			Daily Backups</a>
+	</h2>
+	<div class="entry-content">
+		<p>Following some hard disk wobbles in the last few weeks I decided to take a more rigorous approach to my backup strategy. I’ve been using <a href="http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html">SuperDuper!</a> for some time now but my backups were infrequent to say the least. So I bit the bullet and set up a scheduled backup for myself to run every lunchtime when I was away from my desk.</p>
 
 <p>After a couple of days I decided that wasn’t quite enough - what I really wanted was a backup at the end of the day to complement the lunchtime backup. However I’m too impatient to sit around waiting for a backup to complete when I could be hitting the road and avoiding rush hour traffic. So I went for the next best thing and went for a morning backup instead. Because my arrival time to work can vary a bit depending on morning traffic I simply enabled the <em>“When you connect [drive name] to your Macintosh”</em> option in <a href="http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html">SuperDuper!</a> which allowed it to start as soon as my boot procedure finished and I’d attached the drive to the Mac.</p>
 
@@ -325,42 +333,46 @@
 
 <p>Speaking of which…</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-10T00:00:00+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2152774649/life-in-the-spotlight-pt-1">Life in the Spotlight (Pt 1)</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-09T00:00:00+00:00" pubdate data-updated="true">Dec 9<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I’m sorry <em>Spotlight</em>.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/2152774649/life-in-the-spotlight-pt-1">
+		
+			Life in the Spotlight (Pt 1)</a>
+	</h2>
+	<div class="entry-content">
+		<p>I’m sorry <em>Spotlight</em>.</p>
 
 <p>I ignored you for so long. Occasionally I would step into you just for a moment to find a file that I misplaced, and once I’d used you I’d walk away, back into the darkness.</p>
 
@@ -381,42 +393,46 @@
     </li>
   </ol>
 </div>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-09T00:00:00+00:00" pubdate data-updated="true">Dec 9<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2062612772/but-life-is-easy-in-jail">But Life Is Easy in Jail</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-11-30T00:00:00+00:00" pubdate data-updated="true">Nov 30<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://open.spotify.com/album/35g1RdojcIv7HKBKOMypbf">Thin Lizzy - Jailbreak</a>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/2062612772/but-life-is-easy-in-jail">
+		
+			But Life Is Easy in Jail</a>
+	</h2>
+	<div class="entry-content">
+		<p><a href="http://open.spotify.com/album/35g1RdojcIv7HKBKOMypbf">Thin Lizzy - Jailbreak</a>
 (Sorry - I couldn’t find Jailbreak by AC/DC on Spotify)</p>
 
 <p>Despite the title this is not one of those rants about the state of prison life and how it’s a cushy number. This is about my lack of understanding about why people are so keen to “jailbreak” their iOS devices.</p>
@@ -496,42 +512,46 @@
     </li>
   </ol>
 </div>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-30T00:00:00+00:00" pubdate data-updated="true">Nov 30<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/post/2062562389/broadband-constipation">Broadband Constipation</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-11-26T00:00:00+00:00" pubdate data-updated="true">Nov 26<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A nice man from BT Wholesale called me yesterday to let me know what the deal was with us being able to get their <a href="http://www.bt.com/infinity">Infinity</a> product.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/2062562389/broadband-constipation">
+		
+			Broadband Constipation</a>
+	</h2>
+	<div class="entry-content">
+		<p>A nice man from BT Wholesale called me yesterday to let me know what the deal was with us being able to get their <a href="http://www.bt.com/infinity">Infinity</a> product.</p>
 
 <p>I’d been asking about when their Fibre To The Cabinet (FTTC) rollout was going to hit my local cabinet. The cabinet is at the end of the road, and I’d recently seen BT’s contractor (KN Networks) doing some work at it, but the physical cabinet had never arrived.</p>
 
@@ -543,84 +563,72 @@
 
 <p>Still, I would love to get my hands on a faster broadband connection - 5.5Mbps is still a reasonable download speed, but I’m crying out for more upload! 0.4Mbps is just not enough to really live “in the cloud”.</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-26T00:00:00+00:00" pubdate data-updated="true">Nov 26<span>th</span>, 2010</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/technology/'>Technology</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
+<nav id="pagenavi">
+    
+        <a href="/blog/page/6/" class="prev">Prev</a>
+    
+    
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/6/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/06/08/vesper/">Vesper</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/24/itunes-not-for-u/">iTunes (Not for) U</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/02/mail-dot-app-and-power-nap/">Mail.app and Power Nap</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/23/netbot-the-app-dot-net-saviour/">Netbot - the App.net Saviour?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a>
-      </li>
-    
-  </ul>
-</section>
+    Maurice Kelly
 
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Maurice Kelly -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4608571-3']);
+		_gaq.push(['_trackPageview']);
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 

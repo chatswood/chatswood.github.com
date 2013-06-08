@@ -1,214 +1,192 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Category: Development - Chatswood</title>
-  <meta name="author" content="Maurice Kelly">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Category: Development  | Chatswood</title>
 
-  
-  <meta name="description" content="Category: Development">
-  
+<meta name="author" content="Maurice Kelly"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Category: Development"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://blog.chatswood.org.ukblog/categories/development">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-4608571-3']);
-    _gaq.push(['_trackPageview']);
+	<link href="/atom.xml" rel="alternate" title="Chatswood" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-<!--   <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">mob</div>
-  	<div id="logoRight">}</div>
-  	<div class="clear"></div>
-  </div> -->
-  <h1><a href="/">Chatswood</a></h1>
-  
-  <div class="clear"></div>
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Chatswood</a></h1>
+<h4></h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:blog.chatswood.org.uk">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:blog.chatswood.org.uk" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
-  
-  <header>
-    <h1 class="entry-title">Category: Development</h1>
-    
-  </header>
-  
-  <div id="blog-archives" class="category">
+	<div id="content" class="inner">
+	
 
 
-
-  
-  <h2>2012</h2>
+	
+	
+	<section class="archives"><h1 class="year">2012</h1>
 
 <article>
-  
-<h1><a href="/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools">You *Do* Need The Xcode Command Line Tools</a></h1>
-<time datetime="2012-07-17T00:00:00+01:00" pubdate><span class='month'>Jul</span> <span class='day'>17</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/development/'>Development</a></span>
-</footer>
+	<h2 class="title"><a href="/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools">You *Do* Need The Xcode Command Line Tools</a></h2>
+	<div class="meta">
+		<span class="date">Jul 17</span>
+		<span class="tags">
 
 
+	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/development/'>Development</a>
+
+
+</span>
+	    
+	</div>
 </article>
 
+	
 
 
 <article>
-  
-<h1><a href="/post/20728588558/give-up-github-sort-of">Give Up GitHub (sort of)</a></h1>
-<time datetime="2012-04-08T00:00:00+01:00" pubdate><span class='month'>Apr</span> <span class='day'>08</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/development/'>Development</a></span>
-</footer>
+	<h2 class="title"><a href="/post/20728588558/give-up-github-sort-of">Give Up GitHub (sort of)</a></h2>
+	<div class="meta">
+		<span class="date">Apr  8</span>
+		<span class="tags">
 
 
+	<a class='category' href='/blog/categories/development/'>Development</a>
+
+
+</span>
+	    
+	</div>
 </article>
 
+	
 
 
-  
-  <h2>2011</h2>
+	
+	
+		</section>
+	
+	<section class="archives"><h1 class="year">2011</h1>
 
 <article>
-  
-<h1><a href="/post/2635102419/an-ideal-time-to-develop-software">An ideal time to develop software?</a></h1>
-<time datetime="2011-01-07T00:00:00+00:00" pubdate><span class='month'>Jan</span> <span class='day'>07</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/development/'>Development</a>, <a class='category' href='/blog/categories/opinion/'>Opinion</a></span>
-</footer>
+	<h2 class="title"><a href="/post/2635102419/an-ideal-time-to-develop-software">An ideal time to develop software?</a></h2>
+	<div class="meta">
+		<span class="date">Jan  7</span>
+		<span class="tags">
 
 
+	<a class='category' href='/blog/categories/development/'>Development</a>, <a class='category' href='/blog/categories/opinion/'>Opinion</a>
+
+
+</span>
+	    
+	</div>
 </article>
 
 </div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
-  
-</article>
+    Maurice Kelly
 
-</div>
-
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/06/08/vesper/">Vesper</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/24/itunes-not-for-u/">iTunes (Not for) U</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/02/mail-dot-app-and-power-nap/">Mail.app and Power Nap</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/23/netbot-the-app-dot-net-saviour/">Netbot - the App.net Saviour?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/21/working-with-drafts-in-octopress/">Working With Drafts in Octopress</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Maurice Kelly -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4608571-3']);
+		_gaq.push(['_trackPageview']);
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 
