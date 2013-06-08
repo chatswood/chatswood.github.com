@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-12-24T11:49:45+00:00</updated>
+  <updated>2013-06-08T13:49:06+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vesper]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/06/08/vesper/"/>
+    <updated>2013-06-08T13:48:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/06/08/vesper</id>
+    <content type="html"><![CDATA[<p><a href="http://vesperapp.co/">Vesper is a new note-taking app</a> from Q Branch, a company comprised of the engineering talents of Brent Simmons, the design talents of Dave Wiskus, and the directorial talents of John Gruber.</p>
+
+<p>So far opinion seems to be divided – many Apple bloggers are hailing it as the greatest thing since sliced bread, whereas many of the regular developers that I know or follow on some form of social media are of the opinion that it is over-priced and under-featured in an already saturated market segment.</p>
+
+<p>Much of my own opinion on the matter can be summarised by <a href="http://www.leancrew.com/">Dr. Drang</a>’s <a href="http://www.leancrew.com/all-this/2013/06/form-and-function/">take: “Form and Function”</a></p>
+
+<blockquote>
+  <p>Here’s a thought experiment: Imagine a new note-taking app written by an unknown developer. It’s has a nice, clean look and is easy to use, but it has no syncing, no TextExpander support, and no URL scheme. Assuming the app got any attention at all, how much effort would Apple bloggers put into defending that design choice? How often would the phrase “data silo” be used?</p>
+</blockquote>
+
+<p>Personally, I’m a little jealous of the guys behind Q Branch. There, I’ve said it. As an iOS developer it smarts a little to see them get such acclaim for what is, by modern standards, a well designed but feature lacking app.</p>
+
+<p>But what irks most is that this is symptomatic of much of what goes on in the Apple community these days. We have promoted certain individuals to the status of idols. We hang off their every word, we repeat their opinions in a parrot-like fashion, and we judge their work without the same level of criticism that we would apply to mere mortals.</p>
+
+<p>We as a community need to stop this, otherwise we’re just the ‘fanbois’ we’ve always been derided for being.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iTunes (not for) U]]></title>
@@ -90,7 +113,7 @@
 
 <p>To facilitate this workflow I updated the Rakefile to include a few more default YAML attributes for a new post (defaulting <code>published</code> to <code>false</code>). Most importantly it includes a Rake task called <code>publish_draft</code> that lists all the posts with a <code>published</code> status of <code>false</code> and allows the user to select a post. The post can then be published using the current date (updating the YAML and the filename) or it can simply be published with the original date. You can find this Rake task in the Gist below - please take care as it has not been made 100% foolproof that this stage.</p>
 
-<div><script src="https://gist.github.com/3927558.js?file="></script>
+<div><script src="https://gist.github.com/3927558.js"></script>
 <noscript><pre><code>require &quot;rubygems&quot;
 require &quot;bundler/setup&quot;
 require &quot;stringex&quot;
@@ -931,18 +954,6 @@ Roland US Product Support</p>
 <p>Thankfully Panic have managed to solve the problem by offering Coda 2 as a separate app. They have <a href="http://panic.com/coda/support.html">announced an aggressive 50% discount</a> for the first 24 hours that the app is on sale, making for an upgrade price of just $49.99. After 24 hours the price will go up to $75, which is still a respectable 25% off.</p>
 
 <p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TextWrangler 4.0]]></title>
-    <link href="http://blog.chatswood.org.uk/post/21377743565/textwrangler-4-0"/>
-    <updated>2012-04-19T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/21377743565/textwrangler-4-0</id>
-    <content type="html"><![CDATA[<p>There’s been a lot of talk recently about the venerable <a href="http://www.barebones.com/products/bbedit/">BBEdit</a> from <a href="http://www.barebones.com/">Bare Bones</a> reaching it’s 20th birthday. It may have been easy to overlook the fact that it’s younger, freer sibling <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> has just rolled over to version 4.0.</p>
-
-<p>I’m a BBEdit user, but if I’m going to be working on someone else’s Mac for whatever reason I’ll quickly grab a copy of <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> to ensure that I’m in a somewhat familiar editing environment. So if you’re needing BBEdit goodness, but are on a strict budget, then it’s definitely worth grabbing TextWrangler from either the <a href="http://www.barebones.com/products/textwrangler/">Bare Bones site</a>, or from the <a href="http://itunes.apple.com/gb/app/textwrangler/id404010395?mt=12">Mac App Store</a>.</p>
 
 ]]></content>
   </entry>

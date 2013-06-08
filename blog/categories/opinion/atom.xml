@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Opinion | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/opinion/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2012-12-24T11:49:45+00:00</updated>
+  <updated>2013-06-08T13:49:06+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vesper]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/06/08/vesper/"/>
+    <updated>2013-06-08T13:48:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/06/08/vesper</id>
+    <content type="html"><![CDATA[<p><a href="http://vesperapp.co/">Vesper is a new note-taking app</a> from Q Branch, a company comprised of the engineering talents of Brent Simmons, the design talents of Dave Wiskus, and the directorial talents of John Gruber.</p>
+
+<p>So far opinion seems to be divided – many Apple bloggers are hailing it as the greatest thing since sliced bread, whereas many of the regular developers that I know or follow on some form of social media are of the opinion that it is over-priced and under-featured in an already saturated market segment.</p>
+
+<p>Much of my own opinion on the matter can be summarised by <a href="http://www.leancrew.com/">Dr. Drang</a>’s <a href="http://www.leancrew.com/all-this/2013/06/form-and-function/">take: “Form and Function”</a></p>
+
+<blockquote>
+  <p>Here’s a thought experiment: Imagine a new note-taking app written by an unknown developer. It’s has a nice, clean look and is easy to use, but it has no syncing, no TextExpander support, and no URL scheme. Assuming the app got any attention at all, how much effort would Apple bloggers put into defending that design choice? How often would the phrase “data silo” be used?</p>
+</blockquote>
+
+<p>Personally, I’m a little jealous of the guys behind Q Branch. There, I’ve said it. As an iOS developer it smarts a little to see them get such acclaim for what is, by modern standards, a well designed but feature lacking app.</p>
+
+<p>But what irks most is that this is symptomatic of much of what goes on in the Apple community these days. We have promoted certain individuals to the status of idols. We hang off their every word, we repeat their opinions in a parrot-like fashion, and we judge their work without the same level of criticism that we would apply to mere mortals.</p>
+
+<p>We as a community need to stop this, otherwise we’re just the ‘fanbois’ we’ve always been derided for being.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Netbot - The App.net Saviour?]]></title>
@@ -110,33 +133,6 @@
 <p>For some bizarre reason, Mike seems to have completely missed the Xcode 4.3 release that first introduced the concept of a standalone Xcode. (He also missed the 4.3.x point releases as well). Seems like sloppy “reporting” to me.</p>
 
 <p>Unfortunately, as Apple has grown in stature, the number of websites covering Apple news grows at the same time. Venerable Apple news sites like TUAW are competing with upstart sites, and there seems to be a scrambling to report the tiniest little details as news.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Naming and Shaming: Boss/Roland US]]></title>
-    <link href="http://blog.chatswood.org.uk/post/26368096042/naming-and-shaming-boss-roland-us"/>
-    <updated>2012-07-02T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/26368096042/naming-and-shaming-boss-roland-us</id>
-    <content type="html"><![CDATA[<p>I’m fed up with receiving spam. I generally don’t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
-
-<p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it’s the lack of responsiveness.</p>
-
-<p>I’ve been getting a bunch more spam this week to an email address that I used exclusively to sign in to the Boss US website (which was annoying in itself because I only wanted to download a product manual and had to hand over personal details to do so). I contacted Boss (and indirectly their parent company Roland) almost 2 months ago when the first spam arrived and received the following response:</p>
-
-<blockquote>
-  <p>Hello Maurice,</p>
-
-  <p>We have forwarded your email to our webmaster for them to investigate this.</p>
-
-  <p>Sincerely,
-Roland US Product Support</p>
-</blockquote>
-
-<p>It seemed like a positive reaction, but unfortunately that was the last I heard. I’ve given them a chance but they’ve not taken the opportunity to visibly react. So now I’ve decided to name and shame Boss/Roland US.</p>
-
-<p>You guys have had a security breach of some description. I’ve let you know, and you’ve still not gotten back to me. I have to assume that you’ve done nothing, or you’re doing it too slow. I’m telling the world because you’re not.</p>
 
 ]]></content>
   </entry>
