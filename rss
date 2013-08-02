@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2013-06-08T15:52:49+01:00</updated>
+  <updated>2013-08-02T23:55:16+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mastering Xcode]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/02/mastering-xcode/"/>
+    <updated>2013-08-02T23:53:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/02/mastering-xcode</id>
+    <content type="html"><![CDATA[<p>After many months in the making, I’m pleased to be able to announce that the 2nd edition of Mastering Xcode is now available to purchase, and even more pleased to announce my involvement in the book as co-author.</p>
+
+<p><a href="http://joshua.nozzi.name/">Joshua Nozzi’s</a> 1st edition was an invaluable reference for me as I started the process of transitioning to developing iOS and Mac software. The prospect of a 2nd edition was made even more exciting when Josh asked me to get involved in the production process. I initially came on as technical editor, but due to Josh’s other commitments I was fortunate to be asked to come on-board as a writer.</p>
+
+<p>I’d done some technical writing in the past for UK magazines PC Plus and Linux Format, but this was the first time I’d ever been involved in the production of a book. The experience was challenging, and often time consuming, but ultimately very rewarding.</p>
+
+<h2 id="about-the-book">About the Book</h2>
+
+<p>Mastering Xcode is a guide to using Xcode from a first introduction to what I like to think of an “advanced intermediate” level. The first section is a gentle introduction to the environment. The second section is a ramp up to using the editor, workspaces, interface builder, the debugger and core data modeler to produce a simple “suite” of applications. The third section dives into more advanced topics such as the build system, debugging and profiling, as well as more detailed examinations of Xcode’s command line tools and SCM integrations.</p>
+
+<p>While we couldn’t cover every facet of Xcode we have endeavoured to touch on as much as possible. We’re also acutely aware of the fact that this book is focussed on Xcode 4.6, which will likely be superseded by Xcode 5 later this year. We feel that much of the information in the book will still be relevant (even if it looks a little different). We’re also planning some “delta” material that will document what is new and what is changing – keep an eye on the <a href="http://xcodebook.com/">book website</a> for more information on that.</p>
+
+<h2 id="saying-thank-you">Saying Thank You</h2>
+
+<p>From a personal perspective, I’d like to thank Josh for giving me the opportunity to work on this book with him. He, and publisher Cliff Colby at Peachpit, let a cheeky individual finaigle his way into the process, and decided to take a chance on him. For that I’m exceptionally grateful.</p>
+
+<p>I couldn’t have devoted the time needed to complete this project without the support of my wife and family. Whether it was giving up our evenings together, or taking the kids away to give me “writing weekends”, the efforts that they went to in order to help the process along was invaluable.</p>
+
+<p>In the production process itself, our production editor Robyn Thomas was amazing. She guided us every step of the way, and gave re-assuring feedback when confidence was waning. From a technical perspective we have <a href="http://alpha.app.net/marramgrass">Mark Goody</a> to thank. His eye for detail kept us on track and made sure we weren’t misleading the reader too much.</p>
+
+<h2 id="getting-the-book">Getting the Book</h2>
+
+<p>If you are interested in getting a copy then please consider using one of the affiliate links below:</p>
+
+<p>Peachpit Press: <a href="http://click.linksynergy.com/link?id=34OBL5N2vk4&amp;offerid=163295.1865024&amp;type=2&amp;murl=http%3A%2F%2Fwww.peachpit.com%2Fstore%2Fproduct.aspx%3Fisbn%3D0321861620">Print edition</a> - <a href="http://click.linksynergy.com/link?id=34OBL5N2vk4&amp;offerid=163295.1865246&amp;type=2&amp;murl=http%3A%2F%2Fwww.peachpit.com%2Fstore%2Fproduct.aspx%3Fisbn%3D0133091228">Ebook edition</a></p>
+
+<p>Amazon UK: <a href="http://www.amazon.co.uk/gp/product/0321861620/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321861620&amp;linkCode=as2&amp;tag=chatswood-21">Print edition</a> - <a href="http://www.amazon.co.uk/gp/product/B00DVLGLEY/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B00DVLGLEY&amp;linkCode=as2&amp;tag=chatswood-21">Kindle edition</a></p>
+
+<p>Amazon US: <a href="http://www.amazon.com/gp/product/0321861620/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321861620&amp;linkCode=as2&amp;tag=chatswood-20">Print edition</a> - <a href="ttp://www.amazon.com/gp/product/B00DVLGLEY/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00DVLGLEY&amp;linkCode=as2&amp;tag=chatswood-20">Kindle edition</a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vesper]]></title>
@@ -938,22 +976,6 @@ Roland US Product Support</p>
 <p>I was impressed at the performance provided by the 17” MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
 
 <p>I still love my Mac Pro though, if only for the sheer joy that comes when it’s time to upgrade a hard disk.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nobody Panic! Mac App Store Upgrades Solved]]></title>
-    <link href="http://blog.chatswood.org.uk/post/23496315143/nobody-panic-mac-app-store-upgrades-solved"/>
-    <updated>2012-05-21T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/23496315143/nobody-panic-mac-app-store-upgrades-solved</id>
-    <content type="html"><![CDATA[<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
-
-<p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it’s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it’s not appealing to pay the full new price again.</p>
-
-<p>Thankfully Panic have managed to solve the problem by offering Coda 2 as a separate app. They have <a href="http://panic.com/coda/support.html">announced an aggressive 50% discount</a> for the first 24 hours that the app is on sale, making for an upgrade price of just $49.99. After 24 hours the price will go up to $75, which is still a respectable 25% off.</p>
-
-<p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
 
 ]]></content>
   </entry>

@@ -9,7 +9,7 @@
 
 <meta name="author" content="Maurice Kelly"> 
 
-<meta name="description" content="I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Recently I’ve been experimenting with text-editor-du-jour Sublime Text 2 in parallel with coming late to the Rails party. Sublime Text 2 has a great &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -93,6 +93,64 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/post/30406336534/sublimelinter-an-enabler-for-lazy-programming-techniques">
+		
+			SublimeLinter - an Enabler for Lazy Programming Techniques</a>
+	</h2>
+	<div class="entry-content">
+		<p>Recently I’ve been experimenting with <em>text-editor-du-jour</em> <a href="http://www.sublimetext.com/2">Sublime Text 2</a> in parallel with coming late to the <a href="http://rubyonrails.org/">Rails</a> party. Sublime Text 2 has a great plugin ecosystem that seems to be growing by the day and one plugin (or <em>package</em> in ST2 parlance) that I find indispensible is <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>.</p>
+
+<p>As a developer I’ve always written code in an iterative fashion - write a couple of lines, compile, edit those lines to fix the bugs, compile, write a few more lines, and so on. In my career this has occasionally been problematic, as I’ve sometimes had to work with unwieldy and inefficient <code>make</code>-based build systems that unnecessarily rebuilt large swathes of code instead of a single source file. In recent years I’ve been spoilt by some excellent IDEs (such as Eclipse/STS and Xcode) that have been kind enough to alert me to syntactical errors before I invest time in a build. </p>
+
+<p>While playing with <a href="http://rubyonrails.org/">Rails</a> I found that I was regularly coming across syntactical errors only when it came to testing out the application. It wasn’t the horrible build systems of yore, but it wasn’t exactly the convenience of a nice IDE. So I hunted around for a linter that I could integrate with ST2 and quickly came across <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a>. A couple of seconds later (thanks to the ridiculously useful <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>) and I had it up and running and I was getting lots of notifications about errors in my Ruby code.</p>
+
+<p>Unfortunately I soon realised that I was getting too many errors, to the extent that I was getting errors on perfectly valid code. The code ran fine in my Rails app, but still SublimeLinter was bitching and moaning about it. I had a look around the SublimeLinter documentation, and noticed that they recommended using the full path to the <code>ruby</code> executable if using a Ruby interpreter provided by <a href="http://rvm.io/">rvm</a>. On OS X this comes down to the fact that the default Ruby is 1.8.7 whereas most people will be using code written against Ruby 1.9.X, which they’ve usually installed themselves.</p>
+
+<p>Thankfully SublimeLinter makes it easy to customise the Ruby interpreter to use, so if you’re having trouble with syntax errors in your Ruby code, just chose the menu item <em>Sublime Text 2 -&gt; Preferences -&gt; Package Settings -&gt; SublimeLinter -&gt; Settings - User</em>. This will open up the user preferences file for SublimeLinter and you can enter the following snippet (substituting in your own username of course, and remembering to merge the JSON with any settings you may already have in there):</p>
+
+<pre><code>{
+    "sublimelinter_executable_map": {
+        "ruby": "/Users/username/.rvm/rubies/default/bin/ruby"
+    }
+}
+</code></pre>
+
+<p>May you continue to be a lazy, iterative developer like me.</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-28T00:00:00+01:00" pubdate data-updated="true">Aug 28<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/programming/'>Programming</a>
+
+
+</div>
+	
+</div></article>
 
 
     <article class="post">
@@ -591,53 +649,6 @@ Roland US Product Support</p>
 
 
 	<a class='category' href='/blog/categories/apple/'>Apple</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/post/23496315143/nobody-panic-mac-app-store-upgrades-solved">
-		
-			Nobody Panic! Mac App Store Upgrades Solved</a>
-	</h2>
-	<div class="entry-content">
-		<p>Today it looks like the <a href="http://blog.wilshipley.com/2012/03/mac-app-store-needs-paid-upgrades.html">question over how to handle major software updates</a> via the Mac App Store has been answered. </p>
-
-<p>Mac (and iOS) developers <a href="http://panic.com/">Panic</a> have just announced the <a href="http://panic.com/coda/">details on the release of Coda 2</a>, their fantastic Web editor, the current version of which (1.7.5) currently sells in the Mac App Store for $99.99. Coda is a non-trivial app, one that has taken a lot of developer time and effort to produce. While many of it’s users would love to see Coda 2 replace 1.7.5 directly in a free upgrade, it was never likely to happen. On the flip side, it’s not appealing to pay the full new price again.</p>
-
-<p>Thankfully Panic have managed to solve the problem by offering Coda 2 as a separate app. They have <a href="http://panic.com/coda/support.html">announced an aggressive 50% discount</a> for the first 24 hours that the app is on sale, making for an upgrade price of just $49.99. After 24 hours the price will go up to $75, which is still a respectable 25% off.</p>
-
-<p>This is a great way to solve the problem. Loyal users can get 25-50% discount on the new version. And new users get a similar introductory discount. Not only that but people who are satisfied with Coda 1.7.5 still have a product that they can obtain support and bug fixes for, as well as re-downloading to new Macs. Overall, it seems like a win to me.</p>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-21T00:00:00+01:00" pubdate data-updated="true">May 21<span>st</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/apple/'>Apple</a>, <a class='category' href='/blog/categories/opinion/'>Opinion</a>
 
 
 </div>
