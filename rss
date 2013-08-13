@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2013-08-02T23:55:16+01:00</updated>
+  <updated>2013-08-13T14:02:29+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Don't Try to Diagnose Yourself]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/13/dont-try-to-diagnose-yourself/"/>
+    <updated>2013-08-13T14:01:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/13/dont-try-to-diagnose-yourself</id>
+    <content type="html"><![CDATA[<p>I’ve seen a lot of positive discussion in the developer community recently about depression and mental illness. People are standing up to say they have suffered from depression and that it is nothing to be ashamed of. This is good.</p>
+
+<p>My only concern is that developers (being developers) have a tendency to try to fix things themselves. A developer spots a bug, spends a bit of time trying to root cause it, and then applies a fix. This is also good, in a development setting, but it’s not so good when dealing with what’s going on inside your own head.</p>
+
+<p>If you’re feeling the <a href="http://www.nhs.uk/Conditions/Depression/Pages/Symptoms.aspx">symptoms of depression</a>, then for your own sake talk to a friend or, better yet, go and see a professional. You might be a great developer but you are an amateur when it comes to understanding <a href="http://www.amazon.co.uk/gp/product/0596517785/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0596517785&amp;linkCode=as2&amp;tag=chatswood-21">how your own brain works</a>. If you try to internalize it you are more likely to do yourself more harm than good.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mastering Xcode]]></title>
@@ -958,24 +971,6 @@ Roland US Product Support</p>
 <p>It seemed like a positive reaction, but unfortunately that was the last I heard. I’ve given them a chance but they’ve not taken the opportunity to visibly react. So now I’ve decided to name and shame Boss/Roland US.</p>
 
 <p>You guys have had a security breach of some description. I’ve let you know, and you’ve still not gotten back to me. I have to assume that you’ve done nothing, or you’re doing it too slow. I’m telling the world because you’re not.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Geekbench Results]]></title>
-    <link href="http://blog.chatswood.org.uk/post/23856794036/geekbench-results"/>
-    <updated>2012-05-27T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/23856794036/geekbench-results</id>
-    <content type="html"><![CDATA[<p>It’s always “fun” to compare the performance of machines across product lines and generations. I decided to run Geekbench across two machines that I use a fair bit these days:</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-17inch_macbook_pro.png" alt="MacBookPro" /></p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/05/geekbench-mac_pro.png" alt="MacPro" /></p>
-
-<p>I was impressed at the performance provided by the 17” MacBook Pro. Despite having only 4 physical cores compared to the 8 in the Mac Pro, it was still running fairly close. Granted the Mac Pro is 2 and a half years older, but I still expected a dual quad-core Xeon desktop workstation to seriously outperform a portable machine.</p>
-
-<p>I still love my Mac Pro though, if only for the sheer joy that comes when it’s time to upgrade a hard disk.</p>
 
 ]]></content>
   </entry>

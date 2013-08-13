@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Opinion | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/opinion/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2013-08-02T23:55:16+01:00</updated>
+  <updated>2013-08-13T14:02:29+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Don't Try to Diagnose Yourself]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/13/dont-try-to-diagnose-yourself/"/>
+    <updated>2013-08-13T14:01:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/13/dont-try-to-diagnose-yourself</id>
+    <content type="html"><![CDATA[<p>I’ve seen a lot of positive discussion in the developer community recently about depression and mental illness. People are standing up to say they have suffered from depression and that it is nothing to be ashamed of. This is good.</p>
+
+<p>My only concern is that developers (being developers) have a tendency to try to fix things themselves. A developer spots a bug, spends a bit of time trying to root cause it, and then applies a fix. This is also good, in a development setting, but it’s not so good when dealing with what’s going on inside your own head.</p>
+
+<p>If you’re feeling the <a href="http://www.nhs.uk/Conditions/Depression/Pages/Symptoms.aspx">symptoms of depression</a>, then for your own sake talk to a friend or, better yet, go and see a professional. You might be a great developer but you are an amateur when it comes to understanding <a href="http://www.amazon.co.uk/gp/product/0596517785/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0596517785&amp;linkCode=as2&amp;tag=chatswood-21">how your own brain works</a>. If you try to internalize it you are more likely to do yourself more harm than good.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vesper]]></title>
@@ -113,26 +126,6 @@
 <p>In my opinion the real experiment here is not the success or failure of <em>The Magazine</em>. It is instead in the success or failure of Marco Arment to diversify from his roots as a developer of software into a curator, an editor and a publisher. He has expressed a dissatisfaction with writing software in the past and his forays into podcasting, writing and public speaking have indicated a desire to get away from the coal face.</p>
 
 <p>I hope that <em>The Magazine</em> succeeds because it places an emphasis on content rather than advertising. I hope it kick starts a new business model for publishing. But as someone who likes to see an individual succeed I’m more interested in seeing how Marco’s experiment with his career pans out.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Q. When is Apple news not actually news?]]></title>
-    <link href="http://blog.chatswood.org.uk/post/28971024283/q-when-is-apple-news-not-actually-news"/>
-    <updated>2012-08-08T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/28971024283/q-when-is-apple-news-not-actually-news</id>
-    <content type="html"><![CDATA[<p>A. When you report old “news” as though it just “finally” happened.</p>
-
-<p>Mike Schramm at <a href="http://www.tuaw.com">TUAW</a> posted the following last night:</p>
-
-<blockquote>
-  <p>Apple has finished smoothing out its Xcode releases with version 4.4.1, which finally brings Xcode out as a standalone app.</p>
-</blockquote>
-
-<p>For some bizarre reason, Mike seems to have completely missed the Xcode 4.3 release that first introduced the concept of a standalone Xcode. (He also missed the 4.3.x point releases as well). Seems like sloppy “reporting” to me.</p>
-
-<p>Unfortunately, as Apple has grown in stature, the number of websites covering Apple news grows at the same time. Venerable Apple news sites like TUAW are competing with upstart sites, and there seems to be a scrambling to report the tiniest little details as news.</p>
 
 ]]></content>
   </entry>
