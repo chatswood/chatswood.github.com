@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2013-08-13T14:02:29+01:00</updated>
+  <updated>2013-08-18T09:20:18+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deluxe Upgrades in iTunes]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/18/deluxe-upgrades-in-itunes/"/>
+    <updated>2013-08-18T09:20:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/18/deluxe-upgrades-in-itunes</id>
+    <content type="html"><![CDATA[<p>This week, <a href="http://thepresets.com/">The Presets</a> – one of my favourite bands – <a href="https://twitter.com/ThePresets/status/368226816122556416">announced the imminent UK availability</a> of the “Deluxe/Expanded” edition of their <a href="http://pacifica.thepresets.com/">Pacifica album</a>.</p>
+
+<p>As a fan, one of the most infuriating aspects of the music industry is the <em><a href="http://en.wikipedia.org/wiki/Special_edition">Deluxe Version</a></em>. Some deluxe editions are re-releases many years later and contain “features” such as remastered tracks, expanded liner notes, and extra material. Other special editions are re-releases that come mere months after the original, usually offering a bunch of extra tracks and little else. In the case of Pacifica, the deluxe edition comes twelve months after the initial release with a bunch of remixes.</p>
+
+<p>I’m a compulsive music buyer, and I love to buy music by my favourite bands on the day they get released. An unfortunate side-effect of being a dedicated fan is that loyalty is not rewarded by the release of a deluxe edition. The dedicated fan gets what amounts to an inferior product, and an “opportunity” to buy much of the same material again. When it came to physical discs, buying the original CD again just to get a few extra tracks was simply not an option. So in the past, I just grumbled to myself and got on with it.</p>
+
+<h2 id="a-digital-upgrade">A Digital Upgrade</h2>
+
+<p>These days I buy music from iTunes, where tracks can be bought individually and albums can theoretically be upgraded. Re-releasing an album as a deluxe edition could be a case of adding a bunch of tracks to the existing album, and allowing previous purchasers to <em>add</em> the new material at an additional (but discounted!) cost. I’m not saying we should just get them for free, I just feel that we should get an opportunity to get the same tracklisting as a new purchaser, without having to pay double (or potentially more than double).</p>
+
+<p>This is completely feasible in this day and age. In fact, when I view the new <a href="https://itunes.apple.com/gb/album/pacifica-deluxe-version/id687410130">deluxe edition of Pacifica on iTunes</a> it actually shows that I have purchased the original album tracks.</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2013/08/presets-deluxe-edition-on-itunes.png" alt="Pacifica Deluxe Edition on iTunes showing previously Purchased tracks" /></p>
+
+<p>Unfortunately I can’t simply buy the additional material – the entire Deluxe Edition is marked as Album Only. Even if they could be purchased separately it would actually cost more to buy the additional 12 tracks at 79p each than to buy the Deluxe Edition as a whole.</p>
+
+<h2 id="what-i-want">What I Want</h2>
+
+<p>I’d like to make it clear that I don’t blame The Presets, and am only mentioning them specifically as they were an example that triggered this post. It happens with deluxe editions from many artists, and in my opinion this falls squarely at the feet of the record companies and Apple/iTunes.</p>
+
+<p>The record companies like to put out deluxe editions to bolster sales and extract more money from previous purchasers. They did it with physical discs and they are continuing the practice into the digital download age as well. </p>
+
+<p>Apple/iTunes should be making more of an effort to allow “upgrading” to a deluxe edition. iTunes already has the facility to allow a customer to buy a few individual tracks from an album, then “upgrade” to the full album for the difference in price. A deluxe upgrade price could be set and purchasers of the original album could be offered a nominal upgrade price rather than being fleeced for the entire album again.</p>
+
+<p>If iTunes provided this facility, and/or record companies treated the fans with a little less contempt, then it’s likely to be a win for everyone. Superfans don’t feel like they are being fleeced, bands can release deluxe editions without feeling like they are taking advantage of their fans, and the music industry could probably make more money from many “upgrades” than from the lower number of fans who would re-buy the entire album.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Don't Try to Diagnose Yourself]]></title>
@@ -944,33 +978,6 @@ end
 <p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
 
 <p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Naming and Shaming: Boss/Roland US]]></title>
-    <link href="http://blog.chatswood.org.uk/post/26368096042/naming-and-shaming-boss-roland-us"/>
-    <updated>2012-07-02T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/26368096042/naming-and-shaming-boss-roland-us</id>
-    <content type="html"><![CDATA[<p>I’m fed up with receiving spam. I generally don’t get much of it because I tend not to publish my email address in too many places, and I use unique email addresses with every online store or service that I sign up to. This allows me to shut down an address when it starts receiving spam.</p>
-
-<p>The other advantage of this system is that it allows me to see at a glance where the email address was obtained from. I can then take the appropriate action and inform the source that spam is being sent to an address that I trusted only with them. I <a href="http://blog.chatswood.org.uk/post/25222093783/dear-last-fm-i-hate-to-say-i-told-you-so">wrote about this at length</a> a few weeks ago when Last.fm and LinkedIn had their subscriber databases compromised. My biggest complaint with these companies and services is not the lack of security, it’s the lack of responsiveness.</p>
-
-<p>I’ve been getting a bunch more spam this week to an email address that I used exclusively to sign in to the Boss US website (which was annoying in itself because I only wanted to download a product manual and had to hand over personal details to do so). I contacted Boss (and indirectly their parent company Roland) almost 2 months ago when the first spam arrived and received the following response:</p>
-
-<blockquote>
-  <p>Hello Maurice,</p>
-
-  <p>We have forwarded your email to our webmaster for them to investigate this.</p>
-
-  <p>Sincerely,
-Roland US Product Support</p>
-</blockquote>
-
-<p>It seemed like a positive reaction, but unfortunately that was the last I heard. I’ve given them a chance but they’ve not taken the opportunity to visibly react. So now I’ve decided to name and shame Boss/Roland US.</p>
-
-<p>You guys have had a security breach of some description. I’ve let you know, and you’ve still not gotten back to me. I have to assume that you’ve done nothing, or you’re doing it too slow. I’m telling the world because you’re not.</p>
 
 ]]></content>
   </entry>

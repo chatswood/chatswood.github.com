@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Apple | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2013-08-13T14:02:29+01:00</updated>
+  <updated>2013-08-18T09:20:18+01:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deluxe Upgrades in iTunes]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/18/deluxe-upgrades-in-itunes/"/>
+    <updated>2013-08-18T09:20:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/18/deluxe-upgrades-in-itunes</id>
+    <content type="html"><![CDATA[<p>This week, <a href="http://thepresets.com/">The Presets</a> – one of my favourite bands – <a href="https://twitter.com/ThePresets/status/368226816122556416">announced the imminent UK availability</a> of the “Deluxe/Expanded” edition of their <a href="http://pacifica.thepresets.com/">Pacifica album</a>.</p>
+
+<p>As a fan, one of the most infuriating aspects of the music industry is the <em><a href="http://en.wikipedia.org/wiki/Special_edition">Deluxe Version</a></em>. Some deluxe editions are re-releases many years later and contain “features” such as remastered tracks, expanded liner notes, and extra material. Other special editions are re-releases that come mere months after the original, usually offering a bunch of extra tracks and little else. In the case of Pacifica, the deluxe edition comes twelve months after the initial release with a bunch of remixes.</p>
+
+<p>I’m a compulsive music buyer, and I love to buy music by my favourite bands on the day they get released. An unfortunate side-effect of being a dedicated fan is that loyalty is not rewarded by the release of a deluxe edition. The dedicated fan gets what amounts to an inferior product, and an “opportunity” to buy much of the same material again. When it came to physical discs, buying the original CD again just to get a few extra tracks was simply not an option. So in the past, I just grumbled to myself and got on with it.</p>
+
+<h2 id="a-digital-upgrade">A Digital Upgrade</h2>
+
+<p>These days I buy music from iTunes, where tracks can be bought individually and albums can theoretically be upgraded. Re-releasing an album as a deluxe edition could be a case of adding a bunch of tracks to the existing album, and allowing previous purchasers to <em>add</em> the new material at an additional (but discounted!) cost. I’m not saying we should just get them for free, I just feel that we should get an opportunity to get the same tracklisting as a new purchaser, without having to pay double (or potentially more than double).</p>
+
+<p>This is completely feasible in this day and age. In fact, when I view the new <a href="https://itunes.apple.com/gb/album/pacifica-deluxe-version/id687410130">deluxe edition of Pacifica on iTunes</a> it actually shows that I have purchased the original album tracks.</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2013/08/presets-deluxe-edition-on-itunes.png" alt="Pacifica Deluxe Edition on iTunes showing previously Purchased tracks" /></p>
+
+<p>Unfortunately I can’t simply buy the additional material – the entire Deluxe Edition is marked as Album Only. Even if they could be purchased separately it would actually cost more to buy the additional 12 tracks at 79p each than to buy the Deluxe Edition as a whole.</p>
+
+<h2 id="what-i-want">What I Want</h2>
+
+<p>I’d like to make it clear that I don’t blame The Presets, and am only mentioning them specifically as they were an example that triggered this post. It happens with deluxe editions from many artists, and in my opinion this falls squarely at the feet of the record companies and Apple/iTunes.</p>
+
+<p>The record companies like to put out deluxe editions to bolster sales and extract more money from previous purchasers. They did it with physical discs and they are continuing the practice into the digital download age as well. </p>
+
+<p>Apple/iTunes should be making more of an effort to allow “upgrading” to a deluxe edition. iTunes already has the facility to allow a customer to buy a few individual tracks from an album, then “upgrade” to the full album for the difference in price. A deluxe upgrade price could be set and purchasers of the original album could be offered a nominal upgrade price rather than being fleeced for the entire album again.</p>
+
+<p>If iTunes provided this facility, and/or record companies treated the fans with a little less contempt, then it’s likely to be a win for everyone. Superfans don’t feel like they are being fleeced, bands can release deluxe editions without feeling like they are taking advantage of their fans, and the music industry could probably make more money from many “upgrades” than from the lower number of fans who would re-buy the entire album.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iTunes (not for) U]]></title>
@@ -104,32 +138,6 @@
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mountain Lion's New Archive Folder]]></title>
-    <link href="http://blog.chatswood.org.uk/post/28287324457/mountain-lions-new-archive-folder"/>
-    <updated>2012-07-29T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/28287324457/mountain-lions-new-archive-folder</id>
-    <content type="html"><![CDATA[<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
-
-<p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I’d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
-
-<p>As any good Mac nerd would do, I quickly tweeted about it, and then sent a message to <a href="http://twitter.com/siracusa">John Siracusa</a> as a little extra info following his monster <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">Mountain Lion review</a>. I was surprised when he retweeted it, but as can expected when retweeted to 24,000 people, I soon got a few replies.</p>
-
-<p>A number of people have suggested that this is not new, and was present in Lion as well. I can’t speak for other people, but I know that across 4 machines running every version of Lion (from 10.7.0 to 10.7.4) I did not once see this behaviour. I was able to reboot into a Lion installation and view the same setup and saw the previous behaviour.</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Lion.png" alt="Mail.app - Lion" /></p>
-
-<p>Viewing the same setup in Mountain Lion looks like this:</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Mountain%20Lion.png" alt="Mail.app - Mountain Lion" /></p>
-
-<p>Maybe this did appear in some form in Lion, but definitely not for my particular setup. I’m still calling it a new feature, even if it’s only new for my specific set of conditions.</p>
-
-<p>In fact, that would be even better. That means Apple did it just for me.</p>
-
 ]]></content>
   </entry>
   
