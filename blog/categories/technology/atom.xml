@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Technology | Chatswood]]></title>
+  <link href="http://blog.chatswood.org.uk/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2014-09-16T09:20:44+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Working With Drafts in Octopress]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/10/21/working-with-drafts-in-octopress/"/>
+    <updated>2012-10-21T18:03:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/10/21/working-with-drafts-in-octopress</id>
+    <content type="html"><![CDATA[<p>Having recently moved to an Octopress blog I’ve been revelling in the geekery of managing my posts from the command line. I was previously using <a href="http://www.red-sweater.com/marsedit">MarsEdit</a> to manage my posting to Tumblr, but that’s not as viable an option any more. This is a shame because I like MarsEdit and I especially liked the ability to work with local draft posts, something that Octopress (and the underlying Jekyll framework) does not natively provide.</p>
+
+<p>Judging by a quick Google search on the subject I’m not the only person who has been thinking about this. Even the mighty <a href="http://brettterpstra.com/">Brett Terpstra</a> recently <a href="https://posts.app.net/1076717">posted to App.net</a> saying that he’d implemented a <code>rake draft</code> option (among other goodies) that stores drafts to a <code>_drafts</code> folder. This seems to be an avenue that <a href="http://blog.yangmeyer.de/blog/2012/05/28/octopress-drafts">other people are going down</a> but I’m not sure about the need for this separation.</p>
+
+<p>Jekyll already offers the facility to mark a post as published using an attribute in the YAML front matter. When <code>published: false</code> is specified the post will not be output to the <code>public</code> folder as part of the <code>rake generate</code> task. It therefore will not be included in a <code>deploy</code> operation, which is exactly as we would expect, but makes it harder to see the draft posts in the context of the blog.</p>
+
+<p>Interestingly though when using the <code>rake watch</code> or <code>rake preview</code> tasks, posts with an attribute of <code>published: false</code> <em>are</em> included in the generation of posts. When you point your browser to <code>localhost:4000</code> (or via a <a href="http://pow.cx">Pow</a> configuration) then you’ll see your unpublished posts included as though they were published. For me, this negates the need to create a dedicated drafts folder.</p>
+
+<p>There are still failings with this approach: drafts are mixed in with published posts requiring file inspection to manually separate them, and the date given to the post (crucially updating both the YAML front matter and the filename) will be the creation date rather than the publishing date.</p>
+
+<p>To facilitate this workflow I updated the Rakefile to include a few more default YAML attributes for a new post (defaulting <code>published</code> to <code>false</code>). Most importantly it includes a Rake task called <code>publish_draft</code> that lists all the posts with a <code>published</code> status of <code>false</code> and allows the user to select a post. The post can then be published using the current date (updating the YAML and the filename) or it can simply be published with the original date. You can find this Rake task in the Gist below - please take care as it has not been made 100% foolproof that this stage.</p>
+
+<p><div><script src='https://gist.github.com/3927558.js'></script>
+<noscript><pre><code>require &quot;preamble&quot;
+
+desc &quot;Publish draft&quot;
+task :publish_draft do
+  posts_path = &quot;#{source_dir}/#{posts_dir}&quot;
+  puts &quot;Listing drafts in #{posts_path}...&quot;
+
+  drafts = Array.new()
+  Dir.glob(&quot;#{posts_path}/*.*&quot;).each_with_index do |post, idx|
+    yaml = Preamble.load(post)
+    published = yaml[0][&quot;published&quot;]
+    if published == false
+      post_shortname = post.gsub(/#{posts_path}\//, &#39;&#39;)
+      drafts.push(post_shortname)
+    end
+  end
+
+  if drafts.length == 0
+    puts &quot;### There are no drafts at present.&quot;
+    exit 0
+  end
+
+  post_options = Array.new(drafts.length)
+  drafts.each_with_index do |draft_post, idx|
+    post_options[idx] = &quot;#{idx}&quot;
+    puts &quot;  [#{idx}]  #{draft_post}&quot;
+  end
+
+  publish_index = ask(&quot;Which post would you like to publish&quot;, post_options)
+
+  post_shortname = drafts[publish_index.to_i]
+  post_path = &quot;#{posts_path}/#{post_shortname}&quot;
+  yaml = Preamble.load(post_path);
+  puts &quot;  Post details:&quot;
+  puts &quot;    Title:\t#{yaml[0][&quot;title&quot;]}&quot;
+  puts &quot;    Date:\t#{yaml[0][&quot;date&quot;]}&quot;
+  puts
+  publish_option = ask(&quot;Publish with current date (p), existing date (e) or cancel (c)&quot;, [&#39;p&#39;, &#39;e&#39;, &#39;c&#39;])
+
+  if publish_option == &#39;c&#39;
+    exit 0
+  elsif publish_option == &#39;p&#39;
+    puts &quot;Publishing with current date&quot;
+    yaml[0][&quot;published&quot;] = true
+    yaml[0][&quot;date&quot;] = Time.now.strftime(&#39;%Y-%m-%d %H:%M&#39;)
+
+    matchData = post_shortname.match(/^\d{4}-\d{1,2}-\d{1,2}-(.*)$/)
+    title_from_filename = matchData[1];
+
+    new_post_path = &quot;#{posts_path}/#{Time.now.strftime(&#39;%Y-%m-%d&#39;)}-#{title_from_filename}&quot;
+    File::delete(post_path)
+
+    open(new_post_path, &#39;w&#39;) do |write_post|
+      write_post.puts yaml[0].to_yaml
+      write_post.puts &quot;---&quot;
+      write_post.puts yaml[1]
+    end
+
+    puts &quot;The post has been published as #{new_post_path}&quot;
+
+  elsif publish_option == &#39;e&#39;
+    puts &quot;Publishing with existing date&quot;
+    yaml[0][&quot;published&quot;] = true
+    open(post_path, &#39;w&#39;) do |write_post|
+      write_post.puts yaml[0].to_yaml
+      write_post.puts &quot;---&quot;
+      write_post.puts yaml[1]
+    end
+  end
+end</code></pre></noscript></div>
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Maplin 500Mb/s Powerline Adapters - A Rambling Review]]></title>
+    <link href="http://blog.chatswood.org.uk/post/29405190084/maplin-500mb-s-powerline-adapters-a-rambling-review"/>
+    <updated>2012-08-14T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/29405190084/maplin-powerline-adapters</id>
+    <content type="html"><![CDATA[<p>I’m stuck between a rock and a hard place. I have a beautiful home of timberframe construction where every internal wall is a stud wall. What this really means is that every wall is a candidate for being stuffed full of cables. My biggest home-improvement desire is to get every room wired with Gigabit Ethernet, but if possible I’d like to get every type of cable under the sun in there. If it’s possible to generate enough heat from those cables to remove the need for central heating then I’ll consider that to be a bonus.</p>
+
+<p>The problem is that all those lovely wall cavities are hiding behind plasterboard that my wife does not want me to remove. I’m convinced that I could do it in a surgical manner - in and out with minimal disruption and a nice new shiny coat of paint in every room. She’s convinced that I’ll leave gaping holes running down the walls that never get patched up, and that the painting won’t get beyond the colour-picking stage. She’s probably right.</p>
+
+<h2 id="enter-stage-left-80211n-wifi">Enter stage left: 802.11n WiFi</h2>
+
+<p>With the <em>right hardware</em> 802.11n WiFi could very easily have been the answer to my (or my wife’s) prayers. The <em>theoretical</em> maximum is 600Mb/s - it’s not quite Gigabit Ethernet, but is still capable of delivering a large amount of data quickly. Theoretically. With the right hardware.</p>
+
+<p>At the minute I only have one weak spot in the home network - the link between a Gigabit network upstairs and a Gigabit network downstairs in the office. I invested in the latest Apple Airport Extreme base station that I paired up with a 2nd generation Time Capsule. The Airport Extreme was configured to establish a 5GHz 802.11n network using the wide-band settings.</p>
+
+<p>I had hoped to see a pretty fast link between the two base stations, but unfortunately the data rate reported by the Extreme was just 180Mb/s. Testing the network for “real-world” performance resulted in just 93.43Mb/s (using zPerf as a test tool). This isn’t a bad speed, but I do tend to fling a large amount of data around the network. It also gets extremely frustrating to be limited to Fast Ethernet speeds when I know there’s a Gigabit network up there just waiting to be saturated.</p>
+
+<h2 id="enter-stage-right-powerline-networking-adapters">Enter stage right: powerline networking adapters</h2>
+
+<p>I’d considered powerline adapters in the past, but had always balked at the relatively low speeds they offered. Having discovered just how poor the WiFi connection was I decided that the newer 500Mb/s models might be worth a blast - even at 50% of the theoretical maximum I could still get 2.5 times the performance of the WiFi link. When an offer for <a href="http://www.maplin.co.uk/500mbps-twin-powerline-starter-kit-626154">Maplin powerline network adapters</a> came up they were hastily purchased. Once received I got to testing, and the results were extremely disappointing.</p>
+
+<p>I know that the 500Mb/s is an ideal scenario and many things will conspire to reduce this figure in the real world. Old wiring, interference from other devices and use of extension cables amongst other factors. Our home is fairly modern, and has wiring that is only 8 years old. I tried to improve things by avoiding extension cables, and plugging directly into the mains sockets at both ends, but to no avail. The best rate I could get was a paltry 53.21Mb/s. WiFi it is then.</p>
+
+<p>Not wanting to return the product without trying to find a use for it, I decided to try using the powerline adapters to connect my ADSL modem/router from downstairs to the upstairs network. We only get 5.5-6Mb/s from our ADSL connection so 50+Mb/s is plenty of bandwidth. Unfortunately since doing so, I noticed regular breaks in the connection from the home network to the ADSL router.</p>
+
+<p>The only new factor there is the powerline adapters, so they’ve had to come out and are currently on their way back to Maplin. Rather than post them, my kind wife agreed to drop them into the store as she was going to be passing it. She’ll probably be away for a few hours at least. Now to find my hammer, some Cat6, and the crimping tool.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why App.net?]]></title>
+    <link href="http://blog.chatswood.org.uk/post/29224063502/why-app-net"/>
+    <updated>2012-08-11T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/29224063502/why-app.net</id>
+    <content type="html"><![CDATA[<p><a href="http://join.app.net/">App.net</a> is a hot topic of conversation at the minute in the intersection between the Twitter and Apple worlds that I like to inhabit<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Just over a month ago, Dalton Caldwell wrote a blog post entitled “<a href="http://daltoncaldwell.com/what-twitter-could-have-been">What Twitter Could Have Been</a>”. While this initial post could be viewed as a bit of a complaint or a moan, it was also something of a catalyst. He soon followed up with a post that may go down in Internet history: “<a href="http://daltoncaldwell.com/an-audacious-proposal">Announcing an Audacious Proposal</a>”.</p>
+
+<p>In this post Dalton essentially proposed building a new Twitter. A Twitter that was funded directly by the users instead of by the advertisers. He and his company established a KickStarter-style campaign to raise $500k by 13th August in order to fund this new social network. As of the time of writing, there are just under two days remaining, and there is only $69,200 left to be raised.</p>
+
+<p>I’ve decided to back this project because, like Dalton, I’m concerned about what I perceive as a  “degradation” of Twitter. It’s not a degradation for many people - in fact Twitter is probably going from strength to strength in the eyes of many of it’s users. But I’m an atypical user. I’m not on Twitter to follow celebrities, to track mainstream news, or to keep up with my friends. I’m mainly on Twitter to receive tech news, to use innovative apps, and to communicate with other people in the tech industry - the industry that is both my livelihood and my passion.</p>
+
+<p>For <em>me</em>, Twitter is degrading. For <em>me</em>, it is becoming less vital, and is in danger of becoming unusable to me. I may be over-reacting, but Twitter’s recent rumblings about third-party clients has not inspired confidence. I use TweetBot for iOS (and now for Mac) fanatically. I don’t want to go back to Twitter’s first-party clients, partly because Twitter are not putting in the effort to maintain them, and partly because I don’t want to use apps that are really just conduits to the advertising model that will become essential to Twitter’s survival. Like many others, I would be happy to pay for access to Twitter, but we’re not being offered this opportunity.</p>
+
+<h2 id="so-why-appnet">So Why App.net?</h2>
+
+<p>I don’t know if <a href="http://join.app.net/">App.net</a> can work but I’m happy to put my money where my mouth is, and give it a chance to succeed.</p>
+
+<p>I’m keen to join a social network at the beginning and help it grow. I joined Twitter in 2009 and while I’ve enjoyed my time on it, I sometimes feel like I missed the halcyon days when it was a closer, more tight-knit community. </p>
+
+<p>I’m happy to pay to be part of a smaller community with a more focussed group of users. Part of the problem with Twitter is that there is no barrier to entry. Yes, this is me being a little bit elitist but I feel that it is a valid point. Every day on Twitter I am being subjected to random followers who have no interest in what I have to say. I hope that the <a href="http://join.app.net/">App.net</a> community will be more focussed and less likely to resort to such behaviour. I’m also hoping that the <a href="http://join.app.net/">App.net</a> ecosystem will be subject to more moderation - where “spam followers” can be reported and ultimately warned and/or banned.</p>
+
+<p>I’m hoping that the requirement to pay a fee will weed out a large number of the people who try to use Twitter as a conduit to spam. Twitter is like email, in that there is very little barrier to entry to start spamming. It’s effectively free to send emails or tweets as spam if you can cover your tracks. Twitter spam is a huge problem in my eyes. I’m subjected to daily @reply spam. I’m hoping that the requirement to pay for the service will reduce the number of spammers who will target <a href="http://join.app.net/">App.net</a>, or at the very least make it easier to track and remove these spammers.</p>
+
+<p>I’m interested in a service that transcends Twitter and, because it is paid for by the users, will listen to those users in implementing the features that they need, or want. If done right, it will be directed by the needs of the people who <em>use</em> the service, not the people who wish to sell advertising on the service.</p>
+
+<h2 id="huge-responsibilities">Huge Responsibilities</h2>
+
+<p><a href="http://join.app.net/">App.net</a> is an ambitious venture. Just getting to $500k does not guarantee any level of success. And while the developer community, or the hacker community, or the whatever-we-are community can drive the success of many things, even we can’t make it succeed through goodwill alone. The threshold may be met, but unless we embrace the resulting service, building the apps, tools, and sites to make it succeed, then it will be doomed to failure.</p>
+
+<p>We’re also putting a lot of faith in the ability of Dalton Caldwell and his team. The fact that funding comes directly from the users means a lot, but this is still not some kind of democracy where every paying customer gets a vote. We’re not shareholders. We don’t belong to a board of directors. We are putting our hard-earned cash on the line, and trusting <a href="http://join.app.net/">App.net</a> to make the right decisions, to implement the necessary features, and to implement them on time.</p>
+
+<p>So let’s all pull together. <a href="http://join.app.net/">App.net</a> who will build the infrastructure. The developers who will build applications to use the infrastructure. And finally the community who will use the applications. We all have a responsibility for the success or failure of this venture.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m sure it’s a hot topic in other areas too, but I can’t really say much about that.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The (Mountain) Lion And The Mouse]]></title>
+    <link href="http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse"/>
+    <updated>2012-08-06T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse</id>
+    <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
+
+<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
+
+<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I’m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
+
+<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn’t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox’s auto-update facility is woefully behind the time.</p>
+
+<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>“If your Dropbox client hasn’t updated itself, then you might want to do so manually.”</em></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you’ve not yet used Dropbox and would like to sign up, here’s a <a href="http://db.tt/LNlAuHd">referral link</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Up to" charges for "Up to" services]]></title>
+    <link href="http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services"/>
+    <updated>2012-04-17T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/21261771299/up-to-charges-for-up-to-services</id>
+    <content type="html"><![CDATA[<p>I’m not sure who these <em><a href="http://wispa.it/">wispa</a></em> folks are, but <a href="http://wispa.it/upto-charge-upto-service/">they raise a similar point</a> to one that I’ve been making lately to whoever will listen:</p>
+
+<blockquote>
+  <p>If your supermarket charged you full price for ‘upto’ a Kg of sugar, or the service station charged you full price for ‘upto’ a gallon of petrol they would be prosecuted.</p>
+</blockquote>
+
+<p>(via <a href="http://www.theregister.co.uk/2012/04/16/wispa_upto_campaign/">The Register</a>)</p>
+
+<p>We pay for an “up to 16Mbps” service. Unfortunately my ISP - <a href="http://www.productsandservices.bt.com/consumerProducts/displayCategory.do?categoryId=CON-TOTAL-BB-R1">BT Total Broadband</a> - and the underlying wholesale provider <a href="http://www.openreach.co.uk/orpg/home/home.do">Openreach</a> have not seen fit to install ADSL2 hardware in our local exchange. This mere technicality means that my “up to 16Mbps” service is instantly constrained by the 8Mbps limit on ADSL Max technology.</p>
+
+<p>We pay £26 a month for a service that, through no fault of our own, can only deliver 50% of the promised<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> service. That’s bad enough, but we’re still talking theoretical limits here. Our actual delivered service is just over 6Mbps with a fair wind. So what we actually get is not 16Mbps, but just 37.5% of that. Other BT Total Broadband customers on the same package will pay the same amount, yet they may get 100% of the promised service.</p>
+
+<p>We actually fall somewhere in the middle of the spectrum. A good friend is also a customer with BT Total Broadband, and therefore is also signed up to a service that is advertised as being up to 16Mbps. His actual delivered service is 0.5Mbps. To save you doing the mental arithmetic, that is just 3.125% of the maximum theoretical service. Yet he pays 100% of the price.</p>
+
+<p>Back in 2009 the <a href="http://news.bbc.co.uk/1/hi/8012848.stm">UK government said in their budget</a> that they would commit to ensuring that everyone in the country would have access to 2Mbps broadband by 2012 though they’ve now said that will be 2015. We still have people unable to achieve that target. Worse still, these people are being forced to pay prices similar to those paid by users of next-generation broadband services. </p>
+
+<h2 id="not-going-far-enough">Not going far enough</h2>
+
+<p>I not only agree with what <a href="http://wispa.it/">wispa</a> are saying in their campaign, but I feel that they are not going far enough. Not only should people be paying a price proportionate to the service they receive, but those receiving a service below the governments “target” of 2Mbps should not be paying a single penny. And yet the campaign from <a href="http://wispa.it/">wispa</a> only covers the concept of people not getting the full “up to” service.</p>
+
+<p>There is an even wider problem that is becoming more prevalent as next-generation broadband services are being rolled out. Amongst my friends, family and colleagues there is a huge disparity amongst the level of broadband services available. Some people have <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">Fibre To The Cabinet</a>, some have ADSL2, some have just regular ADSL, some have 3G wireless, and some have nothing.</p>
+
+<p>The strange thing is that many of these differing levels of service cost around the same price. As an example, at home we only receive regular ADSL - this will cost about £18 a month for up to 16Mbps and 40GB allowance<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. According to <a href="http://www.productsandservices.bt.com/consumerProducts/displayTopic.do?topicId=29017">BT’s Infinity product pages</a> the base level package is also £18, but this includes up to 38Mbps and the same 40GB allowance.</p>
+
+<p>We pay the same price for an inferior service. Why? Because we live in an area that is simply not covered by the <a href="http://en.wikipedia.org/wiki/Fiber_to_the_x">FTTC</a> technology. That seems unfair to say the least, yet when the question is asked of BT, their answer is often the same: it comes down to the business case. They will simply not extend the reach of their FTTC offering because it is cost prohibitive.</p>
+
+<h2 id="who-costs-the-most">Who costs the most?</h2>
+
+<p>Let’s think about this for a minute. While I accept that I am probably simplifying things greatly here, the costs to BT for each customer will come down to the several major groupings: ISP running costs, bandwidth, network infrastructure, and exchange hardware. So how might these costs vary between users on ADSL and Infinity products?</p>
+
+<ul>
+  <li>
+    <p>It will cost the same to run as an ISP whether your user is on ADSL or Infinity. The cost of an email accounts, support, portals, etc should all be the same. If anything support for Infinity users will be higher as this is the newer technology, and more prone to confusion and problems.</p>
+  </li>
+  <li>
+    <p>Bandwidth costs should be the same to them although it could easily be argued that a user on a fast Infinity connection will consume more of your bandwidth, certainly on “unlimited” allowance packages.</p>
+  </li>
+  <li>
+    <p>Network infrastructure is where things will differ. Backhaul should be the same, but paying for new fibre cabinets and the fibre optic cabling to them costs a lot. The network infrastructure is the same as it always was for ADSL users, it’s only the new Infinity users that incur this cost.</p>
+  </li>
+  <li>
+    <p>Exchange hardware will also see a large difference. ADSL hardware is available in most, if not all exchanges, and would likely have been paid for at this stage, less some ongoing maintenance costs. Conversely, the Infinity hardware is new and expensive, and is where the real cost lies.</p>
+  </li>
+</ul>
+
+<p>I think it’s fair to say that it costs a lot more to sustain a customer on an Infinity package over a customer on regular ADSL, yet both sets of customers pay the same price. I think that what <a href="http://wispa.it/">wispa</a> should be campaigning for is not only an end to the “up to” problem, but that customers on older, inferior products should not be effectively subsidising customers who take a newer, superior product.</p>
+
+<p>As I mentioned earlier, often when I ask BT why they don’t offer me Infinity, they say it’s because there is no business case for it. They say it’s not economically viable.</p>
+
+<p>I now say - why don’t you use the excess money you get from me paying the same price as an Infinity service, and instead of treating it as profit, treat it as a down-payment on the new hardware you need to provide me with a better service. Maybe <a href="http://wispa.it/">wispa</a> can adapt this into their campaign as well.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Yes, I know it wasn’t actually <em>promised</em> to us, but this is where the whole “you wouldn’t be happy with up to a litre of fuel” thing comes in!<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>We were on this package, but upgraded to their “unlimited” allowance, hence the £26 a month mentioned previously.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

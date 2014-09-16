@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Development | Chatswood]]></title>
+  <link href="http://blog.chatswood.org.uk/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2014-09-16T09:20:44+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mastering Xcode]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/02/mastering-xcode/"/>
+    <updated>2013-08-02T23:53:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/02/mastering-xcode</id>
+    <content type="html"><![CDATA[<p>After many months in the making, I’m pleased to be able to announce that the 2nd edition of Mastering Xcode is now available to purchase, and even more pleased to announce my involvement in the book as co-author.</p>
+
+<p><a href="http://joshua.nozzi.name/">Joshua Nozzi’s</a> 1st edition was an invaluable reference for me as I started the process of transitioning to developing iOS and Mac software. The prospect of a 2nd edition was made even more exciting when Josh asked me to get involved in the production process. I initially came on as technical editor, but due to Josh’s other commitments I was fortunate to be asked to come on-board as a writer.</p>
+
+<p>I’d done some technical writing in the past for UK magazines PC Plus and Linux Format, but this was the first time I’d ever been involved in the production of a book. The experience was challenging, and often time consuming, but ultimately very rewarding.</p>
+
+<h2 id="about-the-book">About the Book</h2>
+
+<p>Mastering Xcode is a guide to using Xcode from a first introduction to what I like to think of an “advanced intermediate” level. The first section is a gentle introduction to the environment. The second section is a ramp up to using the editor, workspaces, interface builder, the debugger and core data modeler to produce a simple “suite” of applications. The third section dives into more advanced topics such as the build system, debugging and profiling, as well as more detailed examinations of Xcode’s command line tools and SCM integrations.</p>
+
+<p>While we couldn’t cover every facet of Xcode we have endeavoured to touch on as much as possible. We’re also acutely aware of the fact that this book is focussed on Xcode 4.6, which will likely be superseded by Xcode 5 later this year. We feel that much of the information in the book will still be relevant (even if it looks a little different). We’re also planning some “delta” material that will document what is new and what is changing – keep an eye on the <a href="http://xcodebook.com/">book website</a> for more information on that.</p>
+
+<h2 id="saying-thank-you">Saying Thank You</h2>
+
+<p>From a personal perspective, I’d like to thank Josh for giving me the opportunity to work on this book with him. He, and publisher Cliff Colby at Peachpit, let a cheeky individual finaigle his way into the process, and decided to take a chance on him. For that I’m exceptionally grateful.</p>
+
+<p>I couldn’t have devoted the time needed to complete this project without the support of my wife and family. Whether it was giving up our evenings together, or taking the kids away to give me “writing weekends”, the efforts that they went to in order to help the process along was invaluable.</p>
+
+<p>In the production process itself, our production editor Robyn Thomas was amazing. She guided us every step of the way, and gave re-assuring feedback when confidence was waning. From a technical perspective we have <a href="http://alpha.app.net/marramgrass">Mark Goody</a> to thank. His eye for detail kept us on track and made sure we weren’t misleading the reader too much.</p>
+
+<h2 id="getting-the-book">Getting the Book</h2>
+
+<p>If you are interested in getting a copy then please consider using one of the affiliate links below:</p>
+
+<p>Peachpit Press: <a href="http://click.linksynergy.com/link?id=34OBL5N2vk4&amp;offerid=163295.1865024&amp;type=2&amp;murl=http%3A%2F%2Fwww.peachpit.com%2Fstore%2Fproduct.aspx%3Fisbn%3D0321861620">Print edition</a> - <a href="http://click.linksynergy.com/link?id=34OBL5N2vk4&amp;offerid=163295.1865246&amp;type=2&amp;murl=http%3A%2F%2Fwww.peachpit.com%2Fstore%2Fproduct.aspx%3Fisbn%3D0133091228">Ebook edition</a></p>
+
+<p>Amazon UK: <a href="http://www.amazon.co.uk/gp/product/0321861620/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321861620&amp;linkCode=as2&amp;tag=chatswood-21">Print edition</a> - <a href="http://www.amazon.co.uk/gp/product/B00DVLGLEY/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B00DVLGLEY&amp;linkCode=as2&amp;tag=chatswood-21">Kindle edition</a></p>
+
+<p>Amazon US: <a href="http://www.amazon.com/gp/product/0321861620/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321861620&amp;linkCode=as2&amp;tag=chatswood-20">Print edition</a> - <a href="ttp://www.amazon.com/gp/product/B00DVLGLEY/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00DVLGLEY&amp;linkCode=as2&amp;tag=chatswood-20">Kindle edition</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[You *Do* Need The Xcode Command Line Tools]]></title>
+    <link href="http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools"/>
+    <updated>2012-07-17T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/27400566838/maybe-you-do-need-the-xcode-command-line-tools</id>
+    <content type="html"><![CDATA[<p>Oliver Drobnik over at <a href="http://www.cocoanetics.com/">Cocoanetics</a> wrote a <a href="http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/">very detailed guide</a> on how to get by without the Xcode Command Line Tools package, and how to remove them if you want to save a bit of space. He makes some compelling arguments as to why you don’t need them around (tl;dr - they all live inside the Xcode.app package and you can access most of them using the <code>xcrun</code> command) but he also missed a very good reason to keep them installed on your system. While Oliver did point out that the tools are needed for <em>“compiling stuff outside of Xcode… [y]ou know, bare knuckles, command line geekery”</em>, this completely neglects an extremely useful source of software that you don’t need to engage your bare knuckles to take advantage of.</p>
+
+<p>The <a href="http://mxcl.github.com/homebrew/">Homebrew</a> package management system provides third-party UNIX tools to supplement or replace those tools provided by Apple. There is a huge list of available software ranging from simple tools like <code>wget</code> to complex software like MySQL. For example, if you wanted to install an up-to-date version of <code>bash</code> you just type: <code>brew install bash</code></p>
+
+<p>Homebrew will consult it’s formula for brewing <code>bash</code>, fetch the source archives, fetch any patches required, compile and install to <code>/usr/local</code>. Oh, and it’ll also download and compile any dependencies you might need. Considering it has to compile the software you ask it to install, one key toolchain in this system is the Xcode Command Line Tools - without these installed Homebrew won’t be able to compile the code it downloads.</p>
+
+<p>So if you use Homebrew and are thinking of getting rid of the Xcode CLTs, then don’t. And if you have never used <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and are about to remove the CLTs, then give them a stay of execution, and try out Homebrew instead. You may find it a compelling reason to keep those pesky tools hanging around.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Give Up GitHub (sort of)]]></title>
+    <link href="http://blog.chatswood.org.uk/post/20728588558/give-up-github-sort-of"/>
+    <updated>2012-04-08T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/20728588558/give-up-github-sort-of</id>
+    <content type="html"><![CDATA[<p><a href="http://github.com/">GitHub</a> is an amazing place. There are so many diverse projects hosted there, and it’s fantastic to be able to quickly create a repo and share code with the world. I’ve been a member for just under a year, and in that time I’ve gone from just downloading other people’s projects, to forking and contributing to Open Source projects, to creating my own public and private repositories.</p>
+
+<p>If you’re familiar with GitHub and it’s pricing plans, you’ll know that you can create unlimited public projects with an unlimited number of contributors for free. This is probably one of the reasons why GitHub has become a de facto standard for public projects<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p>About eight months ago I started working on some personal projects, which I just wasn’t prepared to share with the world. I did some due diligence had a look at the various options available to me (including <a href="https://bitbucket.org/">BitBucket</a> and <a href="http://beanstalkapp.com/">Beanstalk</a>), and made the decision to pay for the GitHub Micro account (at $7 per month). I don’t regret that decision, as I think GitHub was definitely the best option at the time.</p>
+
+<p>Things are different now though. In October last year <a href="http://blog.bitbucket.org/2011/10/03/bitbucket-now-rocks-git/">BitBucket announced</a> that they were now going to offer support for Git repositories (prior to that they’d only had a <a href="http://mercurial.selenic.com/">Mercurial</a> offering). This was a pretty big deal for many potential users and they offer a very attractive pricing scheme to sweeten the deal.</p>
+
+<p>With GitHub I was getting 5 private repos and 1 collaborator for $7 per month. With <a href="https://bitbucket.org/plans">BitBucket</a> I can get unlimited private repos with 5 collaborators for free. I also get tighter integration with Atlassian’s <a href="http://www.atlassian.com/software/jira/overview">JIRA</a>, which I use for issue tracking over the GitHub system. At first glance this seems like a no-brainer, except…</p>
+
+<h2 id="community">Community</h2>
+
+<p>There’s only one real problem with BitBucket. It’s not GitHub. Don’t get me wrong, <a href="http://www.pocoo.org/~blackbird/github-vs-bitbucket/bitbucket.html">it tries very hard to be GitHub</a>, but there’s one area where GitHub beats the competition hands down - community.</p>
+
+<p>GitHub is home to so many public projects that it’s the natural place to fork a project or create a new one. There is no way that I know of to fork/pull request between GitHub and BitBucket. It’s also hard to justify moving public repos from GitHub when people who may find them use might not want to fork on a “smaller” site like BitBucket.</p>
+
+<p>As of today, I’ve imported my private repos into BitBucket, and have downgraded my GitHub account. Anything I want to keep private will now go to BitBucket, and I’m going public only on GitHub. If I want to fork a project I’ll do it on GitHub, or if I want to share a repo making it as easy as possible for other people to use, I’ll do that on GitHub as well.</p>
+
+<p>I was concerned that some of my private projects wouldn’t move to BitBucket cleanly - I have a couple of Xcode projects that utilise Open Source frameworks to provide core functionality. I’ve already forked these on GitHub and I didn’t want to lose that flexibility. Thankfully Git submodules allows me to get the best of both worlds. Even though my parent repos now originate on BitBucket, I was still able to define submodules which are originated on GitHub with no ill effects.</p>
+
+<p>Now, GitHub, please don’t announce any pricing plan changes for the next few months so that I can at least get settled in over at BitBucket.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>That and the fact that forking/pull requests is a great model for controlled collaboration. Oh, and Git has been flavour of the month for SCM for a while now.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An ideal time to develop software?]]></title>
+    <link href="http://blog.chatswood.org.uk/post/2635102419/an-ideal-time-to-develop-software"/>
+    <updated>2011-01-07T00:00:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/post/2635102419/an-ideal-time-to-develop-software</id>
+    <content type="html"><![CDATA[<p>I had the good fortune to listen to yet another excellent podcast from Dan Benjamin’s <a href="http://5by5.tv/">5by5 Studios</a> yesterday - this time the <a href="http://5by5.tv/buildanalyze">Build and Analyze</a> program Dan co-hosts with <a href="http://www.marco.org/">Marco Arment</a> (of <a href="http://www.instapaper.com/">Instapaper</a> and <a href="http://tumblr.com/">Tumblr</a> fame).</p>
+
+<p>The show featured a discussion on the typical work cycles of developers and fell into the mistake of re-iterating the stereotype of developers as working great in bursts of time, often late in the night. I’m not going argue much about the time frame - many developers, myself included, do work great at night time.</p>
+
+<p>What I’m going to argue with is with the suggestion that developers write amazingly good code at this time and terrible code at other times (as suggested by Dan<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>). Unfortunately I don’t think this is necessarily true - it’s true that developers who are in the zone can churn out a lot of code when they are on a roll, but the quality of that code is not necessarily going to be high (though it could be).</p>
+
+<p>Bugs can occur at any time, and in my opinion, when you’re on a roll there’s just as much chance of introducing bugs. In fact, I’d go so far as to say that when you’re on a roll you could be more prone to introducing bugs, because you’re thinking ahead more than you’re focused on the piece of code you’re writing right now.</p>
+
+<p>Dan and Marco seem to agree that creativity is not something that can be done on demand, but in the end, not all software development is creative (as Marco mentioned in the podcast). Software engineering is like producing music and graphical works - there are flashes of genius which can come at unexpected times. But for the every composer who works to his own schedule, there are many more musicians who work to schedules writing jingles for adverts, music for games, music for film. For every painter, there is a graphic designer churning out a new advert, or graphics for a game, or movie special effects. For every coder who writes a sweet new algorithm for the love of it, there’s another churning out code for cash.</p>
+
+<p>Sometimes software is art, but like any art form it can be degraded to a production line when it needs to be.</p>
+
+<blockquote>
+  <p>“They’re gonna be super-productive. They’re gonna write, y’know, a hundred lines of awesome code in that four hour block of time, they’re gonna fix bugs, they’re gonna get tons of stuff done. But if you try to shoehorn them into doing that work between 9 and noon, let’s say, or 9 and 1, they’re gonna write crap code. It’s gonna have tons of bugs.”</p>
+</blockquote>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>What Dan actually said was:<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

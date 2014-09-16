@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Apple | Chatswood]]></title>
+  <link href="http://blog.chatswood.org.uk/blog/categories/apple/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2014-09-16T09:20:44+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Deluxe Upgrades in iTunes]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2013/08/18/deluxe-upgrades-in-itunes/"/>
+    <updated>2013-08-18T09:20:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2013/08/18/deluxe-upgrades-in-itunes</id>
+    <content type="html"><![CDATA[<p>This week, <a href="http://thepresets.com/">The Presets</a> – one of my favourite bands – <a href="https://twitter.com/ThePresets/status/368226816122556416">announced the imminent UK availability</a> of the “Deluxe/Expanded” edition of their <a href="http://pacifica.thepresets.com/">Pacifica album</a>.</p>
+
+<p>As a fan, one of the most infuriating aspects of the music industry is the <em><a href="http://en.wikipedia.org/wiki/Special_edition">Deluxe Version</a></em>. Some deluxe editions are re-releases many years later and contain “features” such as remastered tracks, expanded liner notes, and extra material. Other special editions are re-releases that come mere months after the original, usually offering a bunch of extra tracks and little else. In the case of Pacifica, the deluxe edition comes twelve months after the initial release with a bunch of remixes.</p>
+
+<p>I’m a compulsive music buyer, and I love to buy music by my favourite bands on the day they get released. An unfortunate side-effect of being a dedicated fan is that loyalty is not rewarded by the release of a deluxe edition. The dedicated fan gets what amounts to an inferior product, and an “opportunity” to buy much of the same material again. When it came to physical discs, buying the original CD again just to get a few extra tracks was simply not an option. So in the past, I just grumbled to myself and got on with it.</p>
+
+<h2 id="a-digital-upgrade">A Digital Upgrade</h2>
+
+<p>These days I buy music from iTunes, where tracks can be bought individually and albums can theoretically be upgraded. Re-releasing an album as a deluxe edition could be a case of adding a bunch of tracks to the existing album, and allowing previous purchasers to <em>add</em> the new material at an additional (but discounted!) cost. I’m not saying we should just get them for free, I just feel that we should get an opportunity to get the same tracklisting as a new purchaser, without having to pay double (or potentially more than double).</p>
+
+<p>This is completely feasible in this day and age. In fact, when I view the new <a href="https://itunes.apple.com/gb/album/pacifica-deluxe-version/id687410130">deluxe edition of Pacifica on iTunes</a> it actually shows that I have purchased the original album tracks.</p>
+
+<p><img src="http://content.chatswood.org.uk/photo/2013/08/presets-deluxe-edition-on-itunes.png" alt="Pacifica Deluxe Edition on iTunes showing previously Purchased tracks" /></p>
+
+<p>Unfortunately I can’t simply buy the additional material – the entire Deluxe Edition is marked as Album Only. Even if they could be purchased separately it would actually cost more to buy the additional 12 tracks at 79p each than to buy the Deluxe Edition as a whole.</p>
+
+<h2 id="what-i-want">What I Want</h2>
+
+<p>I’d like to make it clear that I don’t blame The Presets, and am only mentioning them specifically as they were an example that triggered this post. It happens with deluxe editions from many artists, and in my opinion this falls squarely at the feet of the record companies and Apple/iTunes.</p>
+
+<p>The record companies like to put out deluxe editions to bolster sales and extract more money from previous purchasers. They did it with physical discs and they are continuing the practice into the digital download age as well. </p>
+
+<p>Apple/iTunes should be making more of an effort to allow “upgrading” to a deluxe edition. iTunes already has the facility to allow a customer to buy a few individual tracks from an album, then “upgrade” to the full album for the difference in price. A deluxe upgrade price could be set and purchasers of the original album could be offered a nominal upgrade price rather than being fleeced for the entire album again.</p>
+
+<p>If iTunes provided this facility, and/or record companies treated the fans with a little less contempt, then it’s likely to be a win for everyone. Superfans don’t feel like they are being fleeced, bands can release deluxe editions without feeling like they are taking advantage of their fans, and the music industry could probably make more money from many “upgrades” than from the lower number of fans who would re-buy the entire album.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iTunes (not for) U]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/12/24/itunes-not-for-u/"/>
+    <updated>2012-12-24T11:48:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/12/24/itunes-not-for-u</id>
+    <content type="html"><![CDATA[<p>I can’t figure out how to play <strong>local</strong> <em>iTunes U</em> content on my iPhone - it just doesn’t appear on my device.</p>
+
+<p>I like to download tutorial and training material (from sites like <a href="http://railscasts.com/">Railscasts</a>, <a href="http://ideveloper.tv/">iDeveloper TV</a>, <a href="https://peepcode.com/">PeepCode</a> and <a href="https://mijingo.com/">Mijingo</a>) and I’m one of these people who likes to hold onto the material <em>just in case</em> I ever need to watch it again. For convenience I dump it into iTunes on my Mac Mini that serves up content to a number of Apple TV and iOS devices. Because I’ve got a thing for organization, I like to mark the videos as being <em>iTunes U</em> material so that I can get to it easily through the Apple TV menus.</p>
+
+<p>Sometimes I’m not using the Apple TV and I want to watch a quick tutorial on my iPhone. This happened the other night when I decided to watch a <a href="http://railscasts.com/">Railscast</a>. So I opened up the <em>iTunes U</em> app on the iPhone. It gives me the option to get official material from the catalog, but doesn’t let me browse my local Home Sharing machine.</p>
+
+<p>So I tried the <em>Videos</em> app - it does let you choose Shared libraries, but only displays the categories <em>Movies</em>, <em>TV Shows</em>, and <em>Music Videos</em>. No sign of <em>iTunes U</em> content.</p>
+
+<p>In desperation I tried the <em>Music</em> (formerly iPod) app but it didn’t include the option for <em>iTunes U</em> content (and hasn’t since <em>iTunes U</em> was split off into its own app a while back).</p>
+
+<p>This seemed weird - I couldn’t find a way to play iTunes U material stored on my local server. Strangely, when I picked up my iPad mini the Videos app there has a section for iTunes U material (and I was able to watch the <a href="http://railscasts.com/">Railscast</a> absolutely fine - “panic” over).</p>
+
+<p>Seems like quite an oversight that there is no way to carry out this (admittedly edge) use-case on an iPhone. Time for a Radar…</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mail.app and Power Nap]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap/"/>
+    <updated>2012-12-02T12:05:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2012/12/02/mail-dot-app-and-power-nap</id>
+    <content type="html"><![CDATA[<p>Mountain Lion has been with us for several months now and has been a pretty solid release with some nice new features. One of those <a href="http://www.apple.com/osx/whats-new/">features is Power Nap</a> - the ability for a certain Macs to sleep with one eye open. It allows for the updating of data (fetching mail, contact updates, etc) and the performing of housekeeping tasks (carrying out backups and downloading software updates) while your Mac give sthe impression of being asleep.</p>
+
+<p>I have a nice shiny 2012 <a href="http://www.apple.com/macbookair/">MacBook Air</a> so I’ve been getting these Power Nap features for free since upgrading to Mountain Lion. Generally I don’t notice it much - I have notifications from Messages already onscreen when I open my machine in the morning, software updates are quick to apply because they have already been downloaded and, most usefully, I can see new entries in my mailbox that arrived overnight.</p>
+
+<p>So far, so good. There’s just one gripe with the way the mail messages arrive. I have an IMAP account that gets updated with new messages. But if I have viewed those messages on my iPhone/iPad or on another Mac, they don’t get marked as read via Power Nap. This seems like a minor inconvenience as the next refresh of the IMAP account should update their read/unread status.</p>
+
+<p>Nope. Checking for new mail in all accounts doesn’t change the status. In fact, basic testing has shown that once woken from Power Nap I can’t even pick up new items in the IMAP mailbox. A restart of Mail.app is required before any updates to that mailbox are detected. It just seems to be the one IMAP account though - I have 3 other mail accounts (2 GMail and 1 iCloud) that update fine.</p>
+
+<p>I guess it’s time to file a bug.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Full Screen Mode is Not For You]]></title>
+    <link href="http://blog.chatswood.org.uk/post/30538198744/full-screen-mode-is-not-for-you"/>
+    <updated>2012-08-30T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/30538198744/full-screen-mode-is-not-for-you</id>
+    <content type="html"><![CDATA[<p>During a <a href="http://5by5.tv/hypercritical/82">recent episode</a> of <a href="http://5by5.tv/hypercritical">Hypercritical</a>, host John Siracusa mentioned that he had received feedback from readers of his <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">OS X Mountain Lion review</a> commenting about the failings of full screen mode in Mountain Lion (and previously in Lion), particularly with respect to multiple monitor support.</p>
+
+<p>I see where these comments have come from and have sympathy. When I first installed Lion I was eager to get stuck into this new world of full screen apps. Pressing the little button on the title bar unleashed a magical zoom animation. Some apps just stretched the existing interface, but others (such as iPhoto) changed their interface to better suit the full screen experience. It was very exciting for about 5 minutes, but it wasn’t long before I shared the frustrations aired by Siracusa and his readers:</p>
+
+<blockquote>
+  <p>No, I wanna use the other screens, I wanna put stuff there, I wanna see my other windows there, I wanna see my web browser there, my Twitter feed there - whatever the heck I have over there. And you can put palettes and stuff from the application that you made go full screen, you can put them on the other screens but you can’t use them for other applications. It was like, it was almost like it was being mean to you, it’s like “I know you want to see your Twitter client, but I’m putting linen over that whole screen - nah!” and that pissed people off.</p>
+</blockquote>
+
+<p>I admit that I was that reader initially and I found the lack of flexibility when using multiple displays was exceptionally frustrating. The app running in full screen mode would take over the primary display but the secondary display would only contain that boring linen background. Yes, it was possible to place extra palettes or inspectors on the secondary display but there didn’t seem to be any way to truly take advantage of the additional real estate.</p>
+
+<p>It sure would have been nice if users could have placed two independent apps side-by-side. Or if developers could have created UI layouts that took advantage of full screen mode with multiple displays, akin to the way full screen editing was available in many previous versions of Aperture. John, being the sensible guy that he is, tried to reason it out, and I think he almost nailed it<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> when he said that full screen is for people who need to concentrate.</p>
+
+<p>One use case I think he glossed over though is the fact that full screen is also for people who are working on portable machines. People who are working on one (possible small) screen and need to squeeze every last pixel out of their displays. It’s not for the power user who wants to work with multiple apps at once (or with a multitude of windows/palettes/inspectors from a single app). That’s what regular OS X is for and has been all along.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m going to say he nailed it, because came to the pretty much the same conclusion that I came to.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The (Mountain) Lion And The Mouse]]></title>
+    <link href="http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse"/>
+    <updated>2012-08-06T00:00:00+01:00</updated>
+    <id>http://blog.chatswood.org.uk/post/28825879449/the-mountain-lion-and-the-mouse</id>
+    <content type="html"><![CDATA[<p>Mountain Lion has been running really well on <em>almost</em> all the machines I’ve installed it to, with just one exception - my (employer’s) 17” MacBook Pro. This is unfortunate, as it’s the machine that I spend the most time on - if it’s not running smoothly I feel the “pain” all day, every day.</p>
+
+<p>Specifically I was experiencing severe cursor lag when using the mouse (or trackpad) on an intermittent basis. It wasn’t caused by any one application that I could isolate, but some apps did seem to trigger it more frequently. I couldn’t see anything under Activity Monitor to indicate what the problem could be - there were no CPU or I/O spikes. I resolved to just sit it out waiting for the inevitable 10.8.1.</p>
+
+<p>Then I experienced a bout of constant lag. At first it seemed like a curse, but I realised that I had a recently booted system with few applications running - this is as close as I get to laboratory conditions. A quick glance at the process list showed that only one was running a little high - <a href="http:://www.dropbox.com">Dropbox</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. It was only consuming 17% of a single core, but it still seemed a little high. When I finally got the cursor under control I was able to quit Dropbox and the lag ceased immediately. I’m guessing it might have been something to do with the methods by which Dropbox monitors the filesystem for changes.</p>
+
+<p>A quick inspection of the Account pane under the Dropbox preferences revealed that I was still running the 1.4.7 version, rather than the Mountain Lion-compatible 1.4.12. This wasn’t all sloppiness on my part - as usual Dropbox have said that the clients should auto-update, but, also as usual, Dropbox’s auto-update facility is woefully behind the time.</p>
+
+<p>All good <a href="http://en.wikipedia.org/wiki/The_Lion_and_the_Mouse">fables</a> need a moral, so here goes: <em>“If your Dropbox client hasn’t updated itself, then you might want to do so manually.”</em></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you’ve not yet used Dropbox and would like to sign up, here’s a <a href="http://db.tt/LNlAuHd">referral link</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Photos | Chatswood]]></title>
+  <link href="http://blog.chatswood.org.uk/blog/categories/photos/atom.xml" rel="self"/>
+  <link href="http://blog.chatswood.org.uk/"/>
+  <updated>2014-09-16T09:20:44+01:00</updated>
+  <id>http://blog.chatswood.org.uk/</id>
+  <author>
+    <name><![CDATA[Maurice Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cooking the Christmas Ham]]></title>
+    <link href="http://blog.chatswood.org.uk/post/2449228117/cooking-the-christmas-ham-on-the-stove-taken-with"/>
+    <updated>2010-12-24T00:00:00+00:00</updated>
+    <id>http://blog.chatswood.org.uk/post/2449228117/cooking-the-christmas-ham-on-the-stove-taken-with</id>
+    <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_ldy7zfnFMz1qfodllo1_r1_500.png" alt="Christmas Ham" /></p>
+
+<p>Cooking the Christmas ham on the stove.</p>
+
+<p>(Taken with <a href="http://instagr.am">Instagram</a> at Derry, Dromara)</p>
+
+]]></content>
+  </entry>
+  
+</feed>
