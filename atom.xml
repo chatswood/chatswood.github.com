@@ -4,7 +4,7 @@
   <title><![CDATA[Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2014-09-16T09:34:15+01:00</updated>
+  <updated>2014-12-21T15:59:50+00:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Swift Translation Guide]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2014/12/21/swift-translation-guide/"/>
+    <updated>2014-12-21T15:25:53+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2014/12/21/swift-translation-guide</id>
+    <content type="html"><![CDATA[<p>I was lucky enough to not only get selected to buy a ticket for the Apple Worldwide Developer Conference (WWDC) this year, but my employer graciously sponsored my trip to San Francisco. I felt extremely privileged to be present for the announcement of Swift; a new programming language created by Apple for the development of applications for OS X and iOS.</p>
+
+<p>While in San Francisco, I took the opportunity to meet in person, for the first time, with Cliff Colby. Cliff is a publisher at Peachpit Press and I was lucky enough to work with him while co-writing the Mastering Xcode book. While at lunch he broached the subject of writing another book, this time about the newly announced Swift language. At first I was a bit daunted: writing a book about Xcode was one thing, but to write about an entire programming language (never mind a brand new language) was another.</p>
+
+<p>We continued to bat the idea back and forth and eventually came to the conclusion that an extensive language guide was not to be our goal – after all, Apple had released the definitive book, for free, at WWDC – so we settled on the idea of producing a book that comprehensively takes existing Objective-C developers from an awareness of Swift to leveraging their existing UIKit and AppKit experience in the new language. The <em><a href="http://swift-translation.guide/">Swift Translation Guide for Objective-C Developers</a></em> was born.</p>
+
+<p>From August to November I wrote in what spare time my family and employers could grant me, and produced a book that I’m really proud of. It makes me very happy to say that it is now available to purchase and if you decide to do so, then I hope you enjoy it. For more information, purchase links, and sample code, please go to the official site for the book: <a href="http://swift-translation.guide/">swift-translation.guide</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[In Defence of Mental Illness]]></title>
@@ -587,32 +602,6 @@ end</code></pre></noscript></div>
 </blockquote>
 
 <p>I decided to reinstall Jose Gonzalez’ convenient php53-mcrypt formula. Post install, the PHP was able to start up without error and a quick <code>otool -L</code> on <code>mcrypt.so</code>revealed that it no longer had a dependency on <code>libltdl.7.dylib</code>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mountain Lion's New Archive Folder]]></title>
-    <link href="http://blog.chatswood.org.uk/post/28287324457/mountain-lions-new-archive-folder"/>
-    <updated>2012-07-29T00:00:00+01:00</updated>
-    <id>http://blog.chatswood.org.uk/post/28287324457/mountain-lions-new-archive-folder</id>
-    <content type="html"><![CDATA[<p>Earlier today I was unable to find one of my IMAP folders. I immediately felt a flush of panic as this folder was entitled <em>Archive</em>, and is where I keep a large number of important emails (site registration details, software license keys, etc). I have a backup, of course, but it’s still a little bit alarming to think that a folder has just disappeared.</p>
-
-<p>The panic was short-lived as I soon noticed that under <code>MAILBOXES</code> section in Mail.app a new meta-folder had appeared called <em>Archive</em> containing sub-directories for iCloud and my IMAP server. All my important archive material was present and correct. I’d recently upgraded from Lion to Mountain Lion, and I assumed that this was a new feature.</p>
-
-<p>As any good Mac nerd would do, I quickly tweeted about it, and then sent a message to <a href="http://twitter.com/siracusa">John Siracusa</a> as a little extra info following his monster <a href="http://arstechnica.com/apple/2012/07/os-x-10-8/">Mountain Lion review</a>. I was surprised when he retweeted it, but as can expected when retweeted to 24,000 people, I soon got a few replies.</p>
-
-<p>A number of people have suggested that this is not new, and was present in Lion as well. I can’t speak for other people, but I know that across 4 machines running every version of Lion (from 10.7.0 to 10.7.4) I did not once see this behaviour. I was able to reboot into a Lion installation and view the same setup and saw the previous behaviour.</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Lion.png" alt="Mail.app - Lion" /></p>
-
-<p>Viewing the same setup in Mountain Lion looks like this:</p>
-
-<p><img src="http://content.chatswood.org.uk/photo/2012/07/Mail.app%20-%20Mountain%20Lion.png" alt="Mail.app - Mountain Lion" /></p>
-
-<p>Maybe this did appear in some form in Lion, but definitely not for my particular setup. I’m still calling it a new feature, even if it’s only new for my specific set of conditions.</p>
-
-<p>In fact, that would be even better. That means Apple did it just for me.</p>
-
 ]]></content>
   </entry>
   

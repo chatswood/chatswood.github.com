@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Writing | Chatswood]]></title>
   <link href="http://blog.chatswood.org.uk/blog/categories/writing/atom.xml" rel="self"/>
   <link href="http://blog.chatswood.org.uk/"/>
-  <updated>2014-09-16T09:34:15+01:00</updated>
+  <updated>2014-12-21T15:59:50+00:00</updated>
   <id>http://blog.chatswood.org.uk/</id>
   <author>
     <name><![CDATA[Maurice Kelly]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Swift Translation Guide]]></title>
+    <link href="http://blog.chatswood.org.uk/blog/2014/12/21/swift-translation-guide/"/>
+    <updated>2014-12-21T15:25:53+00:00</updated>
+    <id>http://blog.chatswood.org.uk/blog/2014/12/21/swift-translation-guide</id>
+    <content type="html"><![CDATA[<p>I was lucky enough to not only get selected to buy a ticket for the Apple Worldwide Developer Conference (WWDC) this year, but my employer graciously sponsored my trip to San Francisco. I felt extremely privileged to be present for the announcement of Swift; a new programming language created by Apple for the development of applications for OS X and iOS.</p>
+
+<p>While in San Francisco, I took the opportunity to meet in person, for the first time, with Cliff Colby. Cliff is a publisher at Peachpit Press and I was lucky enough to work with him while co-writing the Mastering Xcode book. While at lunch he broached the subject of writing another book, this time about the newly announced Swift language. At first I was a bit daunted: writing a book about Xcode was one thing, but to write about an entire programming language (never mind a brand new language) was another.</p>
+
+<p>We continued to bat the idea back and forth and eventually came to the conclusion that an extensive language guide was not to be our goal – after all, Apple had released the definitive book, for free, at WWDC – so we settled on the idea of producing a book that comprehensively takes existing Objective-C developers from an awareness of Swift to leveraging their existing UIKit and AppKit experience in the new language. The <em><a href="http://swift-translation.guide/">Swift Translation Guide for Objective-C Developers</a></em> was born.</p>
+
+<p>From August to November I wrote in what spare time my family and employers could grant me, and produced a book that I’m really proud of. It makes me very happy to say that it is now available to purchase and if you decide to do so, then I hope you enjoy it. For more information, purchase links, and sample code, please go to the official site for the book: <a href="http://swift-translation.guide/">swift-translation.guide</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mastering Xcode]]></title>
